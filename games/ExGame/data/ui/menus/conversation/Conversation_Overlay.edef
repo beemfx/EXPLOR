@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edef>
+
+	<properties>
+		<struct name="EntDef" ed_expanded="true" >
+			<property name="m_Id" value="Conversation_Overlay" />
+			<property name="m_ClassType" value="UI" />
+			<property name="m_EntityClassName" value="" />
+			<property name="m_UiClassName" value="" />
+			<property name="m_DefaultRenderFilter" value="PreFxPass" />
+			<property name="m_bIsSerialized" value="true" />
+			<property name="m_bIsLit" value="false" />
+			<property name="m_bIsAlwaysVisible" value="false" />
+			<struct name="m_BaseBounds" ed_expanded="true" >
+				<property name="Min" value="-182.667 -180.333 0" />
+				<property name="Max" value="181.333 152.667 0" />
+			</struct>
+			<struct name="m_EditorConfig" ed_expanded="true" >
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bDrawGrid" value="true" />
+				<property name="GridSpacing" value="0.5" />
+				<property name="AmbientLight" value="ARGB32:255 51 51 51" />
+				<property name="GamePalette0" value="1 1 1 1" />
+				<property name="GamePalette1" value="1 1 1 1" />
+				<property name="GamePalette2" value="1 1 1 1" />
+				<property name="bDrawLights" value="true" />
+				<property name="CameraPos" value="5.67432 0 -471.115" />
+				<property name="CameraYaw" value="0.0149959" />
+				<property name="CameraPitch" value="0" />
+				<property name="HasCameraPose" value="true" />
+			</struct>
+		</struct>
+	</properties>
+
+	<component id="Base" class="EGSkelMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="msh_conversationoverlay" />
+				</struct>
+				<array name="m_Skeletons" ed_expanded="true" reserve_size="2" >
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="Default" />
+						<property name="Filename" value="msh_conversationoverlay" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="1" />
+						<property name="Filename" value="msh_conversationoverlay" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<timeline id="Clear" editor_frame_time="0.5">
+		<keyframe time="0">Base.PlayAnimation(&quot;1&quot;,&quot;Clear&quot;,1,0.25);&#xA;&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="Reset" editor_frame_time="0.5">
+		<keyframe time="0">Base.PlayAnimation(&quot;1&quot;,&quot;Clear&quot;,1,0);&#xA;&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="Play" editor_frame_time="0.5">
+		<keyframe time="0">Base.PlayAnimation(&quot;1&quot;,&quot;Play&quot;,1,0.25);&#xD;&#xA;</keyframe>
+	</timeline>
+
+</edef>

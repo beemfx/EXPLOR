@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="bat" />
+    <Filter Include="bin" />
+    <Filter Include="vst" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bat\BuildScript.bat">
+      <Filter>bat</Filter>
+    </None>
+    <None Include="bat\CleanDataBuild.bat">
+      <Filter>bat</Filter>
+    </None>
+    <None Include="bin\DiffDir.exe">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\EGEdConfig_x64.exe">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\fxc.exe">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\oggenc2.88srcs.zip">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\oggenc2.exe">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\README.md">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\texassemble.exe">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\texconv.exe">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="bin\TexView3.exe">
+      <Filter>bin</Filter>
+    </None>
+    <None Include="vst\vst_editor_tool_exe.txt">
+      <Filter>vst</Filter>
+    </None>
+    <None Include="vst\vst_editor_tool_lib.txt">
+      <Filter>vst</Filter>
+    </None>
+    <None Include="vst\vst_engine_lib.txt">
+      <Filter>vst</Filter>
+    </None>
+    <None Include="vst\vst_files_only.txt">
+      <Filter>vst</Filter>
+    </None>
+    <None Include="vst\vst_game_exe.txt">
+      <Filter>vst</Filter>
+    </None>
+    <None Include="vst\vst_lib.txt">
+      <Filter>vst</Filter>
+    </None>
+    <None Include="vst\vst_res_dll.txt">
+      <Filter>vst</Filter>
+    </None>
+    <None Include="vst\vst_scc_dll.txt">
+      <Filter>vst</Filter>
+    </None>
+    <None Include="vst\vst_x86_tool_plugin_dll.txt">
+      <Filter>vst</Filter>
+    </None>
+    <None Include="vst\vstemplate_cmd64_tool.txt">
+      <Filter>vst</Filter>
+    </None>
+    <None Include="vst\vstemplate_lib3p_x64.txt">
+      <Filter>vst</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExGlobalText">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="GlobalTexts" ed_expanded="true" reserve_size="9" >
+			<struct name="-" ed_expanded="false" >
+				<property name="Text" value="Yes" />
+				<property name="Text_enus" value="Yes" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Text" value="No" />
+				<property name="Text_enus" value="No" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Text" value="Okay" />
+				<property name="Text_enus" value="Okay" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Text" value="Continue" />
+				<property name="Text_enus" value="Continue" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Text" value="Cancel" />
+				<property name="Text_enus" value="Cancel" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Text" value="txtGameTitleShort" />
+				<property name="Text_enus" value="Demo Game" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Text" value="txtGameTitle" />
+				<property name="Text_enus" value="Demo Game: A Demo" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Text" value="GameTitleShort" />
+				<property name="Text_enus" value="Demo Game" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Text" value="GameTitle" />
+				<property name="Text_enus" value="Demo Game: A Demo" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

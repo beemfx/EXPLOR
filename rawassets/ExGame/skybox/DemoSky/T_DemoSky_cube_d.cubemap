@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ecube 
+	zpos="1.png"
+	xpos="1.png"
+	zneg="1.png"
+	xneg="1.png"
+	ypos="6.png"
+	yneg="5.png"
+	opts="-w 512 -h 512"
+/>

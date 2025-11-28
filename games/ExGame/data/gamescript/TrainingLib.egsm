@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS FILE SCRIPT GENERATED: DO NOT EDIT BY HAND OR YOU RISK
+CORRUPTING FURTHER USE OF THIS SCRIPT IN GAME OR TOOL, AND MAY
+CAUSE SYSTEMS INTERPRETING IT TO CRASH. -->
+<egsm id="TrainingLib" default_entry_point_node="N_0" new_node_id_prefix="N_" new_loc_key_prefix="LOCID_" new_node_id_suffix="6" new_loc_key_suffix="0" view_offset="21 8" >
+	<node id="N_0" type="ENTRY_POINT" parm0="Main" en_ref="" editor_pos="10 150" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_2" type="ENTRY_POINT" parm0="ShowMenu" en_ref="" editor_pos="12 242" >
+		<branch id="NEXT" to_node="N_3" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_3" type="NATIVE_EVENT" parm0="NpcClearDialog" parm1="true" en_ref="" editor_pos="297 243" >
+		<branch id="NEXT" to_node="N_5" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_5" type="NATIVE_EVENT" parm0="ShowGameMenu" parm1="TrainingMenu" en_ref="" editor_pos="583 243" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+</egsm>

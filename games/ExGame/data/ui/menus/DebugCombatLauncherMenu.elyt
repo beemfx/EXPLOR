@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elyt id="DebugCombatLauncherMenu" script="ExDebugCombatLauncherMenu" flags="">
+
+	<image>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="Background" />
+				<property name="bIsLocked" value="false" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="ScaleVec" value="360 210 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="ImageInfo" ed_expanded="true" >
+					<property name="Texture" value="" />
+					<property name="Shader" value="/egdata/shaders/texture_with_palette" />
+					<struct name="Properties" ed_expanded="true" >
+						<property name="Diffuse" value="ARGB32:230 0 0 0" />
+						<property name="Ambient" value="ARGB32:0 0 0 0" />
+						<property name="Specular" value="ARGB32:0 0 0 0" />
+						<property name="Emissive" value="ARGB32:0 0 0 0" />
+						<property name="Power" value="1" />
+					</struct>
+				</struct>
+			</struct>
+		</properties>
+	</image>
+
+</elyt>

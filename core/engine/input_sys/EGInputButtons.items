@@ -1,0 +1,185 @@
+///////////////////////////////////////////////////////////////////////////////
+// InputButtons - Button declarations, for generating enums and string tables. 
+// (c) 2015 Beem Software
+///////////////////////////////////////////////////////////////////////////////
+
+GAMEPAD_BUTTON( NONE       )
+GAMEPAD_BUTTON( DUP        ) // D-Pad
+GAMEPAD_BUTTON( DDOWN      ) // D-Pad
+GAMEPAD_BUTTON( DLEFT      ) // D-Pad
+GAMEPAD_BUTTON( DRIGHT     ) // D-Pad
+GAMEPAD_BUTTON( START      )
+GAMEPAD_BUTTON( BACK       )
+GAMEPAD_BUTTON( L3         ) // Left Thumb (Stick)
+GAMEPAD_BUTTON( R3         ) // Right Thumb (Stick)
+GAMEPAD_BUTTON( L1         ) // Left Bumper (LB)
+GAMEPAD_BUTTON( R1         ) // Right Bumper (RB)
+GAMEPAD_BUTTON( A          ) // A or X
+GAMEPAD_BUTTON( B          ) // B or Circle
+GAMEPAD_BUTTON( X          ) // X or Square
+GAMEPAD_BUTTON( Y          ) // Y or Triangle
+GAMEPAD_BUTTON( L2         ) // Left Trigger (LT)
+GAMEPAD_BUTTON( R2         ) // Right Trigger (RT)
+GAMEPAD_BUTTON( LUP        ) // Left Stick Direction
+GAMEPAD_BUTTON( LDOWN      ) // Left Stick Direction
+GAMEPAD_BUTTON( LLEFT      ) // Left Stick Direction
+GAMEPAD_BUTTON( LRIGHT     ) // Left Stick Direction
+GAMEPAD_BUTTON( RUP        ) // Right Stick Direction
+GAMEPAD_BUTTON( RDOWN      ) // Right Stick Direction
+GAMEPAD_BUTTON( RLEFT      ) // Right Stick Direction
+GAMEPAD_BUTTON( RRIGHT     ) // Right Stick Direction
+
+
+KBM_BUTTON( NONE            )
+KBM_BUTTON( ESCAPE          )
+KBM_BUTTON( 1               )
+KBM_BUTTON( 2               )
+KBM_BUTTON( 3               )
+KBM_BUTTON( 4               )
+KBM_BUTTON( 5               )
+KBM_BUTTON( 6               )
+KBM_BUTTON( 7               )
+KBM_BUTTON( 8               )
+KBM_BUTTON( 9               )
+KBM_BUTTON( 0               )
+KBM_BUTTON( MINUS           )    /* - on main keyboard */
+KBM_BUTTON( EQUALS          )
+KBM_BUTTON( BACK            )    /* backspace */
+KBM_BUTTON( TAB             )
+KBM_BUTTON( Q               )
+KBM_BUTTON( W               )
+KBM_BUTTON( E               )
+KBM_BUTTON( R               )
+KBM_BUTTON( T               )
+KBM_BUTTON( Y               )
+KBM_BUTTON( U               )
+KBM_BUTTON( I               )
+KBM_BUTTON( O               )
+KBM_BUTTON( P               )
+KBM_BUTTON( LBRACKET        )
+KBM_BUTTON( RBRACKET        )
+KBM_BUTTON( RETURN          )    /* Enter on main keyboard */
+KBM_BUTTON( LCONTROL        )
+KBM_BUTTON( A               )
+KBM_BUTTON( S               )
+KBM_BUTTON( D               )
+KBM_BUTTON( F               )
+KBM_BUTTON( G               )
+KBM_BUTTON( H               )
+KBM_BUTTON( J               )
+KBM_BUTTON( K               )
+KBM_BUTTON( L               )
+KBM_BUTTON( SEMICOLON       )
+KBM_BUTTON( APOSTROPHE      )
+KBM_BUTTON( GRAVE           )    /* accent grave */
+KBM_BUTTON( LSHIFT          )
+KBM_BUTTON( BACKSLASH       )
+KBM_BUTTON( Z               )
+KBM_BUTTON( X               )
+KBM_BUTTON( C               )
+KBM_BUTTON( V               )
+KBM_BUTTON( B               )
+KBM_BUTTON( N               )
+KBM_BUTTON( M               )
+KBM_BUTTON( COMMA           )
+KBM_BUTTON( PERIOD          )    /* . on main keyboard */
+KBM_BUTTON( SLASH           )    /* / on main keyboard */
+KBM_BUTTON( RSHIFT          )
+KBM_BUTTON( MULTIPLY        )    /* * on numeric keypad */
+KBM_BUTTON( LMENU           )    /* left Alt */
+KBM_BUTTON( SPACE           )
+KBM_BUTTON( CAPITAL         )
+KBM_BUTTON( F1              )
+KBM_BUTTON( F2              )
+KBM_BUTTON( F3              )
+KBM_BUTTON( F4              )
+KBM_BUTTON( F5              )
+KBM_BUTTON( F6              )
+KBM_BUTTON( F7              )
+KBM_BUTTON( F8              )
+KBM_BUTTON( F9              )
+KBM_BUTTON( F10             )
+KBM_BUTTON( NUMLOCK         )
+KBM_BUTTON( SCROLL          )    /* Scroll Lock */
+KBM_BUTTON( NUMPAD7         )
+KBM_BUTTON( NUMPAD8         )
+KBM_BUTTON( NUMPAD9         )
+KBM_BUTTON( SUBTRACT        )    /* - on numeric keypad */
+KBM_BUTTON( NUMPAD4         )
+KBM_BUTTON( NUMPAD5         )
+KBM_BUTTON( NUMPAD6         )
+KBM_BUTTON( ADD             )    /* + on numeric keypad */
+KBM_BUTTON( NUMPAD1         )
+KBM_BUTTON( NUMPAD2         )
+KBM_BUTTON( NUMPAD3         )
+KBM_BUTTON( NUMPAD0         )
+KBM_BUTTON( DECIMAL         )    /* . on numeric keypad */
+KBM_BUTTON( OEM_102         )    /* <> or \| on RT 102-key keyboard (Non-U.S.) */
+KBM_BUTTON( F11             )
+KBM_BUTTON( F12             )
+KBM_BUTTON( F13             )    /*                     (NEC PC98) */
+KBM_BUTTON( F14             )    /*                     (NEC PC98) */
+KBM_BUTTON( F15             )    /*                     (NEC PC98) */
+KBM_BUTTON( KANA            )    /* (Japanese keyboard)            */
+KBM_BUTTON( ABNT_C1         )    /* /? on Brazilian keyboard */
+KBM_BUTTON( CONVERT         )    /* (Japanese keyboard)            */
+KBM_BUTTON( NOCONVERT       )    /* (Japanese keyboard)            */
+KBM_BUTTON( YEN             )    /* (Japanese keyboard)            */
+KBM_BUTTON( ABNT_C2         )    /* Numpad . on Brazilian keyboard */
+KBM_BUTTON( NUMPADEQUALS    )    /* = on numeric keypad (NEC PC98) */
+KBM_BUTTON( PREVTRACK       )    /* Previous Track (DIK_CIRCUMFLEX on Japanese keyboard) */
+KBM_BUTTON( AT              )    /*                     (NEC PC98) */
+KBM_BUTTON( COLON           )    /*                     (NEC PC98) */
+KBM_BUTTON( UNDERLINE       )    /*                     (NEC PC98) */
+KBM_BUTTON( KANJI           )    /* (Japanese keyboard)            */
+KBM_BUTTON( STOP            )    /*                     (NEC PC98) */
+KBM_BUTTON( AX              )    /*                     (Japan AX) */
+KBM_BUTTON( UNLABELED       )    /*                        (J3100) */
+KBM_BUTTON( NEXTTRACK       )    /* Next Track */
+KBM_BUTTON( NUMPADENTER     )    /* Enter on numeric keypad */
+KBM_BUTTON( RCONTROL        )
+KBM_BUTTON( MUTE            )    /* Mute */
+KBM_BUTTON( CALCULATOR      )    /* Calculator */
+KBM_BUTTON( PLAYPAUSE       )    /* Play / Pause */
+KBM_BUTTON( MEDIASTOP       )    /* Media Stop */
+KBM_BUTTON( VOLUMEDOWN      )    /* Volume - */
+KBM_BUTTON( VOLUMEUP        )    /* Volume + */
+KBM_BUTTON( WEBHOME         )    /* Web home */
+KBM_BUTTON( NUMPADCOMMA     )    /* , on numeric keypad (NEC PC98) */
+KBM_BUTTON( DIVIDE          )    /* / on numeric keypad */
+KBM_BUTTON( SYSRQ           )
+KBM_BUTTON( RMENU           )    /* right Alt */
+KBM_BUTTON( PAUSE           )    /* Pause */
+KBM_BUTTON( HOME            )    /* Home on arrow keypad */
+KBM_BUTTON( UP              )    /* UpArrow on arrow keypad */
+KBM_BUTTON( PRIOR           )    /* PgUp on arrow keypad */
+KBM_BUTTON( LEFT            )    /* LeftArrow on arrow keypad */
+KBM_BUTTON( RIGHT           )    /* RightArrow on arrow keypad */
+KBM_BUTTON( END             )    /* End on arrow keypad */
+KBM_BUTTON( DOWN            )    /* DownArrow on arrow keypad */
+KBM_BUTTON( NEXT            )    /* PgDn on arrow keypad */
+KBM_BUTTON( INSERT          )    /* Insert on arrow keypad */
+KBM_BUTTON( DELETE          )    /* Delete on arrow keypad */
+KBM_BUTTON( LWIN            )    /* Left Windows key */
+KBM_BUTTON( RWIN            )    /* Right Windows key */
+KBM_BUTTON( APPS            )    /* AppMenu key */
+KBM_BUTTON( POWER           )    /* System Power */
+KBM_BUTTON( SLEEP           )    /* System Sleep */
+KBM_BUTTON( WAKE            )    /* System Wake */
+KBM_BUTTON( WEBSEARCH       )    /* Web Search */
+KBM_BUTTON( WEBFAVORITES    )    /* Web Favorites */
+KBM_BUTTON( WEBREFRESH      )    /* Web Refresh */
+KBM_BUTTON( WEBSTOP         )    /* Web Stop */
+KBM_BUTTON( WEBFORWARD      )    /* Web Forward */
+KBM_BUTTON( WEBBACK         )    /* Web Back */
+KBM_BUTTON( MYCOMPUTER      )    /* My Computer */
+KBM_BUTTON( MAIL            )    /* Mail */
+KBM_BUTTON( MEDIASELECT     )    /* Media Select */
+KBM_BUTTON( MOUSE_1         ) // Left Mouse
+KBM_BUTTON( MOUSE_2         ) // Right Mouse
+KBM_BUTTON( MOUSE_3         ) // Middle Mouse
+KBM_BUTTON( MOUSE_4         ) // Thumb 1 (Browser Back)
+KBM_BUTTON( MOUSE_5         ) // Thumb 2 (Browser Forward)
+KBM_BUTTON( MOUSE_W_DOWN    )
+KBM_BUTTON( MOUSE_W_UP      )
+	

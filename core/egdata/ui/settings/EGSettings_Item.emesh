@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<emesh version="123" format="base64" >
+	<textnode id="txtSettingName" font="GenBasB" text="Sample Text" dims="54.7145 4.725 4.725" color="1 1 1 1" bone="0" justify="RIGHT">
+		<position type="ROTXYZ_TRANSXYZ">0 0 0 -30.8667 0.125 -0.3</position>
+	</textnode>
+	<textnode id="txtSettingValue" font="ex_body" text="GenBasB" dims="44.3145 4.725 4.725" color="1 1 1 1" bone="0" justify="CENTER">
+		<position type="ROTXYZ_TRANSXYZ">0 0 0 29.6667 0.125 -0.3</position>
+	</textnode>
+
+	<material id="1" tex0="/egdata/textures/default_white" tex1="/egdata/textures/default_normal" tex2="/egdata/textures/default_white" diffuse="1 1 1 1" specular="0 0 0 1" emissive="0 0 0 1" ambient="0 0 0 1" power="0" />
+	<material id="2" tex0="/egdata/textures/default_white" tex1="/egdata/textures/default_normal" tex2="/egdata/textures/default_white" diffuse="0 0 0 1" specular="0 0 0 1" emissive="0 0 0 1" ambient="0 0 0 1" power="0" />
+
+	<bone id="1" name="JointHl"/>
+
+	<mesh id="1" name="Bg" first_triangle="1" triangles="2" material="2"/>
+	<mesh id="2" name="Hl" first_triangle="3" triangles="4" material="1"/>
+
+	<bounds min="AABxwgAAIMDOzEy+" max="AABxQgAAMEAAAACA"/>
+
+	<vertex id="1" pos="AABxwgAAMEDOzEy+" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="AAAAAAAAAAA=" tex1="AAAAAAAAAAA=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="2" pos="AABxwgAAIMDOzEy+" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="AAAAAAAAgD8=" tex1="AAAAAAAAgD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="3" pos="AABxQgAAIMDOzEy+" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="AACAPwAAgD8=" tex1="AACAPwAAgD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="4" pos="AABxQgAAMEDOzEy+" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="AACAPwAAAAA=" tex1="AACAPwAAAAA=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="5" pos="EDOzPgAAAD4AAACA" norm="AAAAAAAAAAAAAIC/" tan="M9luPyZBuD4AAAAAAACAPw==" tex0="AAAAAAAAAAA=" tex1="AAAAAAAAAAA=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="6" pos="MjOzQAAAAD4AAACA" norm="AAAAAAAAAAAAAIC/" tan="M9luPyZBuD4AAAAAAACAPw==" tex0="AAAAPwAAAD8=" tex1="AAAAPwAAAD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="7" pos="MjOzQJmZCUAAAACA" norm="AAAAAAAAAAAAAIC/" tan="M9luPyZBuD4AAAAAAACAPw==" tex0="AAAAPwAAAAA=" tex1="AAAAPwAAAAA=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="8" pos="AABtQjczsz0AAACA" norm="AAAAAAAAAAAAAIC/" tan="AGtvPwtGtT4AAAAAAACAPw==" tex0="AACAPwAAgD8=" tex1="AACAPwAAgD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="9" pos="AABYQgAAAD4AAACA" norm="AAAAAAAAAAAAAIC/" tan="AGtvPwxGtT4AAAAAAACAPw==" tex0="AAAAPwAAAD8=" tex1="AAAAPwAAAD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="10" pos="AABYQjMz878AAACA" norm="AAAAAAAAAAAAAIC/" tan="AGtvPwtGtT4AAAAAAACAPw==" tex0="AAAAPwAAgD8=" tex1="AAAAPwAAgD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="11" pos="EDOzPgAAAD4AAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="AAAAAAAAAD8=" tex1="AAAAAAAAAD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="12" pos="MjOzQDMz878AAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="AAAAPwAAgD8=" tex1="AAAAPwAAgD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="13" pos="AABYQpmZCUAAAACA" norm="AAAAAAAAAAAAAIC/" tan="VP5/P/IM6rsAAAAA//9/Pw==" tex0="AAAAPwAAAAA=" tex1="AAAAPwAAAAA=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="14" pos="AABtQjczsz0AAACA" norm="AAAAAAAAAAAAAIC/" tan="VP5/Pw4N6rsAAAAA//9/Pw==" tex0="AACAPwAAAD8=" tex1="AACAPwAAAD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+
+	<triangle id="1" v1="3" v2="2" v3="1"/>
+	<triangle id="2" v1="4" v2="3" v3="1"/>
+	<triangle id="3" v1="7" v2="6" v3="5"/>
+	<triangle id="4" v1="10" v2="9" v3="8"/>
+	<triangle id="5" v1="6" v2="12" v3="11"/>
+	<triangle id="6" v1="13" v2="14" v3="9"/>
+</emesh>

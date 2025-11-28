@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eskel
+	name="ExSelector_Attribute"
+	version="106"
+	format="base64"
+>
+	<animation id="1" name="Init" first_frame="1" frames="1" mode="default" />
+	<animation id="2" name="Select" first_frame="2" frames="1" mode="default" />
+	<animation id="3" name="SelectArrow" first_frame="3" frames="1" mode="default" />
+	<animation id="4" name="Deselect" first_frame="1" frames="1" mode="default" />
+
+
+	<joint id="1" name="HlArrows" parent="0" position="hTtQQbPjnUAAAACA" rotation="AAAAAAAAAIAAAACA"/>
+	<joint id="2" name="Hl" parent="0" position="qHu9vrPjnUAAAACA" rotation="AAAAAAAAAIAAAACA"/>
+
+	<frame id="1">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="2">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAADNzEy+" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="3">
+		<joint_pose joint="1" position="AAAAAAAAAADNzEy+" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+</eskel>

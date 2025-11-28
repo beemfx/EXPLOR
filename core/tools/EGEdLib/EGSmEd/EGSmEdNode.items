@@ -1,0 +1,38 @@
+// (c) 2017 Beem Media
+
+#ifndef EGDECL
+#define EGDECL( _fname_ , _fstring_ , _ncolor_ )
+#endif
+
+// Setters
+EGDECL( SetBool   , "%s = %s" , RGB(0,77,101) )
+EGDECL( SetNumber , "%s = %s" , RGB(0,77,101) )
+EGDECL( SetCrc    , "%s = %s" , RGB(0,77,101) )
+EGDECL( Not       , "%s = !%s", RGB(0,77,101) )
+EGDECL( Negate    , "%s = -%s", RGB(0,77,101) )
+
+EGDECL( Min       , "%s = Min( %s , %s )" , RGB(0,77,101) )
+EGDECL( Max       , "%s = Max( %s , %s )" , RGB(0,77,101) )
+EGDECL( Clamp     , "%s = Clamp( %s , %s )" , RGB(0,77,101) )
+
+// Ifs
+EGDECL( If                 , "if( %s )"       , RGB(120,87,0) )
+EGDECL( IsGreaterThan      , "if( %s > %s )"  , RGB(120,87,0) )
+EGDECL( IsGreaterEqualThan , "if( %s >= %s )" , RGB(120,87,0) )
+EGDECL( IsEqual            , "if( %s == %s )" , RGB(120,87,0) )
+EGDECL( IsNotEqual         , "if( %s != %s )" , RGB(120,87,0) )
+EGDECL( IsLessThan         , "if( %s < %s )"  , RGB(120,87,0) )
+EGDECL( IsLessEqualThan    , "if( %s <= %s )" , RGB(120,87,0) )
+EGDECL( SwitchOnCrc        , "switch( %s )"   , RGB(120,87,0) )
+
+// Maths
+EGDECL( Multiply , "%s = %s * %s" , RGB(46,7,62) )
+EGDECL( Divide   , "%s = %s / %s" , RGB(46,7,62) )
+EGDECL( Subtract , "%s = %s - %s" , RGB(46,7,62) )
+EGDECL( Add      , "%s = %s + %s" , RGB(46,7,62) )
+
+// Misc
+EGDECL( Exit , "" , RGB(200,0,0) )
+
+
+#undef EGDECL

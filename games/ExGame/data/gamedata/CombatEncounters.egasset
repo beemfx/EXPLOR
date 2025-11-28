@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExCombatEncounter">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Categories" ed_expanded="true" reserve_size="2" >
+			<struct name="-" ed_expanded="false" >
+				<property name="CategoryName" value="Town 1" />
+				<array name="Items" ed_expanded="true" reserve_size="2" >
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="Town1Roaming" />
+						<property name="MinMonsters" value="6" />
+						<property name="MaxMonsters" value="12" />
+						<array name="Monsters" ed_expanded="true" reserve_size="3" >
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="GuardB" />
+								<property name="MinLevel" value="12" />
+								<property name="MaxLevel" value="12" />
+								<property name="Weight" value="1" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+							<struct name="-" ed_expanded="true" >
+								<property name="MonsterId" value="GuardB" />
+								<property name="MinLevel" value="10" />
+								<property name="MaxLevel" value="10" />
+								<property name="Weight" value="5" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="GuardB" />
+								<property name="MinLevel" value="8" />
+								<property name="MaxLevel" value="8" />
+								<property name="Weight" value="10" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+						</array>
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="EarlOfDanGuards" />
+						<property name="MinMonsters" value="20" />
+						<property name="MaxMonsters" value="20" />
+						<array name="Monsters" ed_expanded="true" reserve_size="2" >
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="EarlOfDanGuard" />
+								<property name="MinLevel" value="20" />
+								<property name="MaxLevel" value="20" />
+								<property name="Weight" value="5" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="EarlOfDanGuard" />
+								<property name="MinLevel" value="19" />
+								<property name="MaxLevel" value="19" />
+								<property name="Weight" value="10" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+						</array>
+					</struct>
+				</array>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="CategoryName" value="Sewers Level 1 (1-2)" />
+				<array name="Items" ed_expanded="true" reserve_size="4" >
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="Sewers1Boss" />
+						<property name="MinMonsters" value="8" />
+						<property name="MaxMonsters" value="15" />
+						<array name="Monsters" ed_expanded="true" reserve_size="4" >
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="Barbarian" />
+								<property name="MinLevel" value="3" />
+								<property name="MaxLevel" value="3" />
+								<property name="Weight" value="0" />
+								<property name="bIsUniqueBoss" value="true" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="Turtle" />
+								<property name="MinLevel" value="2" />
+								<property name="MaxLevel" value="2" />
+								<property name="Weight" value="10" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="Turtle" />
+								<property name="MinLevel" value="1" />
+								<property name="MaxLevel" value="1" />
+								<property name="Weight" value="5" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="Tick" />
+								<property name="MinLevel" value="1" />
+								<property name="MaxLevel" value="1" />
+								<property name="Weight" value="20" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+						</array>
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="Sewers1Random_1" />
+						<property name="MinMonsters" value="5" />
+						<property name="MaxMonsters" value="11" />
+						<array name="Monsters" ed_expanded="true" reserve_size="3" >
+							<struct name="-" ed_expanded="true" >
+								<property name="MonsterId" value="Turtle" />
+								<property name="MinLevel" value="2" />
+								<property name="MaxLevel" value="2" />
+								<property name="Weight" value="1" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+							<struct name="-" ed_expanded="true" >
+								<property name="MonsterId" value="Turtle" />
+								<property name="MinLevel" value="1" />
+								<property name="MaxLevel" value="1" />
+								<property name="Weight" value="3" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+							<struct name="-" ed_expanded="true" >
+								<property name="MonsterId" value="Frog" />
+								<property name="MinLevel" value="1" />
+								<property name="MaxLevel" value="1" />
+								<property name="Weight" value="6" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+						</array>
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="Sewers1Random_2" />
+						<property name="MinMonsters" value="6" />
+						<property name="MaxMonsters" value="12" />
+						<array name="Monsters" ed_expanded="true" reserve_size="3" >
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="Frog" />
+								<property name="MinLevel" value="2" />
+								<property name="MaxLevel" value="2" />
+								<property name="Weight" value="1" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="Frog" />
+								<property name="MinLevel" value="1" />
+								<property name="MaxLevel" value="1" />
+								<property name="Weight" value="3" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="Tick" />
+								<property name="MinLevel" value="1" />
+								<property name="MaxLevel" value="1" />
+								<property name="Weight" value="4" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+						</array>
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="Sewers1Random_3" />
+						<property name="MinMonsters" value="5" />
+						<property name="MaxMonsters" value="20" />
+						<array name="Monsters" ed_expanded="true" reserve_size="4" >
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="Turtle" />
+								<property name="MinLevel" value="2" />
+								<property name="MaxLevel" value="2" />
+								<property name="Weight" value="3" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="Turtle" />
+								<property name="MinLevel" value="1" />
+								<property name="MaxLevel" value="1" />
+								<property name="Weight" value="9" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="Tick" />
+								<property name="MinLevel" value="1" />
+								<property name="MaxLevel" value="1" />
+								<property name="Weight" value="3" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="MonsterId" value="Frog" />
+								<property name="MinLevel" value="1" />
+								<property name="MaxLevel" value="1" />
+								<property name="Weight" value="3" />
+								<property name="bIsUniqueBoss" value="false" />
+							</struct>
+						</array>
+					</struct>
+				</array>
+			</struct>
+		</array>
+	</struct>
+</egasset>

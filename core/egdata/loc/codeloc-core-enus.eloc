@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eloc language="en-US">
+	<!-- BEGIN CODE-LOC Text TEXT -->
+	<text key="EGXAudioDeviceChannels" string="Audio Channels" />
+	<text key="EGXSoundShow3DMatrix" string="DEBUG: Show Sound Matrix" />
+	<text key="ImportBool" string="Debug: Secret Setting" />
+	<text key="Sample Text" string="Sample Text" />
+	<text key="MaxGameFPSName" string="Max Frame Rate: Game Thread" />
+	<text key="EGTextLoadingText" string="Loading..." />
+	<text key="EGTextSavingText" string="Saving..." />
+	<text key="CursorSenitivity" string="Cursor Sensitivity" />
+	<text key="MouseAxisSensitivy" string="Mouse Axis Sensitivity" />
+	<text key="GamepadAxisSensitivy" string="Gamepad Axis Sensitivity" />
+	<text key="MouseSmoothing" string="Mouse Smoothing" />
+	<text key="GamepadSmoothing" string="Gamepad Smoothing" />
+	<text key="ShaderQuality" string="Shader Quality" />
+	<text key="ScreenRes" string="Resolution" />
+	<text key="ShaderQualityVeryHigh" string="Very High" />
+	<text key="ShaderQualityHigh" string="High" />
+	<text key="ShaderQualityMedium" string="Medium" />
+	<text key="ShaderQualityLow" string="Low" />
+	<text key="ShaderQualityVeryLow" string="Very Low" />
+	<text key="ShaderQualityUnknown" string="Unknown" />
+	<text key="ResFormat" string="{0:nocomma}x{1:nocomma}" />
+	<text key="EGRendererResFormatWithNoRatio" string="{0:nocomma}x{1:nocomma}" />
+	<text key="EGRendererResFormatWithRatio" string="{0:nocomma}x{1:nocomma} ({2:nocomma}:{3:nocomma})" />
+	<text key="GlobalPlatformAppIdSettingText" string="Platform App ID" />
+	<text key="ScreenDriverClass" string="Screen Driver Class" />
+	<text key="ServerHasThread" string="Server Has Thread" />
+	<text key="ServerPort" string="Host Port" />
+	<text key="IsUiLayoutTool" string="Internal: Is UI Layout Tool" />
+	<text key="DefaultServer" string="Default Server" />
+	<text key="EffectVolume" string="Effects Volume" />
+	<text key="SpeechVolume" string="Speech Volume" />
+	<text key="MusicVolume" string="Music Volume" />
+	<text key="TextureUseMipMaps" string="Mip Mapped Textures" />
+	<text key="IsWindowed" string="Windowed" />
+	<text key="IsExclusiveFullScreen" string="Exclusive Full Screen" />
+	<text key="VSyncEnabled" string="V-Sync" />
+	<text key="PostFXAA" string="FXAA" />
+	<text key="PostMotionBlur" string="Motion Blur" />
+	<text key="MaxAnisotropy" string="Max Anisotropy" />
+	<text key="DebugDrawWireframe" string="Debug: Draw Wireframe" />
+	<text key="DrawEntBBs" string="Debug: Draw Entity Bounding Boxes" />
+	<text key="DrawMapBBs" string="Debug: Draw Map Bounding Boxes" />
+	<text key="DrawMapGraphs" string="Bug: Draw Map Graphs" />
+	<text key="DrawCloseLights" string="Debug: Draw Close Lights" />
+	<text key="DrawPortals" string="Debug: Draw Portals" />
+	<text key="DrawZOverlay " string="Debug: Draw Z-Overlay" />
+	<text key="DrawTextNodes" string="Debug: Draw Text Nodes" />
+	<text key="ShowPlayerPosition" string="Debug: Show Player Position" />
+	<text key="DebugDrawGameState" string="Debug: Draw Game State" />
+	<text key="DebugDrawMenuButtons" string="Debug: Draw Menu Buttons" />
+	<text key="DebugDrawGridMasks" string="Debug: Draw Grid Masks" />
+	<text key="DebugDrawVolShadows" string="Debug: Draw Volume Shadows" />
+	<text key="DebugDrawFPS" string="Debug: Draw FPS" />
+	<text key="DebugShowPhysMem" string="Debug: Show Physics Memory" />
+	<text key="DebugReportSlowFrames" string="Debug: Report Slow Frames" />
+	<text key="EGSettings2True" string="On" />
+	<text key="EGSettings2False" string="Off" />
+	<!-- END CODE-LOC Text TEXT -->
+</eloc>

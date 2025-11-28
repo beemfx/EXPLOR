@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExSpellBook">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Categories" ed_expanded="true" reserve_size="4" >
+			<struct name="-" ed_expanded="false" >
+				<property name="CategoryName" value="Shared" />
+				<array name="Spells" ed_expanded="true" reserve_size="2" >
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="TownPortalMarkAndGo" />
+						<property name="Type" value="TownPortalMarkAndGo" />
+						<property name="Name" value="TownPortalMarkAndGoName" />
+						<property name="Name_enus" value="TownPortal" />
+						<property name="Description" value="TownPortalMarkAndGoDesc" />
+						<property name="Description_enus" value="A portal is opened and the party teleports to town, they can then teleport back to their location from town." />
+						<property name="Target" value="None" />
+						<property name="TargetCount" value="1" />
+						<property name="ManaCost" value="20" />
+						<property name="ManaCostFunction" value="Fixed" />
+						<property name="DamageFunction" value="MagicMulLvlGrowth" />
+						<struct name="AttributesEffected" ed_expanded="false" >
+							<property name="SPD" value="0" />
+							<property name="STR" value="0" />
+							<property name="END" value="0" />
+							<property name="ACC" value="0" />
+							<property name="MAG" value="0" />
+							<property name="AGR" value="0" />
+							<property name="BHP" value="0" />
+							<property name="BMP" value="0" />
+							<property name="PDMG" value="0" />
+							<property name="FDMG" value="0" />
+							<property name="WDMG" value="0" />
+							<property name="EDMG" value="0" />
+							<property name="ADMG" value="0" />
+							<property name="PDEF" value="0" />
+							<property name="FDEF" value="0" />
+							<property name="WDEF" value="0" />
+							<property name="EDEF" value="0" />
+							<property name="ADEF" value="0" />
+						</struct>
+						<struct name="AllowedPlayerClasses" ed_expanded="false" >
+							<property name="bWarrior" value="false" />
+							<property name="bThief" value="false" />
+							<property name="bMage" value="true" />
+							<property name="bCleric" value="true" />
+						</struct>
+						<property name="bCanCastInCombat" value="false" />
+						<property name="bCanCastInWorldDungeon" value="true" />
+						<property name="bCanCastInWorldTown" value="false" />
+						<property name="bIsLocked" value="false" />
+						<property name="MinLevel" value="1" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="TownPortalRecall" />
+						<property name="Type" value="TownPortalRecall" />
+						<property name="Name" value="TownPortalRecallName" />
+						<property name="Name_enus" value="Lloyd&apos;s Beacon (Recall)" />
+						<property name="Description" value="TownPortalRecallDesc" />
+						<property name="Description_enus" value="The party teleports back to the dungeon." />
+						<property name="Target" value="None" />
+						<property name="TargetCount" value="1" />
+						<property name="ManaCost" value="0" />
+						<property name="ManaCostFunction" value="Fixed" />
+						<property name="DamageFunction" value="MagicMulLvlGrowth" />
+						<struct name="AttributesEffected" ed_expanded="false" >
+							<property name="SPD" value="0" />
+							<property name="STR" value="0" />
+							<property name="END" value="0" />
+							<property name="ACC" value="0" />
+							<property name="MAG" value="0" />
+							<property name="AGR" value="0" />
+							<property name="BHP" value="0" />
+							<property name="BMP" value="0" />
+							<property name="PDMG" value="0" />
+							<property name="FDMG" value="0" />
+							<property name="WDMG" value="0" />
+							<property name="EDMG" value="0" />
+							<property name="ADMG" value="0" />
+							<property name="PDEF" value="0" />
+							<property name="FDEF" value="0" />
+							<property name="WDEF" value="0" />
+							<property name="EDEF" value="0" />
+							<property name="ADEF" value="0" />
+						</struct>
+						<struct name="AllowedPlayerClasses" ed_expanded="false" >
+							<property name="bWarrior" value="false" />
+							<property name="bThief" value="false" />
+							<property name="bMage" value="true" />
+							<property name="bCleric" value="true" />
+						</struct>
+						<property name="bCanCastInCombat" value="false" />
+						<property name="bCanCastInWorldDungeon" value="false" />
+						<property name="bCanCastInWorldTown" value="false" />
+						<property name="bIsLocked" value="false" />
+						<property name="MinLevel" value="1" />
+					</struct>
+				</array>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="CategoryName" value="Cleric" />
+				<array name="Spells" ed_expanded="true" reserve_size="2" >
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="Haste" />
+						<property name="Type" value="AttributeBoost" />
+						<property name="Name" value="HasteName" />
+						<property name="Name_enus" value="Haste" />
+						<property name="Description" value="HasteDesc" />
+						<property name="Description_enus" value="The party member takes turns in combat more often." />
+						<property name="Target" value="AllyActive" />
+						<property name="TargetCount" value="1" />
+						<property name="ManaCost" value="5" />
+						<property name="ManaCostFunction" value="Fixed" />
+						<property name="DamageFunction" value="Fixed" />
+						<struct name="AttributesEffected" ed_expanded="false" >
+							<property name="SPD" value="5" />
+							<property name="STR" value="0" />
+							<property name="END" value="0" />
+							<property name="ACC" value="0" />
+							<property name="MAG" value="0" />
+							<property name="AGR" value="0" />
+							<property name="BHP" value="0" />
+							<property name="BMP" value="0" />
+							<property name="PDMG" value="0" />
+							<property name="FDMG" value="0" />
+							<property name="WDMG" value="0" />
+							<property name="EDMG" value="0" />
+							<property name="ADMG" value="0" />
+							<property name="PDEF" value="0" />
+							<property name="FDEF" value="0" />
+							<property name="WDEF" value="0" />
+							<property name="EDEF" value="0" />
+							<property name="ADEF" value="0" />
+						</struct>
+						<struct name="AllowedPlayerClasses" ed_expanded="true" >
+							<property name="bWarrior" value="false" />
+							<property name="bThief" value="false" />
+							<property name="bMage" value="false" />
+							<property name="bCleric" value="true" />
+						</struct>
+						<property name="bCanCastInCombat" value="true" />
+						<property name="bCanCastInWorldDungeon" value="false" />
+						<property name="bCanCastInWorldTown" value="false" />
+						<property name="bIsLocked" value="false" />
+						<property name="MinLevel" value="1" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="HealWeak" />
+						<property name="Type" value="CombatDamage" />
+						<property name="Name" value="HealWeakName" />
+						<property name="Name_enus" value="Aid" />
+						<property name="Description" value="HealWeakDesc" />
+						<property name="Description_enus" value="A small amount of health is restored. An |SC(EX_HURT)|unconscious|RC()| party member is |SC(EX_HEAL)|awakened|RC()|." />
+						<property name="Target" value="AllyAny" />
+						<property name="TargetCount" value="1" />
+						<property name="ManaCost" value="1" />
+						<property name="ManaCostFunction" value="Fixed" />
+						<property name="DamageFunction" value="Fixed" />
+						<struct name="AttributesEffected" ed_expanded="false" >
+							<property name="SPD" value="0" />
+							<property name="STR" value="0" />
+							<property name="END" value="0" />
+							<property name="ACC" value="0" />
+							<property name="MAG" value="0" />
+							<property name="AGR" value="0" />
+							<property name="BHP" value="0" />
+							<property name="BMP" value="0" />
+							<property name="PDMG" value="-20" />
+							<property name="FDMG" value="0" />
+							<property name="WDMG" value="0" />
+							<property name="EDMG" value="0" />
+							<property name="ADMG" value="0" />
+							<property name="PDEF" value="0" />
+							<property name="FDEF" value="0" />
+							<property name="WDEF" value="0" />
+							<property name="EDEF" value="0" />
+							<property name="ADEF" value="0" />
+						</struct>
+						<struct name="AllowedPlayerClasses" ed_expanded="true" >
+							<property name="bWarrior" value="false" />
+							<property name="bThief" value="false" />
+							<property name="bMage" value="false" />
+							<property name="bCleric" value="true" />
+						</struct>
+						<property name="bCanCastInCombat" value="true" />
+						<property name="bCanCastInWorldDungeon" value="true" />
+						<property name="bCanCastInWorldTown" value="true" />
+						<property name="bIsLocked" value="false" />
+						<property name="MinLevel" value="1" />
+					</struct>
+				</array>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="CategoryName" value="Mage" />
+				<array name="Spells" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="FlameSingle" />
+						<property name="Type" value="CombatDamage" />
+						<property name="Name" value="FlameSingleName" />
+						<property name="Name_enus" value="Ignite" />
+						<property name="Description" value="FlameSingleDesc" />
+						<property name="Description_enus" value="The target is ignited with flame." />
+						<property name="Target" value="EnemyActive" />
+						<property name="TargetCount" value="1" />
+						<property name="ManaCost" value="0.5" />
+						<property name="ManaCostFunction" value="MagicMul" />
+						<property name="DamageFunction" value="MagicMulLvlGrowth" />
+						<struct name="AttributesEffected" ed_expanded="false" >
+							<property name="SPD" value="0" />
+							<property name="STR" value="0" />
+							<property name="END" value="0" />
+							<property name="ACC" value="0" />
+							<property name="MAG" value="0" />
+							<property name="AGR" value="0" />
+							<property name="BHP" value="0" />
+							<property name="BMP" value="0" />
+							<property name="PDMG" value="0" />
+							<property name="FDMG" value="6" />
+							<property name="WDMG" value="0" />
+							<property name="EDMG" value="0" />
+							<property name="ADMG" value="0" />
+							<property name="PDEF" value="0" />
+							<property name="FDEF" value="0" />
+							<property name="WDEF" value="0" />
+							<property name="EDEF" value="0" />
+							<property name="ADEF" value="0" />
+						</struct>
+						<struct name="AllowedPlayerClasses" ed_expanded="false" >
+							<property name="bWarrior" value="false" />
+							<property name="bThief" value="false" />
+							<property name="bMage" value="true" />
+							<property name="bCleric" value="false" />
+						</struct>
+						<property name="bCanCastInCombat" value="true" />
+						<property name="bCanCastInWorldDungeon" value="false" />
+						<property name="bCanCastInWorldTown" value="false" />
+						<property name="bIsLocked" value="false" />
+						<property name="MinLevel" value="1" />
+					</struct>
+				</array>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="CategoryName" value="Monster Abilities" />
+				<array name="Spells" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="SampleEnemySkill" />
+						<property name="Type" value="CombatDamage" />
+						<property name="Name" value="SampleEnemySkill_Name" />
+						<property name="Name_enus" value="Sample Enemy Skill" />
+						<property name="Description" value="SampleEnemySkill_Desc" />
+						<property name="Description_enus" value="A sample enemy skill, this could be assigned to a monster&apos;s skill list." />
+						<property name="Target" value="EnemyActive" />
+						<property name="TargetCount" value="3" />
+						<property name="ManaCost" value="3" />
+						<property name="ManaCostFunction" value="MagicMul" />
+						<property name="DamageFunction" value="MagicMulLvlGrowth" />
+						<struct name="AttributesEffected" ed_expanded="true" >
+							<property name="SPD" value="0" />
+							<property name="STR" value="0" />
+							<property name="END" value="0" />
+							<property name="ACC" value="0" />
+							<property name="MAG" value="0" />
+							<property name="AGR" value="0" />
+							<property name="BHP" value="0" />
+							<property name="BMP" value="0" />
+							<property name="PDMG" value="0" />
+							<property name="FDMG" value="2" />
+							<property name="WDMG" value="0" />
+							<property name="EDMG" value="0" />
+							<property name="ADMG" value="0" />
+							<property name="PDEF" value="0" />
+							<property name="FDEF" value="0" />
+							<property name="WDEF" value="0" />
+							<property name="EDEF" value="0" />
+							<property name="ADEF" value="0" />
+						</struct>
+						<struct name="AllowedPlayerClasses" ed_expanded="true" >
+							<property name="bWarrior" value="false" />
+							<property name="bThief" value="false" />
+							<property name="bMage" value="false" />
+							<property name="bCleric" value="false" />
+						</struct>
+						<property name="bCanCastInCombat" value="true" />
+						<property name="bCanCastInWorldDungeon" value="false" />
+						<property name="bCanCastInWorldTown" value="false" />
+						<property name="bIsLocked" value="false" />
+						<property name="MinLevel" value="7" />
+					</struct>
+				</array>
+			</struct>
+		</array>
+	</struct>
+</egasset>

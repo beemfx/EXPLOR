@@ -1,0 +1,9 @@
+; (c) 2018 Beem Media
+
+; LIBRARY "EGPerforce_x64"
+
+EXPORTS
+	EGPerforce_CheckoutFile
+	EGPerforce_RevertFile
+	EGPerforce_AddFile
+	EGPerforce_DeleteFile

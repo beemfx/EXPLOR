@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="EGGcxMapMetaData">
+	<struct name="DataAsset" ed_expanded="true" >
+		<struct name="MetaInfo" ed_expanded="true" >
+			<property name="MapPath" value="map_demo_town" />
+			<property name="TileSize" value="6 6" />
+			<property name="MapSize" value="16 9" />
+			<property name="LowerLeftOrigin" value="-16 0" />
+			<property name="MiniMap" value="map_demo_town_automap" />
+		</struct>
+	</struct>
+</egasset>

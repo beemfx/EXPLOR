@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eskel version="106" format="base64" >
+	<animation id="1" name="Default" first_frame="1" frames="1" mode="default"/>
+
+	<joint id="1" name="Top" parent="0" position="gSvWuwAAAD8AAACA" rotation="AAAAAAAAAIAAAACA"/>
+	<joint id="2" name="Bottom" parent="0" position="AAAAAAAAAL8AAACA" rotation="AAAAAAAAAIAAAACA"/>
+
+	<frame id="1">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+</eskel>

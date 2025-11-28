@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="EGSndAsset">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Sounds" ed_expanded="true" reserve_size="1" >
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/eg/buttonclick" />
+				<property name="Type" value="Effect" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="0" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

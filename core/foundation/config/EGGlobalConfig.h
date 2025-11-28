@@ -1,0 +1,41 @@
+// (c) 2018 Beem Media
+
+#pragma once
+
+#include "EGSettings2Types.h"
+
+extern EGSettingsString GlobalConfig_PlatformAppId;
+extern EGSettingsString GlobalConfig_ScreenDriverClass;
+extern EGSettingsBool GlobalConfig_ServerHasThread;
+extern EGSettingsInt GlobalConfig_ServerPort;
+extern EGSettingsBool GlobalConfig_IsUiLayoutTool;
+extern EGSettingsString NetConfig_DefaultServer;
+
+extern EGSettingsVolume AudioConfig_EffectVolume;
+extern EGSettingsVolume AudioConfig_SpeechVolume;
+extern EGSettingsVolume AudioConfig_MusicVolume;
+
+extern EGSettingsBool VideoConfig_TextureUseMipMaps;
+extern EGSettingsBool VideoConfig_IsWindowed;
+extern EGSettingsBool VideoConfig_IsExclusiveFullScreen;
+extern EGSettingsBool VideoConfig_VSyncEnabled;
+extern EGSettingsBool VideoConfig_PostFXAA;
+extern EGSettingsBool VideoConfig_PostMotionBlur;
+extern EGSettingsInt VideoConfig_MaxAnisotropy;
+
+extern EGSettingsBool DebugConfig_DrawWireframe;
+extern EGSettingsBool DebugConfig_DrawEntBBs;
+extern EGSettingsBool DebugConfig_DrawMapBBs;
+extern EGSettingsBool DebugConfig_DrawMapGraphs;
+extern EGSettingsBool DebugConfig_DrawCloseLights;
+extern EGSettingsBool DebugConfig_DrawPortals;
+extern EGSettingsBool DebugConfig_DrawZOverlay;
+extern EGSettingsBool DebugConfig_DrawTextNodes;
+extern EGSettingsBool DebugConfig_ShowPlayerPosition;
+extern EGSettingsBool DebugConfig_DrawGameState;
+extern EGSettingsBool DebugConfig_DrawMenuButtons;
+extern EGSettingsBool DebugConfig_DrawGridMasks;
+extern EGSettingsBool DebugConfig_DrawVolShadows;
+extern EGSettingsBool DebugConfig_DrawFPS;
+extern EGSettingsBool DebugConfig_ShowPhysMem;
+extern EGSettingsBool DebugConfig_ReportSlowFrames;

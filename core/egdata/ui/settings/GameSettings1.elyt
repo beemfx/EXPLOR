@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elyt id="EGGameSettings" script="EGGameSettingsMenu" flags="">
+
+	<image>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="ScaleVec" value="250 190 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="ImageInfo" ed_expanded="true" >
+					<property name="Texture" value="" />
+					<property name="Shader" value="" />
+					<struct name="Properties" ed_expanded="true" >
+						<property name="Diffuse" value="ARGB32:229 7 35 89" />
+						<property name="Ambient" value="ARGB32:0 0 0 0" />
+						<property name="Specular" value="ARGB32:0 0 0 0" />
+						<property name="Emissive" value="ARGB32:0 0 0 0" />
+						<property name="Power" value="1" />
+					</struct>
+				</struct>
+			</struct>
+		</properties>
+	</image>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 80 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="EGTextGameSettings" />
+					<property name="LocText_enus" value="Game Settings" />
+					<property name="Font" value="" />
+					<property name="Width" value="200" />
+					<property name="Height" value="18" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 255 255 255" />
+					<property name="bHasDropShadow" value="true" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="CENTER" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="SaveAndExitButton" />
+				<property name="WidgetType" value="BUTTON" />
+				<property name="bIsLocked" value="false" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="Menu_Button" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 -65 -1 , 1" />
+				<property name="StartupEvent" value="" />
+				<property name="ScaleVec" value="105 105 105" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="Adjacency" ed_expanded="true" >
+					<property name="Up" value="" />
+					<property name="Down" value="" />
+					<property name="Left" value="" />
+					<property name="Right" value="" />
+				</struct>
+				<array name="TextOverrides" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="NodeId" value="ButtonText" />
+						<property name="Text" value="EGTextSaveAndExit" />
+						<property name="Text_enus" value="Save and Exit" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</object>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="CancelButton" />
+				<property name="WidgetType" value="BUTTON" />
+				<property name="bIsLocked" value="false" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="Menu_Button" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 -85 -1 , 1" />
+				<property name="StartupEvent" value="" />
+				<property name="ScaleVec" value="50 50 50" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="Adjacency" ed_expanded="true" >
+					<property name="Up" value="" />
+					<property name="Down" value="" />
+					<property name="Left" value="" />
+					<property name="Right" value="" />
+				</struct>
+				<array name="TextOverrides" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="NodeId" value="ButtonText" />
+						<property name="Text" value="EGTextCancel" />
+						<property name="Text_enus" value="Cancel" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</object>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="Scrollbar" />
+				<property name="WidgetType" value="SCROLLBAR" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="BasicScrollbar" />
+				<property name="GridIdOfThisScrollbar" value="SettingsItems" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 93 45 0 , 1" />
+				<property name="StartupEvent" value="" />
+				<property name="ScaleVec" value="40 40 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="TrackExtend" value="1.55" />
+				<property name="Anchor" value="CENTER|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="SettingsItems" />
+				<property name="WidgetType" value="GRID" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="EGSettings_Item" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , -7 60 -1 , 1" />
+				<property name="ScaleVec" value="1.5 1.5 1.5" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="Adjacency" ed_expanded="true" >
+					<property name="Up" value="" />
+					<property name="Down" value="" />
+					<property name="Left" value="" />
+					<property name="Right" value="" />
+				</struct>
+				<struct name="GridInfo" ed_expanded="true" >
+					<property name="ObjectClassName" value="" />
+					<property name="Cols" value="1" />
+					<property name="Rows" value="13" />
+					<property name="ScrollbarId" value="Scrollbar" />
+					<property name="WrapType" value="WRAP" />
+					<property name="bAutoMask" value="true" />
+				</struct>
+			</struct>
+		</properties>
+	</object>
+
+</elyt>

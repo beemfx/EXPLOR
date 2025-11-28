@@ -1,0 +1,10 @@
+// (c) 2017 Beem Media
+
+// #define DECL_NODE( _name_ , _color_ )
+
+DECL_NODE( UNKNOWN         , RGB(0,0,0) )
+DECL_NODE( ENTRY_POINT     , RGB(0,106,0 ))
+DECL_NODE( CALL            , RGB(0,80,0 ))
+DECL_NODE( NATIVE_EVENT    , RGB(100,0,0) )
+
+#undef DECL_NODE

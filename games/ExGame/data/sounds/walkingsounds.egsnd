@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="EGSndAsset">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Sounds" ed_expanded="true" reserve_size="8" >
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/walkingsounds/ls1cave" />
+				<property name="Type" value="Effect" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="/game/sounds/LS1Cave.ogg" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/walkingsounds/ls2cave" />
+				<property name="Type" value="Effect" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="/game/sounds/LS2Cave.ogg" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/walkingsounds/ls3cave" />
+				<property name="Type" value="Effect" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="/game/sounds/LS3Cave.ogg" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/walkingsounds/stoneturn1" />
+				<property name="Type" value="Effect" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="/game/sounds/StoneTurn1.ogg" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/walkingsounds/stoneturn2" />
+				<property name="Type" value="Effect" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="/game/sounds/StoneTurn2.ogg" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/walkingsounds/slidestep1" />
+				<property name="Type" value="Effect" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="/game/sounds/Slidestep1.ogg" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/walkingsounds/slidestep2" />
+				<property name="Type" value="Effect" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="/game/sounds/Slidestep2.ogg" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/walkingsounds/slidestep3" />
+				<property name="Type" value="Effect" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="/game/sounds/Slidestep3.ogg" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

@@ -1,0 +1,2 @@
+#include "EGassert.h"
+#pragma __ERROR__( "Shouldn't use stdlib assert" )

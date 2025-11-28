@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuildConfig>
+	<XmlType>GCX</XmlType>
+	<DefaultBuildData>mapconfig/BuildData_Default.egasset</DefaultBuildData>
+	<MAP_Demo_Town>BuildData:mapconfig/BuildData_Demo_Town.egasset</MAP_Demo_Town>
+	<MAP_Demo_Dungeon>BuildData:mapconfig/BuildData_Demo_Dungeon.egasset</MAP_Demo_Dungeon>
+</BuildConfig>

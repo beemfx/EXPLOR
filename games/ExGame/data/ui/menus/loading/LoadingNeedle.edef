@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edef>
+
+	<properties>
+		<struct name="EntDef" ed_expanded="true" >
+			<property name="m_Id" value="LoadingNeedle" />
+			<property name="m_ClassType" value="UI" />
+			<property name="m_EntityClassName" value="" />
+			<property name="m_UiClassName" value="" />
+			<property name="m_DefaultRenderFilter" value="PreFxPass" />
+			<property name="m_bIsSerialized" value="true" />
+			<property name="m_bIsLit" value="false" />
+			<property name="m_bIsAlwaysVisible" value="false" />
+			<struct name="m_BaseBounds" ed_expanded="true" >
+				<property name="Min" value="-13.6457 -27 -6.84783" />
+				<property name="Max" value="12.0577 58.4652 -6.84783" />
+			</struct>
+			<struct name="m_EditorConfig" ed_expanded="true" >
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bDrawGrid" value="true" />
+				<property name="GridSpacing" value="10" />
+				<property name="AmbientLight" value="ARGB32:255 51 51 51" />
+				<property name="GamePalette0" value="1 1 1 1" />
+				<property name="GamePalette1" value="1 1 1 1" />
+				<property name="GamePalette2" value="1 1 1 1" />
+				<property name="bDrawLights" value="true" />
+				<property name="bOrthoPreview" value="false" />
+				<struct name="OrthoCamera" ed_expanded="true" >
+					<property name="NearPlane" value="-100" />
+					<property name="FarPlane" value="100" />
+					<property name="Height" value="200" />
+				</struct>
+				<property name="CameraPos" value="8.38228 26.4942 -152.04" />
+				<property name="CameraYaw" value="6.26819" />
+				<property name="CameraPitch" value="0" />
+				<property name="HasCameraPose" value="true" />
+			</struct>
+		</struct>
+	</properties>
+
+	<component id="Base" class="EGSkelMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="LoadingNeedle" />
+				</struct>
+				<array name="m_Materials" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="MeshGroupId" value="Needle" />
+						<struct name="Material" ed_expanded="true" >
+							<property name="Texture0" value="t_sword_d" />
+							<property name="Texture1" value="" />
+							<property name="Texture2" value="" />
+							<property name="Texture3" value="" />
+							<property name="VertexShader" value="/game/shaders/ex_ui" />
+							<property name="PixelShader" value="/game/shaders/ex_ui" />
+							<property name="Diffuse" value="ARGB32:255 255 255 255" />
+							<property name="Ambient" value="ARGB32:0 0 0 0" />
+							<property name="Specular" value="ARGB32:0 0 0 0" />
+							<property name="Emissive" value="ARGB32:0 0 0 0" />
+							<property name="Power" value="1" />
+						</struct>
+					</struct>
+				</array>
+				<array name="m_Skeletons" ed_expanded="true" reserve_size="2" >
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="Default" />
+						<property name="Filename" value="LoadingNeedle" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="1" />
+						<property name="Filename" value="LoadingNeedle" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<timeline id="Default" editor_frame_time="0.5">
+		<keyframe time="0">&#xA;&#x9;&#x9;&#x9;Base.PlayAnimation(&quot;1&quot;,&quot;LoadingNeedle&quot;,6,0);&#xA;&#x9;&#x9;</keyframe>
+	</timeline>
+
+</edef>

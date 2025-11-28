@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExNpcGossip">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_NpcGossips" ed_expanded="true" reserve_size="1" >
+			<struct name="-" ed_expanded="true" >
+				<property name="Id" value="DemoGossip" />
+				<array name="Dialogs" ed_expanded="true" reserve_size="2" >
+					<struct name="-" ed_expanded="false" >
+						<struct name="CharacterDialog" ed_expanded="false" >
+							<property name="Text" value="DemoGossip1_Text" />
+							<property name="Text_enus" value="I gossip about things, my gossip changes daily." />
+						</struct>
+						<struct name="PlayerResponse" ed_expanded="false" >
+							<property name="Text" value="DemoGossip1Response_Text" />
+							<property name="Text_enus" value="Good to know." />
+						</struct>
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<struct name="CharacterDialog" ed_expanded="false" >
+							<property name="Text" value="DemoGossip2_Text" />
+							<property name="Text_enus" value="This is my second gossip item." />
+						</struct>
+						<struct name="PlayerResponse" ed_expanded="false" >
+							<property name="Text" value="DemoGossip2Response_Text" />
+							<property name="Text_enus" value="We understand." />
+						</struct>
+					</struct>
+				</array>
+			</struct>
+		</array>
+	</struct>
+</egasset>

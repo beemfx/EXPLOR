@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EGDefEd" />
+    <Filter Include="EGLpkViewer" />
+    <Filter Include="EGLytEd" />
+    <Filter Include="EGSmEd" />
+    <Filter Include="EGWorldEd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EGDefEd\EGDefEd.cpp">
+      <Filter>EGDefEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGDefEd\EGDefEdComponentsPanel.cpp">
+      <Filter>EGDefEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGDefEd\EGDefEdEditorConfigPanel.cpp">
+      <Filter>EGDefEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGDefEd\EGDefEdFile.cpp">
+      <Filter>EGDefEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGDefEd\EGDefEdLibPanel.cpp">
+      <Filter>EGDefEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGDefEd\EGDefEdPreview.cpp">
+      <Filter>EGDefEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGDefEd\EGDefEdPreviewPanel.cpp">
+      <Filter>EGDefEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGDefEd\EGDefEdPropPanel.cpp">
+      <Filter>EGDefEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGDefEd\EGDefEdSettingsPanel.cpp">
+      <Filter>EGDefEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGDefEd\EGDefEdTimelineEditor.cpp">
+      <Filter>EGDefEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGLpkViewer\EGLpkFileListPanel.cpp">
+      <Filter>EGLpkViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="EGLpkViewer\EGLpkViewer.cpp">
+      <Filter>EGLpkViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="EGLytEd\EGLytEd.cpp">
+      <Filter>EGLytEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGLytEd\EGLytEdFile.cpp">
+      <Filter>EGLytEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGLytEd\EGLytEdLayoutPanel.cpp">
+      <Filter>EGLytEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGLytEd\EGLytEdLibPanel.cpp">
+      <Filter>EGLytEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGLytEd\EGLytEdPreviewPanel.cpp">
+      <Filter>EGLytEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGLytEd\EGLytEdPropPanel.cpp">
+      <Filter>EGLytEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGLytEd\EGLytEdSettingsPanel.cpp">
+      <Filter>EGLytEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGSmEd\EGSmEd.cpp">
+      <Filter>EGSmEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGSmEd\EGSmEdNodeWnd.cpp">
+      <Filter>EGSmEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGSmEd\EGSmEdPropPanel.cpp">
+      <Filter>EGSmEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGSmEd\EGSmEdResources.cpp">
+      <Filter>EGSmEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGSmEd\EGSmEdScriptPanel.cpp">
+      <Filter>EGSmEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGWorldEd\EGWorldEd.cpp">
+      <Filter>EGWorldEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGWorldEd\EGWorldEdObjLibPanel.cpp">
+      <Filter>EGWorldEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGWorldEd\EGWorldEdPreviewPanel.cpp">
+      <Filter>EGWorldEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGWorldEd\EGWorldEdPropEdPanel.cpp">
+      <Filter>EGWorldEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGWorldEd\EGWorldEdWorldObjsPanel.cpp">
+      <Filter>EGWorldEd</Filter>
+    </ClCompile>
+    <ClCompile Include="EGEdLib.cpp">
+      <Filter></Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EGDefEd\EGDefEd.h">
+      <Filter>EGDefEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGDefEd\EGDefEdComponentsPanel.h">
+      <Filter>EGDefEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGDefEd\EGDefEdEditorConfigPanel.h">
+      <Filter>EGDefEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGDefEd\EGDefEdFile.h">
+      <Filter>EGDefEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGDefEd\EGDefEdLibPanel.h">
+      <Filter>EGDefEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGDefEd\EGDefEdPreview.h">
+      <Filter>EGDefEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGDefEd\EGDefEdPreviewPanel.h">
+      <Filter>EGDefEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGDefEd\EGDefEdPropPanel.h">
+      <Filter>EGDefEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGDefEd\EGDefEdSettingsPanel.h">
+      <Filter>EGDefEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGDefEd\EGDefEdTimelineEditor.h">
+      <Filter>EGDefEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGDefEd\EGDefEdTypes.h">
+      <Filter>EGDefEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGLpkViewer\EGLpkFileListPanel.h">
+      <Filter>EGLpkViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="EGLpkViewer\EGLpkViewer.h">
+      <Filter>EGLpkViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="EGLytEd\EGLytEd.h">
+      <Filter>EGLytEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGLytEd\EGLytEdFile.h">
+      <Filter>EGLytEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGLytEd\EGLytEdLayoutPanel.h">
+      <Filter>EGLytEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGLytEd\EGLytEdLibPanel.h">
+      <Filter>EGLytEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGLytEd\EGLytEdPreviewPanel.h">
+      <Filter>EGLytEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGLytEd\EGLytEdPropPanel.h">
+      <Filter>EGLytEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGLytEd\EGLytEdSettingsPanel.h">
+      <Filter>EGLytEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGSmEd\EGSmEd.h">
+      <Filter>EGSmEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGSmEd\EGSmEdNode.items">
+      <Filter>EGSmEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGSmEd\EGSmEdNodeWnd.h">
+      <Filter>EGSmEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGSmEd\EGSmEdPropPanel.h">
+      <Filter>EGSmEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGSmEd\EGSmEdResources.h">
+      <Filter>EGSmEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGSmEd\EGSmEdScriptPanel.h">
+      <Filter>EGSmEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGWorldEd\EGWorldEd.h">
+      <Filter>EGWorldEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGWorldEd\EGWorldEdObjLibPanel.h">
+      <Filter>EGWorldEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGWorldEd\EGWorldEdPreviewPanel.h">
+      <Filter>EGWorldEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGWorldEd\EGWorldEdPropEdPanel.h">
+      <Filter>EGWorldEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGWorldEd\EGWorldEdWorldObjsPanel.h">
+      <Filter>EGWorldEd</Filter>
+    </ClInclude>
+    <ClInclude Include="EGEdLib.h">
+      <Filter></Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

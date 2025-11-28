@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="audio" />
+    <Filter Include="audio\noaudio" />
+    <Filter Include="audio\xaudio2" />
+    <Filter Include="client_sys" />
+    <Filter Include="editor_sys" />
+    <Filter Include="egsm_sys" />
+    <Filter Include="engine_lib" />
+    <Filter Include="engine_sys" />
+    <Filter Include="engine_sys\components" />
+    <Filter Include="entity_sys" />
+    <Filter Include="entity_sys\components" />
+    <Filter Include="game_lib" />
+    <Filter Include="input_sys" />
+    <Filter Include="loc_sys" />
+    <Filter Include="map_sys" />
+    <Filter Include="mesh_sys" />
+    <Filter Include="net_sys" />
+    <Filter Include="phys_sys" />
+    <Filter Include="phys_sys\BeemPhys" />
+    <Filter Include="platform_sys" />
+    <Filter Include="renderer" />
+    <Filter Include="renderer\d3d11" />
+    <Filter Include="renderer\null" />
+    <Filter Include="renderer\shared" />
+    <Filter Include="server_sys" />
+    <Filter Include="sound_sys" />
+    <Filter Include="ui_sys" />
+    <Filter Include="ui_sys\text" />
+    <Filter Include="ui_sys\widgets" />
+    <Filter Include="world" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="audio\noaudio\EGNoAudioDevice.cpp">
+      <Filter>audio\noaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\xaudio2\EGXAudioDevice.cpp">
+      <Filter>audio\xaudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\xaudio2\EGXAudioDeviceEnumerator.cpp">
+      <Filter>audio\xaudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\xaudio2\EGXSound.cpp">
+      <Filter>audio\xaudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\EGAudio.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\EGAudioDevice.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\EGAudioFile.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\EGAudioFileMgr.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\EGAudioList.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\EGOggVorbisFile.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\EGSoundFile.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="client_sys\EGClient.cpp">
+      <Filter>client_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="client_sys\EGClient_NetCode.cpp">
+      <Filter>client_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="client_sys\EGClientView.cpp">
+      <Filter>client_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="client_sys\EGViewFr.cpp">
+      <Filter>client_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="editor_sys\EGDataAssetEditor.cpp">
+      <Filter>editor_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="editor_sys\EGDataBuilder.cpp">
+      <Filter>editor_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="editor_sys\EGEdDataBuild.cpp">
+      <Filter>editor_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="editor_sys\EGEditor.cpp">
+      <Filter>editor_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="editor_sys\EGEditorResave.cpp">
+      <Filter>editor_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="egsm_sys\EGSmMgr.cpp">
+      <Filter>egsm_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="egsm_sys\EGSmProc.cpp">
+      <Filter>egsm_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="egsm_sys\EGSmRuntime.cpp">
+      <Filter>egsm_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\components\EGEngineCore.cpp">
+      <Filter>engine_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\EGAlwaysLoaded.cpp">
+      <Filter>engine_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\EGClassImport.cpp">
+      <Filter>engine_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\EGConsole.cpp">
+      <Filter>engine_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\EGDebugShapes.cpp">
+      <Filter>engine_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\EGDebugText.cpp">
+      <Filter>engine_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\EGEngine.cpp">
+      <Filter>engine_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\EGEngineDataAssetLib.cpp">
+      <Filter>engine_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\EGEngineFS.cpp">
+      <Filter>engine_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\EGEngineInst.cpp">
+      <Filter>engine_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\EGEngineMem.cpp">
+      <Filter>engine_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\EGGame.cpp">
+      <Filter>engine_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\EGLoader.cpp">
+      <Filter>engine_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\EGSaveMgr.cpp">
+      <Filter>engine_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_sys\EGWorkerThreads.cpp">
+      <Filter>engine_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGAmbientSoundComponent.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGBillboardComponent.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGComponent.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGDebugDrawCloseLightsComponent.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGEntComponentTree.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGMeshComponent.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGMeshShadowComponent.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGPhysBodyComponent.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGPhysBodyComponentTypes.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGSkelMeshComponent.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGSkyboxMeshComponent.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGSoundEventComponent.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGSoundPlayerComponent.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGStaticMeshComponent.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGTextNodeComponent.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\components\EGVisualComponent.cpp">
+      <Filter>entity_sys\components</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\EGEnt.cpp">
+      <Filter>entity_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\EGEntDef.cpp">
+      <Filter>entity_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\EGEntDefTypes.cpp">
+      <Filter>entity_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\EGEntDict.cpp">
+      <Filter>entity_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\EGEntObj.cpp">
+      <Filter>entity_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\EGEntTypes.cpp">
+      <Filter>entity_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\EGEntWorld.cpp">
+      <Filter>entity_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\EGEntWorldMap.cpp">
+      <Filter>entity_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\EGEntWorldRegion.cpp">
+      <Filter>entity_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\EGEntWorldTerrain.cpp">
+      <Filter>entity_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\EGTimeline.cpp">
+      <Filter>entity_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\EGTimelineMgr.cpp">
+      <Filter>entity_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_sys\EGTimelineTypes.cpp">
+      <Filter>entity_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="game_lib\EGGameSettingsMenu.cpp">
+      <Filter>game_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="game_lib\EGHUDLoading.cpp">
+      <Filter>game_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="game_lib\EGLevelListMenu.cpp">
+      <Filter>game_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="input_sys\EGInput.cpp">
+      <Filter>input_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="input_sys\EGInputButtons.cpp">
+      <Filter>input_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="input_sys\EGInputGpDevice.cpp">
+      <Filter>input_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="input_sys\EGInputKbmDevice.cpp">
+      <Filter>input_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="input_sys\EGKbCharHandler.cpp">
+      <Filter>input_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="loc_sys\EGLocalize.cpp">
+      <Filter>loc_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="map_sys\EGGameMap.cpp">
+      <Filter>map_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="map_sys\EGGameTerrain2.cpp">
+      <Filter>map_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="map_sys\EGMap_PhysLoader.cpp">
+      <Filter>map_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="map_sys\EGNavGraph.cpp">
+      <Filter>map_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_sys\EGMesh.cpp">
+      <Filter>mesh_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_sys\EGMeshMgr2.cpp">
+      <Filter>mesh_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_sys\EGSkel.cpp">
+      <Filter>mesh_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_sys\EGTerrainMesh.cpp">
+      <Filter>mesh_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="net_sys\EGNetCommBase.cpp">
+      <Filter>net_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="net_sys\EGNetCommCli.cpp">
+      <Filter>net_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="net_sys\EGNetCommSrv.cpp">
+      <Filter>net_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="net_sys\EGNetLocal.cpp">
+      <Filter>net_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="net_sys\EGNetMsgBuffer.cpp">
+      <Filter>net_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="net_sys\EGNetOnline.cpp">
+      <Filter>net_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="net_sys\EGNetOnlineTCP.cpp">
+      <Filter>net_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="net_sys\EGNetOnlineUDP.cpp">
+      <Filter>net_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="net_sys\EGNetRequest.cpp">
+      <Filter>net_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="net_sys\EGNetThread.cpp">
+      <Filter>net_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="phys_sys\BeemPhys\EGBpPhysBody.cpp">
+      <Filter>phys_sys\BeemPhys</Filter>
+    </ClCompile>
+    <ClCompile Include="phys_sys\BeemPhys\EGBpPhysLib.cpp">
+      <Filter>phys_sys\BeemPhys</Filter>
+    </ClCompile>
+    <ClCompile Include="phys_sys\BeemPhys\EGBpPhysSim.cpp">
+      <Filter>phys_sys\BeemPhys</Filter>
+    </ClCompile>
+    <ClCompile Include="phys_sys\EGPhysBody2.cpp">
+      <Filter>phys_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="phys_sys\EGPhysBodyDef.cpp">
+      <Filter>phys_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="phys_sys\EGPhysMemMgr.cpp">
+      <Filter>phys_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="phys_sys\EGPhysSim2.cpp">
+      <Filter>phys_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="platform_sys\EGEgWinCon.cpp">
+      <Filter>platform_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="platform_sys\EGPlatform.cpp">
+      <Filter>platform_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="platform_sys\EGPlatformWindows.cpp">
+      <Filter>platform_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="platform_sys\EGPlatformWinSteam.cpp">
+      <Filter>platform_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="platform_sys\EGSteamworks.cpp">
+      <Filter>platform_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="platform_sys\EGWinMain.cpp">
+      <Filter>platform_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\d3d11\EGD11R_BufferMgr.cpp">
+      <Filter>renderer\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\d3d11\EGD11R_Mtrl.cpp">
+      <Filter>renderer\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\d3d11\EGD11R_MtrlMgr2.cpp">
+      <Filter>renderer\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\d3d11\EGD11R_Renderer.cpp">
+      <Filter>renderer\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\d3d11\EGD11R_RenderTarget.cpp">
+      <Filter>renderer\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\d3d11\EGD11R_SetRS.cpp">
+      <Filter>renderer\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\d3d11\EGD11R_ShaderMgr.cpp">
+      <Filter>renderer\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\d3d11\EGD11R_Texture.cpp">
+      <Filter>renderer\d3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\null\EGNullR_Renderer.cpp">
+      <Filter>renderer\null</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\shared\EGBaseR_Core.cpp">
+      <Filter>renderer\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\EGDisplayList.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\EGRenderer.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\EGRenderThread.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="server_sys\EGGameLoader.cpp">
+      <Filter>server_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="server_sys\EGSaveGame.cpp">
+      <Filter>server_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="server_sys\EGServer.cpp">
+      <Filter>server_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="server_sys\EGServer_NetCode.cpp">
+      <Filter>server_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="server_sys\EGServerInterface.cpp">
+      <Filter>server_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="sound_sys\EGSoundScape.cpp">
+      <Filter>sound_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="sound_sys\EGSoundTrack.cpp">
+      <Filter>sound_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\text\EGFont.cpp">
+      <Filter>ui_sys\text</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\text\EGInputGlyphs.cpp">
+      <Filter>ui_sys\text</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\text\EGTextNode.cpp">
+      <Filter>ui_sys\text</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\widgets\EGUiButtonWidget.cpp">
+      <Filter>ui_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\widgets\EGUiCameraWidget.cpp">
+      <Filter>ui_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\widgets\EGUiClearZWidget.cpp">
+      <Filter>ui_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\widgets\EGUiDragAndDropWidget.cpp">
+      <Filter>ui_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\widgets\EGUiGridWidget.cpp">
+      <Filter>ui_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\widgets\EGUiGridWidget2.cpp">
+      <Filter>ui_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\widgets\EGUiGridWidgetItem.cpp">
+      <Filter>ui_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\widgets\EGUiImageWidget.cpp">
+      <Filter>ui_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\widgets\EGUiLightWidget.cpp">
+      <Filter>ui_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\widgets\EGUiMeshWidget.cpp">
+      <Filter>ui_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\widgets\EGUiScrollbarWidget.cpp">
+      <Filter>ui_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\widgets\EGUiTextWidget.cpp">
+      <Filter>ui_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\widgets\EGUiWidget.cpp">
+      <Filter>ui_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\EGConDraw.cpp">
+      <Filter>ui_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\EGMenu.cpp">
+      <Filter>ui_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\EGMenuStack.cpp">
+      <Filter>ui_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\EGOverlayMgr.cpp">
+      <Filter>ui_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\EGUiGrid2.cpp">
+      <Filter>ui_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\EGUiLayout.cpp">
+      <Filter>ui_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sys\EGUiWidgetInfo.cpp">
+      <Filter>ui_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="world\EGEntWorldLoader.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\EGWorldFile.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\EGWorldObject.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\EGWorldObjectEntity.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\EGWorldObjectMap.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\EGWorldObjectTerrain.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\EGWorldRenderPipe.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\EGWorldSceneGraph.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio\noaudio\EGNoAudioDevice.h">
+      <Filter>audio\noaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\xaudio2\EGXAudioDevice.h">
+      <Filter>audio\xaudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\xaudio2\EGXAudioDeviceEnumerator.h">
+      <Filter>audio\xaudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\xaudio2\EGXSound.h">
+      <Filter>audio\xaudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\EGAudio.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\EGAudioDevice.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\EGAudioFile.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\EGAudioFileMgr.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\EGAudioList.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\EGAudioTypes.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\EGOggVorbisFile.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\EGSoundFile.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="client_sys\EGClient.h">
+      <Filter>client_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="client_sys\EGClientView.h">
+      <Filter>client_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="client_sys\EGViewFr.h">
+      <Filter>client_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="editor_sys\EGDataAsset.h">
+      <Filter>editor_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="editor_sys\EGDataAssetEditor.h">
+      <Filter>editor_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="editor_sys\EGDataBuilder.h">
+      <Filter>editor_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="editor_sys\EGEdDataBuild.h">
+      <Filter>editor_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="editor_sys\EGEditor.h">
+      <Filter>editor_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="editor_sys\EGEditorResave.h">
+      <Filter>editor_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="egsm_sys\EGSmMgr.h">
+      <Filter>egsm_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="egsm_sys\EGSmProc.h">
+      <Filter>egsm_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="egsm_sys\EGSmRuntime.h">
+      <Filter>egsm_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_lib\EGEngineTemplates.h">
+      <Filter>engine_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\components\EGEngineCore.h">
+      <Filter>engine_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGAlwaysLoaded.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGClassImport.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGConsole.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGDebugShapes.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGDebugText.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGEngine.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGEngineApp.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGEngineCommon.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGEngineDataAssetLib.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGEngineForTools.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGEngineFS.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGEngineInst.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGEngineMem.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGGame.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGGameTypes.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGLoader.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGLoader_Loadable.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGSaveMgr.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_sys\EGWorkerThreads.h">
+      <Filter>engine_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGAmbientSoundComponent.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGBillboardComponent.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGComponent.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGDebugDrawCloseLightsComponent.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGEntComponentTree.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGMeshComponent.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGMeshShadowComponent.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGPhysBodyComponent.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGPhysBodyComponentTypes.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGSkelMeshComponent.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGSkyboxMeshComponent.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGSoundEventComponent.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGSoundPlayerComponent.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGStaticMeshComponent.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGTextNodeComponent.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\components\EGVisualComponent.h">
+      <Filter>entity_sys\components</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\EGEnt.h">
+      <Filter>entity_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\EGEntDef.h">
+      <Filter>entity_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\EGEntDefTypes.h">
+      <Filter>entity_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\EGEntDict.h">
+      <Filter>entity_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\EGEntObj.h">
+      <Filter>entity_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\EGEntTypes.h">
+      <Filter>entity_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\EGEntWorld.h">
+      <Filter>entity_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\EGEntWorldMap.h">
+      <Filter>entity_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\EGEntWorldRegion.h">
+      <Filter>entity_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\EGEntWorldTerrain.h">
+      <Filter>entity_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\EGTimeline.h">
+      <Filter>entity_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\EGTimelineMgr.h">
+      <Filter>entity_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_sys\EGTimelineTypes.h">
+      <Filter>entity_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\EGInput.h">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\EGInputBindings.h">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\EGInputButtons.h">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\EGInputButtons.items">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\EGInputCmdState.h">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\EGInputCmdState.hpp">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\EGInputGpDevice.h">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\EGInputKbmDevice.h">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\EGInputKbmTables.h">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\EGInputTypes.h">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\EGKbCharHandler.h">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="loc_sys\EGLocalize.h">
+      <Filter>loc_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="map_sys\EGGameMap.h">
+      <Filter>map_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="map_sys\EGGameTerrain2.h">
+      <Filter>map_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="map_sys\EGMap_PhysLoader.h">
+      <Filter>map_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="map_sys\EGNavGraph.h">
+      <Filter>map_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_sys\EGMesh.h">
+      <Filter>mesh_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_sys\EGMeshMgr2.h">
+      <Filter>mesh_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_sys\EGSkel.h">
+      <Filter>mesh_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_sys\EGTerrainMesh.h">
+      <Filter>mesh_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="net_sys\EGNetCommBase.h">
+      <Filter>net_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="net_sys\EGNetCommCli.h">
+      <Filter>net_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="net_sys\EGNetCommSrv.h">
+      <Filter>net_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="net_sys\EGNetLocal.h">
+      <Filter>net_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="net_sys\EGNetMsgBuffer.h">
+      <Filter>net_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="net_sys\EGNetMsgs.h">
+      <Filter>net_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="net_sys\EGNetMsgs_EntWorld.h">
+      <Filter>net_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="net_sys\EGNetOnline.h">
+      <Filter>net_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="net_sys\EGNetRequest.h">
+      <Filter>net_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="net_sys\EGNetThread.h">
+      <Filter>net_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="phys_sys\BeemPhys\EGBpPhysBody.h">
+      <Filter>phys_sys\BeemPhys</Filter>
+    </ClInclude>
+    <ClInclude Include="phys_sys\BeemPhys\EGBpPhysLib.h">
+      <Filter>phys_sys\BeemPhys</Filter>
+    </ClInclude>
+    <ClInclude Include="phys_sys\BeemPhys\EGBpPhysSim.h">
+      <Filter>phys_sys\BeemPhys</Filter>
+    </ClInclude>
+    <ClInclude Include="phys_sys\EGPhysBody2.h">
+      <Filter>phys_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="phys_sys\EGPhysBodyDef.h">
+      <Filter>phys_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="phys_sys\EGPhysMemMgr.h">
+      <Filter>phys_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="phys_sys\EGPhysSim2.h">
+      <Filter>phys_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="platform_sys\EGEgWinCon.h">
+      <Filter>platform_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="platform_sys\EGPlatform.h">
+      <Filter>platform_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="platform_sys\EGPlatformWindows.h">
+      <Filter>platform_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="platform_sys\EGPlatformWinSteam.h">
+      <Filter>platform_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="platform_sys\EGSteamworks.h">
+      <Filter>platform_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\d3d11\EGD11R_Base.h">
+      <Filter>renderer\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\d3d11\EGD11R_BufferMgr.h">
+      <Filter>renderer\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\d3d11\EGD11R_Mtrl.h">
+      <Filter>renderer\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\d3d11\EGD11R_MtrlMgr2.h">
+      <Filter>renderer\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\d3d11\EGD11R_Renderer.h">
+      <Filter>renderer\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\d3d11\EGD11R_RenderTarget.h">
+      <Filter>renderer\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\d3d11\EGD11R_ShaderMgr.h">
+      <Filter>renderer\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\d3d11\EGD11R_Texture.h">
+      <Filter>renderer\d3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\null\EGNullR_Renderer.h">
+      <Filter>renderer\null</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\shared\EGBaseR_Core.h">
+      <Filter>renderer\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\EGDisplayList.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\EGDisplayListFunctions.items">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\EGRenderer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\EGRendererInterface.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\EGRenderThread.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="server_sys\EGGameLoader.h">
+      <Filter>server_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="server_sys\EGSaveGame.h">
+      <Filter>server_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="server_sys\EGServer.h">
+      <Filter>server_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="server_sys\EGServerInterface.h">
+      <Filter>server_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sound_sys\EGSoundScape.h">
+      <Filter>sound_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="sound_sys\EGSoundTrack.h">
+      <Filter>sound_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\text\EGFont.h">
+      <Filter>ui_sys\text</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\text\EGInputGlyphs.h">
+      <Filter>ui_sys\text</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\text\EGTextNode.h">
+      <Filter>ui_sys\text</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\widgets\EGUiButtonWidget.h">
+      <Filter>ui_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\widgets\EGUiCameraWidget.h">
+      <Filter>ui_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\widgets\EGUiClearZWidget.h">
+      <Filter>ui_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\widgets\EGUiDragAndDropWidget.h">
+      <Filter>ui_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\widgets\EGUiGridWidget.h">
+      <Filter>ui_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\widgets\EGUiGridWidget2.h">
+      <Filter>ui_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\widgets\EGUiGridWidgetItem.h">
+      <Filter>ui_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\widgets\EGUiImageWidget.h">
+      <Filter>ui_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\widgets\EGUiLightWidget.h">
+      <Filter>ui_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\widgets\EGUiMeshWidget.h">
+      <Filter>ui_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\widgets\EGUiScrollbarWidget.h">
+      <Filter>ui_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\widgets\EGUiTextWidget.h">
+      <Filter>ui_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\widgets\EGUiWidget.h">
+      <Filter>ui_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\EGConDraw.h">
+      <Filter>ui_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\EGMenu.h">
+      <Filter>ui_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\EGMenuStack.h">
+      <Filter>ui_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\EGOverlayMgr.h">
+      <Filter>ui_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\EGUiGrid2.h">
+      <Filter>ui_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\EGUiLayout.h">
+      <Filter>ui_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\EGUiTypes.h">
+      <Filter>ui_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\EGUiWidgetInfo.h">
+      <Filter>ui_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_sys\EGUiWidgetInfoTypes.h">
+      <Filter>ui_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="world\EGEntWorldLoader.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\EGWorldFile.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\EGWorldObject.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\EGWorldObjectEntity.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\EGWorldObjectMap.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\EGWorldObjectTerrain.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\EGWorldRenderPipe.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\EGWorldSceneGraph.h">
+      <Filter>world</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glyphs texture="T_EG_GlyphFont_d" size="1024 2048">
+  <glyph button="KBM_A" />
+  <glyph button="KBM_B" />
+  <glyph button="KBM_C" />
+  <glyph button="KBM_D" />
+  <glyph button="KBM_E" />
+  <glyph button="KBM_F" />
+  <glyph button="KBM_G" />
+  <glyph button="KBM_H" />
+  <glyph button="KBM_I" />
+  <glyph button="KBM_J" />
+  <glyph button="KBM_K" />
+  <glyph button="KBM_L" />
+  <glyph button="KBM_M" />
+  <glyph button="KBM_N" />
+  <glyph button="KBM_O" />
+  <glyph button="KBM_P" />
+  <glyph button="KBM_Q" />
+  <glyph button="KBM_R" />
+  <glyph button="KBM_S" />
+  <glyph button="KBM_T" />
+  <glyph button="KBM_U" />
+  <glyph button="KBM_V" />
+  <glyph button="KBM_W" />
+  <glyph button="KBM_X" />
+  <glyph button="KBM_Y" />
+  <glyph button="KBM_Z" />
+  
+  <glyph button="KBM_0" />
+  <glyph button="KBM_1" />
+  <glyph button="KBM_2" />
+  <glyph button="KBM_3" />
+  <glyph button="KBM_4" />
+  <glyph button="KBM_5" />
+  <glyph button="KBM_6" />
+  <glyph button="KBM_7" />
+  <glyph button="KBM_8" />
+  <glyph button="KBM_9" />
+
+  <glyph button="KBM_F1" />
+  <glyph button="KBM_F2" />
+  <glyph button="KBM_F3" />
+  <glyph button="KBM_F4" />
+  <glyph button="KBM_F5" />
+  <glyph button="KBM_F6" />
+  <glyph button="KBM_F7" />
+  <glyph button="KBM_F8" />
+  <glyph button="KBM_F9" />
+  <glyph button="KBM_F10" />
+  <glyph button="KBM_F11" />
+  <glyph button="KBM_F12" />
+
+  <glyph button="KBM_PRINTSCREEN" />
+  <glyph button="KBM_SCROLL" />
+  <glyph button="KBM_PAUSE" />
+  <glyph button="KBM_INSERT" />
+  <glyph button="KBM_HOME" />
+  <glyph button="KBM_PRIOR" />
+  <glyph button="KBM_DELETE" />
+  <glyph button="KBM_END" />
+  <glyph button="KBM_NEXT" />
+
+  <glyph button="KBM_UP" />
+  <glyph button="KBM_DOWN" />
+  <glyph button="KBM_LEFT" />
+  <glyph button="KBM_RIGHT" />
+
+  <glyph button="KBM_ESCAPE" />
+  <glyph button="KBM_GRAVE" />
+  <glyph button="KBM_TAB" />
+  <glyph button="KBM_CAPITAL" />
+  
+  <glyph button="KBM_LSHIFT" />
+  <glyph button="KBM_LCONTROL" />
+  <glyph button="KBM_LWIN" />
+  <glyph button="KBM_LMENU" />
+  
+  <glyph button="KBM_SPACE" />
+
+  <glyph button="KBM_RMENU" />
+  <glyph button="KBM_RWIN" />
+  <glyph button="KBM_APPS" />
+  <glyph button="KBM_RCONTROL" />
+  <glyph button="KBM_RSHIFT" />
+  
+  <glyph button="KBM_RETURN" />
+  <glyph button="KBM_BACK" />
+  <glyph button="KBM_EQUALS" />
+  <glyph button="KBM_MINUS" />
+  <glyph button="KBM_LBRACKET" />
+  <glyph button="KBM_RBRACKET" />
+  <glyph button="KBM_BACKSLASH" />
+  <glyph button="KBM_SEMICOLON" />
+  <glyph button="KBM_APOSTROPHE" />
+  <glyph button="KBM_COMMA" />
+  <glyph button="KBM_PERIOD" />
+  <glyph button="KBM_SLASH" />
+
+  <glyph button="KBM_NUMPAD0" />
+  <glyph button="KBM_NUMPAD1" />
+  <glyph button="KBM_NUMPAD2" />
+  <glyph button="KBM_NUMPAD3" />
+  <glyph button="KBM_NUMPAD4" />
+  <glyph button="KBM_NUMPAD5" />
+  <glyph button="KBM_NUMPAD6" />
+  <glyph button="KBM_NUMPAD7" />
+  <glyph button="KBM_NUMPAD8" />
+  <glyph button="KBM_NUMPAD9" />
+
+  <glyph button="KBM_NUMLOCK" />
+  <glyph button="KBM_DIVIDE" />
+  <glyph button="KBM_MULTIPLY" />
+  <glyph button="KBM_SUBTRACT" />
+  <glyph button="KBM_ADD" />
+  <glyph button="KBM_NUMPADENTER" />
+  <glyph button="KBM_DECIMAL" />
+
+  <glyph button="KBM_MOUSE_1" />
+  <glyph button="KBM_MOUSE_2" />
+  <glyph button="KBM_MOUSE_3" />
+  <glyph button="KBM_MOUSE_4" />
+  <glyph button="KBM_MOUSE_5" />
+
+  <glyph button="GP_A" />
+  <glyph button="GP_B" />
+  <glyph button="GP_X" />
+  <glyph button="GP_Y" />
+
+  <glyph button="GP_DUP" />
+  <glyph button="GP_DDOWN" />
+  <glyph button="GP_DLEFT" />
+  <glyph button="GP_DRIGHT" />
+  
+  <glyph button="GP_R1" />
+  <glyph button="GP_R2" />
+  <glyph button="GP_R3" />
+
+  <glyph button="GP_L1" />
+  <glyph button="GP_L2" />
+  <glyph button="GP_L3" />
+  
+  <glyph button="GP_LEFTSTICK" />
+  <glyph button="GP_RIGHTSTICK" />
+
+  <glyph button="GP_BACK" />
+  <glyph button="GP_START" />
+
+  <glyph button="GP_DPAD_LEFTRIGHT" />
+
+  <glyph button="GP_LUP" />
+  <glyph button="GP_LDOWN" />
+  <glyph button="GP_LLEFT" />
+  <glyph button="GP_LRIGHT" />
+  <glyph button="GP_LLEFTRIGHT" />
+
+  <glyph button="GP_RUP" />
+  <glyph button="GP_RDOWN" />
+  <glyph button="GP_RLEFT" />
+  <glyph button="GP_RRIGHT" />
+  <glyph button="GP_RLEFTRIGHT" />
+
+  <glyph button="KBM_LEFTRIGHT" />
+  <glyph button="KBM_MOUSE_W_UP" />
+  <glyph button="KBM_MOUSE_W_DOWN" />
+  <glyph button="KBM_MOUSE_W_UPDOWN" />
+</glyphs>

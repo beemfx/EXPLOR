@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E9B11CE4-1E4E-41D7-B80E-7B4D3B674EA2}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)_BUILD\libs\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)_BUILD\libs\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)_BUILD\libs\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)_BUILD\libs\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__DEBUG__;__WIN64__;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../lib3p;./;EG2Lib;EG2Lib/Math;EG2Lib/Primitives;egwnd;ext_sys;math;mem;net;serialize;string;templates;text;utilities;</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>EGCommon.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__RELEASE__;__WIN64__;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../lib3p;./;EG2Lib;EG2Lib/Math;EG2Lib/Primitives;egwnd;ext_sys;math;mem;net;serialize;string;templates;text;utilities;</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>EGCommon.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__DEBUG__;__WIN32__;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../lib3p;./;EG2Lib;EG2Lib/Math;EG2Lib/Primitives;egwnd;ext_sys;math;mem;net;serialize;string;templates;text;utilities;</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>EGCommon.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__RELEASE__;__WIN32__;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../lib3p;./;EG2Lib;EG2Lib/Math;EG2Lib/Primitives;egwnd;ext_sys;math;mem;net;serialize;string;templates;text;utilities;</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>EGCommon.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="EG2Lib\Math\EGMath.cpp" />
+    <ClCompile Include="EG2Lib\Primitives\EGIntVector.cpp" />
+    <ClCompile Include="EG2Lib\Primitives\EGMatrix.cpp" />
+    <ClCompile Include="EG2Lib\Primitives\EGPlane.cpp" />
+    <ClCompile Include="EG2Lib\Primitives\EGPrimitiveTypes.cpp" />
+    <ClCompile Include="EG2Lib\Primitives\EGQuaternion.cpp" />
+    <ClCompile Include="EG2Lib\Primitives\EGTransform.cpp" />
+    <ClCompile Include="EG2Lib\Primitives\EGVector.cpp" />
+    <ClCompile Include="egwnd\EGWnd.cpp" />
+    <ClCompile Include="egwnd\EGWndAppWindow.cpp" />
+    <ClCompile Include="egwnd\EGWndBase.cpp" />
+    <ClCompile Include="egwnd\EGWndChildBase.cpp" />
+    <ClCompile Include="egwnd\EGWndDebugLogPanel.cpp" />
+    <ClCompile Include="egwnd\EGWndDragableLayoutEditor.cpp" />
+    <ClCompile Include="egwnd\EGWndDraw.cpp" />
+    <ClCompile Include="egwnd\EGWndFileBrowser.cpp" />
+    <ClCompile Include="egwnd\EGWndPanel.cpp" />
+    <ClCompile Include="egwnd\EGWndPanelPropEditor.cpp" />
+    <ClCompile Include="egwnd\EGWndPropControl.cpp" />
+    <ClCompile Include="egwnd\EGWndPropControl_Anchor.cpp" />
+    <ClCompile Include="egwnd\EGWndPropControl_Bool.cpp" />
+    <ClCompile Include="egwnd\EGWndPropControl_Color.cpp" />
+    <ClCompile Include="egwnd\EGWndPropControl_ComboBox.cpp" />
+    <ClCompile Include="egwnd\EGWndPropControl_Containers.cpp" />
+    <ClCompile Include="egwnd\EGWndPropControl_Rot.cpp" />
+    <ClCompile Include="egwnd\EGWndPropControl_Text.cpp" />
+    <ClCompile Include="egwnd\EGWndPropControl_Transform.cpp" />
+    <ClCompile Include="egwnd\EGWndPropControl_Vector.cpp" />
+    <ClCompile Include="egwnd\EGWndPropControlTypes.cpp" />
+    <ClCompile Include="egwnd\EGWndScrollingPanel.cpp" />
+    <ClCompile Include="egwnd\EGWndTabbedPanel.cpp" />
+    <ClCompile Include="egwnd\EGWndTextNodeWndControl.cpp" />
+    <ClCompile Include="math\EGMath_Color.cpp" />
+    <ClCompile Include="math\EGMath_Types.cpp" />
+    <ClCompile Include="math\EGNetSmoothTransform.cpp" />
+    <ClCompile Include="mem\EGBucketAlloc2.cpp" />
+    <ClCompile Include="mem\EGHeap2.cpp" />
+    <ClCompile Include="mem\EGMem2.cpp" />
+    <ClCompile Include="mem\EGMem2StdLibReplacement.cpp" />
+    <ClCompile Include="mem\EGMemNew.cpp" />
+    <ClCompile Include="mem\EGMemPool.cpp" />
+    <ClCompile Include="mem\EGStaticAlloc.cpp" />
+    <ClCompile Include="net\EGNetCore.cpp" />
+    <ClCompile Include="net\EGSync.cpp" />
+    <ClCompile Include="serialize\EGAssetPath.cpp" />
+    <ClCompile Include="serialize\EGClassName.cpp" />
+    <ClCompile Include="serialize\EGCopyPasteDeserializer.cpp" />
+    <ClCompile Include="serialize\EGEditProperty.cpp" />
+    <ClCompile Include="serialize\EGReflection.cpp" />
+    <ClCompile Include="serialize\EGReflectionDeserializer.cpp" />
+    <ClCompile Include="serialize\EGReflectionPrimitives.cpp" />
+    <ClCompile Include="serialize\EGReflectionStrConv.cpp" />
+    <ClCompile Include="string\EGBase64.cpp" />
+    <ClCompile Include="string\EGDynamicString.cpp" />
+    <ClCompile Include="string\EGPath2.cpp" />
+    <ClCompile Include="string\EGString.cpp" />
+    <ClCompile Include="string\EGStringEx.cpp" />
+    <ClCompile Include="string\EGStringFormat.cpp" />
+    <ClCompile Include="templates\EGTween.cpp" />
+    <ClCompile Include="text\EGLocText.cpp" />
+    <ClCompile Include="text\EGTextFormat.cpp" />
+    <ClCompile Include="utilities\EGCamera2.cpp" />
+    <ClCompile Include="utilities\EGCameraController.cpp" />
+    <ClCompile Include="utilities\EGFileData.cpp" />
+    <ClCompile Include="utilities\EGForceSampler.cpp" />
+    <ClCompile Include="utilities\EGLocCompiler.cpp" />
+    <ClCompile Include="utilities\EGTGAWriter.cpp" />
+    <ClCompile Include="utilities\EGThread.cpp" />
+    <ClCompile Include="utilities\EGThreadRequest.cpp" />
+    <ClCompile Include="utilities\EGTimer.cpp" />
+    <ClCompile Include="utilities\EGTransformSpline.cpp" />
+    <ClCompile Include="utilities\EGXMLBase.cpp" />
+    <ClCompile Include="EGCompress.cpp" />
+    <ClCompile Include="EGCrcDb.cpp" />
+    <ClCompile Include="EGExtProcess.cpp" />
+    <ClCompile Include="EGFunction.cpp" />
+    <ClCompile Include="EGLibFile.cpp" />
+    <ClCompile Include="EGLog.cpp" />
+    <ClCompile Include="EGLogDispatcher.cpp" />
+    <ClCompile Include="EGMutex.cpp" />
+    <ClCompile Include="EGObject.cpp" />
+    <ClCompile Include="EGOsFile.cpp" />
+    <ClCompile Include="EGParse.cpp" />
+    <ClCompile Include="EGRandom.cpp" />
+    <ClCompile Include="EGResourceLib.cpp" />
+    <ClCompile Include="EGToolsHelper.cpp" />
+    <ClCompile Include="EGVertexEx.cpp" />
+    <ClCompile Include="EGWeakPtrBase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EG2Lib\Math\EGMath.h" />
+    <ClInclude Include="EG2Lib\Primitives\EGIntVector.h" />
+    <ClInclude Include="EG2Lib\Primitives\EGMatrix.h" />
+    <ClInclude Include="EG2Lib\Primitives\EGPlane.h" />
+    <ClInclude Include="EG2Lib\Primitives\EGPrimitiveTypes.h" />
+    <ClInclude Include="EG2Lib\Primitives\EGQuaternion.h" />
+    <ClInclude Include="EG2Lib\Primitives\EGTransform.h" />
+    <ClInclude Include="EG2Lib\Primitives\EGTransformMult.h" />
+    <ClInclude Include="EG2Lib\Primitives\EGVector.h" />
+    <ClInclude Include="egwnd\EGWnd.h" />
+    <ClInclude Include="egwnd\EGWndAppWindow.h" />
+    <ClInclude Include="egwnd\EGWndBase.h" />
+    <ClInclude Include="egwnd\EGWndChildBase.h" />
+    <ClInclude Include="egwnd\EGWndDebugLogPanel.h" />
+    <ClInclude Include="egwnd\EGWndDragableLayoutEditor.h" />
+    <ClInclude Include="egwnd\EGWndDraw.h" />
+    <ClInclude Include="egwnd\EGWndFileBrowser.h" />
+    <ClInclude Include="egwnd\EGWndHelpers.h" />
+    <ClInclude Include="egwnd\EGWndPanel.h" />
+    <ClInclude Include="egwnd\EGWndPanelPropEditor.h" />
+    <ClInclude Include="egwnd\EGWndPropControl.h" />
+    <ClInclude Include="egwnd\EGWndPropControl_Anchor.h" />
+    <ClInclude Include="egwnd\EGWndPropControl_Bool.h" />
+    <ClInclude Include="egwnd\EGWndPropControl_Color.h" />
+    <ClInclude Include="egwnd\EGWndPropControl_ComboBox.h" />
+    <ClInclude Include="egwnd\EGWndPropControl_Containers.h" />
+    <ClInclude Include="egwnd\EGWndPropControl_Rot.h" />
+    <ClInclude Include="egwnd\EGWndPropControl_Text.h" />
+    <ClInclude Include="egwnd\EGWndPropControl_Transform.h" />
+    <ClInclude Include="egwnd\EGWndPropControl_Vector.h" />
+    <ClInclude Include="egwnd\EGWndPropControlTypes.h" />
+    <ClInclude Include="egwnd\EGWndRcDefs.h" />
+    <ClInclude Include="egwnd\EGWndScrollingPanel.h" />
+    <ClInclude Include="egwnd\EGWndTabbedPanel.h" />
+    <ClInclude Include="egwnd\EGWndTextNode.h" />
+    <ClInclude Include="egwnd\EGWndTextNodeWndControl.h" />
+    <ClInclude Include="egwnd\EGWndTypes.h" />
+    <ClInclude Include="ext_sys\EGCppLibAPI.h" />
+    <ClInclude Include="ext_sys\EGDirectXAPI.h" />
+    <ClInclude Include="ext_sys\EGStdLibAPI.h" />
+    <ClInclude Include="ext_sys\EGWindowsAPI.h" />
+    <ClInclude Include="math\EGMath_Color.h" />
+    <ClInclude Include="math\EGMath_Hull.h" />
+    <ClInclude Include="math\EGMath_Types.h" />
+    <ClInclude Include="math\EGNetSmoothTransform.h" />
+    <ClInclude Include="mem\EGBucketAlloc2.h" />
+    <ClInclude Include="mem\EGHeap2.h" />
+    <ClInclude Include="mem\EGMem2.h" />
+    <ClInclude Include="mem\EGMem2StdLibReplacement.h" />
+    <ClInclude Include="mem\EGMemAlloc.h" />
+    <ClInclude Include="mem\EGMemNew.h" />
+    <ClInclude Include="mem\EGMemPool.h" />
+    <ClInclude Include="mem\EGStaticAlloc.h" />
+    <ClInclude Include="net\EGNetCore.h" />
+    <ClInclude Include="net\EGSync.h" />
+    <ClInclude Include="serialize\EGAssetPath.h" />
+    <ClInclude Include="serialize\EGClassName.h" />
+    <ClInclude Include="serialize\EGComboBoxEd.h" />
+    <ClInclude Include="serialize\EGCopyPasteDeserializer.h" />
+    <ClInclude Include="serialize\EGEditControlType.h" />
+    <ClInclude Include="serialize\EGEditProperty.h" />
+    <ClInclude Include="serialize\EGReflection.h" />
+    <ClInclude Include="serialize\EGReflectionCore.h" />
+    <ClInclude Include="serialize\EGReflectionDeclMacros.h" />
+    <ClInclude Include="serialize\EGReflectionDeserializer.h" />
+    <ClInclude Include="serialize\EGReflectionPrimitives.h" />
+    <ClInclude Include="serialize\EGReflectionStrConv.h" />
+    <ClInclude Include="serialize\EGSerializeTypes.h" />
+    <ClInclude Include="string\EGBase64.h" />
+    <ClInclude Include="string\EGDynamicString.h" />
+    <ClInclude Include="string\EGPath2.h" />
+    <ClInclude Include="string\EGStackString.h" />
+    <ClInclude Include="string\EGString.h" />
+    <ClInclude Include="string\EGStringConvert.h" />
+    <ClInclude Include="string\EGStringCrc.h" />
+    <ClInclude Include="string\EGStringEx.h" />
+    <ClInclude Include="string\EGStringFormat.h" />
+    <ClInclude Include="string\EGStringLibrary.h" />
+    <ClInclude Include="string\EGStringLibrary.hpp" />
+    <ClInclude Include="templates\EGArray.h" />
+    <ClInclude Include="templates\EGArray.shared.hpp" />
+    <ClInclude Include="templates\EGBoolList.h" />
+    <ClInclude Include="templates\EGCircleArray.h" />
+    <ClInclude Include="templates\EGDataLibrary.h" />
+    <ClInclude Include="templates\EGItemMap.h" />
+    <ClInclude Include="templates\EGList.h" />
+    <ClInclude Include="templates\EGQueue.h" />
+    <ClInclude Include="templates\EGStringMap.h" />
+    <ClInclude Include="templates\EGTween.h" />
+    <ClInclude Include="text\EGLocText.h" />
+    <ClInclude Include="text\EGTextFormat.h" />
+    <ClInclude Include="text\EGTextFormatHelper.hpp" />
+    <ClInclude Include="utilities\EGCamera2.h" />
+    <ClInclude Include="utilities\EGCameraController.h" />
+    <ClInclude Include="utilities\EGFileData.h" />
+    <ClInclude Include="utilities\EGForceSampler.h" />
+    <ClInclude Include="utilities\EGLocCompiler.h" />
+    <ClInclude Include="utilities\EGTGAWriter.h" />
+    <ClInclude Include="utilities\EGThread.h" />
+    <ClInclude Include="utilities\EGThreadProc.h" />
+    <ClInclude Include="utilities\EGThreadRequest.h" />
+    <ClInclude Include="utilities\EGTimer.h" />
+    <ClInclude Include="utilities\EGTransformSpline.h" />
+    <ClInclude Include="utilities\EGXMLBase.h" />
+    <ClInclude Include="assert.h" />
+    <ClInclude Include="EGCommon.h" />
+    <ClInclude Include="EGCompress.h" />
+    <ClInclude Include="EGCrcDb.h" />
+    <ClInclude Include="EGDelegate.h" />
+    <ClInclude Include="EGExtProcess.h" />
+    <ClInclude Include="EGFunction.h" />
+    <ClInclude Include="EGFunction.inl" />
+    <ClInclude Include="EGLibExtern.h" />
+    <ClInclude Include="EGLibExtern_Tool.hpp" />
+    <ClInclude Include="EGLibFile.h" />
+    <ClInclude Include="EGLog.h" />
+    <ClInclude Include="EGLogDispatcher.h" />
+    <ClInclude Include="EGMutex.h" />
+    <ClInclude Include="EGObject.h" />
+    <ClInclude Include="EGOsFile.h" />
+    <ClInclude Include="EGParse.h" />
+    <ClInclude Include="EGRandom.h" />
+    <ClInclude Include="EGRemoteEvent.h" />
+    <ClInclude Include="EGResourceLib.h" />
+    <ClInclude Include="EGShapes.h" />
+    <ClInclude Include="EGToolsHelper.h" />
+    <ClInclude Include="EGTypes.h" />
+    <ClInclude Include="EGVertexTypes.h" />
+    <ClInclude Include="EGVertexTypes.inc" />
+    <ClInclude Include="EGWeakPtr.h" />
+    <ClInclude Include="EGWeakPtrBase.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assert" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

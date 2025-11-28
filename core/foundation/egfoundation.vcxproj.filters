@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="config" />
+    <Filter Include="editor" />
+    <Filter Include="egsm" />
+    <Filter Include="gamedata" />
+    <Filter Include="gcx" />
+    <Filter Include="loc" />
+    <Filter Include="mem" />
+    <Filter Include="mesh" />
+    <Filter Include="ms3d" />
+    <Filter Include="platform" />
+    <Filter Include="reflection" />
+    <Filter Include="renderer" />
+    <Filter Include="serialize" />
+    <Filter Include="types" />
+    <Filter Include="world" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="config\EGGlobalConfig.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="config\EGSettings2.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="config\EGSettings2Types.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="editor\EGBuildConfig.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="editor\EGEdCubeMapBuild.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="editor\EGEdImportData.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="editor\EGEdUtility.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="egsm\EGSmEdVarMgr.cpp">
+      <Filter>egsm</Filter>
+    </ClCompile>
+    <ClCompile Include="egsm\EGSmFile2.cpp">
+      <Filter>egsm</Filter>
+    </ClCompile>
+    <ClCompile Include="egsm\EGSmTypes.cpp">
+      <Filter>egsm</Filter>
+    </ClCompile>
+    <ClCompile Include="egsm\EgSmVars.cpp">
+      <Filter>egsm</Filter>
+    </ClCompile>
+    <ClCompile Include="gamedata\EGDataAssetBase.cpp">
+      <Filter>gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="gamedata\EGDataAssetLoader.cpp">
+      <Filter>gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="gcx\EGGcxBuildData.cpp">
+      <Filter>gcx</Filter>
+    </ClCompile>
+    <ClCompile Include="gcx\EGGcxFile.cpp">
+      <Filter>gcx</Filter>
+    </ClCompile>
+    <ClCompile Include="gcx\EGGcxFloor.cpp">
+      <Filter>gcx</Filter>
+    </ClCompile>
+    <ClCompile Include="gcx\EGGcxMapMetaData.cpp">
+      <Filter>gcx</Filter>
+    </ClCompile>
+    <ClCompile Include="gcx\EGGcxRegion.cpp">
+      <Filter>gcx</Filter>
+    </ClCompile>
+    <ClCompile Include="loc\EGLocAssets.cpp">
+      <Filter>loc</Filter>
+    </ClCompile>
+    <ClCompile Include="mem\EGToolMem.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh\EGMeshBase.cpp">
+      <Filter>mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh\EGMeshState.cpp">
+      <Filter>mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh\EGSkelBase.cpp">
+      <Filter>mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ms3d\EGMs3DCompiler.cpp">
+      <Filter>ms3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ms3d\EGMs3DFile.cpp">
+      <Filter>ms3d</Filter>
+    </ClCompile>
+    <ClCompile Include="reflection\EGRflFoundationImport.cpp">
+      <Filter>reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\EGMaterialDef.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\EGVDynamicBuffer.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="serialize\EGRflGen.cpp">
+      <Filter>serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="world\EGTerrain2.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="world\EGWorldMapBase.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="EGFoundationTypes.cpp">
+      <Filter></Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config\EGGlobalConfig.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="config\EGSettings2.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="config\EGSettings2Types.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="editor\EGBuildConfig.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="editor\EGEdCubeMapBuild.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="editor\EGEdImportData.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="editor\EGEdUtility.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="egsm\EGSmEdVarMgr.h">
+      <Filter>egsm</Filter>
+    </ClInclude>
+    <ClInclude Include="egsm\EGSmFile2.h">
+      <Filter>egsm</Filter>
+    </ClInclude>
+    <ClInclude Include="egsm\EGSmNodes.items">
+      <Filter>egsm</Filter>
+    </ClInclude>
+    <ClInclude Include="egsm\EGSmTypes.h">
+      <Filter>egsm</Filter>
+    </ClInclude>
+    <ClInclude Include="egsm\EGSmVars.h">
+      <Filter>egsm</Filter>
+    </ClInclude>
+    <ClInclude Include="gamedata\EGDataAssetBase.h">
+      <Filter>gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="gamedata\EGDataAssetLoader.h">
+      <Filter>gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="gcx\EGGcxBuildData.h">
+      <Filter>gcx</Filter>
+    </ClInclude>
+    <ClInclude Include="gcx\EGGcxBuildTypes.h">
+      <Filter>gcx</Filter>
+    </ClInclude>
+    <ClInclude Include="gcx\EGGcxCustomTiles.items">
+      <Filter>gcx</Filter>
+    </ClInclude>
+    <ClInclude Include="gcx\EGGcxEnums.h">
+      <Filter>gcx</Filter>
+    </ClInclude>
+    <ClInclude Include="gcx\EGGcxFile.h">
+      <Filter>gcx</Filter>
+    </ClInclude>
+    <ClInclude Include="gcx\EGGcxFloor.h">
+      <Filter>gcx</Filter>
+    </ClInclude>
+    <ClInclude Include="gcx\EGGcxMapMetaData.h">
+      <Filter>gcx</Filter>
+    </ClInclude>
+    <ClInclude Include="gcx\EGGcxRegion.h">
+      <Filter>gcx</Filter>
+    </ClInclude>
+    <ClInclude Include="gcx\EGGcxTypes.h">
+      <Filter>gcx</Filter>
+    </ClInclude>
+    <ClInclude Include="loc\EGLocAssets.h">
+      <Filter>loc</Filter>
+    </ClInclude>
+    <ClInclude Include="mem\EGToolMem.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh\EGMeshBase.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh\EGMeshDataSections.inc">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh\EGMeshState.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh\EGSkelBase.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh\EGSkelDataSections.inc">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ms3d\EGMs3DCompiler.h">
+      <Filter>ms3d</Filter>
+    </ClInclude>
+    <ClInclude Include="ms3d\EGMs3DFile.h">
+      <Filter>ms3d</Filter>
+    </ClInclude>
+    <ClInclude Include="ms3d\EGMs3DSpecs.h">
+      <Filter>ms3d</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\EGTargetPlatform.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\EGTargetPlatform.items.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection\EGDataAssetBase.reflection.h">
+      <Filter>reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection\EGDataAssetBase.reflection.hpp">
+      <Filter>reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection\EGEngineSerializeTypes.reflection.h">
+      <Filter>reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection\EGEngineSerializeTypes.reflection.hpp">
+      <Filter>reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection\EGFoundationTypes.reflection.h">
+      <Filter>reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection\EGFoundationTypes.reflection.hpp">
+      <Filter>reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection\EGGcxBuildData.reflection.h">
+      <Filter>reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection\EGGcxBuildData.reflection.hpp">
+      <Filter>reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection\EGGcxMapMetaData.reflection.h">
+      <Filter>reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection\EGGcxMapMetaData.reflection.hpp">
+      <Filter>reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection\EGRflPrimitiveTest.reflection.h">
+      <Filter>reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection\EGRflPrimitiveTest.reflection.hpp">
+      <Filter>reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection\foundation.link.reflection.hpp">
+      <Filter>reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\EGShaderConsts.inc">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\EGVDynamicBuffer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGRflGen.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGRflLinkSystem.hpp">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGRflPrimitiveTest.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="types\EGEngineSerializeTypes.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\EGRendererTypes.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\EGRenderTypes.inc">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="world\EGMapDataSections.inc">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\EGTerrain2.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="world\EGWorldMapBase.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="EGEngineConfig.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGFoundationTypes.h">
+      <Filter></Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

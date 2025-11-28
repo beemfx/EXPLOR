@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eloc language="en-US">
+	<!-- BEGIN ASSET-LOC Text TEXT -->
+	<text key="StartingWeaponWarrior_Name" string="Warrior&apos;s Demo Sword" />
+	<text key="StartingWeaponWarrior_Desc" string="A gift to the Warrior." />
+	<text key="StartingWeaponThief_Name" string="Thief&apos;s Demo Sword" />
+	<text key="StartingWeaponThief_Desc" string="A gift to the Thief." />
+	<text key="StartingWeaponCleric_Name" string="Cleric&apos;s Demo Sword" />
+	<text key="StartingWeaponCleric_Desc" string="A gift to the Cleric." />
+	<text key="StartingWeaponMage_Name" string="Warlock&apos;s Demo Sword" />
+	<text key="StartingWeaponMage_Desc" string="A gift to the Warlock." />
+	<text key="DemoSword_Name" string="Demo Sword" />
+	<text key="DemoSword_Desc" string="A demo weapon." />
+	<text key="SuperDemoSword_Name" string="Super Demo Sword" />
+	<text key="SuperDemoSword_Desc" string="The 2nd tier of the demo sword." />
+	<text key="DemoShield_Name" string="Demo Shield" />
+	<text key="DemoShield_Desc" string="A demo shield." />
+	<text key="DemoShieldUpgraded_Name" string="Super Demo Shield" />
+	<text key="DemoShieldUpgraded_Desc" string="The second tier of the demo shield." />
+	<text key="TurtleName" string="Shell Man" />
+	<text key="TickName" string="Bug" />
+	<text key="FrogName" string="Ribbit Creature" />
+	<text key="BarbarianName" string="Barbarian" />
+	<text key="GuardBName" string="Tough City Guard" />
+	<text key="EarlOfDanGuardName" string="Earl of Dan&apos;s Guard" />
+	<text key="CreditsGameTitleText" string="Demo Game" />
+	<text key="CreditsPreparedByText" string="Prepared By" />
+	<text key="Jack Everett" string="Jack Everett" />
+	<text key="Blaine Myers" string="Blaine Myers" />
+	<text key="TechnologyHeaderText" string="Technology" />
+	<text key="LibText1" string="Powered by Emergence Technology |COPY| 2008-2021 Beem Media." />
+	<text key="LibText2" string="This software may utilize certain third-party software. Such third-party software is copyrighted by their respective owners as indicated below." />
+	<text key="LibText3" string="zlib |COPY| 1995-2013 Jean-loup Gailly and Mark Adler." />
+	<text key="LibText4" string="expat |COPY| 1998-2000 Thai Open Source Software Center Ltd and Clark Cooper |COPY| 2001-2016 Expat maintainers." />
+	<text key="LibText6" string="OggVorbis |COPY| 1994-2007 by the Xiph.Org Foundation http://www.xiph.org/." />
+	<text key="LibFinal" string="All other trademarks are properties of their respective owners." />
+	<text key="CopyrightNotice" string="|COPY| 2025 Beem Media" />
+	<text key="WarriorName" string="Warrior" />
+	<text key="WarriorDesc" string="A Warrior relies on |SC(EX_ATTR)|END|RC()| and |SC(EX_ATTR)|AGR|RC()| to take the brunt of |SC(EX_ATTR)|DMG|RC()| in battle by directing attacks away from other party members. |SC(EX_ATTR)|STR|RC()| will help to increase a warrior&apos;s |SC(EX_ATTR)|DMG|RC()|." />
+	<text key="ThiefName" string="Thief" />
+	<text key="ThiefDesc" string="A Thief can unlock doors leading to great treasures. The ability to unlock doors increases with |SC(EX_ATTR)|LVL|RC()|. They also burgle enemies when attacking, increasing the amount of |SC(EX_GOLD)|gold|RC()| rewarded during combat." />
+	<text key="MageName" string="Warlock" />
+	<text key="MageDesc" string="A Warlock uses |SC(EX_ATTR)|MAG|RC()| to cast spells causing elemental |SC(EX_ATTR)|DMG|RC()| to one or more enemies. As the Warlock&apos;s |SC(EX_ATTR)|LVL|RC()| increases, more powerful spells are learned. |SC(EX_ATTR)|SPD|RC()| will help them attack more often." />
+	<text key="ClericName" string="Cleric" />
+	<text key="ClericDesc" string="A Cleric uses |SC(EX_ATTR)|MAG|RC()| to restore the |SC(EX_ATTR)|HP|RC()| of fellow party members. As their |SC(EX_ATTR)|LVL|RC()| increases they learn new spells to protect and boost the abilities of the party." />
+	<text key="BasicMonsterName" string="-Basic Monster-" />
+	<text key="BasicMonsterDesc" string="Basic monsters die easy in large numbers." />
+	<text key="Yes" string="Yes" />
+	<text key="No" string="No" />
+	<text key="Okay" string="Okay" />
+	<text key="Continue" string="Continue" />
+	<text key="Cancel" string="Cancel" />
+	<text key="txtGameTitleShort" string="Demo Game" />
+	<text key="txtGameTitle" string="Demo Game: A Demo" />
+	<text key="GameTitleShort" string="Demo Game" />
+	<text key="GameTitle" string="Demo Game: A Demo" />
+	<text key="HintA" string="This is a sample hint with |SC(EX_ATTR)|some color|RC()|." />
+	<text key="HintB" string="This is an alternate hint." />
+	<text key="MAP_Demo_Town_Name" string="Demo Town" />
+	<text key="MAP_Demo_Dungeon_Name" string="Demo Dungeon" />
+	<text key="DemoGossip1_Text" string="I gossip about things, my gossip changes daily." />
+	<text key="DemoGossip1Response_Text" string="Good to know." />
+	<text key="DemoGossip2_Text" string="This is my second gossip item." />
+	<text key="DemoGossip2Response_Text" string="We understand." />
+	<text key="DemoQuestKey_Name" string="Demo Quest Key" />
+	<text key="DemoQuestKey_Desc" string="It&apos;s the key for the demo. It unlocks the locked door in town." />
+	<text key="DemoQuestNameText" string="Demo Quest" />
+	<text key="DemoQuestStage0_Text" string="You need to talk to someone in town to get this quest." />
+	<text key="DemoQuestStage10_Text" string="You must find the |SC(EX_ITEM)|Demo Key|RC()| in the dungeon." />
+	<text key="DemoQuestStage20_Text" string="You found the key, now activate the lever in town to complete the quest." />
+	<text key="DemoQuestStage30_Text" string="You&apos;ve activated the lever, you should report back that you&apos;ve completed the task." />
+	<text key="DemoQuestStage40_Text" string="The quest is complete. Good Job!" />
+	<text key="TownPortalMarkAndGoName" string="TownPortal" />
+	<text key="TownPortalMarkAndGoDesc" string="A portal is opened and the party teleports to town, they can then teleport back to their location from town." />
+	<text key="TownPortalRecallName" string="Lloyd&apos;s Beacon (Recall)" />
+	<text key="TownPortalRecallDesc" string="The party teleports back to the dungeon." />
+	<text key="HasteName" string="Haste" />
+	<text key="HasteDesc" string="The party member takes turns in combat more often." />
+	<text key="HealWeakName" string="Aid" />
+	<text key="HealWeakDesc" string="A small amount of health is restored. An |SC(EX_HURT)|unconscious|RC()| party member is |SC(EX_HEAL)|awakened|RC()|." />
+	<text key="FlameSingleName" string="Ignite" />
+	<text key="FlameSingleDesc" string="The target is ignited with flame." />
+	<text key="SampleEnemySkill_Name" string="Sample Enemy Skill" />
+	<text key="SampleEnemySkill_Desc" string="A sample enemy skill, this could be assigned to a monster&apos;s skill list." />
+	<text key="DemoText" string="This is a placeholder for the &quot;classic&quot; intro." />
+	<text key="DemoEndMovieText" string="Ending Movie" />
+	<text key="IntroToTownText" string="Demo Town" />
+	<text key="OpeningCrawlText" string="This is where the intro movie can be played." />
+	<text key="BeemMediaPresentsText" string="Beem Media Presents" />
+	<text key="CombatOrderText" string="Combat Order" />
+	<text key="MonsterNameDefault" string="Monster Name" />
+	<text key="CharacterCreateMenuHeaderText" string="Create Character" />
+	<text key="CreateNameHeader" string="Name" />
+	<text key="CreateClassHeader" string="Class" />
+	<text key="CreatePortraitHeader" string="Portrait" />
+	<text key="CharacterCreateCreateText" string="Create Character" />
+	<text key="CharacterMenuHeaderText" string="Character" />
+	<text key="CharacterMenuAttributesText" string="Attributes" />
+	<text key="DamageHeaderText" string="Damage" />
+	<text key="DefenseHeaderText" string="Defense" />
+	<text key="ContextHeader" string="Party Member Options" />
+	<text key="DebugMenuTitle" string="Debug Menu" />
+	<text key="MonsterViewerHeaderText" string="Monster Viewer" />
+	<text key="MiscHeaderText" string="Stats" />
+	<text key="DebugWarpMenuTitle" string="Debug Warp" />
+	<text key="NewGameMenuHeaderText" string="New Game" />
+	<text key="GameCreateFileName" string="File Name" />
+	<text key="GameCreateMenuNewGame" string="Create New Game" />
+	<text key="InventoryHeaderText" string="Inventory" />
+	<text key="GoldInventoryHeaderText" string="Gold:" />
+	<text key="PartyGoldAmountText" string="{0:VARS:PartyGold}" />
+	<text key="InventoryMenuItemsHeaderText" string="Backpack ({0:NUM_ITEMS}/{0:BAG_SIZE})" />
+	<text key="TextEditHeaderText" string="Text Edit" />
+	<text key="FullScreenLoadingHeader" string="Loading..." />
+	<text key="NewsOfTheDayBody" string="Sample text that will be the News of the Day. Hopefully indicating that someday the game will be released." />
+	<text key="MapMenuHeaderText" string="Map" />
+	<text key="CreatePartyButtonText" string="Begin Game" />
+	<text key="QuestLogHeaderText" string="Game Status" />
+	<text key="QuestLogDataText" string="{0:DATE:FULL} {0:DATE:TIME}" />
+	<text key="QuestMenuQuestHeader" string="Quests" />
+	<text key="QuestLogMenuDispositionHeader" string="Party Disposition" />
+	<text key="QuestMenuQuestItemsHeader" string="Quest Items" />
+	<text key="QuestLogGoldText" string="Gold: |SC(EX_GOLD)|{0:VARS:PartyGold}|RC()|" />
+	<text key="QuestLogFoodText" string="Food: |SC(WHITE)|{0:VARS:PartyFood}|RC()|" />
+	<text key="QuestLogCombatsCompleted" string="Combat Victories: |SC(WHITE)|{0:VARS:TotalCombats}|RC()|" />
+	<text key="RestingMenuHeaderText" string="Resting ({0:VARS:PartyFood} Food)" />
+	<text key="RestingMenuTimeText" string="{0:DATE:FULL} {0:DATE:TIME}" />
+	<text key="PartyStarvingText" string="The Party is Starving!" />
+	<text key="FoodRequiredText" string="Food is required for the party to regain health while resting. Food may be purchased from the Inn." />
+	<text key="RestMenuAmbushText" string="AMBUSH!" />
+	<text key="RosterMenuHeaderText" string="Roster" />
+	<text key="SettingsMenuHeaderText" string="Settings" />
+	<text key="ControlSettingsMenuActionHeader" string="Action" />
+	<text key="ControlSettingsMenuGamepadHeader" string="Gamepad" />
+	<text key="ControlSettingsMenuKeyboardHeader" string="Keyboard" />
+	<text key="ShopMenuText" string="Shop" />
+	<text key="ShopMenuGoldHeaderText" string="Gold:" />
+	<text key="ShopMenuPartyGoldAmountText" string="{0:VARS:PartyGold}" />
+	<text key="ShopMenuItemsHeaderText" string="Backpack ({0:NUM_ITEMS}/{0:BAG_SIZE})" />
+	<text key="TrainingMenuTitleText" string="Training" />
+	<text key="TrainingMenuAttributeChangesHeader" string="Attributes" />
+	<text key="NewSkillsHeader" string="New Spells Learned" />
+	<text key="SpellsMorePowerfulText" string="Spells have grown more powerful!" />
+	<text key="TrainingMenuGoldText" string="Gold: |SC(EX_GOLD)|{0:VARS:PartyGold}|RC()|" />
+	<text key="TrainingMenuTimeText" string="{0:DATE:TIME}" />
+	<text key="TrainingMenuMonthText" string="{0:DATE:MONTH} {0:DATE:DAY}" />
+	<text key="TreasureMenuHeader" string="Treasure!" />
+	<text key="CpCharName" string="Sample Name" />
+	<text key="HUDBaseMapNameText" string="{0:MAP:NAME}" />
+	<text key="HUDBaseDayText" string="{0:DATE:MONTH:ABBR} {0:DATE:DAY}, {0:DATE:YEAR}" />
+	<text key="HUDBaseTimeText" string="{0:DATE:TIME}" />
+	<text key="HUDBaseGoldText" string="Gold: |SC(EX_GOLD)|{0:VARS:PartyGold}|RC()|" />
+	<text key="HUDBaseFoodText" string="Food: {0:VARS:PartyFood}" />
+	<text key="HudWaitingText" string="Waiting..." />
+	<text key="ProgressSaved_ProgressSavedText" string="Progress Saved" />
+	<text key="LoadingActivityProcessingText" string="Processing..." />
+	<!-- END ASSET-LOC Text TEXT -->
+</eloc>

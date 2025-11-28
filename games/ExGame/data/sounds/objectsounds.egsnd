@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="EGSndAsset">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Sounds" ed_expanded="true" reserve_size="1" >
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="PortalBuzz" />
+				<property name="Type" value="Ambience" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="12" />
+				<property name="AudibleFallofPercent" value="0.4" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="portalbuzz" />
+				<property name="bLooping" value="true" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="false" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

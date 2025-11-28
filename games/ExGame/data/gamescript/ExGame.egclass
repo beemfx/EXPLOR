@@ -1,0 +1,105 @@
+// (c) 2017 Beem Media
+
+/******************************************************************************
+	EGSM Native Events - These are implemented in the ExGame C++ class so they
+	should only be changed here if the corresponding source code is changed.
+******************************************************************************/
+
+/*
+	NpcDialog
+	If the game state was not previously in conversation mode the conversation
+	menu is opened and the chosen dialog is displayed. Otherwise the
+	conversation continues. The return value is the available choices.
+*/
+loc_text NpcDialog( loc_text DisplayText );
+void NpcGossip( string_crc NpcId );
+void NpcClearDialog( bool bLeaveOverlayOpen );
+void NpcSetSpeakerNameplate( loc_text SpeakerName );
+
+void ShowTranslator( loc_text DisplayText );
+loc_text ShowDialogBox( loc_text DisplayText ); // Show a popup dialog box.
+terminal TransitionToMap( string_crc MapID , string_crc EntranceID ); // Transitions to map.
+terminal DoAutoTransition(); // Transition based on auto transition data.
+terminal QuitFromInn(); // Quit the game and return to the main menu.
+terminal TransitionToEndGame();
+terminal DoTownPortal();
+void ShowGameMenu( string_crc MenuId );
+void SaveFromInn();
+void SpawnCombatOnPlayer( string_crc EncounterId );
+void SetupCostToHeal();
+void HealParty();
+void UnlockSkill( string_crc SkillId );
+void IgnoreScriptEncounter(); // When this script is being processed HandleHighestPriorityEncounter will keep executing encounters afterwards.
+void ResumeEncounters(); // Handle with care this will cause an infinite loop if it calls itself.
+void SetEndingMovieUnlocked( bool bUnlocked );
+void SetCastleGameUnlocked( bool bUnlocked );
+bool IsInventoryFull();
+void GiveItem( string_crc ItemId , int ItemLevel );
+void UnlockAchievement( string_crc Id );
+void PlaySound( string_crc Id );
+
+/******************************************************************************
+	Game State - These are game state that is in script. However some of these
+	are read from game code and those should not be removed unless the
+	corresponding C++ code is updated.
+	
+	Native References:
+	PartyGold
+	PartyFood
+	TotalCombats
+	CombatsSinceLastSave
+	FinalPuzzleLever1Solution
+	Fina2PuzzleLever1Solution
+	Fina3PuzzleLever1Solution
+	Fina4PuzzleLever1Solution
+	LloydsBeaconOpenControl
+	NextCostToHeal
+	LastGoldAmountFound
+******************************************************************************/
+
+int  PartyGold                    = 0;
+int  BankedGold                   = 0;
+int  PartyFood                    = 20;
+int  BuyFoodAmount                = 20;
+int  BuyFoodCost                  = 10;
+
+int TotalCombats                  = 0; // Total number of combats successfully completed.
+int CombatsSinceLastSave          = 0;
+
+// Randomly assigned at the start of the game. Not used in this demo. (Probably should have been script and not C++ to assign random values to these.
+int FinalPuzzleLever1Solution = 0;
+int FinalPuzzleLever2Solution = 0;
+int FinalPuzzleLever3Solution = 0;
+int FinalPuzzleLever4Solution = 0;
+
+int  LloydsBeaconOpenControl      = 0;
+
+int DebugCombatXp                 = 0;
+int DebugCombatGold               = 0;
+
+// Buying Food Parameters (set up before InnLib.BuyFood is called):
+int NextCostForFood               = 0;
+int NextBuyFoodAmount             = 0;
+
+// Info about healing
+int NextCostToHeal                = 0;
+
+int LastGoldAmountFound           = 0; // Set when rewarding gold so the UI can display it.
+
+bool bDebugFeaturesEnabled        = false; // Some scripts test this to show additional options.
+bool bEnableCastleGame            = false; // Hidden Castle Game.
+
+// Game Helpers
+string_crc NextShopInventory      = "";
+bool bInInnLoop                   = false; // Use while visiting Inn...
+
+// Various Quest States:
+
+//
+// Main Quest
+//
+
+int DemoQuestProgress             = 0;
+bool bHasDemoPersonIntroduced     = false;
+bool bHasQuestKey                 = false;
+int DemoQuestLeverState           = 0;

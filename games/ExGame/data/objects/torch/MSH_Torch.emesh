@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<emesh version="123" format="base64" >
+
+	<material id="1" tex0="T_Torch_d" tex1="T_Torch_n" tex2="T_Torch_s" shader="/game/shaders/ex_mesh_basic" diffuse="1 1 1 1" specular="0 0 0 1" emissive="0 0 0 1" ambient="1 1 1 1" power="0" />
+
+
+	<mesh id="1" name="Torch" first_triangle="1" triangles="708" material="1"/>
+
+	<bounds min="wqpRwQ8dor/CqlHB" max="wqpRQS9uRUL//29B"/>
+
+	<vertex id="1" pos="4Y0oQAAAAAAAAACA" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="t9EuP7cuHD8=" tex1="t9EuP7cuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="2" pos="5PgRQAAAAADhjai/" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="bz8eP7cuHD8=" tex1="bz8eP7cuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="3" pos="AAAAAAAAAAAAAACA" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="kohgP7cuHD8=" tex1="kohgP7cuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="4" pos="2TOwQC9uRUIAAACA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="t9EuPyFZHj0=" tex1="t9EuPyFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="5" pos="AAAAAC9uRUIAAACA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="kohgPyFZHj0=" tex1="kohgPyFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="6" pos="ipiYQC9uRULZMzDA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="bz8ePyFZHj0=" tex1="bz8ePyFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="7" pos="4Y0oQAAAAAAAAACA" norm="n0d/P6+Dmb2LfQSy" tan="dEzFOkoKpDzJ8n8//v9/Pw==" tex0="t9EuP7cuHD8=" tex1="t9EuP7cuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="8" pos="dBdQQG5+A0EAAACA" norm="4dF/Pw2jGb0AAACA" tan="jKfFORaLJDyx/H8///9/Pw==" tex0="t9EuPy/TAz8=" tex1="t9EuPy/TAz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="9" pos="bzY0QG5+A0F0F9C/" norm="54tdPw+jGb3j0f++" tan="59H/PiGLJLxTvV0/AACAPw==" tex0="bz8ePy/TAz8=" tex1="bz8ePy/TAz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="10" pos="NyeAQELLFELy70BB" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAIAAAIC/AACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="11" pos="NyeAQELLFEL//29B" norm="AAAAAAAAAAAAAIA/" tan="AACAvwAAAIAAAAAAAACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="12" pos="5PgRQAAAAADhjai/" norm="KhRdP6+Dmb2gR/++" tan="60f/Pk0KpLy52V0///9/Pw==" tex0="bz8eP7cuHD8=" tex1="bz8eP7cuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="13" pos="fKahQDutEkL//29B" norm="AACAPwAAAAAAAACA" tan="AAAAgAAAAIAAAIA/AACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="14" pos="dBdQQNmRg0EAAACA" norm="O/B/P2e5s7wAAACA" tan="wzIHOf+TwDvf/n8/AQCAPw==" tex0="t9EuP+rg1j4=" tex1="t9EuP+rg1j4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="15" pos="NyeAQDutEkL//29B" norm="AAAAAAAAAAAAAIA/" tan="AACAvwAAAIAAAACAAACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="16" pos="fKahQDutEkJLuDtB" norm="AACAPwAAAAAAAACA" tan="AAAAgAAAAIAAAIA/AACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="17" pos="bzY0QNmRg0F0F9C/" norm="LqZdP2i5s7w48P++" tan="OfD/PgOUwLsXt10///9/Pw==" tex0="bz8eP+rg1j4=" tex1="bz8eP+rg1j4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="18" pos="fKahQDutEkL//29B" norm="AAAAAAAAAAAAAIA/" tan="AACAvwAAAIAAAACAAACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="19" pos="fKahQELLFEJLuDtB" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAAAAAIA/AACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="20" pos="gjZnQHpkxUEAAACA" norm="mKV+P9lK0r0AAACA" tan="9hM5O0cd4Dw2538/AACAPw==" tex0="t9EuP3kbpj4=" tex1="t9EuP3kbpj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="21" pos="fTxIQHpkxUGCNue/" norm="2YdcP9ZK0r2Ypf6+" tan="o6b+PlYd4Lzp+l0/AACAPw==" tex0="bz8eP3kbpj4=" tex1="bz8eP3kbpj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="22" pos="fKahQELLFEJLuDtB" norm="60aYvgAAAABeanS/" tan="XGp0PwAAAADqRpi+AACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="23" pos="QOvcPlCckj/8CJ5A" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="24" pos="QOvcPje0Pz8T3JdA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="25" pos="Y+cKvze0Pz///29B" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="26" pos="EJWeQI6bA0IAAACA" norm="eSl/P7WSpb1x5AQy" tan="YYDlOpTWsDyg8H8///9/Pw==" tex0="t9EuPw2saj4=" tex1="t9EuPw2saj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="7FF4Pw==" bone1="0" weight1="j8L1PA=="/>
+	<vertex id="27" pos="Y+cKv1Cckj/8CJ5A" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="28" pos="Y+cKv1Cckj///29B" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="29" pos="FVaJQI6bA0IQlR7A" norm="DfpcP7CSpb19Kf++" tan="5Cn/Po/WsLzm310/AACAPw==" tex0="bz8ePw2saj4=" tex1="bz8ePw2saj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="30" pos="QOvcPlCckj///29B" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="31" pos="Y+cKv1Cckj///29B" norm="AAAAAAAAAAAAAIA/" tan="AACAvwAAAIAAAAAAAACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="32" pos="EJWeQOCEJEIAAACA" norm="a9t/P9vWCL0AAACA" tan="XcecOYmTEjxg/X8/AACAPw==" tex0="t9EuPyYhCT4=" tex1="t9EuPyYhCT4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="33" pos="FVaJQOCEJEIQlR7A" norm="KJRdP97WCL1u2/++" tan="cdv/Pn6TErxdu10/AACAPw==" tex0="bz8ePyYhCT4=" tex1="bz8ePyYhCT4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="34" pos="Y+cKvze0Pz///29B" norm="AAAAAAAAAAAAAIA/" tan="AACAvwAAAIAAAACAAACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="35" pos="QOvcPlCckj/8CJ5A" norm="AAAAAC0L4D53MGa/" tan="AACAPwAAAIAAAAAAAQCAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="36" pos="QOvcPje0Pz///29B" norm="AACAPwAAAAAAAACA" tan="AAAAgAAAAIAAAIA/AACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="37" pos="krF/wDutEkL//29B" norm="AAAAAAAAgL8AAACA" tan="hfByPwAAAADEcqE+AACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="38" pos="2TOwQC9uRUIAAACA" norm="vG1/P7PAiL3dfgSy" tan="PJGcOoM4kjyD9X8/AACAPw==" tex0="t9EuPyFZHj0=" tex1="t9EuPyFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="39" pos="Y+cKvze0Pz8T3JdA" norm="AAAAAC0L4D53MGa/" tan="AACAPwAAAIAAAAAAAQCAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="40" pos="BLM8wELLFEL//29B" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="41" pos="ipiYQC9uRULZMzDA" norm="KjVdP7TAiL27bf++" tan="7G3/Png4krzm0V0//v9/Pw==" tex0="bz8ePyFZHj0=" tex1="bz8ePyFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="42" pos="Y+cKv1Cckj/8CJ5A" norm="AAAAAC0L4D53MGa/" tan="AACAPwAAAAAAAAAAAQCAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="43" pos="fKahQDutEkL//29B" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="44" pos="4Y2oPwAAAADk+BHA" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="JK0NP7cuHD8=" tex1="JK0NP7cuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="45" pos="NyeAQDutEkL//29B" norm="AAAAAAAAgL8AAACA" tan="XGp0PwAAAADrRpi+AACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="46" pos="NyeAQELLFEL//29B" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="47" pos="fKahQELLFEJLuDtB" norm="AAAAAAAAgD8AAACA" tan="Xmp0PwAAAIDqRpi+AQCAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="48" pos="2TMwQC9uRUKKmJjA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="JK0NPyFZHj0=" tex1="JK0NPyFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="49" pos="fKahQELLFEL//29B" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAIAAAIA/AACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="50" pos="NyeAQELLFELy70BB" norm="60aYvgAAAABeanS/" tan="XGp0PwAAAADqRpi+AACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="51" pos="4Y2oPwAAAADk+BHA" norm="n0f/Pq+Dmb0qFF2/" tan="EnddP04KpLzUTgA///9/Pw==" tex0="JK0NP7cuHD8=" tex1="JK0NP7cuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="52" pos="Y+cKv1Cckj/8CJ5A" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAIAAAIC/AACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="53" pos="dBfQP25+A0FvNjTA" norm="4NH/Pg+jGb3mi12/" tan="oKRdPx2LJLy+EwA/AACAPw==" tex0="JK0NPy/TAz8=" tex1="JK0NPy/TAz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="54" pos="krF/wDutEkL//29B" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAIAAAIC/AACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="55" pos="fKahQELLFEL//29B" norm="AAAAAAAAAAAAAIA/" tan="AACAvwAAAAAAAAAAAACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="56" pos="QOvcPje0Pz///29B" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="57" pos="dBfQP9mRg0FvNjTA" norm="OPD/Pma5s7wvpl2/" tan="o65dPwWUwLvABgA/AACAPw==" tex0="JK0NP+rg1j4=" tex1="JK0NP+rg1j4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="58" pos="krF/wELLFELQ5D9B" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAIAAAIC/AACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="59" pos="BLM8wELLFEL//29B" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAIAAAIA/AACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="60" pos="BLM8wDutEkL//29B" norm="AAAAAAAAAAAAAIA/" tan="AACAvwAAAIAAAACAAACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="61" pos="Y+cKvze0Pz///29B" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAIAAAIC/AACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="62" pos="QOvcPlCckj///29B" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAIAAAIA/AACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="63" pos="BLM8wDutEkL//29B" norm="AACAPwAAAAAAAACA" tan="AAAAgAAAAIAAAIA/AACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="64" pos="Y+cKv1Cckj///29B" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="65" pos="gjbnP3pkxUF9PEjA" norm="lKX+PtJK0r3Zh1y/" tan="1kFdP1Ed4LzhkwA///9/Pw==" tex0="JK0NP3kbpj4=" tex1="JK0NP3kbpj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="66" pos="BLM8wDutEkKDdUVB" norm="AACAPwAAAAAAAACA" tan="AAAAgAAAAIAAAIA/AACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="67" pos="krF/wDutEkL//29B" norm="AAAAAAAAAAAAAIA/" tan="AACAvwAAAIAAAACAAACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="68" pos="QOvcPje0Pz8T3JdA" norm="AACAPwAAAAAAAACA" tan="AAAAgAAAAIAAAIA/AACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="69" pos="EJUeQI6bA0IVVonA" norm="fSn/PrOSpb0O+ly/" tan="J21dP5TWsLyyWwA/AQCAPw==" tex0="JK0NPw2saj4=" tex1="JK0NPw2saj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="70" pos="Y+cKvze0Pz8T3JdA" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAIAAAIC/AACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="71" pos="7OOQQBD9Tj8B/9Uu" norm="KTsZv4ATTT9QigKx" tan="fxNNPyg7GT9r6nOvAACAPw==" tex0="dNeKPlYkPj8=" tex1="dNeKPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="72" pos="+sqHQN7llD98Px1A" norm="qI0YvwHCOT9HJ7C+" tan="jlBHP7WDID9oGta8AACAPw==" tex0="hP+IPpz0Nz8=" tex1="hP+IPpz0Nz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="73" pos="krF/wELLFELQ5D9B" norm="vXKhPgAAAACH8HK/" tan="hvByPwAAAAC9cqE+AQCAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="74" pos="BLM8wDutEkKDdUVB" norm="AAAAAAAAgL8AAACA" tan="hfByPwAAAAC+cqE+//9/Pw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="75" pos="oIAQQBD9Tj8UoXtA" norm="KTuZvoATTT+3swS/" tan="mWNzP+a8lz6nMLq9AACAPw==" tex0="jD54Pgw+ND8=" tex1="jD54Pgw+ND8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="76" pos="BLM8wDutEkL//29B" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="77" pos="EJUeQOCEJEIVVonA" norm="btv/Pt/WCL0nlF2/" tan="wqddP32TEryrDwA///9/Pw==" tex0="JK0NPyYhCT4=" tex1="JK0NPyYhCT4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="78" pos="AJhGvN7llD98P51A" norm="TyiCsQLCOT9GJzC/" tan="wCx8P+Oz8r2F7/+9//9/Pw==" tex0="NM5aPuLEMT8=" tex1="NM5aPuLEMT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="79" pos="krF/wDutEkLQ5D9B" norm="AAAAAAAAgL8AAACA" tan="hfByPwAAAAC+cqE+//9/Pw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="80" pos="krF/wELLFEL//29B" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="81" pos="2TMwQC9uRUKKmJjA" norm="v23/PrTAiL0rNV2/" tan="nYNdP3Y4kryPPgA/AQCAPw==" tex0="JK0NPyFZHj0=" tex1="JK0NPyFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="82" pos="FAYewN7llD9GLohA" norm="RiewPgLCOT+ojRi/" tan="CMhfP4Fc9b6ddqG9AACAPw==" tex0="6vA6Pj1tMz8=" tex1="6vA6Pj1tMz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="83" pos="kpGIwN7llD98Px3A" norm="p40YPwHCOT9FJ7A+" tan="jlBHP7SDIL+AGta8//9/Pw==" tex0="XZ0jPhFURD8=" tex1="XZ0jPhFURD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="84" pos="hKqRwBD9Tj8B/9Uu" norm="KTsZP4ATTT9QigKx" tan="gBNNPyk7Gb+qNYA1AACAPw==" tex0="gO0fPlYkPj8=" tex1="gO0fPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="85" pos="BLM8wDutEkKDdUVB" norm="vXKhPgAAAACH8HK/" tan="hvByPwAAAAC9cqE+AQCAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="86" pos="AAAAAAAAAADhjSjA" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="uTX6PrcuHD8=" tex1="uTX6PrcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="87" pos="AAAAAAAAAAAAAACA" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="IGnNPbcuHD8=" tex1="IGnNPbcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="88" pos="BLM8wELLFEL//29B" norm="AAAAAAAAAAAAAIA/" tan="AACAvwAAAAAAAAAAAACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="89" pos="AAAAAC9uRUIAAACA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="IGnNPSFZHj0=" tex1="IGnNPSFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="90" pos="AAAAAC9uRULZM7DA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="uTX6PiFZHj0=" tex1="uTX6PiFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="91" pos="krF/wELLFEL//29B" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="92" pos="krF/wELLFEL//29B" norm="AAAAAAAAAAAAAIA/" tan="AACAvwAAAIAAAAAAAACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="93" pos="AAAAAG5+A0F0F1DA" norm="npgEMg6jGb3h0X+/" tan="sfx/PxeLJLyGp8U5//9/Pw==" tex0="uTX6Pi/TAz8=" tex1="uTX6Pi/TAz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="94" pos="oIAQQBD9Tj8UoXvA" norm="KTuZvoATTT+3swQ/" tan="NrFuP0zLuD4NX5+8AACAPw==" tex0="jD54PqEKSD8=" tex1="jD54PqEKSD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="95" pos="e9p6QBD9Tj83RxHA" norm="trMEv4ATTT8nO5k+" tan="dINXP74eCj9u02Q8AACAPw==" tex0="xeWGPoPbQz8=" tex1="xeWGPoPbQz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="96" pos="AAAAAAAAAADhjSjA" norm="AAAAAK2Dmb2fR3+/" tan="yfJ/P0sKpLzETMU6/v9/Pw==" tex0="uTX6PrcuHD8=" tex1="uTX6PrcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="97" pos="BLM8wELLFEKDdUVB" norm="vXKhPgAAAACH8HK/" tan="hvByPwAAAAC9cqE+AQCAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="98" pos="krF/wDutEkLQ5D9B" norm="vXKhPgAAAACH8HK/" tan="hvByPwAAAAC9cqE+AQCAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="99" pos="+sqHQN7llD98Px3A" norm="qI0YvwHCOT9GJ7A+" tan="CWdEP1cYJD+u9by8AACAPw==" tex0="hP+IPhFURD8=" tex1="hP+IPhFURD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="100" pos="e9p6QBD9Tj83RxFA" norm="trMEv4ATTT8oO5m+" tan="l85YP3eHBz+CA0y9AQCAPw==" tex0="xeWGPiptOD8=" tex1="xeWGPiptOD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="101" pos="AAAAANmRg0F0F1DA" norm="AAAAAGO5s7w68H+/" tan="3f5/P/qTwLvwPAc5/v9/Pw==" tex0="uTX6Purg1j4=" tex1="uTX6Purg1j4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="102" pos="MNycQN7llD8B/9Uu" norm="TScwv/zBOT8AAACA" tan="/ME5P00nMD8AAAAAAACAPw==" tex0="Y0SNPlYkPj8=" tex1="Y0SNPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="103" pos="BLM8wELLFEKDdUVB" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAAAAAIA/AACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="104" pos="AJhGvMR/Qz7aYV5A" norm="ROsBMcnhbD+8JMK+" tan="WOl/P1lVI7wGSse8/v9/Pw==" tex0="NM5aPptkNT8=" tex1="NM5aPptkNT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="105" pos="AAAAAHpkxUGCNmfA" norm="Gq+EsdZK0r2YpX6/" tan="Ned/P0Qd4LzxEzk7//9/Pw==" tex0="uTX6Pnkbpj4=" tex1="uTX6Pnkbpj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="106" pos="qtTcP8R/Qz6ylkBA" norm="uiRCvsrhbD8YIqi+" tan="2Ul7P9XmPj7Cnim9AACAPw==" tex0="RFZxPqyQNj8=" tex1="RFZxPqyQNj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="107" pos="Sl1BwMR/Qz7aYd4/" norm="GiKoPsnhbD+/JEK+" tan="rn5xP66wqb6aF4Y8AACAPw==" tex0="m8czPnnEOT8=" tex1="m8czPnnEOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="108" pos="q2d8wBD9Tj83RxHA" norm="trMEP4ETTT8pO5k+" tan="lc5YP3eHB7+NA0y9AACAPw==" tex0="29AnPoPbQz8=" tex1="29AnPoPbQz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="109" pos="zw0SwBD9Tj8UoXvA" norm="KDuZPoATTT+3swQ/" tan="m2NzP8a8l75uMbq9/v9/Pw==" tex0="2l09PqEKSD8=" tex1="2l09PqEKSD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="110" pos="FAYewN7llD9GLojA" norm="RiewPgLCOT+ojRg/" tan="OlhtP2/Sub5TLb+9AQCAPw==" tex0="6vA6PnDbSD8=" tex1="6vA6PnDbSD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="111" pos="q2d8wBD9Tj83RxFA" norm="trMEP4ETTT8oO5m+" tan="d4NXP7geCr8X2GQ8AACAPw==" tex0="29AnPiptOD8=" tex1="29AnPiptOD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="112" pos="yKKdwN7llD8B/9Uu" norm="TScwP/zBOT8AAACA" tan="+8E5P00nML8AAAAAAACAPw==" tex0="oRMbPlYkPj8=" tex1="oRMbPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="113" pos="AAAAAI6bA0IQlZ7A" norm="ceQEsriSpb15KX+/" tan="ofB/P6nWsLwZgOU6AACAPw==" tex0="uTX6Pg2saj4=" tex1="uTX6Pg2saj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="114" pos="zw0SwBD9Tj8UoXtA" norm="KjuZPoATTT+4swS/" tan="NbFuP03LuL7zXp+8AACAPw==" tex0="2l09Pgw+ND8=" tex1="2l09Pgw+ND8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="115" pos="5HgcQN7llD9GLohA" norm="Ryewvv/BOT+pjRi/" tan="QVhtPznSuT6HLr+9AACAPw==" tex0="fKt6Pj1tMz8=" tex1="fKt6Pj1tMz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="116" pos="kpGIwN7llD98Px1A" norm="p40YPwHCOT9FJ7C+" tan="CmdEP1YYJL+m9by8//9/Pw==" tex0="XZ0jPpz0Nz8=" tex1="XZ0jPpz0Nz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="117" pos="AAAAAOCEJEIQlZ7A" norm="V5SEMd7WCL1r23+/" tan="YP1/P42TErxZx5w5AACAPw==" tex0="uTX6PiYhCT4=" tex1="uTX6PiYhCT4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="118" pos="AJhGvBD9Tj83R5FA" norm="UIqCMYATTT8pOxm/" tan="ceZ+PysEY73D6Ze9AACAPw==" tex0="NM5aPv21Mj8=" tex1="NM5aPv21Mj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="119" pos="G9A/QMR/Qz7aYd4/" norm="GSKovsrhbD+8JEK+" tan="Y6FxP3l6qD5aOuy8//9/Pw==" tex0="ZuqAPnnEOT8=" tex1="ZuqAPnnEOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="120" pos="Sl1BwMR/Qz7aYd6/" norm="GiKoPsrhbD+/JEI+" tan="YqFxP3t6qL6zOey8AACAPw==" tex0="m8czPjSEQj8=" tex1="m8czPjSEQj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="121" pos="G9A/QMR/Qz7aYd4/" norm="GSKovsrhbD+8JEK+" tan="Y6FxP316qD4zOey8/v9/Pw==" tex0="ZuqAPnnEOT8=" tex1="ZuqAPnnEOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="122" pos="qtTcP8R/Qz6ylkDA" norm="uiRCvsvhbD8YIqg+" tan="dd56P7bvSz6GoZY7AQCAPw==" tex0="RFZxPgC4RT8=" tex1="RFZxPgC4RT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="123" pos="QptdQMR/Qz4B/9Uu" norm="uyTCvsvhbD8AAACA" tan="yuFsP7okwj4AAACAAACAPw==" tex0="LO+DPlYkPj8=" tex1="LO+DPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="124" pos="hKqRwBD9Tj8B/9Uu" norm="KTsZP4ATTT9QigKx" tan="gBNNPyk7Gb+EQoO1AACAPw==" tex0="gO0fPlYkPj8=" tex1="gO0fPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="125" pos="AAAAAC9uRULZM7DA" norm="AAAAALDAiL28bX+/" tan="gvV/P3s4krwhkZw6//9/Pw==" tex0="uTX6PiFZHj0=" tex1="uTX6PiFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="126" pos="PifvPxcYY74B/9Uu" norm="8ehFvlcsez8Xh6sw" tan="Vyx7P/LoRT6QGSIvAACAPw==" tex0="hDFzPlYkPj8=" tex1="hDFzPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="127" pos="AJhGvN7llD98P53A" norm="TyiCMQLCOT9HJzA/" tan="tyx8P+e08j2Y8P+9AACAPw==" tex0="NM5aPsyDSj8=" tex1="NM5aPsyDSj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="128" pos="4Y2ovwAAAADk+BHA" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="IBHZPrcuHD8=" tex1="IBHZPrcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="129" pos="AJhGvBD9Tj83R5HA" norm="UIqCMYATTT8pOxk/" tan="dOZ+PxMDYz0J6Ze9AACAPw==" tex0="NM5aPrCSST8=" tex1="NM5aPrCSST8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="130" pos="5HgcQN7llD9GLojA" norm="Ryewvv/BOT+pjRg/" tan="B8hfP4dc9T6kdqG9AACAPw==" tex0="fKt6PnDbSD8=" tex1="fKt6PnDbSD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="131" pos="cihfwMR/Qz4B/9Uu" norm="uyTCPsvhbD8AAACA" tan="yuFsP7okwr4AAAAAAACAPw==" tex0="Dr4tPlYkPj8=" tex1="Dr4tPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="132" pos="2TMwwC9uRUKKmJjA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="IBHZPiFZHj0=" tex1="IBHZPiFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="133" pos="G9A/QMR/Qz7aYd6/" norm="GCKovsrhbD+8JEI+" tan="rn5xP6qwqT6PF4Y8AACAPw==" tex0="ZuqAPjSEQj8=" tex1="ZuqAPjSEQj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="134" pos="zs5zvxcYY77adNA/" norm="8ujFPVgsez8hZSu+" tan="Wsp+P8FYxr3vWuI7AQCAPw==" tex0="ipxOPpoKOj8=" tex1="ipxOPpoKOj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="135" pos="4Y2ovwAAAADk+BHA" norm="oEf/vq+Dmb0qFF2/" tan="uNldP04KpLzsR/++/v9/Pw==" tex0="IBHZPrcuHD8=" tex1="IBHZPrcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="136" pos="AJhGvMR/Qz7aYV7A" norm="ResBscvhbD+9JMI+" tan="WOl/P/BWIzwVTMe8AQCAPw==" tex0="NM5aPhHkRj8=" tex1="NM5aPhHkRj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="137" pos="dBfQv25+A0FvNjTA" norm="4dH/vg+jGb3mi12/" tan="VL1dPyCLJLzn0f++//9/Pw==" tex0="IBHZPi/TAz8=" tex1="IBHZPi/TAz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="138" pos="DpptPxcYY77adNC/" norm="8ujFvVgsez8hZSs+" tan="Wsp+P4pYxj1MbuI7AQCAPw==" tex0="3P9mPhM+Qj8=" tex1="3P9mPhM+Qj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="139" pos="rOfOPxcYY75vtHA/" norm="L60RvriFfD94Nqi9" tan="HGR9P822ET5VKLK7AACAPw==" tex0="Eu1vPkXGOz8=" tex1="Eu1vPkXGOz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="140" pos="DpptPxcYY77adNA/" norm="8ujFvVgsez8hZSu+" tan="Wsp+P8FYxj3sWuK7AQCAPw==" tex0="3P9mPpoKOj8=" tex1="3P9mPpoKOj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="141" pos="dBfQv9mRg0FvNjTA" norm="OfD/vme5s7wvpl2/" tan="F7ddPwSUwLs68P++AQCAPw==" tex0="IBHZPurg1j4=" tex1="IBHZPurg1j4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="142" pos="rOfOPxcYY75vtHC/" norm="L60RvriFfD94Nqg9" tan="HGR9P862ET5UKLI7AACAPw==" tex0="Eu1vPmiCQD8=" tex1="Eu1vPmiCQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="143" pos="DO/fv8R/Qz6ylkBA" norm="viRCPsrhbD8YIqi+" tan="dd56P7/vS74ToJY7AACAPw==" tex0="IEZEPqyQNj8=" tex1="IEZEPqyQNj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="144" pos="DQLSvxcYY75vtHA/" norm="MK0RPriFfD97Nqi9" tan="HGR9P8+2Eb5cKLI7AACAPw==" tex0="VK9FPkXGOz8=" tex1="VK9FPkXGOz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="145" pos="AJhGvJy+u74B/9Uu" norm="HWgAsQAAgD98Nasv" tan="AACAP2iAzzBz8ZY2AACAPw==" tex0="NM5aPlYkPj8=" tex1="NM5aPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="146" pos="kpGIwN7llD98Px3A" norm="p40YPwHCOT9FJ7A+" tan="DmdEP1IYJL9b87w8/v9/Pw==" tex0="XZ0jPhFURD8=" tex1="XZ0jPhFURD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="147" pos="AJhGvBcYY75vtPA/" norm="AAAAALiFfD94Nii+" tan="n/9/PxhMErqOn1u7//9/Pw==" tex0="NM5aPjRoOT8=" tex1="NM5aPjRoOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="148" pos="DQLSvxcYY75vtHC/" norm="MK0RPriFfD97Nqg9" tan="uWR9PxuSEb5Lyem7AACAPw==" tex0="VK9FPmiCQD8=" tex1="VK9FPmiCQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="149" pos="gjbnv3pkxUF9PEjA" norm="lqX+vtRK0r3ah1y/" tan="6fpdP1Id4Lykpv6+AACAPw==" tex0="IBHZPnkbpj4=" tex1="IBHZPnkbpj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="150" pos="zs5zvxcYY77adNC/" norm="8ujFPVgsez8hZSs+" tan="4sx+P4BKxL1y8VG8AACAPw==" tex0="ipxOPhM+Qj8=" tex1="ipxOPhM+Qj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="151" pos="DO/fv8R/Qz6ylkDA" norm="vyRCPsrhbD8YIqg+" tan="2El7P+/mPr67nSm9AACAPw==" tex0="IEZEPgC4RT8=" tex1="IEZEPgC4RT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="152" pos="AJhGvMR/Qz7aYV7A" norm="ResBscvhbD+9JMI+" tan="Vel/P+xhI7yEWcc8AQCAPw==" tex0="NM5aPhHkRj8=" tex1="NM5aPhHkRj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="153" pos="EJUewI6bA0IVVonA" norm="fSn/vrOSpb0N+ly/" tan="599dP5PWsLzkKf++AACAPw==" tex0="IBHZPg2saj4=" tex1="IBHZPg2saj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="154" pos="+sqHQN7llD98Px1A" norm="gJtJPzX/1L7Uy+g+" tan="z9D1Pm1wYD/uBfG8/v9/vw==" tex0="hP+IPpz0Nz8=" tex1="hP+IPpz0Nz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="155" pos="oIAQQPLzsD4UoXtA" norm="vVPJPucfHr+7Wi4/" tan="TFtoPxwWwj6fkDi+AACAvw==" tex0="jD54Pgw+ND8=" tex1="jD54Pgw+ND8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="156" pos="FAYewN7llD9GLohA" norm="1Mvovjf/1L6Cm0k/" tan="qZ8VP+p6Tr9Wf7W9//9/vw==" tex0="6vA6Pj1tMz8=" tex1="6vA6Pj1tMz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="157" pos="hKqRwPLzsD4B/9Uu" norm="v1NJv+YfHr8AAACA" tan="5R8eP79TSb/0wmw1AACAvw==" tex0="gO0fPlYkPj8=" tex1="gO0fPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="158" pos="AJhGvBcYY75vtPC/" norm="AAAAALiFfD94Nig+" tan="n/9/P65CEjpjkVu7//9/Pw==" tex0="NM5aPnngQj8=" tex1="NM5aPnngQj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="159" pos="AJhGvN7llD98P51A" norm="EZ5Fsjf/1L7Uy2g/" tan="LPNhPzbf2r7DQUi+AACAvw==" tex0="NM5aPuLEMT8=" tex1="NM5aPuLEMT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="160" pos="DpptPxcYY77adNA/" norm="8ujFvVgsez8hZSu+" tan="4sx+P5JKxD3j7VG8AACAPw==" tex0="3P9mPpoKOj8=" tex1="3P9mPpoKOj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="161" pos="EJUewOCEJEIVVonA" norm="btv/vt/WCL0olF2/" tan="XLtdP36TErxx2/++AACAPw==" tex0="IBHZPiYhCT4=" tex1="IBHZPiYhCT4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="162" pos="AJhGvPLzsD43R5FA" norm="lqlJsuYfHr/AU0k/" tan="eHp8P6wdBb77GdG9AQCAvw==" tex0="NM5aPv21Mj8=" tex1="NM5aPv21Mj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="163" pos="n0HyvxcYY74B/9Uu" norm="8uhFPlgsez8AAACA" tan="Vyx7P/PoRb4AAAAAAACAPw==" tex0="4mpCPlYkPj8=" tex1="4mpCPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="164" pos="AJhGvJy+u74B/9Uu" norm="HWgAsQAAgD98Nasv" tan="AACAPwAAAADzGdOtAACAPw==" tex0="NM5aPlYkPj8=" tex1="NM5aPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="165" pos="2TMwwC9uRUKKmJjA" norm="vW3/vrPAiL0qNV2/" tan="59FdP3c4krztbf++//9/Pw==" tex0="IBHZPiFZHj0=" tex1="IBHZPiFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="166" pos="kpGIwN7llD98Px3A" norm="gZtJvzn/1L7Vy+i+" tan="0dD1PmxwYL8JBvG8AACAvw==" tex0="XZ0jPhFURD8=" tex1="XZ0jPhFURD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="167" pos="AJhGvN7llD98P53A" norm="Ep5Fsjf/1L7Wy2i/" tan="C/NhP6Hf2j4oQki+AQCAvw==" tex0="NM5aPsyDSj8=" tex1="NM5aPsyDSj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="168" pos="zw0SwPLzsD4UoXvA" norm="vVPJvucfHr+7Wi6/" tan="UVtoP/IVwr77kDi+AQCAvw==" tex0="2l09PqEKSD8=" tex1="2l09PqEKSD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="169" pos="oIAQQPLzsD4UoXvA" norm="vVPJPucfHr+5Wi6/" tan="MGdaP7V0BT88+6E8AACAvw==" tex0="jD54PqEKSD8=" tex1="jD54PqEKSD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="170" pos="5PgRwAAAAADhjai/" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="kuy3PrcuHD8=" tex1="kuy3PrcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="171" pos="kpGIwN7llD98Px1A" norm="gJtJvzb/1L7Uy+g+" tan="wLvpPvGwY79rBr28/v9/vw==" tex0="XZ0jPpz0Nz8=" tex1="XZ0jPpz0Nz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="172" pos="5HgcQN7llD9GLohA" norm="1svoPjP/1L6Cm0k/" tan="oBlLP3JNFz/nVhW+AACAvw==" tex0="fKt6Pj1tMz8=" tex1="fKt6Pj1tMz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="173" pos="AJhGvMR/Qz7aYV5A" norm="ROsBMcnhbD+8JMK+" tan="kY5/P4OutryY5V69/v9/Pw==" tex0="NM5aPptkNT8=" tex1="NM5aPptkNT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="174" pos="ipiYwC9uRULZMzDA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="kuy3PiFZHj0=" tex1="kuy3PiFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="175" pos="zw0SwPLzsD4UoXtA" norm="vVPJvuYfHr+6Wi4/" tan="L2daP7V0Bb9c+6E8AACAvw==" tex0="2l09Pgw+ND8=" tex1="2l09Pgw+ND8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="176" pos="e9p6QPLzsD43RxHA" norm="ulouP+cfHr+/U8m+" tan="vGkwP9/kOD/g7XE9AACAvw==" tex0="xeWGPoPbQz8=" tex1="xeWGPoPbQz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="177" pos="bzY0wG5+A0F0F9C/" norm="54tdvw+jGb3j0f++" tan="vhMAPxuLJLygpF2/AQCAPw==" tex0="kuy3Pi/TAz8=" tex1="kuy3Pi/TAz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="178" pos="q2d8wPLzsD43RxHA" norm="uVouv+gfHr+9U8m+" tan="F+EzP7/PM78m3ei9AACAvw==" tex0="29AnPoPbQz8=" tex1="29AnPoPbQz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="179" pos="DO/fvy5qAL+ylkBA" norm="JQt4vsbzX7/cz9Y+" tan="xeZ2P5xAh76fR8U7AACAvw==" tex0="IEZEPqyQNj8=" tex1="IEZEPqyQNj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="180" pos="5PgRwAAAAADhjai/" norm="KhRdv6+Dmb2gR/++" tan="1E4AP00KpLwTd12///9/Pw==" tex0="kuy3PrcuHD8=" tex1="kuy3PrcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="181" pos="+sqHQN7llD98Px3A" norm="gJtJPzb/1L7Uy+i+" tan="wLvpPvGwYz9yBr28/v9/vw==" tex0="hP+IPhFURD8=" tex1="hP+IPhFURD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="182" pos="MNycQN7llD8B/9Uu" norm="18toPyv/1L4AAACA" tan="Kv/UPtfLaD8AAAAA//9/vw==" tex0="Y0SNPlYkPj8=" tex1="Y0SNPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="183" pos="AJhGvC5qAL/aYV5A" norm="AAAAAMbzX78kC/g+" tan="frp/P+u8trxR/SS9AACAvw==" tex0="NM5aPptkNT8=" tex1="NM5aPptkNT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="184" pos="yKKdwN7llD8B/9Uu" norm="18tovyv/1L4AAACA" tan="K//UPtjLaL8AAAAAAACAvw==" tex0="oRMbPlYkPj8=" tex1="oRMbPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="185" pos="bzY0wNmRg0F0F9C/" norm="L6Zdv2m5s7w58P++" tan="vwYAPwaUwLujrl2///9/Pw==" tex0="kuy3Purg1j4=" tex1="kuy3Purg1j4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="186" pos="Sl1BwC5qAL/aYd4/" norm="38/WvsbzX78nC3g+" tan="0HBnP55z2r7lvMw8//9/vw==" tex0="m8czPnnEOT8=" tex1="m8czPnnEOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="187" pos="Sl1BwC5qAL/aYd6/" norm="38/WvsXzX78lC3i+" tan="9tVnP7/f1773yju9/v9/vw==" tex0="m8czPjSEQj8=" tex1="m8czPjSEQj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="188" pos="e9p6QPLzsD43RxFA" norm="ulouP+cfHr+9U8k+" tan="FuEzP7/PMz8j3ei9/v9/vw==" tex0="xeWGPiptOD8=" tex1="xeWGPiptOD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="189" pos="fTxIwHpkxUGCNue/" norm="2odcv9ZK0r2Ypf6+" tan="4pMAP1Md4LzWQV2/AQCAPw==" tex0="kuy3Pnkbpj4=" tex1="kuy3Pnkbpj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="190" pos="AJhGvPLzsD43R5HA" norm="lqlJsuYfHr/AU0m/" tan="e3p8P0odBT5mGdG9AQCAvw==" tex0="NM5aPrCSST8=" tex1="NM5aPrCSST8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="191" pos="7OOQQPLzsD4B/9Uu" norm="v1NJP+YfHr8QcYYx" tan="5R8eP75TST9jXH+wAACAvw==" tex0="dNeKPlYkPj8=" tex1="dNeKPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="192" pos="AJhGvC5qAL/aYV7A" norm="ZewCscbzX78lC/i+" tan="fbp/PwK+tjxO/iS9AQCAvw==" tex0="NM5aPhHkRj8=" tex1="NM5aPhHkRj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="193" pos="QptdQC5qAL8B/9Uu" norm="Igv4PsbzX78AAACA" tan="xvNfPyIL+D4AAAAAAACAvw==" tex0="LO+DPlYkPj8=" tex1="LO+DPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="194" pos="qtTcPy5qAL+ylkDA" norm="JAt4PsfzX7/dz9a+" tan="xuZ2P5hAhz4pScU7AQCAvw==" tex0="RFZxPgC4RT8=" tex1="RFZxPgC4RT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="195" pos="cihfwC5qAL8B/9Uu" norm="Igv4vsbzX78AAACA" tan="xvNfPyIL+L4AAAAAAACAvw==" tex0="Dr4tPlYkPj8=" tex1="Dr4tPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="196" pos="q2d8wPLzsD43RxFA" norm="uVouv+cfHr+/U8k+" tan="wWkwP9nkOL/n7nE9/v9/vw==" tex0="29AnPiptOD8=" tex1="29AnPiptOD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="197" pos="FVaJwI6bA0IQlR7A" norm="Dfpcv7CSpb19Kf++" tan="s1sAP5DWsLwmbV2/AACAPw==" tex0="kuy3Pg2saj4=" tex1="kuy3Pg2saj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="198" pos="PifvPyeriL8B/9Uu" norm="PeOEPiI6d7+lNaww" tan="IDp3Pz3jhD5da1qvAQCAvw==" tex0="hDFzPlYkPj8=" tex1="hDFzPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="199" pos="hKqRwPLzsD4B/9Uu" norm="v1NJv+YfHr8AAACA" tan="5R8eP79TSb8AAAAAAACAvw==" tex0="gO0fPlYkPj8=" tex1="gO0fPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="200" pos="DpptPyeriL/adNA/" norm="PeMEPiI6d78MK2Y+" tan="ddR9P63sAj4ld728AQCAvw==" tex0="3P9mPpoKOj8=" tex1="3P9mPpoKOj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="sEfhPQ==" bone1="0" weight1="CtdjPw=="/>
+	<vertex id="201" pos="FVaJwOCEJEIQlR7A" norm="J5Rdv97WCL1v2/++" tan="qw8AP3yTErzDp12/AACAPw==" tex0="kuy3PiYhCT4=" tex1="kuy3PiYhCT4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="202" pos="5HgcQN7llD9GLojA" norm="1svoPjP/1L6Cm0m/" tan="pp8VP+t6Tj9Vf7W9AACAvw==" tex0="fKt6PnDbSD8=" tex1="fKt6PnDbSD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="203" pos="zs5zvyeriL/adNC/" norm="PeMEviE6d78LK2a+" tan="dNR9P5/sAr7meL28AACAvw==" tex0="ipxOPhM+Qj8=" tex1="ipxOPhM+Qj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="204" pos="G9A/QC5qAL/aYd6/" norm="3c/WPsbzX78jC3i+" tan="0nBnP55z2j7gvMw8AACAvw==" tex0="ZuqAPjSEQj8=" tex1="ZuqAPjSEQj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="205" pos="FAYewN7llD9GLojA" norm="1Mvovjf/1L6Cm0m/" tan="hxlLP59NF79GVhW+AQCAvw==" tex0="6vA6PnDbSD8=" tex1="6vA6PnDbSD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="206" pos="AJhGvCeriL9vtPC/" norm="AAAAAHyoeb+yg2K+" tan="t/5/PwDLtTq0Xci7/v9/vw==" tex0="NM5aPnngQj8=" tex1="NM5aPnngQj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="207" pos="AJhGvCeriL9vtPA/" norm="AAAAAHyoeb+yg2I+" tan="tf5/PzHRtbq0ZMi7/f9/vw==" tex0="NM5aPjRoOT8=" tex1="NM5aPjRoOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="mJkZPg==" bone1="0" weight1="mplZPw=="/>
+	<vertex id="208" pos="G9A/QC5qAL/aYd4/" norm="3c/WPsbzX78kC3g+" tan="+dVnP8Df1z6yyju9AACAvw==" tex0="ZuqAPnnEOT8=" tex1="ZuqAPnnEOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="209" pos="ipiYwC9uRULZMzDA" norm="KjVdv7TAiL27bf++" tan="jz4AP3k4krydg12///9/Pw==" tex0="kuy3PiFZHj0=" tex1="kuy3PiFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="210" pos="DO/fvy5qAL+ylkDA" norm="Jwt4vsbzX7/ez9a+" tan="hyl4Py/Ucb7ivIm9AACAvw==" tex0="IEZEPgC4RT8=" tex1="IEZEPgC4RT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="211" pos="zs5zvyeriL/adNA/" norm="PeMEviE6d78LK2Y+" tan="dNR9P6zsAr4kd708AACAvw==" tex0="ipxOPpoKOj8=" tex1="ipxOPpoKOj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="212" pos="4Y0owAAAAAAR7bml" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="/seWPrcuHD8=" tex1="/seWPrcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="213" pos="rOfOPyeriL9vtHA/" norm="0SpEPn2oeb+1g+I9" tan="wD97P4brQz6/OVO8//9/vw==" tex0="Eu1vPkXGOz8=" tex1="Eu1vPkXGOz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="214" pos="DQLSvyeriL9vtHA/" norm="0ipEvn2oeb+4g+I9" tan="qT17P7tGRL6sECA8//9/vw==" tex0="VK9FPkXGOz8=" tex1="VK9FPkXGOz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="zcwMPw==" bone1="0" weight1="ZmbmPg=="/>
+	<vertex id="215" pos="qtTcPy5qAL+ylkBA" norm="Iwt4PsfzX7/dz9Y+" tan="iSl4PwzUcT5hvYm9AQCAvw==" tex0="RFZxPqyQNj8=" tex1="RFZxPqyQNj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="216" pos="2TOwwC9uRULVXEKm" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="/seWPiFZHj0=" tex1="/seWPiFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="217" pos="DQLSvyeriL9vtHC/" norm="0ypEvn2oeb+4g+K9" tan="wD97P3frQ77HQ1O8//9/vw==" tex0="VK9FPmiCQD8=" tex1="VK9FPmiCQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="218" pos="n0HyvyeriL8B/9Uu" norm="PeOEviI6d7+lNaww" tan="IDp3Pz3jhL5ea1ovAQCAvw==" tex0="4mpCPlYkPj8=" tex1="4mpCPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="4noUPw==" bone1="0" weight1="PQrXPg=="/>
+	<vertex id="219" pos="4Y0owAAAAAAR7bml" norm="n0d/v6+Dmb2LfQSy" tan="4UzFOkwKpLzJ8n+//v9/Pw==" tex0="/seWPrcuHD8=" tex1="/seWPrcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="220" pos="DpptPyeriL/adNC/" norm="PeMEPiI6d78MK2a+" tan="2Mt9Pyp5BT6YeUo8AACAvw==" tex0="3P9mPhM+Qj8=" tex1="3P9mPhM+Qj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="221" pos="dBdQwG5+A0HRieWl" norm="4dF/vw2jGb0AAACA" tan="o6fFOReLJLyx/H+///9/Pw==" tex0="/seWPi/TAz8=" tex1="/seWPi/TAz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="222" pos="AJhGvA8dor8B/9Uu" norm="ia8rMQAAgL96JcEw" tan="AACAPwAAAAAfVyMvAACAvw==" tex0="NM5aPlYkPj8=" tex1="NM5aPlYkPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="223" pos="U93sP1SlgkF5IU3A" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAB+hb01AACAvw==" tex0="XI5iPhUeST8=" tex1="XI5iPhUeST8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="224" pos="Vt1sQFSlgkE1lK2y" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAABOzCIyAACAvw==" tex0="FzSBPu0CPz8=" tex1="FzSBPu0CPz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="225" pos="dBdQwNmRg0HRieWl" norm="O/B/v2e5s7wAAACA" tan="0jIHOQCUwLvd/n+///9/Pw==" tex0="/seWPurg1j4=" tex1="/seWPurg1j4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="226" pos="cjYSQFSlgkFyP33A" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAACEbCs2AACAvw==" tex0="/AZqPvN8Sz8=" tex1="/AZqPvN8Sz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="227" pos="cjYSwFSlgkFyP33A" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAD6Yms2AACAvw==" tex0="HGIbPvN8Sz8=" tex1="HGIbPvN8Sz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="228" pos="cD99QFSlgkF0NhLA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAA6R481AACAvw==" tex0="EGiDPv42Rj8=" tex1="EGiDPv42Rj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="229" pos="Vt1swFSlgkE1lK2y" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAABdqoS2AACAvw==" tex0="6gADPu0CPz8=" tex1="6gADPu0CPz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="230" pos="dTaSwFSlgkGt002y" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAA9zCKyAACAvw==" tex0="VB/oPe0CPz8=" tex1="VB/oPe0CPz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="231" pos="Wd3sv1SlgkF5IU3A" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAA+OHO2AACAvw==" tex0="utoiPhUeST8=" tex1="utoiPhUeST8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="232" pos="eSFNwFSlgkFW3ew/" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAABQKMq0AACAvw==" tex0="uIkLPjotOT8=" tex1="uIkLPjotOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="233" pos="gjZnwHpkxUHqCv+l" norm="mKV+v9lK0r0AAACA" tan="DRQ5O0cd4Lw253+/AACAPw==" tex0="/seWPnkbpj4=" tex1="/seWPnkbpj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="234" pos="eSFNwFSlgkFW3ey/" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAAAAAAAACAvw==" tex0="uIkLPp/YRD8=" tex1="uIkLPp/YRD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="FK7HPg==" bone1="0" weight1="9igcPw=="/>
+	<vertex id="235" pos="dSFNQFSlgkFW3ey/" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAnFgO2AACAvw==" tex0="Xt95Pp/YRD8=" tex1="Xt95Pp/YRD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="236" pos="sIiJtFSlgkFW3WzA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAUDLQ1AACAvw==" tex0="i7RCPlGuSj8=" tex1="i7RCPlGuSj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AABAPw==" bone1="0" weight1="AACAPg=="/>
+	<vertex id="237" pos="EJWewI6bA0Im7S6m" norm="eil/v7WSpb0AAACA" tan="Zn/lOqfWsLyh8H+/AACAPw==" tex0="/seWPg2saj4=" tex1="/seWPg2saj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="238" pos="zs5zvyeriL/adNA/" norm="PeMEviE6d78LK2Y+" tan="18t9P055Bb4TcEo8//9/vw==" tex0="ipxOPpoKOj8=" tex1="ipxOPpoKOj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="239" pos="sIiJtFSlgkFW3WxA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAABm8Tu2AACAvw==" tex0="i7RCPolXMz8=" tex1="i7RCPolXMz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="240" pos="cjYSwFSlgkFyP31A" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAABO5L81AACAvw==" tex0="HGIbPueIMj8=" tex1="HGIbPueIMj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="241" pos="rOfOPyeriL9vtHC/" norm="0CpEPnyoeb+yg+K9" tan="qD17P7hGRD6lECA8/v9/vw==" tex0="Eu1vPmiCQD8=" tex1="Eu1vPmiCQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="242" pos="dSFNQFSlgkFW3ew/" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAEFoM2AACAvw==" tex0="Xt95PjotOT8=" tex1="Xt95PjotOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="243" pos="U93sP1SlgkF5IU1A" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAABbsvw0AACAvw==" tex0="XI5iPsTnND8=" tex1="XI5iPsTnND8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="244" pos="lDKQtFSlgkF0NpJA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAABLVb21AACAvw==" tex0="i7RCPsqaMD8=" tex1="i7RCPsqaMD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="pHC9Pg==" bone1="0" weight1="rkchPw=="/>
+	<vertex id="245" pos="EJWewOCEJEIm7S6m" norm="a9t/v9vWCL0AAACA" tan="cMecOYmTErxg/X+/AACAPw==" tex0="/seWPiYhCT4=" tex1="/seWPiYhCT4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="246" pos="cD99QFSlgkF0NhJA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAAAAAAAACAvw==" tex0="EGiDPtvONz8=" tex1="EGiDPtvONz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="2KPwPg==" bone1="0" weight1="FK4HPw=="/>
+	<vertex id="247" pos="G9A/QC5qAL/aYd6/" norm="3c/WPsbzX78jC3i+" tan="+dVnP7vf1z5Eyzs9AACAvw==" tex0="ZuqAPjSEQj8=" tex1="ZuqAPjSEQj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="248" pos="lDKQtFSlgkF0NpLA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAC86J+2AACAvw==" tex0="i7RCPg9rTT8=" tex1="i7RCPg9rTT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="249" pos="2TOwwC9uRULVXEKm" norm="vG1/v7PAiL3dfgSy" tan="OZGcOn44kryC9X+///9/Pw==" tex0="/seWPiFZHj0=" tex1="/seWPiFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="250" pos="cjYSQFSlgkFyP31A" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAABlgxk2AACAvw==" tex0="/AZqPueIMj8=" tex1="/AZqPueIMj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="251" pos="U93sP27mj0F5IU3A" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIB+hb01AACAPw==" tex0="XI5iPhUeST8=" tex1="XI5iPhUeST8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="sEfhPQ==" bone1="0" weight1="CtdjPw=="/>
+	<vertex id="252" pos="cjaSQG7mj0Gt002y" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIBOzCIyAACAPw==" tex0="tqyIPu0CPz8=" tex1="tqyIPu0CPz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="253" pos="cj99wFSlgkF0NhJA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAABlEhy2AACAvw==" tex0="7DH9PdvONz8=" tex1="7DH9PdvONz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="254" pos="5PgRwAAAAADhjag/" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="2EZrPrcuHD8=" tex1="2EZrPrcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="255" pos="cD99QG7mj0F0NhLA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAA6R481AACAPw==" tex0="EGiDPv42Rj8=" tex1="EGiDPv42Rj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="256" pos="cj99wFSlgkF0NhLA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAB3uAw2AACAvw==" tex0="7DH9Pf42Rj8=" tex1="7DH9Pf42Rj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="257" pos="Wd3sv27mj0F5IU3A" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIA+OHO2AACAPw==" tex0="utoiPhUeST8=" tex1="utoiPhUeST8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPg==" bone1="0" weight1="AABAPw=="/>
+	<vertex id="258" pos="ipiYwC9uRULZMzBA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="2EZrPiFZHj0=" tex1="2EZrPiFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="259" pos="dSFNQG7mj0FW3ey/" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIAnFgO2AACAPw==" tex0="Xt95Pp/YRD8=" tex1="Xt95Pp/YRD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="260" pos="Wd3sv1SlgkF5IU1A" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAVXTo2AACAvw==" tex0="utoiPsTnND8=" tex1="utoiPsTnND8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="sEdhPg==" bone1="0" weight1="FK5HPw=="/>
+	<vertex id="261" pos="bzY0wG5+A0F0F9A/" norm="54tdvw+jGb3j0f8+" tan="59H/viCLJLxUvV2/AQCAPw==" tex0="2EZrPi/TAz8=" tex1="2EZrPi/TAz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="262" pos="cjaSQFSlgkGt002y" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAABOzCIyAACAvw==" tex0="tqyIPu0CPz8=" tex1="tqyIPu0CPz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="263" pos="Vt1swG7mj0E1lK2y" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIBdqoS2AACAPw==" tex0="6gADPu0CPz8=" tex1="6gADPu0CPz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="264" pos="5PgRwAAAAADhjag/" norm="KhRdv6+Dmb2gR/8+" tan="7Ef/vk0KpLy52V2///9/Pw==" tex0="2EZrPrcuHD8=" tex1="2EZrPrcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="265" pos="lDKQtG7mj0F0NpLA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAC86J+2AACAPw==" tex0="i7RCPg9rTT8=" tex1="i7RCPg9rTT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="266" pos="dTaSwG7mj0Gt002y" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAA9zCKyAACAPw==" tex0="VB/oPe0CPz8=" tex1="VB/oPe0CPz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="267" pos="eSFNwG7mj0FW3ey/" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="uIkLPp/YRD8=" tex1="uIkLPp/YRD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AABAPw==" bone1="0" weight1="AACAPg=="/>
+	<vertex id="268" pos="cjYSwG7mj0FyP33A" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAD6Yms2AACAPw==" tex0="HGIbPvN8Sz8=" tex1="HGIbPvN8Sz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="269" pos="bzY0wNmRg0F0F9A/" norm="LqZdv2i5s7w48P8+" tan="OPD/vgOUwLsXt12///9/Pw==" tex0="2EZrPurg1j4=" tex1="2EZrPurg1j4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="270" pos="cjYSwG7mj0FyP31A" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAABO5L81AACAPw==" tex0="HGIbPueIMj8=" tex1="HGIbPueIMj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="271" pos="Wd3sv27mj0F5IU1A" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIAVXTo2AACAPw==" tex0="utoiPsTnND8=" tex1="utoiPsTnND8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="KFyPPg==" bone1="0" weight1="7FE4Pw=="/>
+	<vertex id="272" pos="eSFNwG7mj0FW3ew/" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIBQKMq0AACAPw==" tex0="uIkLPjotOT8=" tex1="uIkLPjotOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="273" pos="fTxIwHpkxUGCNuc/" norm="2Ydcv9ZK0r2Ypf4+" tan="pab+vlgd4Lzq+l2/AQCAPw==" tex0="2EZrPnkbpj4=" tex1="2EZrPnkbpj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="274" pos="Vt1sQG7mj0E1lK2y" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAABOzCIyAACAPw==" tex0="FzSBPu0CPz8=" tex1="FzSBPu0CPz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="mpmZPg==" bone1="0" weight1="MzMzPw=="/>
+	<vertex id="275" pos="cjYSQG7mj0FyP31A" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAABlgxk2AACAPw==" tex0="/AZqPueIMj8=" tex1="/AZqPueIMj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="276" pos="U93sP27mj0F5IU1A" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAABbsvw0AACAPw==" tex0="XI5iPsTnND8=" tex1="XI5iPsTnND8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="XI/CPg==" bone1="0" weight1="UrgePw=="/>
+	<vertex id="277" pos="lDKQtG7mj0F0NpJA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAABLVb21AACAPw==" tex0="i7RCPsqaMD8=" tex1="i7RCPsqaMD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="278" pos="cjYSQG7mj0FyP33A" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAICEbCs2AACAPw==" tex0="/AZqPvN8Sz8=" tex1="/AZqPvN8Sz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="279" pos="cD99QG7mj0F0NhJA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="EGiDPtvONz8=" tex1="EGiDPtvONz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="280" pos="Vt1sQHFPiUE1lK2y" norm="AACAvwAAAADvgwSy" tan="AAAAAAAAAAAAAIA/AACAvw==" tex0="EBlEP+QgQD8=" tex1="EBlEP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="281" pos="FVaJwI6bA0IQlR5A" norm="Dfpcv7CSpb19Kf8+" tan="5Sn/vpDWsLzm312/AACAPw==" tex0="2EZrPg2saj4=" tex1="2EZrPg2saj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="282" pos="dSFNQG7mj0FW3ew/" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAAEFoM2AACAPw==" tex0="Xt95PjotOT8=" tex1="Xt95PjotOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="283" pos="Vt1sQFSlgkE1lK2y" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAAAAAIA/AACAvw==" tex0="EBlEP5NjUz8=" tex1="EBlEP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="284" pos="dSFNQHFPiUFW3ew/" norm="1rNdvwAAAAACAAC/" tan="AgAAvwAAAADWs10/AACAvw==" tex0="uRRSP+QgQD8=" tex1="uRRSP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="285" pos="FVaJwOCEJEIQlR5A" norm="KJRdv97WCL1u2/8+" tan="cdv/vn2TErxdu12/AACAPw==" tex0="2EZrPiYhCT4=" tex1="2EZrPiYhCT4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="286" pos="sIiJtG7mj0FW3WxA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAABm8Tu2AACAPw==" tex0="i7RCPolXMz8=" tex1="i7RCPolXMz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="287" pos="sIiJtG7mj0FW3WxA" norm="7oOEsgAAAAAAAIC/" tan="AACAvwAAAAB+zfEyAACAvw==" tex0="CgxuP3kVLT8=" tex1="CgxuP3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="288" pos="U93sP3FPiUF5IU1A" norm="AgAAvwAAAADXs12/" tan="1rNdvwAAAAACAAA/AACAvw==" tex0="YhBgP+QgQD8=" tex1="YhBgP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="289" pos="cj99wG7mj0F0NhLA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAB3uAw2AACAPw==" tex0="7DH9Pf42Rj8=" tex1="7DH9Pf42Rj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="290" pos="sIiJtG7mj0FW3WzA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIAUDLQ1AACAPw==" tex0="i7RCPlGuSj8=" tex1="i7RCPlGuSj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="291" pos="U93sP27mj0F5IU1A" norm="AgAAvwAAAADXs12/" tan="1rNdvwAAAAACAAA/AACAvw==" tex0="YhBgP3kVLT8=" tex1="YhBgP3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="XI/CPg==" bone1="0" weight1="UrgePw=="/>
+	<vertex id="292" pos="Wd3sv27mj0F5IU1A" norm="AQAAPwAAAADWs12/" tan="17NdvwAAAAACAAC/AACAvw==" tex0="jneoPnkVLT8=" tex1="jneoPnkVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="KFyPPg==" bone1="0" weight1="7FE4Pw=="/>
+	<vertex id="293" pos="ipiYwC9uRULZMzBA" norm="KjVdv7TAiL27bf8+" tan="7G3/vnc4krzn0V2/AACAPw==" tex0="2EZrPiFZHj0=" tex1="2EZrPiFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="294" pos="sIiJtHFPiUFW3WxA" norm="5sXGsgAAAAAAAIC/" tan="AACAvwAAAACAzfEyAACAvw==" tex0="CgxuP+QgQD8=" tex1="CgxuP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="295" pos="dSFNQG7mj0FW3ew/" norm="17NdvwAAAAACAAC/" tan="AQAAvwAAAADXs10/AQCAvw==" tex0="uRRSP3kVLT8=" tex1="uRRSP3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="296" pos="4Y2ovwAAAADk+BFA" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="tP0oPrcuHD8=" tex1="tP0oPrcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="297" pos="zw0SwBD9Tj8UoXvA" norm="KDuZPoATTT+3swQ/" tan="nWNzP7K8l77oMbq9//9/Pw==" tex0="2l09PqEKSD8=" tex1="2l09PqEKSD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="298" pos="Wd3sv3FPiUF5IU1A" norm="AQAAPwAAAADWs12/" tan="17NdvwAAAAACAAC/AACAvw==" tex0="jneoPuQgQD8=" tex1="jneoPuQgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="299" pos="cj99wG7mj0F0NhJA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAABlEhy2AACAPw==" tex0="7DH9PdvONz8=" tex1="7DH9PdvONz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="300" pos="2TMwwC9uRUKKmJhA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="tP0oPiFZHj0=" tex1="tP0oPiFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="301" pos="dSFNQHFPiUFW3ew/" norm="1rNdvwAAAAACAAC/" tan="AgAAvwAAAADWs10/AACAvw==" tex0="uRRSP+QgQD8=" tex1="uRRSP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="302" pos="Vt1sQG7mj0E1lK2y" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAAAAAIA/AACAvw==" tex0="EBlEP3kVLT8=" tex1="EBlEP3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="mpmZPg==" bone1="0" weight1="MzMzPw=="/>
+	<vertex id="303" pos="4Y2ovwAAAADk+BFA" norm="n0f/vq+Dmb0qFF0/" tan="Enddv00KpLzTTgC//v9/Pw==" tex0="tP0oPrcuHD8=" tex1="tP0oPrcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="304" pos="Wd3sv1SlgkF5IU1A" norm="AQAAPwAAAADWs12/" tan="17NdvwAAAAACAAC/AACAvw==" tex0="jneoPpNjUz8=" tex1="jneoPpNjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="sEdhPg==" bone1="0" weight1="FK5HPw=="/>
+	<vertex id="305" pos="dBfQv25+A0FvNjRA" norm="4NH/vg+jGb3mi10/" tan="nqRdvx2LJLy+EwC///9/Pw==" tex0="tP0oPi/TAz8=" tex1="tP0oPi/TAz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="306" pos="eSFNwHFPiUFW3ew/" norm="2rNdPwAAAAD+//++" tan="/v//vgAAAADZs12/AgCAvw==" tex0="3m7EPuQgQD8=" tex1="3m7EPuQgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="307" pos="sIiJtHFPiUFW3WxA" norm="5sXGsgAAAAAAAIC/" tan="AACAvwAAAACXzfEyAACAvw==" tex0="O4CMPuQgQD8=" tex1="O4CMPuQgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="308" pos="U93sP1SlgkF5IU1A" norm="AgAAvwAAAADXs12/" tan="1rNdvwAAAAACAAA/AACAvw==" tex0="YhBgP5NjUz8=" tex1="YhBgP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="309" pos="dBfQv9mRg0FvNjRA" norm="OPD/vma5s7wvpl0/" tan="pK5dvwWUwLvABgC/AACAPw==" tex0="tP0oPurg1j4=" tex1="tP0oPurg1j4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="310" pos="eSFNwHFPiUFW3ew/" norm="2rNdPwAAAAD+//++" tan="/v//vgAAAADZs12/AgCAvw==" tex0="3m7EPuQgQD8=" tex1="3m7EPuQgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="311" pos="Vt1swFSlgkE1lK2y" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAvw==" tex0="MGbgPpNjUz8=" tex1="MGbgPpNjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="312" pos="eSFNwFSlgkFW3ew/" norm="2bNdPwAAAAD+//++" tan="/v//vgAAAADZs12/AQCAvw==" tex0="3m7EPpNjUz8=" tex1="3m7EPpNjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="313" pos="Wd3sv1SlgkF5IU3A" norm="AQAAPwAAAADWs10/" tan="1rNdPwAAAAABAAC///9/vw==" tex0="ayoMP5NjUz8=" tex1="ayoMP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="314" pos="dSFNQFSlgkFW3ew/" norm="1rNdvwAAAAACAAC/" tan="AgAAvwAAAADWs10/AACAvw==" tex0="uRRSP5NjUz8=" tex1="uRRSP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="315" pos="Wd3sv27mj0F5IU3A" norm="AgAAPwAAAADXs10/" tan="1rNdPwAAAAACAAC/AACAvw==" tex0="ayoMP3kVLT8=" tex1="ayoMP3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPg==" bone1="0" weight1="AABAPw=="/>
+	<vertex id="316" pos="eSFNwHFPiUFW3ey/" norm="17NdPwAAAAD///8+" tan="AAAAPwAAAADYs12/AACAvw==" tex0="hF38PuQgQD8=" tex1="hF38PuQgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="317" pos="gjbnv3pkxUF9PEhA" norm="lKX+vtJK0r3Zh1w/" tan="1kFdv08d4LzikwC/AACAPw==" tex0="tP0oPnkbpj4=" tex1="tP0oPnkbpj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="318" pos="eSFNwG7mj0FW3ey/" norm="2bNdPwAAAAD+//8+" tan="/P//PgAAAADZs12/AQCAvw==" tex0="hF38PnkVLT8=" tex1="hF38PnkVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AABAPw==" bone1="0" weight1="AACAPg=="/>
+	<vertex id="319" pos="sIiJtG7mj0FW3WzA" norm="7oOEsgAAAAAAAIA/" tan="AACAPwAAAACgzfEyAACAvw==" tex0="FCYaP3kVLT8=" tex1="FCYaP3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="320" pos="sIiJtG7mj0FW3WxA" norm="7oOEsgAAAAAAAIC/" tan="AACAvwAAAACVzfEyAACAvw==" tex0="O4CMPnkVLT8=" tex1="O4CMPnkVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="321" pos="EJUewI6bA0IVVolA" norm="fSn/vrOSpb0O+lw/" tan="Jm1dv5XWsLyyWwC/AACAPw==" tex0="tP0oPg2saj4=" tex1="tP0oPg2saj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="322" pos="Vt1swG7mj0E1lK2y" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAvw==" tex0="MGbgPnkVLT8=" tex1="MGbgPnkVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="323" pos="sIiJtHFPiUFW3WzA" norm="AAAAAAAAAAAAAIA/" tan="AACAPwAAAAAAAAAAAACAvw==" tex0="FCYaP+QgQD8=" tex1="FCYaP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="pHB9Pw==" bone1="0" weight1="CtcjPA=="/>
+	<vertex id="324" pos="U93sP27mj0F5IU3A" norm="AgAAvwAAAADWs10/" tan="1rNdPwAAAAACAAA/AACAvw==" tex0="viEoP3kVLT8=" tex1="viEoP3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="sEfhPQ==" bone1="0" weight1="CtdjPw=="/>
+	<vertex id="325" pos="dSFNQHFPiUFW3ey/" norm="17NdvwAAAAACAAA/" tan="AgAAPwAAAADWs10/AACAvw==" tex0="Zx02P+QgQD8=" tex1="Zx02P+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="rkchPw==" bone1="0" weight1="pHC9Pg=="/>
+	<vertex id="326" pos="Vt1swHFPiUE1lK2y" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAvw==" tex0="MGbgPuQgQD8=" tex1="MGbgPuQgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="327" pos="U93sP1SlgkF5IU3A" norm="AgAAvwAAAADWs10/" tan="1rNdPwAAAAACAAA/AACAvw==" tex0="viEoP5NjUz8=" tex1="viEoP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="328" pos="eSFNwFSlgkFW3ey/" norm="2bNdPwAAAAD+//8+" tan="/P//PgAAAADZs12/AQCAvw==" tex0="hF38PpNjUz8=" tex1="hF38PpNjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="FK7HPg==" bone1="0" weight1="9igcPw=="/>
+	<vertex id="329" pos="EJUewOCEJEIVVolA" norm="btv/vt/WCL0nlF0/" tan="w6ddv32TEryrDwC/AACAPw==" tex0="tP0oPiYhCT4=" tex1="tP0oPiYhCT4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="330" pos="dSFNQG7mj0FW3ey/" norm="17NdvwAAAAACAAA/" tan="AgAAPwAAAADXs10/AQCAvw==" tex0="Zx02P3kVLT8=" tex1="Zx02P3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="331" pos="sIiJtFSlgkFW3WxA" norm="AAAAAAAAAAAAAIC/" tan="AACAvwAAAAAAAAAAAACAvw==" tex0="CgxuP5NjUz8=" tex1="CgxuP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="332" pos="cjaSQG7mj0Gt002y" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAIAAAIA/AACAPw==" tex0="EBlEP3kVLT8=" tex1="EBlEP3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="333" pos="2TMwwC9uRUKKmJhA" norm="v23/vrTAiL0rNV0/" tan="nINdv3c4kryPPgC///9/Pw==" tex0="tP0oPiFZHj0=" tex1="tP0oPiFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="334" pos="dSFNQFSlgkFW3ey/" norm="1rNdvwAAAAACAAA/" tan="AgAAPwAAAADWs10/AACAvw==" tex0="Zx02P5NjUz8=" tex1="Zx02P5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="335" pos="cjaSQHFPiUGt002y" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAIAAAIA/AACAPw==" tex0="EBlEP+QgQD8=" tex1="EBlEP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="336" pos="cD99QFSlgkF0NhJA" norm="2LNdPwAAAAAAAAA/" tan="/v//vgAAAADYs10/AACAPw==" tex0="uRRSP5NjUz8=" tex1="uRRSP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="2KPwPg==" bone1="0" weight1="FK4HPw=="/>
+	<vertex id="337" pos="Wd3sv3FPiUF5IU1A" norm="AQAAPwAAAADWs12/" tan="17NdvwAAAAACAAC/AACAvw==" tex0="jneoPuQgQD8=" tex1="jneoPuQgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="338" pos="AAAAAAAAAADhjShA" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="IGnNPbcuHD8=" tex1="IGnNPbcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="339" pos="qtTcPy5qAL+ylkDA" norm="JAt4PsfzX7/dz9a+" tan="rlx3PwNbgz7H1bs8AACAvw==" tex0="RFZxPgC4RT8=" tex1="RFZxPgC4RT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="340" pos="Wd3sv3FPiUF5IU3A" norm="AgAAPwAAAADXs10/" tan="17NdPwAAAAACAAC/AQCAvw==" tex0="ayoMP+QgQD8=" tex1="ayoMP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="341" pos="cD99QHFPiUF0NhJA" norm="2LNdPwAAAAD+//8+" tan="/f//vgAAAADZs10/AACAPw==" tex0="uRRSP+QgQD8=" tex1="uRRSP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="342" pos="AAAAAC9uRULZM7BA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="IGnNPSFZHj0=" tex1="IGnNPSFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="343" pos="dSFNQHFPiUFW3ey/" norm="17NdvwAAAAACAAA/" tan="AgAAPwAAAADXs10/AQCAvw==" tex0="Zx02P+QgQD8=" tex1="Zx02P+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="rkchPw==" bone1="0" weight1="pHC9Pg=="/>
+	<vertex id="344" pos="U93sP3FPiUF5IU3A" norm="AgAAvwAAAADWs10/" tan="1rNdPwAAAAACAAA/AACAvw==" tex0="viEoP+QgQD8=" tex1="viEoP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AABAPw==" bone1="0" weight1="AACAPg=="/>
+	<vertex id="345" pos="AAAAAG5+A0F0F1BA" norm="npgEsg6jGb3h0X8/" tan="svx/vxmLJLyXp8W5AACAPw==" tex0="IGnNPS/TAz8=" tex1="IGnNPS/TAz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="346" pos="cjYSQFSlgkFyP31A" norm="AQAAPwAAAADYs10/" tan="17NdvwAAAAABAAA/AACAPw==" tex0="YhBgP5NjUz8=" tex1="YhBgP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="347" pos="cjYSQG7mj0FyP31A" norm="AQAAPwAAAADXs10/" tan="17NdvwAAAAABAAA/AACAPw==" tex0="YhBgP3kVLT8=" tex1="YhBgP3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="348" pos="AAAAAAAAAADhjShA" norm="AAAAAK2Dmb2fR38/" tan="yfJ/v0sKpLzVTMW6/v9/Pw==" tex0="IGnNPbcuHD8=" tex1="IGnNPbcuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="349" pos="lDKQtHFPiUF0NpJA" norm="5sXGsgAAAAAAAIA/" tan="AACAvwAAAIA43MOyAACAPw==" tex0="CgxuP+QgQD8=" tex1="CgxuP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="pHB9Pw==" bone1="0" weight1="CtcjPA=="/>
+	<vertex id="350" pos="U93sP1SlgkF5IU3A" norm="AgAAvwAAAADWs10/" tan="1rNdPwAAAIACAAA/AACAvw==" tex0="viEoP5NjUz8=" tex1="viEoP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="351" pos="lDKQtG7mj0F0NpJA" norm="7oOEsgAAAAAAAIA/" tan="AACAvwAAAIA33MOyAACAPw==" tex0="CgxuP3kVLT8=" tex1="CgxuP3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="352" pos="cjYSQHFPiUFyP31A" norm="AQAAPwAAAADXs10/" tan="17NdvwAAAAACAAA/AQCAPw==" tex0="YhBgP+QgQD8=" tex1="YhBgP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="353" pos="AAAAANmRg0F0F1BA" norm="AAAAAGO5s7w68H8/" tan="3/5/v/qTwLv8PAe5AACAPw==" tex0="IGnNPerg1j4=" tex1="IGnNPerg1j4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="354" pos="lDKQtFSlgkF0NpJA" norm="74MEswAAAAAAAIA/" tan="AACAvwAAAIA43MOyAACAPw==" tex0="CgxuP5NjUz8=" tex1="CgxuP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="pHC9Pg==" bone1="0" weight1="rkchPw=="/>
+	<vertex id="355" pos="cjYSwG7mj0FyP31A" norm="AAAAvwAAAADZs10/" tan="2bNdvwAAAAD+//++AQCAPw==" tex0="ineoPnkVLT8=" tex1="ineoPnkVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="356" pos="eSFNwG7mj0FW3ew/" norm="2bNdPwAAAAD+//++" tan="/v//vgAAAADZs12/AQCAvw==" tex0="3m7EPnkVLT8=" tex1="3m7EPnkVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="357" pos="AAAAAHpkxUGCNmdA" norm="Gq+EMdZK0r2YpX4/" tan="Ned/v0Md4LwBFDm7AACAPw==" tex0="IGnNPXkbpj4=" tex1="IGnNPXkbpj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="358" pos="sIiJtFSlgkFW3WzA" norm="AAAAAAAAAAAAAIA/" tan="AACAPwAAAAAAAAAAAACAvw==" tex0="FCYaP5NjUz8=" tex1="FCYaP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AABAPw==" bone1="0" weight1="AACAPg=="/>
+	<vertex id="359" pos="cjYSwHFPiUFyP31A" norm="AAAAvwAAAADZs10/" tan="2bNdvwAAAAD+//++AQCAPw==" tex0="ineoPuQgQD8=" tex1="ineoPuQgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="360" pos="cj99wHFPiUF0NhJA" norm="1rNdvwAAAAADAAA/" tan="AgAAvwAAAADVs12/AACAPw==" tex0="3m7EPuQgQD8=" tex1="3m7EPuQgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="361" pos="lDKQtHFPiUF0NpJA" norm="5sXGsgAAAAAAAIA/" tan="AACAvwAAAAAy3MOyAACAPw==" tex0="O4CMPuQgQD8=" tex1="O4CMPuQgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="pHB9Pw==" bone1="0" weight1="CtcjPA=="/>
+	<vertex id="362" pos="cjYSwFSlgkFyP31A" norm="////vgAAAADXs10/" tan="17NdvwAAAAAAAAC/AACAPw==" tex0="ineoPpNjUz8=" tex1="ineoPpNjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="363" pos="cj99wG7mj0F0NhJA" norm="1rNdvwAAAAADAAA/" tan="AwAAvwAAAADVs12/AACAPw==" tex0="3m7EPnkVLT8=" tex1="3m7EPnkVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="364" pos="sIiJtFSlgkFW3WxA" norm="AAAAAAAAAAAAAIC/" tan="AACAvwAAAAAAAAAAAACAvw==" tex0="O4CMPpNjUz8=" tex1="O4CMPpNjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="365" pos="AAAAAI6bA0IQlZ5A" norm="ceQEMriSpb15KX8/" tan="ofB/v6nWsLxYf+W6AACAPw==" tex0="IGnNPQ2saj4=" tex1="IGnNPQ2saj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="366" pos="dTaSwG7mj0Gt002y" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAPw==" tex0="MGbgPnkVLT8=" tex1="MGbgPnkVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="367" pos="cj99wFSlgkF0NhJA" norm="1rNdvwAAAAAEAAA/" tan="BAAAvwAAAADVs12/AACAPw==" tex0="3m7EPpNjUz8=" tex1="3m7EPpNjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="368" pos="cD99QG7mj0F0NhJA" norm="17NdPwAAAAD+//8+" tan="AAAAvwAAAADYs10/AACAPw==" tex0="uRRSP3kVLT8=" tex1="uRRSP3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="369" pos="AAAAAOCEJEIQlZ5A" norm="V5SEsd7WCL1r238/" tan="YP1/v42TErxox5y5AACAPw==" tex0="IGnNPSYhCT4=" tex1="IGnNPSYhCT4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="370" pos="cj99wHFPiUF0NhJA" norm="1rNdvwAAAAADAAA/" tan="AwAAvwAAAIDWs12/AACAPw==" tex0="3m7EPuQgQD8=" tex1="3m7EPuQgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="371" pos="dTaSwHFPiUGt002y" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAPw==" tex0="MGbgPuQgQD8=" tex1="MGbgPuQgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="372" pos="cj99wHFPiUF0NhLA" norm="1bNdvwAAAAADAAC/" tan="AwAAPwAAAADVs12///9/Pw==" tex0="hF38PuQgQD8=" tex1="hF38PuQgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="373" pos="cD99QHFPiUF0NhJA" norm="2LNdPwAAAAD+//8+" tan="/f//vgAAAADZs10/AACAPw==" tex0="uRRSP+QgQD8=" tex1="uRRSP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="374" pos="cjYSQFSlgkFyP31A" norm="AQAAPwAAAADYs10/" tan="17NdvwAAAAABAAA/AACAPw==" tex0="YhBgP5NjUz8=" tex1="YhBgP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="375" pos="dTaSwFSlgkGt002y" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAPw==" tex0="MGbgPpNjUz8=" tex1="MGbgPpNjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="376" pos="cjaSQFSlgkGt002y" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAAAAAIA/AACAPw==" tex0="EBlEP5NjUz8=" tex1="EBlEP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="377" pos="AAAAAC9uRULZM7BA" norm="AAAAALDAiL28bX8/" tan="hPV/v3w4krwxkZy6AQCAPw==" tex0="IGnNPSFZHj0=" tex1="IGnNPSFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="378" pos="cj99wFSlgkF0NhLA" norm="1rNdvwAAAAAEAAC/" tan="AgAAPwAAAADVs12/AACAPw==" tex0="hF38PpNjUz8=" tex1="hF38PpNjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="379" pos="AAAAAAAAAADhjShA" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="kohgP7cuHD8=" tex1="kohgP7cuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="380" pos="4Y2oPwAAAADk+BFA" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="SPZPP7cuHD8=" tex1="SPZPP7cuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="381" pos="fKahQDutEkJLuDtB" norm="AAAAAAAAgL8AAACA" tan="Xmp0PwAAAADqRpi+AACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="382" pos="AAAAAC9uRULZM7BA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="kohgPyFZHj0=" tex1="kohgPyFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="383" pos="NyeAQELLFELy70BB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="384" pos="2TMwQC9uRUKKmJhA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="SPZPPyFZHj0=" tex1="SPZPPyFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="385" pos="AAAAAAAAAADhjShA" norm="AAAAAK2Dmb2fR38/" tan="yfJ/v0oKpDzhTMU6/v9/Pw==" tex0="kohgP7cuHD8=" tex1="kohgP7cuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="386" pos="AAAAAG5+A0F0F1BA" norm="npgEsg6jGb3h0X8/" tan="sPx/vxyLJDwYp8U5/v9/Pw==" tex0="kohgPy/TAz8=" tex1="kohgPy/TAz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="387" pos="4Y2oPwAAAADk+BFA" norm="oEf/Pq+Dmb0qFF0/" tan="uNldv00KpLzsR/8+/v9/Pw==" tex0="SPZPP7cuHD8=" tex1="SPZPP7cuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="388" pos="cjYSwHFPiUFyP33A" norm="AAAAvwAAAADXs12/" tan="17NdPwAAAAD+//++AACAPw==" tex0="ayoMP+QgQD8=" tex1="ayoMP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="389" pos="dBfQP25+A0FvNjRA" norm="4dH/Pg+jGb3mi10/" tan="U71dvx+LJLzm0f8+/v9/Pw==" tex0="SPZPPy/TAz8=" tex1="SPZPPy/TAz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="390" pos="cjYSwG7mj0FyP33A" norm="AAAAvwAAAADXs12/" tan="17NdPwAAAAAAAAC/AACAPw==" tex0="ayoMP3kVLT8=" tex1="ayoMP3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="391" pos="cjYSwFSlgkFyP33A" norm="AAAAvwAAAADXs12/" tan="17NdPwAAAAD+//++AACAPw==" tex0="ayoMP5NjUz8=" tex1="ayoMP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="392" pos="AAAAANmRg0F0F1BA" norm="AAAAAGO5s7w68H8/" tan="3f5/v/uTwDsEPQc5/v9/Pw==" tex0="kohgP+rg1j4=" tex1="kohgP+rg1j4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="393" pos="dBfQP9mRg0FvNjRA" norm="OfD/Pme5s7wvpl0/" tan="FrddvwKUwLs58P8+AACAPw==" tex0="SPZPP+rg1j4=" tex1="SPZPP+rg1j4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="394" pos="lDKQtG7mj0F0NpLA" norm="7oOEsgAAAAAAAIC/" tan="AACAPwAAAABT3MOyAACAPw==" tex0="FCYaP3kVLT8=" tex1="FCYaP3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="395" pos="cjYSQHFPiUFyP33A" norm="AAAAPwAAAADXs12/" tan="2LNdPwAAAAAAAAA/AACAPw==" tex0="viEoP+QgQD8=" tex1="viEoP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="396" pos="cjYSQG7mj0FyP33A" norm="AAAAPwAAAADXs12/" tan="2LNdPwAAAAAAAAA/AACAPw==" tex0="viEoP3kVLT8=" tex1="viEoP3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="397" pos="cD99QG7mj0F0NhLA" norm="17NdPwAAAAD+//++" tan="/v//PgAAAADYs10///9/Pw==" tex0="Zx02P3kVLT8=" tex1="Zx02P3kVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="398" pos="AAAAAHpkxUGCNmdA" norm="Gq+EMdZK0r2YpX4/" tan="N+d/v0sd4Dy9Ezk7AQCAPw==" tex0="kohgP3kbpj4=" tex1="kohgP3kbpj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="399" pos="lDKQtFSlgkF0NpLA" norm="74MEswAAAAAAAIC/" tan="AACAPwAAAABT3MOyAACAPw==" tex0="FCYaP5NjUz8=" tex1="FCYaP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="400" pos="cD99QHFPiUF0NhLA" norm="2LNdPwAAAAAAAAC/" tan="AAAAPwAAAADYs10/AACAPw==" tex0="Zx02P+QgQD8=" tex1="Zx02P+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="401" pos="gjbnP3pkxUF9PEhA" norm="lqX+PtRK0r3ah1w/" tan="6fpdv1Ed4Lyjpv4+AACAPw==" tex0="SPZPP3kbpj4=" tex1="SPZPP3kbpj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="402" pos="lDKQtHFPiUF0NpLA" norm="74OEsgAAAAAAAIC/" tan="AACAPwAAAABT3MOyAACAPw==" tex0="FCYaP+QgQD8=" tex1="FCYaP+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="403" pos="cjYSQFSlgkFyP33A" norm="AAAAPwAAAADWs12/" tan="1rNdPwAAAAABAAA//v9/Pw==" tex0="viEoP5NjUz8=" tex1="viEoP5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="404" pos="AAAAAI6bA0IQlZ5A" norm="ceQEMriSpb15KX8/" tan="ofB/v6rWsDxmf+U6AACAPw==" tex0="kohgPw2saj4=" tex1="kohgPw2saj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="405" pos="EJUeQI6bA0IVVolA" norm="fSn/PrOSpb0N+lw/" tan="5t9dv5HWsLziKf8+AACAPw==" tex0="SPZPPw2saj4=" tex1="SPZPPw2saj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="406" pos="cD99QHFPiUF0NhLA" norm="2LNdPwAAAAAAAAC/" tan="AAAAPwAAAADYs10/AACAPw==" tex0="Zx02P+QgQD8=" tex1="Zx02P+QgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="407" pos="AVgmwQyxDUIfls2/" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="THJ1P+dzUj8=" tex1="THJ1P+dzUj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="408" pos="dTaSwG7mj0Gt002y" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAIAAAIC/AACAPw==" tex0="MGbgPnkVLT8=" tex1="MGbgPnkVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="409" pos="EqASwQyxDUIals2/" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="THJ1P6YnLD8=" tex1="THJ1P6YnLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="410" pos="AAAAAOCEJEIQlZ5A" norm="V5SEsd7WCL1r238/" tan="YP1/v4yTEjxwx5w5AACAPw==" tex0="kohgPyYhCT4=" tex1="kohgPyYhCT4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="411" pos="AVgmwQyxDUI/kAFA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="THJ1P+dzUj8=" tex1="THJ1P+dzUj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="412" pos="2j5bwIIbnUGvMbY/" norm="XlRMPTMIg7wDpn8/" tan="m+quvvJ0cD9PhgM9//9/Pw==" tex0="FIKYPaYnLD8=" tex1="FIKYPaYnLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="413" pos="EJUeQOCEJEIVVolA" norm="btv/Pt/WCL0olF0/" tan="Xbtdv3+TErxx2/8+AACAPw==" tex0="SPZPPyYhCT4=" tex1="SPZPPyYhCT4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="414" pos="AVgmwQyxDUI/kAFA" norm="XlRMPTMIg7wDpn8/" tan="m+quvvJ0cD9PhgM9//9/Pw==" tex0="THJ1P+dzUj8=" tex1="THJ1P+dzUj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="415" pos="EqASwQyxDUJCkAFA" norm="F64btdTaG72L0H8/" tan="ZNKuvrRwcD+3fBI9AACAPw==" tex0="THJ1P6YnLD8=" tex1="THJ1P6YnLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="416" pos="AAAAAC9uRULZM7BA" norm="AAAAALDAiL28bX8/" tan="gvV/v3s4kjw5kZw6//9/Pw==" tex0="kohgPyFZHj0=" tex1="kohgPyFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="417" pos="2TMwQC9uRUKKmJhA" norm="vW3/PrPAiL0qNV0/" tan="5tFdv3g4krztbf8+//9/Pw==" tex0="SPZPPyFZHj0=" tex1="SPZPPyFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="418" pos="EqASwQyxDUJCkAFA" norm="HJhwPwvvrj4AAACA" tan="y82uvmFqcD9ZzB29AQCAvw==" tex0="THJ1P6YnLD8=" tex1="THJ1P6YnLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="419" pos="2j5bwIIbnUGbaHW/" norm="Q7gJPuYYBzxXqn2/" tan="zM2uvmFqcD9vzB29AQCAvw==" tex0="FIKYPaYnLD8=" tex1="FIKYPaYnLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="420" pos="kv5SwPBIjEGbaHW/" norm="chGKPfJhZbx3ZH+/" tan="iKG8vm3LbT/RXhu9AACAvw==" tex0="FIKYPeZzUj8=" tex1="FIKYPeZzUj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="421" pos="cj99wG7mj0F0NhLA" norm="1rNdvwAAAAADAAC/" tan="AgAAPwAAAADVs12/AACAPw==" tex0="hF38PnkVLT8=" tex1="hF38PnkVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="422" pos="5PgRQAAAAADhjag/" norm="AAAAAAAAgL8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="AWQ/P7cuHD8=" tex1="AWQ/P7cuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="423" pos="krF/wDutEkLQ5D9B" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAIAAAIC/AACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="424" pos="cj99wHFPiUF0NhLA" norm="1bNdvwAAAAADAAC/" tan="BAAAPwAAAIDWs12/AACAPw==" tex0="hF38PuQgQD8=" tex1="hF38PuQgQD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="425" pos="fKahQELLFEL//29B" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="fCB0PwGkLT8=" tex1="fCB0PwGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="426" pos="ipiYQC9uRULZMzBA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="AWQ/PyFZHj0=" tex1="AWQ/PyFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="427" pos="2j5bwIIbnUGbaHW/" norm="/NZ3P709gD4AAACA" tan="JCWAvnOndz8ShR69AACAvw==" tex0="FIKYPeZzUj8=" tex1="FIKYPeZzUj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="428" pos="kv5SwPBIjEGvMbY/" norm="RvFtv47ivL4AAACA" tan="/Mq8vpbTbT/FuP88AACAPw==" tex0="FIKYPaYnLD8=" tex1="FIKYPaYnLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="429" pos="bzY0QG5+A0F0F9A/" norm="54tdPw+jGb3j0f8+" tan="vhMAvxuLJLygpF0/AQCAPw==" tex0="AWQ/Py/TAz8=" tex1="AWQ/Py/TAz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="430" pos="cD99QFSlgkF0NhLA" norm="2LNdPwAAAAAAAAC/" tan="AAAAPwAAAADYs10/AACAPw==" tex0="Zx02P5NjUz8=" tex1="Zx02P5NjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="431" pos="l2h1v4IbnUHaPltA" norm="AAAAAL09gD781ne/" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="AS2LPf61LD8=" tex1="AS2LPf61LD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="432" pos="5PgRQAAAAADhjag/" norm="KhRdP6+Dmb2gR/8+" tan="1E4Av00KpLwTd10///9/Pw==" tex0="AWQ/P7cuHD8=" tex1="AWQ/P7cuHD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="433" pos="kv5SwPBIjEGbaHW/" norm="LYV/P42nej0AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="FIKYPeZzUj8=" tex1="FIKYPeZzUj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="434" pos="2j5bwIIbnUGvMbY/" norm="ctx8P9XcHz4AAACA" tan="qsEfvnmxfD9LORU9AACAvw==" tex0="FIKYPaYnLD8=" tex1="FIKYPaYnLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="435" pos="sDG2P4IbnUHaPltA" norm="AAAAANXcHz5y3Hy/" tan="XDkVPXmxfD+rwR8+//9/vw==" tex0="AS2LPf61LD8=" tex1="AS2LPf61LD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="436" pos="QpABQAyxDUIBWCZB" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="WdN0P2yRUz8=" tex1="WdN0P2yRUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="437" pos="bzY0QNmRg0F0F9A/" norm="L6ZdP2m5s7w58P8+" tan="vwYAvwaUwLujrl0///9/Pw==" tex0="AWQ/P+rg1j4=" tex1="AWQ/P+rg1j4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="438" pos="l2h1v/BIjEGS/lJA" norm="AAAAAI2nej0thX+/" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="AS2LPWyRUz8=" tex1="AS2LPWyRUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="439" pos="2j5bwIIbnUGbaHW/" norm="/NZ3P709gD4AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="FIKYPaYnLD8=" tex1="FIKYPaYnLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="440" pos="QpABQAyxDUIBWCZB" norm="A6Z/Pw8Ig7yeVEy9" tan="VIYDPfN0cD+c6q4+AQCAPw==" tex0="WdN0P2yRUz8=" tex1="WdN0P2yRUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="441" pos="fTxIQHpkxUGCNuc/" norm="2odcP9ZK0r2Ypf4+" tan="4pMAv1Md4LzWQV0/AQCAPw==" tex0="AWQ/P3kbpj4=" tex1="AWQ/P3kbpj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="442" pos="kv5SwPBIjEGvMbY/" norm="LYV/P42nej0AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="FIKYPeZzUj8=" tex1="FIKYPeZzUj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="443" pos="Q5ABQAyxDUISoBJB" norm="AAAAAAvvrj4cmHC/" tan="Z8wdvWBqcD/Lza4+AACAvw==" tex0="WdN0P/+1LD8=" tex1="WdN0P/+1LD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="444" pos="sDG2P4IbnUHaPltA" norm="A6Z/Pw8Ig7yeVEy9" tan="U4YDPfN0cD+c6q4+AQCAPw==" tex0="AS2LPf61LD8=" tex1="AS2LPf61LD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="445" pos="lDKQtFSlgkF0NpJA" norm="74MEswAAAAAAAIA/" tan="AACAvwAAAAAy3MOyAACAPw==" tex0="O4CMPpNjUz8=" tex1="O4CMPpNjUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="pHC9Pg==" bone1="0" weight1="rkchPw=="/>
+	<vertex id="446" pos="Q5ABQAyxDUISoBJB" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="WdN0P/+1LD8=" tex1="WdN0P/+1LD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="447" pos="l2h1v4IbnUHaPltA" norm="AAAAAL09gD781ne/" tan="JIUevXKndz8kJYA+AQCAvw==" tex0="AS2LPWyRUz8=" tex1="AS2LPWyRUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="448" pos="EqASwQyxDUJCkAFA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="THJ1P6YnLD8=" tex1="THJ1P6YnLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="449" pos="FVaJQI6bA0IQlR5A" norm="DfpcP7CSpb19Kf8+" tan="s1sAv5DWsLwmbV0/AACAPw==" tex0="AWQ/Pw2saj4=" tex1="AWQ/Pw2saj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="450" pos="FZbNvwyxDUISoBJB" norm="AAAAAAvvrj4cmHC/" tan="acwdvWBqcD/Lza4+AACAvw==" tex0="WdN0P2yRUz8=" tex1="WdN0P2yRUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="451" pos="EqASwQyxDUIals2/" norm="chGKPfJhZbx3ZH+/" tan="hqG8vm3LbT/QXhu9/v9/vw==" tex0="THJ1P6YnLD8=" tex1="THJ1P6YnLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="452" pos="AVgmwQyxDUI/kAFA" norm="RvFtv47ivL4AAACA" tan="/Mq8vpbTbT/FuP88AACAPw==" tex0="THJ1P6YnLD8=" tex1="THJ1P6YnLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="453" pos="FVaJQOCEJEIQlR5A" norm="J5RdP97WCL1v2/8+" tan="qw8Av3yTErzDp10/AACAPw==" tex0="AWQ/PyYhCT4=" tex1="AWQ/PyYhCT4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="454" pos="kv5SwPBIjEGvMbY/" norm="2wbMPUAkyDvAuH4/" tan="/cq8vpbTbT/FuP88AACAPw==" tex0="FIKYPeZzUj8=" tex1="FIKYPeZzUj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="455" pos="QpABQAyxDUIBWCZB" norm="AAAAAI7ivL5G8W0/" tan="/7j/PJbTbT/9yrw+AQCAPw==" tex0="WdN0P/+1LD8=" tex1="WdN0P/+1LD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="456" pos="l2h1v/BIjEGS/lJA" norm="AAAAAI7ivL5G8W0/" tan="0bwJvdHObT80x7w+AACAPw==" tex0="AS2LPWyRUz8=" tex1="AS2LPWyRUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="457" pos="EqASwQyxDUIals2/" norm="G5hwPwvvrj4AAACA" tan="zM2uvmFqcD9XzB29AACAvw==" tex0="THJ1P+dzUj8=" tex1="THJ1P+dzUj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="458" pos="AVgmwQyxDUIfls2/" norm="D74BNTctFL0c1X+/" tan="Mse8vtPObT/WvAm9AgCAvw==" tex0="THJ1P+dzUj8=" tex1="THJ1P+dzUj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="459" pos="kv5SQPBIjEGUaHU/" norm="LYV/v42nej0AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="gE2ePQ8rUz8=" tex1="gE2ePQ8rUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="460" pos="sDG2P/BIjEGS/lJA" norm="AAAAAI7ivL5G8W0/" tan="+rj/PJbTbT/9yrw+AQCAPw==" tex0="AS2LPf61LD8=" tex1="AS2LPf61LD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="461" pos="ipiYQC9uRULZMzBA" norm="KjVdP7TAiL27bf8+" tan="jz4Av3k4krydg10///9/Pw==" tex0="AWQ/PyFZHj0=" tex1="AWQ/PyFZHj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="462" pos="2j5bQIIbnUGUaHU/" norm="/NZ3v709gD4AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="gE2ePTR0LT8=" tex1="gE2ePTR0LT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="463" pos="kv5SwPBIjEGbaHW/" norm="RvFtv47ivL4AAACA" tan="Nce8vtHObT/JvAm9AACAPw==" tex0="FIKYPeZzUj8=" tex1="FIKYPeZzUj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="464" pos="AVgmwQyxDUIfls2/" norm="RvFtv47ivL4AAACA" tan="/Mq8vpbTbT/HuP88AACAPw==" tex0="THJ1P+dzUj8=" tex1="THJ1P+dzUj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="465" pos="NyeAQDutEkLy70BB" norm="AAAAAAAAgL8AAACA" tan="Xmp0PwAAAADqRpi+AACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="466" pos="GpbNvwyxDUIBWCZB" norm="HNV/vzItFL0PvgG1" tan="0bwJvdHObT81x7w+AQCAvw==" tex0="WdN0P2yRUz8=" tex1="WdN0P2yRUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="467" pos="GpbNvwyxDUIBWCZB" norm="AAAAAI7ivL5G8W0/" tan="Arn/PJbTbT/9yrw+AQCAPw==" tex0="WdN0P2yRUz8=" tex1="WdN0P2yRUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="468" pos="EqASQQyxDUIUls0/" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="jYB1PzR0LT8=" tex1="jYB1PzR0LT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="469" pos="FZbNvwyxDUISoBJB" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="WdN0P/+1LD8=" tex1="WdN0P/+1LD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="470" pos="sDG2P/BIjEGS/lJA" norm="wLh+P0wkyDvnBsy9" tan="1Lj/PJbTbT/8yrw+AACAPw==" tex0="AS2LPWyRUz8=" tex1="AS2LPWyRUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="471" pos="NyeAQDutEkLy70BB" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAIAAAIC/AACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="472" pos="sDG2P/BIjEGS/lJA" norm="AAAAAI2nej0thX+/" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="AS2LPWyRUz8=" tex1="AS2LPWyRUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="473" pos="NyeAQDutEkL//29B" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAIAAAIC/AACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="474" pos="kv5SQPBIjEGyMba/" norm="7AbMvVEkyDvAuH6/" tan="/cq8PpXTbT/buP+8//9/Pw==" tex0="gE2ePQ8rUz8=" tex1="gE2ePQ8rUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="475" pos="AVgmQQyxDUJEkAHA" norm="vVRMvfsHg7wDpn+/" tan="nOquPvJ0cD9UhgO9AACAPw==" tex0="jYB1Pw8rUz8=" tex1="jYB1Pw8rUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="476" pos="Q5ABQAyxDUISoBJB" norm="i9B/P7HaG73Jkk80" tan="uXwSPbNwcD9k0q4+/v9/Pw==" tex0="WdN0P/+1LD8=" tex1="WdN0P/+1LD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="477" pos="fKahQDutEkJLuDtB" norm="60aYvgAAAABeanS/" tan="XGp0PwAAAADqRpi+AACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="478" pos="GpbNvwyxDUIBWCZB" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="WdN0P2yRUz8=" tex1="WdN0P2yRUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="479" pos="NyeAQDutEkLy70BB" norm="60aYvgAAAABeanS/" tan="XGp0PwAAAADqRpi+AACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="480" pos="NyeAQELLFEL//29B" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="481" pos="l2h1v/BIjEGS/lJA" norm="d2R/v+phZbxuEYq9" tan="zF4bvW7LbT+Iobw+AACAvw==" tex0="AS2LPWyRUz8=" tex1="AS2LPWyRUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="482" pos="FZbNvwyxDUISoBJB" norm="d2R/v+phZbxuEYq9" tan="y14bvW7LbT+Hobw+AACAvw==" tex0="WdN0P/+1LD8=" tex1="WdN0P/+1LD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="483" pos="lDKQtG7mj0F0NpJA" norm="7oOEsgAAAAAAAIA/" tan="AACAvwAAAAAz3MOyAACAPw==" tex0="O4CMPnkVLT8=" tex1="O4CMPnkVLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="484" pos="l2h1v4IbnUHaPltA" norm="V6p9v+AYBzw/uAm+" tan="aswdvWFqcD/Lza4+AACAvw==" tex0="AS2LPf61LD8=" tex1="AS2LPf61LD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="485" pos="Y+cKvze0Pz8T3JdA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="486" pos="2j5bQIIbnUGyMba/" norm="vVRMvfsHg7wDpn+/" tan="m+quPvJ0cD9UhgO9AACAPw==" tex0="gE2ePTR0LT8=" tex1="gE2ePTR0LT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="487" pos="EqASQQyxDUJEkAHA" norm="HJhwvwvvrj4AAACA" tan="y82uPmFqcD9rzB09AQCAvw==" tex0="jYB1PzR0LT8=" tex1="jYB1PzR0LT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="488" pos="AVgmQQyxDUIUls0/" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="jYB1Pw8rUz8=" tex1="jYB1Pw8rUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="489" pos="QOvcPje0Pz///29B" norm="AAAAAAAAAAAAAIA/" tan="AACAvwAAAIAAAACAAACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="490" pos="EqASQQyxDUJEkAHA" norm="AAAAAJ7aG72L0H+/" tan="ZNKuPrRwcD+5fBK9AACAPw==" tex0="jYB1PzR0LT8=" tex1="jYB1PzR0LT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="491" pos="QOvcPlCckj/8CJ5A" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAAAAAIA/AACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="492" pos="rOfOPxcYY75vtHA/" norm="L60RvriFfD94Nqi9" tan="uWR9PyeSET5Ftem7AACAPw==" tex0="Eu1vPkXGOz8=" tex1="Eu1vPkXGOz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="493" pos="AVgmQQyxDUJEkAHA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="jYB1Pw8rUz8=" tex1="jYB1Pw8rUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="494" pos="2j5bQIIbnUGyMba/" norm="ctx8v9XcHz4AAACA" tan="qcEfPnqxfD9MORW9AACAvw==" tex0="gE2ePTR0LT8=" tex1="gE2ePTR0LT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="495" pos="2j5bQIIbnUGUaHU/" norm="/NZ3v709gD4AAACA" tan="JCWAPnOndz8khR49AQCAvw==" tex0="gE2ePQ8rUz8=" tex1="gE2ePQ8rUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="496" pos="EqASQQyxDUJEkAHA" norm="AAAAAAAAgD8AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="jYB1PzR0LT8=" tex1="jYB1PzR0LT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="497" pos="QOvcPje0Pz8T3JdA" norm="AAAAAC0L4D53MGa/" tan="AACAPwAAAIAAAAAAAQCAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="498" pos="QOvcPlCckj///29B" norm="AAAAAAAAAAAAAIA/" tan="AACAvwAAAAAAAAAAAACAPw==" tex0="KH2OPQGkLT8=" tex1="KH2OPQGkLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="499" pos="EqASQQyxDUIUls0/" norm="ThGKvUJiZbx3ZH8/" tan="iKG8Pm3LbT/JXhs9/v9/vw==" tex0="jYB1PzR0LT8=" tex1="jYB1PzR0LT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="500" pos="EqASQQyxDUIUls0/" norm="HJhwvwvvrj4AAACA" tan="y82uPmFqcD9pzB09AQCAvw==" tex0="jYB1Pw8rUz8=" tex1="jYB1Pw8rUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="501" pos="BLM8wELLFEKDdUVB" norm="AAAAAAAAgD8AAACA" tan="hfByPwAAAIC+cqE+AACAPw==" tex0="fCB0P2DnUD8=" tex1="fCB0P2DnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="502" pos="kv5SQPBIjEGyMba/" norm="LYV/v42nej0AAACA" tan="AAAAAAAAAAAAAAAAAACAPw==" tex0="gE2ePQ8rUz8=" tex1="gE2ePQ8rUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="503" pos="krF/wELLFELQ5D9B" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="KH2OPWDnUD8=" tex1="KH2OPWDnUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="504" pos="kv5SQPBIjEGUaHU/" norm="ThGKvUJiZbx3ZH8/" tan="iKG8Pm3LbT/JXhs9AACAvw==" tex0="gE2ePQ8rUz8=" tex1="gE2ePQ8rUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="505" pos="wqpRQTD9B0IAAACA" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAAAAAIA/AACAPw==" tex0="nzJHP3F8Uj8=" tex1="nzJHP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="506" pos="wqpRQdwfFEIAAACA" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAIAAAIA/AACAPw==" tex0="nzJHP96OPj8=" tex1="nzJHP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="507" pos="spM1QdwfFELCqtHA" norm="17NdPwAAAAAAAAC/" tan="AAAAPwAAAADYs10/AACAPw==" tex0="Z4E6P96OPj8=" tex1="Z4E6P96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="508" pos="2j5bQIIbnUGUaHU/" norm="P7gJvuIYBzxXqn0/" tan="y82uPmFqcD9pzB09AQCAvw==" tex0="gE2ePTR0LT8=" tex1="gE2ePTR0LT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="509" pos="kv5SQPBIjEGyMba/" norm="RvFtP47ivL4AAACA" tan="/cq8PpXTbT/buP+8AACAPw==" tex0="gE2ePTR0LT8=" tex1="gE2ePTR0LT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="510" pos="spM1QTD9B0LCqtHA" norm="17NdPwAAAAABAAC/" tan="AQAAPwAAAADXs10/AACAPw==" tex0="Z4E6P3F8Uj8=" tex1="Z4E6P3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="511" pos="kv5SQPBIjEGUaHU/" norm="RvFtP47ivL4AAACA" tan="Nce8PtLObT/JvAk9AACAPw==" tex0="gE2ePQ8rUz8=" tex1="gE2ePQ8rUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="512" pos="wqpRQR9pH0IAAACA" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAIAAAIA/AACAPw==" tex0="nzJHP0oGLD8=" tex1="nzJHP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="513" pos="AVgmQQyxDUJEkAHA" norm="RvFtP47ivL4AAACA" tan="/cq8PpXTbT/buP+8AACAPw==" tex0="jYB1PzR0LT8=" tex1="jYB1PzR0LT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="514" pos="E5bNPwyxDUIBWCbB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="kYksPyE3Qz8=" tex1="kYksPyE3Qz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="515" pos="spM1QR9pH0LCqtHA" norm="17NdPwAAAAAAAAC/" tan="AAAAPwAAAADYs10/AACAPw==" tex0="Z4E6P0oGLD8=" tex1="Z4E6P0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="516" pos="kWh1P/BIjEGS/lLA" norm="WqcuPzmhBD0m/Do/" tan="Al4KvHWkf7+7o1U9AQCAPw==" tex0="ONPTPvPiSj8=" tex1="ONPTPvPiSj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="517" pos="E5bNPwyxDUISoBLB" norm="RKM1PxL7Mz/nY0Q9" tan="F2Y0P4I3Nb8xvUW9AACAPw==" tex0="kYksP1QXNj8=" tex1="kYksP1QXNj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="518" pos="kWh1P4IbnUHaPlvA" norm="AAAAAL09gD781nc/" tan="AAAAAPrWd7+9PYA+AACAPw==" tex0="/fOmPvPiSj8=" tex1="/fOmPvPiSj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="519" pos="wqrRQDD9B0K0kzXB" norm="AgAAPwAAAADXs12/" tan="17NdPwAAAAACAAA/AQCAPw==" tex0="LtAtP3F8Uj8=" tex1="LtAtP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="520" pos="tDG2v4IbnUHaPlvA" norm="WZMLv0Px8T06dlQ/" tan="bD8WvSsQfr/M9u89/f9/Pw==" tex0="/fOmPgyFMT8=" tex1="/fOmPgyFMT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="521" pos="wqrRQNwfFEK0kzXB" norm="AgAAPwAAAADWs12/" tan="17NdPwAAAAADAAA/AQCAPw==" tex0="LtAtP96OPj8=" tex1="LtAtP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="522" pos="tDG2v/BIjEGS/lLA" norm="wLh+v1YkyDvzBsw9" tan="5Lj/vJXTbT/8yry+//9/Pw==" tex0="ZFiOPcTGUD8=" tex1="ZFiOPcTGUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="523" pos="RpABwAyxDUISoBLB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="nd8FP1QXNj8=" tex1="nd8FP1QXNj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="524" pos="RpABwAyxDUIBWCbB" norm="Lhk2vym0Mz+GixE9" tan="EO8zP5DdNT+8SxM9/v9/Pw==" tex0="nd8FPyE3Qz8=" tex1="nd8FPyE3Qz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="525" pos="wqrRQB9pH0K0kzXB" norm="AgAAPwAAAADWs12/" tan="17NdPwAAAAACAAA/AACAPw==" tex0="LtAtP0oGLD8=" tex1="LtAtP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="526" pos="tDG2v4IbnUHaPlvA" norm="WZMLv0Px8T06dlQ/" tan="OOf2vVr7dz/fS16+/v9/Pw==" tex0="ZFiOPbwCLT8=" tex1="ZFiOPbwCLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="527" pos="RpABwAyxDUISoBLB" norm="AAAAAAvvrj4cmHA/" tan="cMwdvWFqcL/Lza4+AACAPw==" tex0="xCmXPX+KLD8=" tex1="xCmXPX+KLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="528" pos="RpABwAyxDUISoBLB" norm="i9B/v6LaG70AAACA" tan="vXwSvbRwcD9k0q6+AACAPw==" tex0="MORzP7wCLT8=" tex1="MORzP7wCLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="529" pos="E5bNPwyxDUISoBLB" norm="RKM1PxL7Mz/nY0Q9" tan="hM8Tv3B3Hj+SSwi/AQCAvw==" tex0="MORzP7wCLT8=" tex1="MORzP7wCLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="530" pos="kWh1P4IbnUHaPlvA" norm="V6p9P+IYBzxAuAk+" tan="aswdPWFqcD/Lza6+AACAvw==" tex0="ZFiOPbwCLT8=" tex1="ZFiOPbwCLT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="531" pos="AADItNwfFELCqlHB" norm="74OEsgAAAAAAAIC/" tan="AACAPwAAAAAI9PeyAACAPw==" tex0="9B4hP96OPj8=" tex1="9B4hP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="532" pos="RpABwAyxDUIBWCbB" norm="Lhk2vym0Mz+GixE9" tan="jyQZP9SUIT9SyPy+AACAPw==" tex0="MORzP8TGUD8=" tex1="MORzP8TGUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="533" pos="kWh1P/BIjEGS/lLA" norm="WqcuPzmhBD0m/Do/" tan="gwg+Pt1odT/JBF2+AACAvw==" tex0="ZFiOPcTGUD8=" tex1="ZFiOPcTGUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="534" pos="AADItDD9B0LCqlHB" norm="74OEsgAAAAAAAIC/" tan="AACAPwAAAAAI9PeyAACAPw==" tex0="9B4hP3F8Uj8=" tex1="9B4hP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="535" pos="tDG2v4IbnUHaPlvA" norm="WZMLv0Px8T06dlQ/" tan="POf2PVv7d7/hS14+AACAPw==" tex0="fvd0P3+KLD8=" tex1="fvd0P3+KLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="536" pos="kWh1P4IbnUHaPlvA" norm="AAAAAL09gD781nc/" tan="JoUevXOnd78jJYA+AACAPw==" tex0="fvd0P1rBUj8=" tex1="fvd0P1rBUj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="537" pos="RpABwAyxDUIBWCbB" norm="AAAAAI7ivL5G8W2/" tan="47j/vJXTbT/8yry+AACAPw==" tex0="fBd1P+NZLD8=" tex1="fBd1P+NZLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="538" pos="E5bNPwyxDUISoBLB" norm="AAAAAAvvrj4cmHA/" tan="a8wdvWFqcL/Lza4+AQCAPw==" tex0="1CmXPVrBUj8=" tex1="1CmXPVrBUj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="539" pos="AADItB9pH0LCqlHB" norm="7oOEsgAAAAAAAIC/" tan="AACAPwAAAAAK9PeyAACAPw==" tex0="9B4hP0oGLD8=" tex1="9B4hP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="540" pos="E5bNPwyxDUIBWCbB" norm="GtV/P14tFL0AAACA" tan="y7wJPdLObT81x7y+AACAvw==" tex0="MORzP8TGUD8=" tex1="MORzP8TGUD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="541" pos="wqpRQTD9B0IAAACA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAA9zCIyAACAvw==" tex0="/MhfPnI/Pz8=" tex1="/MhfPnI/Pz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="542" pos="E5bNPwyxDUIBWCbB" norm="AAAAAI/ivL5H8W2/" tan="4Lj/vJXTbT/8yry+AQCAPw==" tex0="fBd1P1E1Uj8=" tex1="fBd1P1E1Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="543" pos="wqrRwDD9B0K0kzXB" norm="AQAAvwAAAADYs12/" tan="17NdPwAAAAABAAC/AACAPw==" tex0="um0UP3F8Uj8=" tex1="um0UP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="544" pos="kWh1P/BIjEGS/lLA" norm="AAAAAI7ivL5G8W2/" tan="y7wJPdLObT80x7y+AQCAPw==" tex0="XJejPVE1Uj8=" tex1="XJejPVE1Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="545" pos="wqrRwNwfFEK0kzXB" norm="AQAAvwAAAADXs12/" tan="17NdPwAAAAABAAC/AACAPw==" tex0="um0UP96OPj8=" tex1="um0UP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="546" pos="spM1QTD9B0LCqtHA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAACeYV02AACAvw==" tex0="9cZYPtZmRT8=" tex1="9cZYPtZmRT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="547" pos="tDG2v/BIjEGS/lLA" norm="AAAAAI/ivL5H8W2/" tan="47j/vJXTbT/8yry+AQCAPw==" tex0="XJejPeNZLD8=" tex1="XJejPeNZLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="548" pos="yxMTQTD9B0KO1KnA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAnika2AACAvw==" tex0="kCtQPoQ7RD8=" tex1="kCtQPoQ7RD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="549" pos="wqrRwB9pH0K0kzXB" norm="AQAAvwAAAADXs12/" tan="17NdPwAAAAABAAC/AACAPw==" tex0="um0UP0oGLD8=" tex1="um0UP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="550" pos="wqrRQDD9B0K0kzXB" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAABW8NI1AACAvw==" tex0="lqFFPhvoST8=" tex1="lqFFPhvoST8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="551" pos="jtSpwDD9B0LMExPB" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAADzKg23AACAvw==" tex0="80oWPqjhRz8=" tex1="80oWPqjhRz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="552" pos="jNSpQDD9B0LMExPB" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAABVicY1AACAvw==" tex0="d6lAPqjhRz8=" tex1="d6lAPqjhRz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="553" pos="j+O0tDD9B0KO1CnB" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAACOmKe1AACAvw==" tex0="NHorPpQ3ST8=" tex1="NHorPpQ3ST8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="554" pos="wqrRwDD9B0K0kzXB" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAyUsQ2AACAvw==" tex0="1FIRPhvoST8=" tex1="1FIRPhvoST8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="555" pos="tJM1wdwfFELCqtHA" norm="1rNdvwAAAAAAAAC/" tan="AgAAPwAAAADXs12/AACAPw==" tex0="gbwHP96OPj8=" tex1="gbwHP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="556" pos="tJM1wTD9B0LCqtHA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAVQNo2AACAvw==" tex0="8Fr8PdZmRT8=" tex1="8Fr8PdZmRT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="557" pos="zBMTwTD9B0KO1KnA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAAAAAAAACAvw==" tex0="2sgGPoQ7RD8=" tex1="2sgGPoQ7RD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="558" pos="tJM1wTD9B0LCqtHA" norm="2LNdvwAAAAABAAC/" tan="AAAAPwAAAADYs12/AQCAPw==" tex0="gbwHP3F8Uj8=" tex1="gbwHP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="559" pos="AADItDD9B0LCqlHB" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAACB6em1AACAvw==" tex0="NHorPjuOSz8=" tex1="NHorPjuOSz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="560" pos="zBMTwTD9B0KO1KlA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAFBaW1AACAvw==" tex0="2sgGPmRDOj8=" tex1="2sgGPmRDOj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="561" pos="wqpRwTD9B0KvRuem" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAA8zCKyAACAvw==" tex0="5VbuPXI/Pz8=" tex1="5VbuPXI/Pz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="562" pos="wqrRwDD9B0K0kzVB" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAB/Qis2AACAvw==" tex0="1FIRPs+WND8=" tex1="1FIRPs+WND8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="563" pos="tJM1wR9pH0LCqtHA" norm="17NdvwAAAAAAAAC/" tan="AAAAPwAAAADYs12/AACAPw==" tex0="gbwHP0oGLD8=" tex1="gbwHP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="564" pos="tJM1wTD9B0LCqtFA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAACoby82AACAvw==" tex0="8Fr8PREYOT8=" tex1="8Fr8PREYOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="565" pos="AADItDD9B0LCqlFB" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAlWS22AACAvw==" tex0="NHorPrHwMj8=" tex1="NHorPrHwMj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="566" pos="jtSpwDD9B0LMExNB" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAACNYsG2AACAvw==" tex0="80oWPkCdNj8=" tex1="80oWPkCdNj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="567" pos="wqpRwTD9B0KvRuem" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAPw==" tex0="jhb2PnF8Uj8=" tex1="jhb2PnF8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="568" pos="j+O0tDD9B0KO1ClB" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAACIvcA2AACAvw==" tex0="NHorPlRHNT8=" tex1="NHorPlRHNT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="569" pos="wqpRwdwfFEKvRuem" norm="AACAvwAAAADugwSy" tan="AAAAAAAAAAAAAIC/AACAPw==" tex0="jhb2Pt6OPj8=" tex1="jhb2Pt6OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="570" pos="jNSpQDD9B0LMExNB" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAACztJo1AACAvw==" tex0="d6lAPkCdNj8=" tex1="d6lAPkCdNj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="571" pos="jtQpwTD9B0Kpqsqy" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAADEtJo2AACAvw==" tex0="sRsBPnI/Pz8=" tex1="sRsBPnI/Pz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="572" pos="wqrRQDD9B0K0kzVB" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAACtby+2AACAvw==" tex0="lqFFPs+WND8=" tex1="lqFFPs+WND8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="573" pos="wqpRwR9pH0KvRuem" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAPw==" tex0="jhb2PkoGLD8=" tex1="jhb2PkoGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="574" pos="yxMTQTD9B0KO1KlA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAADR/pu2AACAvw==" tex0="kCtQPmRDOj8=" tex1="kCtQPmRDOj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="575" pos="spM1QTD9B0LCqtFA" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAAAAAAAAACAvw==" tex0="9cZYPhEYOT8=" tex1="9cZYPhEYOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="576" pos="wqpRQR9pH0IAAACA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIA9zCIyAACAPw==" tex0="/MhfPnI/Pz8=" tex1="/MhfPnI/Pz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="577" pos="spM1QR9pH0LCqtHA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAACeYV02AACAPw==" tex0="9cZYPtZmRT8=" tex1="9cZYPtZmRT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="578" pos="jtQpQR9pH0Kpqsqy" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAA9zCIyAACAPw==" tex0="u9hVPnI/Pz8=" tex1="u9hVPnI/Pz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="579" pos="tJM1wdwfFELCqtFA" norm="1rNdvwAAAAABAAA/" tan="AQAAvwAAAADWs12///9/Pw==" tex0="JLTcPt6OPj8=" tex1="JLTcPt6OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="580" pos="AADItDD9B0LCqlFB" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAACOYsE2AACAvw==" tex0="NHorPrHwMj8=" tex1="NHorPrHwMj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="581" pos="jNSpQB9pH0LMExPB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIBVicY1AACAPw==" tex0="d6lAPqjhRz8=" tex1="d6lAPqjhRz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="582" pos="tJM1wTD9B0LCqtFA" norm="2LNdvwAAAAABAAA/" tan="AQAAvwAAAADWs12/AACAPw==" tex0="JLTcPnF8Uj8=" tex1="JLTcPnF8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="583" pos="yxMTQR9pH0KO1KnA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIAnika2AACAPw==" tex0="kCtQPoQ7RD8=" tex1="kCtQPoQ7RD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="584" pos="jtQpQTD9B0Kpqsqy" norm="AAAAAAAAgL8AAACA" tan="AACAPwAAAAA9zCIyAACAvw==" tex0="u9hVPnI/Pz8=" tex1="u9hVPnI/Pz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="585" pos="j+O0tB9pH0KO1CnB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAICOmKe1AACAPw==" tex0="NHorPpQ3ST8=" tex1="NHorPpQ3ST8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="586" pos="AADItB9pH0LCqlHB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAACB6em1AACAPw==" tex0="NHorPjuOSz8=" tex1="NHorPjuOSz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="587" pos="tJM1wR9pH0LCqtFA" norm="17NdvwAAAAAAAAA/" tan="AAAAvwAAAADXs12/AACAPw==" tex0="JLTcPkoGLD8=" tex1="JLTcPkoGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="588" pos="jtSpwB9pH0LMExPB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIDzKg23AACAPw==" tex0="80oWPqjhRz8=" tex1="80oWPqjhRz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="589" pos="wqrRwB9pH0K0kzXB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAAyUsQ2AACAPw==" tex0="1FIRPhvoST8=" tex1="1FIRPhvoST8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="590" pos="wqrRQB9pH0K0kzXB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIBW8NI1AACAPw==" tex0="lqFFPhvoST8=" tex1="lqFFPhvoST8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="591" pos="wqrRwDD9B0K0kzVB" norm="AAAAvwAAAADWs10/" tan="1rNdvwAAAAABAAC//v9/Pw==" tex0="s1HDPnF8Uj8=" tex1="s1HDPnF8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="592" pos="zBMTwR9pH0KO1KnA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="2sgGPoQ7RD8=" tex1="2sgGPoQ7RD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="593" pos="wqrRwNwfFEK0kzVB" norm="AQAAvwAAAADXs10/" tan="17NdvwAAAAABAAC/AACAPw==" tex0="s1HDPt6OPj8=" tex1="s1HDPt6OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="594" pos="wqpRwR9pH0KvRuem" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAA8zCKyAACAPw==" tex0="5VbuPXI/Pz8=" tex1="5VbuPXI/Pz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="595" pos="tJM1wR9pH0LCqtHA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAAVQNo2AACAPw==" tex0="8Fr8PdZmRT8=" tex1="8Fr8PdZmRT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="596" pos="zBMTwR9pH0KO1KlA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIAFBaW1AACAPw==" tex0="2sgGPmRDOj8=" tex1="2sgGPmRDOj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="597" pos="wqrRwB9pH0K0kzVB" norm="AAAAvwAAAADXs10/" tan="17NdvwAAAAAAAAC/AACAPw==" tex0="s1HDPkoGLD8=" tex1="s1HDPkoGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="598" pos="wqrRwB9pH0K0kzVB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAB/Qis2AACAPw==" tex0="1FIRPs+WND8=" tex1="1FIRPs+WND8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="599" pos="jtSpwB9pH0LMExNB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAICNYsG2AACAPw==" tex0="80oWPkCdNj8=" tex1="80oWPkCdNj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="600" pos="tJM1wR9pH0LCqtFA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAACoby82AACAPw==" tex0="8Fr8PREYOT8=" tex1="8Fr8PREYOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="601" pos="AADItB9pH0LCqlFB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAAAlWS22AACAPw==" tex0="NHorPrHwMj8=" tex1="NHorPrHwMj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="602" pos="jNSpQB9pH0LMExNB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAACztJo1AACAPw==" tex0="d6lAPkCdNj8=" tex1="d6lAPkCdNj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="603" pos="AADItNwfFELCqlFB" norm="5sXGsgAAAAAAAIA/" tan="AACAvwAAAAAf9PeyAACAPw==" tex0="Pe+pPt6OPj8=" tex1="Pe+pPt6OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="604" pos="jtQpwR9pH0Kpqsqy" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIDEtJo2AACAPw==" tex0="sRsBPnI/Pz8=" tex1="sRsBPnI/Pz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="605" pos="spM1QR9pH0LCqtFA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="9cZYPhEYOT8=" tex1="9cZYPhEYOT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="606" pos="AADItDD9B0LCqlFB" norm="74OEsgAAAAAAAIA/" tan="AACAvwAAAAAf9PeyAACAPw==" tex0="Pe+pPnF8Uj8=" tex1="Pe+pPnF8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="607" pos="wqrRQB9pH0K0kzVB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAACtby+2AACAPw==" tex0="lqFFPs+WND8=" tex1="lqFFPs+WND8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="608" pos="j+O0tB9pH0KO1ClB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAACIvcA2AACAPw==" tex0="NHorPlRHNT8=" tex1="NHorPlRHNT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="609" pos="yxMTQR9pH0KO1KlA" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAADR/pu2AACAPw==" tex0="kCtQPmRDOj8=" tex1="kCtQPmRDOj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="610" pos="yxMTQdwfFEKO1KlA" norm="1rNdvwAAAAACAAC/" tan="AgAAvwAAAADXs10/AACAvw==" tex0="2uNTP96OPj8=" tex1="2uNTP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="611" pos="AADItB9pH0LCqlFB" norm="7oOEsgAAAAAAAIA/" tan="AACAvwAAAAAf9PeyAACAPw==" tex0="Pe+pPkoGLD8=" tex1="Pe+pPkoGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="612" pos="jtQpQR9pH0Kpqsqy" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAAAAAIA/AACAvw==" tex0="nzJHP0oGLD8=" tex1="nzJHP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="613" pos="AADItDD9B0LCqlFB" norm="74OEsgAAAAAAAIA/" tan="AACAvwAAAIAt9feyAACAPw==" tex0="Y0ZtP3F8Uj8=" tex1="Y0ZtP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="614" pos="AADItNwfFELCqlFB" norm="5sXGsgAAAAAAAIA/" tan="AACAvwAAAIAt9feyAACAPw==" tex0="Y0ZtP96OPj8=" tex1="Y0ZtP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="615" pos="wqrRQDD9B0K0kzVB" norm="AgAAPwAAAADXs10/" tan="1rNdvwAAAAABAAA/AACAPw==" tex0="GpVgP3F8Uj8=" tex1="GpVgP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="616" pos="jtQpQTD9B0Kpqsqy" norm="AACAvwAAAAAAAACA" tan="AAAAAAAAAAAAAIA/AACAvw==" tex0="nzJHP3F8Uj8=" tex1="nzJHP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="617" pos="wqrRQNwfFEK0kzVB" norm="AgAAPwAAAADXs10/" tan="1rNdvwAAAAABAAA/AACAPw==" tex0="GpVgP96OPj8=" tex1="GpVgP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="618" pos="yxMTQdwfFEKO1KlA" norm="1rNdvwAAAAACAAC/" tan="AgAAvwAAAADXs10/AACAvw==" tex0="2uNTP96OPj8=" tex1="2uNTP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="619" pos="jNSpQB9pH0LMExNB" norm="AgAAvwAAAADXs12/" tan="1rNdvwAAAAACAAA/AACAvw==" tex0="GpVgP0oGLD8=" tex1="GpVgP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="620" pos="AADItB9pH0LCqlFB" norm="7oOEsgAAAAAAAIA/" tan="AACAvwAAAIAt9feyAACAPw==" tex0="Y0ZtP0oGLD8=" tex1="Y0ZtP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="621" pos="wqrRQB9pH0K0kzVB" norm="AgAAPwAAAADXs10/" tan="1rNdvwAAAAABAAA/AACAPw==" tex0="GpVgP0oGLD8=" tex1="GpVgP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="622" pos="yxMTQR9pH0KO1KlA" norm="1rNdvwAAAAADAAC/" tan="AwAAvwAAAADWs10/AACAvw==" tex0="2uNTP0oGLD8=" tex1="2uNTP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="623" pos="jNSpQNwfFELMExNB" norm="AgAAvwAAAADXs12/" tan="1rNdvwAAAAACAAA/AACAvw==" tex0="GpVgP96OPj8=" tex1="GpVgP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="624" pos="yxMTQTD9B0KO1KlA" norm="1rNdvwAAAAADAAC/" tan="AwAAvwAAAADWs10/AACAvw==" tex0="2uNTP3F8Uj8=" tex1="2uNTP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="625" pos="j+O0tNwfFEKO1ClB" norm="74MEsgAAAAAAAIC/" tan="AACAvwAAAAAAAAAAAACAvw==" tex0="Y0ZtP96OPj8=" tex1="Y0ZtP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="626" pos="jNSpQDD9B0LMExNB" norm="AgAAvwAAAADWs12/" tan="1rNdvwAAAIACAAA/AACAvw==" tex0="GpVgP3F8Uj8=" tex1="GpVgP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="627" pos="spM1QdwfFELCqtFA" norm="17NdPwAAAAABAAA/" tan="AQAAvwAAAADWs10/AACAPw==" tex0="2uNTP96OPj8=" tex1="2uNTP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="628" pos="j+O0tDD9B0KO1ClB" norm="AAAAAAAAAAAAAIC/" tan="AACAvwAAAAAAAAAAAACAvw==" tex0="Y0ZtP3F8Uj8=" tex1="Y0ZtP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="629" pos="j+O0tB9pH0KO1ClB" norm="AAAAAAAAAAAAAIC/" tan="AACAvwAAAAAAAAAAAACAvw==" tex0="Pe+pPkoGLD8=" tex1="Pe+pPkoGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="630" pos="spM1QTD9B0LCqtFA" norm="17NdPwAAAAABAAA/" tan="AQAAvwAAAADWs10/AACAPw==" tex0="2uNTP3F8Uj8=" tex1="2uNTP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="631" pos="jNSpQNwfFELMExNB" norm="AgAAvwAAAADXs12/" tan="1rNdvwAAAAACAAA/AACAvw==" tex0="GpVgP96OPj8=" tex1="GpVgP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="632" pos="j+O0tNwfFEKO1ClB" norm="74MEsgAAAAAAAIC/" tan="AACAvwAAAAAAAAAAAACAvw==" tex0="Y0ZtP96OPj8=" tex1="Y0ZtP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="633" pos="j+O0tNwfFEKO1ClB" norm="74MEsgAAAAAAAIC/" tan="AACAvwAAAAAAAAAAAACAvw==" tex0="Pe+pPt6OPj8=" tex1="Pe+pPt6OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="634" pos="j+O0tB9pH0KO1ClB" norm="AAAAAAAAAAAAAIC/" tan="AACAvwAAAAAAAAAAAACAvw==" tex0="Y0ZtP0oGLD8=" tex1="Y0ZtP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="635" pos="spM1QR9pH0LCqtFA" norm="17NdPwAAAAAAAAA/" tan="AAAAvwAAAADXs10/AACAPw==" tex0="2uNTP0oGLD8=" tex1="2uNTP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="636" pos="jtSpwNwfFELMExNB" norm="AgAAPwAAAADWs12/" tan="17NdvwAAAAACAAC/AACAvw==" tex0="s1HDPt6OPj8=" tex1="s1HDPt6OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="637" pos="j+O0tDD9B0KO1ClB" norm="AAAAAAAAAAAAAIC/" tan="AACAvwAAAAAAAAAAAACAvw==" tex0="Pe+pPnF8Uj8=" tex1="Pe+pPnF8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="638" pos="jtSpwB9pH0LMExNB" norm="AgAAPwAAAADWs12/" tan="17NdvwAAAAABAAC/AACAvw==" tex0="s1HDPkoGLD8=" tex1="s1HDPkoGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="639" pos="AVgmQQyxDUIUls0/" norm="AAAAAF0tFL0a1X8/" tan="Nce8PtLObT/JvAk9AACAvw==" tex0="jYB1Pw8rUz8=" tex1="jYB1Pw8rUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="640" pos="jtSpwDD9B0LMExNB" norm="AQAAPwAAAADWs12/" tan="17NdvwAAAAABAAC/AACAvw==" tex0="s1HDPnF8Uj8=" tex1="s1HDPnF8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="641" pos="tDG2v/BIjEGS/lLA" norm="AAAAAI2nej0thX8/" tan="AAAAACyFf7+Mp3o9AACAPw==" tex0="ONPTPgyFMT8=" tex1="ONPTPgyFMT8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="642" pos="AVgmQQyxDUIUls0/" norm="RvFtP47ivL4AAACA" tan="/cq8PpXTbT/auP+8AACAPw==" tex0="jYB1Pw8rUz8=" tex1="jYB1Pw8rUz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="643" pos="zBMTwdwfFEKO1KlA" norm="1rNdPwAAAAACAAC/" tan="AgAAvwAAAADWs12/AACAvw==" tex0="JLTcPt6OPj8=" tex1="JLTcPt6OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="644" pos="zBMTwdwfFEKO1KlA" norm="1rNdPwAAAAACAAC/" tan="AgAAvwAAAIDWs12/AACAvw==" tex0="JLTcPt6OPj8=" tex1="JLTcPt6OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="645" pos="jtQpQdwfFEKpqsqy" norm="AACAvwAAAADvgwQy" tan="AAAAAAAAAAAAAIA/AACAvw==" tex0="nzJHP96OPj8=" tex1="nzJHP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="646" pos="jtSpwNwfFELMExNB" norm="AgAAPwAAAADWs12/" tan="17NdvwAAAAABAAC/AACAvw==" tex0="s1HDPt6OPj8=" tex1="s1HDPt6OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="647" pos="wqrRQB9pH0K0kzVB" norm="AAAAAAAAgD8AAACA" tan="AACAPwAAAIB8Qiu2AACAPw==" tex0="lqFFPs+WND8=" tex1="lqFFPs+WND8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="648" pos="zBMTwTD9B0KO1KlA" norm="1rNdPwAAAAABAAC/" tan="AQAAvwAAAADWs12///9/vw==" tex0="JLTcPnF8Uj8=" tex1="JLTcPnF8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="649" pos="yxMTQdwfFEKO1KnA" norm="1rNdvwAAAAADAAA/" tan="AwAAPwAAAADVs10/AACAvw==" tex0="Z4E6P96OPj8=" tex1="Z4E6P96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="650" pos="jtQpwR9pH0Kpqsqy" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAvw==" tex0="jhb2PkoGLD8=" tex1="jhb2PkoGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="651" pos="jtQpwdwfFEKpqsqy" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAvw==" tex0="jhb2Pt6OPj8=" tex1="jhb2Pt6OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="652" pos="yxMTQTD9B0KO1KnA" norm="1rNdvwAAAAADAAA/" tan="AwAAPwAAAADVs10/AACAvw==" tex0="Z4E6P3F8Uj8=" tex1="Z4E6P3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="653" pos="zBMTwR9pH0KO1KlA" norm="17NdPwAAAAABAAC/" tan="AQAAvwAAAADWs12/AACAvw==" tex0="JLTcPkoGLD8=" tex1="JLTcPkoGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="654" pos="jNSpQDD9B0LMExNB" norm="AgAAvwAAAADWs12/" tan="1rNdvwAAAAACAAA/AACAvw==" tex0="GpVgP3F8Uj8=" tex1="GpVgP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="655" pos="jtQpwTD9B0Kpqsqy" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAIAAAIC/AACAvw==" tex0="jhb2PnF8Uj8=" tex1="jhb2PnF8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="656" pos="jNSpQB9pH0LMExNB" norm="AgAAvwAAAADXs12/" tan="1rNdvwAAAAACAAA/AACAvw==" tex0="GpVgP0oGLD8=" tex1="GpVgP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="657" pos="zBMTwdwfFEKO1KnA" norm="1rNdPwAAAAABAAA/" tan="AQAAPwAAAADXs12/AACAvw==" tex0="gbwHP96OPj8=" tex1="gbwHP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="658" pos="jtSpwB9pH0LMExPB" norm="AgAAPwAAAADXs10/" tan="1rNdPwAAAAACAAC/AACAvw==" tex0="um0UP0oGLD8=" tex1="um0UP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="659" pos="yxMTQR9pH0KO1KnA" norm="1rNdvwAAAAADAAA/" tan="AwAAPwAAAADVs10/AACAvw==" tex0="Z4E6P0oGLD8=" tex1="Z4E6P0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="660" pos="zBMTwTD9B0KO1KnA" norm="1rNdPwAAAAABAAA/" tan="AQAAPwAAAADXs12/AACAvw==" tex0="gbwHP3F8Uj8=" tex1="gbwHP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="661" pos="jNSpQDD9B0LMExPB" norm="AQAAvwAAAADWs10/" tan="17NdPwAAAAABAAA/AACAvw==" tex0="LtAtP3F8Uj8=" tex1="LtAtP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="662" pos="zBMTwR9pH0KO1KnA" norm="17NdPwAAAAABAAA/" tan="AQAAPwAAAADXs12/AACAvw==" tex0="gbwHP0oGLD8=" tex1="gbwHP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="663" pos="jtQpwTD9B0Kpqsqy" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAvw==" tex0="jhb2PnF8Uj8=" tex1="jhb2PnF8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="664" pos="jtSpwNwfFELMExPB" norm="AgAAPwAAAADXs10/" tan="1rNdPwAAAAACAAC/AACAvw==" tex0="um0UP96OPj8=" tex1="um0UP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="665" pos="jNSpQNwfFELMExPB" norm="AgAAvwAAAADWs10/" tan="17NdPwAAAAACAAA/AACAvw==" tex0="LtAtP96OPj8=" tex1="LtAtP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="666" pos="zBMTwdwfFEKO1KnA" norm="1rNdPwAAAAABAAA/" tan="AQAAPwAAAIDXs12/AACAvw==" tex0="gbwHP96OPj8=" tex1="gbwHP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="667" pos="jNSpQB9pH0LMExPB" norm="AgAAvwAAAADWs10/" tan="17NdPwAAAAACAAA/AACAvw==" tex0="LtAtP0oGLD8=" tex1="LtAtP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="668" pos="jtSpwDD9B0LMExPB" norm="AgAAPwAAAADWs10/" tan="1rNdPwAAAIACAAC/AACAvw==" tex0="um0UP3F8Uj8=" tex1="um0UP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="669" pos="jtSpwB9pH0LMExPB" norm="AgAAPwAAAADXs10/" tan="17NdPwAAAAABAAC/AQCAvw==" tex0="um0UP0oGLD8=" tex1="um0UP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="670" pos="j+O0tB9pH0KO1CnB" norm="AAAAAAAAAAAAAIA/" tan="AACAPwAAAAAAAAAAAACAvw==" tex0="9B4hP0oGLD8=" tex1="9B4hP0oGLD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="671" pos="j+O0tNwfFEKO1CnB" norm="74MEMgAAAAAAAIA/" tan="AACAPwAAAAAAAAAAAACAvw==" tex0="9B4hP96OPj8=" tex1="9B4hP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="672" pos="jtQpwdwfFEKpqsqy" norm="AACAPwAAAAAAAACA" tan="AAAAAAAAAAAAAIC/AACAvw==" tex0="jhb2Pt6OPj8=" tex1="jhb2Pt6OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="673" pos="j+O0tDD9B0KO1CnB" norm="AAAAAAAAAAAAAIA/" tan="AACAPwAAAAAAAAAAAACAvw==" tex0="9B4hP3F8Uj8=" tex1="9B4hP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="674" pos="j+O0tNwfFEKO1CnB" norm="74MEMgAAAAAAAIA/" tan="AACAPwAAAIAAAAAAAACAvw==" tex0="9B4hP96OPj8=" tex1="9B4hP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AAAAAA==" bone1="0" weight1="AACAPw=="/>
+	<vertex id="675" pos="jtSpwNwfFELMExPB" norm="AgAAPwAAAADXs10/" tan="1rNdPwAAAAACAAC/AACAvw==" tex0="um0UP96OPj8=" tex1="um0UP96OPj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="676" pos="jtSpwDD9B0LMExPB" norm="AgAAPwAAAADWs10/" tan="1rNdPwAAAAACAAC/AACAvw==" tex0="um0UP3F8Uj8=" tex1="um0UP3F8Uj8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+
+	<triangle id="1" v1="3" v2="2" v3="1"/>
+	<triangle id="2" v1="6" v2="5" v3="4"/>
+	<triangle id="3" v1="9" v2="8" v3="7"/>
+	<triangle id="4" v1="12" v2="9" v3="7"/>
+	<triangle id="5" v1="9" v2="14" v3="8"/>
+	<triangle id="6" v1="9" v2="17" v3="14"/>
+	<triangle id="7" v1="21" v2="20" v3="14"/>
+	<triangle id="8" v1="17" v2="21" v3="14"/>
+	<triangle id="9" v1="21" v2="26" v3="20"/>
+	<triangle id="10" v1="21" v2="29" v3="26"/>
+	<triangle id="11" v1="33" v2="32" v3="26"/>
+	<triangle id="12" v1="29" v2="33" v3="26"/>
+	<triangle id="13" v1="33" v2="38" v3="32"/>
+	<triangle id="14" v1="33" v2="41" v3="38"/>
+	<triangle id="15" v1="3" v2="44" v3="2"/>
+	<triangle id="16" v1="48" v2="5" v3="6"/>
+	<triangle id="17" v1="51" v2="9" v3="12"/>
+	<triangle id="18" v1="51" v2="53" v3="9"/>
+	<triangle id="19" v1="57" v2="17" v3="9"/>
+	<triangle id="20" v1="53" v2="57" v3="9"/>
+	<triangle id="21" v1="57" v2="21" v3="17"/>
+	<triangle id="22" v1="57" v2="65" v3="21"/>
+	<triangle id="23" v1="69" v2="29" v3="21"/>
+	<triangle id="24" v1="65" v2="69" v3="21"/>
+	<triangle id="25" v1="69" v2="33" v3="29"/>
+	<triangle id="26" v1="69" v2="77" v3="33"/>
+	<triangle id="27" v1="81" v2="41" v3="33"/>
+	<triangle id="28" v1="77" v2="81" v3="33"/>
+	<triangle id="29" v1="87" v2="86" v3="44"/>
+	<triangle id="30" v1="90" v2="89" v3="48"/>
+	<triangle id="31" v1="93" v2="53" v3="51"/>
+	<triangle id="32" v1="96" v2="93" v3="51"/>
+	<triangle id="33" v1="93" v2="57" v3="53"/>
+	<triangle id="34" v1="93" v2="101" v3="57"/>
+	<triangle id="35" v1="105" v2="65" v3="57"/>
+	<triangle id="36" v1="101" v2="105" v3="57"/>
+	<triangle id="37" v1="105" v2="69" v3="65"/>
+	<triangle id="38" v1="105" v2="113" v3="69"/>
+	<triangle id="39" v1="117" v2="77" v3="69"/>
+	<triangle id="40" v1="113" v2="117" v3="69"/>
+	<triangle id="41" v1="117" v2="81" v3="77"/>
+	<triangle id="42" v1="117" v2="125" v3="81"/>
+	<triangle id="43" v1="87" v2="128" v3="86"/>
+	<triangle id="44" v1="132" v2="89" v3="90"/>
+	<triangle id="45" v1="135" v2="93" v3="96"/>
+	<triangle id="46" v1="135" v2="137" v3="93"/>
+	<triangle id="47" v1="141" v2="101" v3="93"/>
+	<triangle id="48" v1="137" v2="141" v3="93"/>
+	<triangle id="49" v1="141" v2="105" v3="101"/>
+	<triangle id="50" v1="141" v2="149" v3="105"/>
+	<triangle id="51" v1="153" v2="113" v3="105"/>
+	<triangle id="52" v1="149" v2="153" v3="105"/>
+	<triangle id="53" v1="153" v2="117" v3="113"/>
+	<triangle id="54" v1="153" v2="161" v3="117"/>
+	<triangle id="55" v1="165" v2="125" v3="117"/>
+	<triangle id="56" v1="161" v2="165" v3="117"/>
+	<triangle id="57" v1="87" v2="170" v3="128"/>
+	<triangle id="58" v1="174" v2="89" v3="132"/>
+	<triangle id="59" v1="177" v2="137" v3="135"/>
+	<triangle id="60" v1="180" v2="177" v3="135"/>
+	<triangle id="61" v1="177" v2="141" v3="137"/>
+	<triangle id="62" v1="177" v2="185" v3="141"/>
+	<triangle id="63" v1="189" v2="149" v3="141"/>
+	<triangle id="64" v1="185" v2="189" v3="141"/>
+	<triangle id="65" v1="189" v2="153" v3="149"/>
+	<triangle id="66" v1="189" v2="197" v3="153"/>
+	<triangle id="67" v1="201" v2="161" v3="153"/>
+	<triangle id="68" v1="197" v2="201" v3="153"/>
+	<triangle id="69" v1="201" v2="165" v3="161"/>
+	<triangle id="70" v1="201" v2="209" v3="165"/>
+	<triangle id="71" v1="87" v2="212" v3="170"/>
+	<triangle id="72" v1="216" v2="89" v3="174"/>
+	<triangle id="73" v1="219" v2="177" v3="180"/>
+	<triangle id="74" v1="219" v2="221" v3="177"/>
+	<triangle id="75" v1="225" v2="185" v3="177"/>
+	<triangle id="76" v1="221" v2="225" v3="177"/>
+	<triangle id="77" v1="225" v2="189" v3="185"/>
+	<triangle id="78" v1="225" v2="233" v3="189"/>
+	<triangle id="79" v1="237" v2="197" v3="189"/>
+	<triangle id="80" v1="233" v2="237" v3="189"/>
+	<triangle id="81" v1="237" v2="201" v3="197"/>
+	<triangle id="82" v1="237" v2="245" v3="201"/>
+	<triangle id="83" v1="249" v2="209" v3="201"/>
+	<triangle id="84" v1="245" v2="249" v3="201"/>
+	<triangle id="85" v1="87" v2="254" v3="212"/>
+	<triangle id="86" v1="258" v2="89" v3="216"/>
+	<triangle id="87" v1="261" v2="221" v3="219"/>
+	<triangle id="88" v1="264" v2="261" v3="219"/>
+	<triangle id="89" v1="261" v2="225" v3="221"/>
+	<triangle id="90" v1="261" v2="269" v3="225"/>
+	<triangle id="91" v1="273" v2="233" v3="225"/>
+	<triangle id="92" v1="269" v2="273" v3="225"/>
+	<triangle id="93" v1="273" v2="237" v3="233"/>
+	<triangle id="94" v1="273" v2="281" v3="237"/>
+	<triangle id="95" v1="285" v2="245" v3="237"/>
+	<triangle id="96" v1="281" v2="285" v3="237"/>
+	<triangle id="97" v1="285" v2="249" v3="245"/>
+	<triangle id="98" v1="285" v2="293" v3="249"/>
+	<triangle id="99" v1="87" v2="296" v3="254"/>
+	<triangle id="100" v1="300" v2="89" v3="258"/>
+	<triangle id="101" v1="303" v2="261" v3="264"/>
+	<triangle id="102" v1="303" v2="305" v3="261"/>
+	<triangle id="103" v1="309" v2="269" v3="261"/>
+	<triangle id="104" v1="305" v2="309" v3="261"/>
+	<triangle id="105" v1="309" v2="273" v3="269"/>
+	<triangle id="106" v1="309" v2="317" v3="273"/>
+	<triangle id="107" v1="321" v2="281" v3="273"/>
+	<triangle id="108" v1="317" v2="321" v3="273"/>
+	<triangle id="109" v1="321" v2="285" v3="281"/>
+	<triangle id="110" v1="321" v2="329" v3="285"/>
+	<triangle id="111" v1="333" v2="293" v3="285"/>
+	<triangle id="112" v1="329" v2="333" v3="285"/>
+	<triangle id="113" v1="87" v2="338" v3="296"/>
+	<triangle id="114" v1="342" v2="89" v3="300"/>
+	<triangle id="115" v1="345" v2="305" v3="303"/>
+	<triangle id="116" v1="348" v2="345" v3="303"/>
+	<triangle id="117" v1="345" v2="309" v3="305"/>
+	<triangle id="118" v1="345" v2="353" v3="309"/>
+	<triangle id="119" v1="357" v2="317" v3="309"/>
+	<triangle id="120" v1="353" v2="357" v3="309"/>
+	<triangle id="121" v1="357" v2="321" v3="317"/>
+	<triangle id="122" v1="357" v2="365" v3="321"/>
+	<triangle id="123" v1="369" v2="329" v3="321"/>
+	<triangle id="124" v1="365" v2="369" v3="321"/>
+	<triangle id="125" v1="369" v2="333" v3="329"/>
+	<triangle id="126" v1="369" v2="377" v3="333"/>
+	<triangle id="127" v1="3" v2="380" v3="379"/>
+	<triangle id="128" v1="384" v2="5" v3="382"/>
+	<triangle id="129" v1="387" v2="386" v3="385"/>
+	<triangle id="130" v1="387" v2="389" v3="386"/>
+	<triangle id="131" v1="393" v2="392" v3="386"/>
+	<triangle id="132" v1="389" v2="393" v3="386"/>
+	<triangle id="133" v1="393" v2="398" v3="392"/>
+	<triangle id="134" v1="393" v2="401" v3="398"/>
+	<triangle id="135" v1="405" v2="404" v3="398"/>
+	<triangle id="136" v1="401" v2="405" v3="398"/>
+	<triangle id="137" v1="405" v2="410" v3="404"/>
+	<triangle id="138" v1="405" v2="413" v3="410"/>
+	<triangle id="139" v1="417" v2="416" v3="410"/>
+	<triangle id="140" v1="413" v2="417" v3="410"/>
+	<triangle id="141" v1="3" v2="422" v3="380"/>
+	<triangle id="142" v1="426" v2="5" v3="384"/>
+	<triangle id="143" v1="429" v2="389" v3="387"/>
+	<triangle id="144" v1="432" v2="429" v3="387"/>
+	<triangle id="145" v1="429" v2="393" v3="389"/>
+	<triangle id="146" v1="429" v2="437" v3="393"/>
+	<triangle id="147" v1="441" v2="401" v3="393"/>
+	<triangle id="148" v1="437" v2="441" v3="393"/>
+	<triangle id="149" v1="441" v2="405" v3="401"/>
+	<triangle id="150" v1="441" v2="449" v3="405"/>
+	<triangle id="151" v1="453" v2="413" v3="405"/>
+	<triangle id="152" v1="449" v2="453" v3="405"/>
+	<triangle id="153" v1="453" v2="417" v3="413"/>
+	<triangle id="154" v1="453" v2="461" v3="417"/>
+	<triangle id="155" v1="3" v2="1" v3="422"/>
+	<triangle id="156" v1="4" v2="5" v3="426"/>
+	<triangle id="157" v1="7" v2="429" v3="432"/>
+	<triangle id="158" v1="7" v2="8" v3="429"/>
+	<triangle id="159" v1="14" v2="437" v3="429"/>
+	<triangle id="160" v1="8" v2="14" v3="429"/>
+	<triangle id="161" v1="14" v2="441" v3="437"/>
+	<triangle id="162" v1="14" v2="20" v3="441"/>
+	<triangle id="163" v1="26" v2="449" v3="441"/>
+	<triangle id="164" v1="20" v2="26" v3="441"/>
+	<triangle id="165" v1="26" v2="453" v3="449"/>
+	<triangle id="166" v1="26" v2="32" v3="453"/>
+	<triangle id="167" v1="38" v2="461" v3="453"/>
+	<triangle id="168" v1="32" v2="38" v3="453"/>
+	<triangle id="169" v1="507" v2="506" v3="505"/>
+	<triangle id="170" v1="510" v2="507" v3="505"/>
+	<triangle id="171" v1="507" v2="512" v3="506"/>
+	<triangle id="172" v1="507" v2="515" v3="512"/>
+	<triangle id="173" v1="519" v2="507" v3="510"/>
+	<triangle id="174" v1="519" v2="521" v3="507"/>
+	<triangle id="175" v1="525" v2="515" v3="507"/>
+	<triangle id="176" v1="521" v2="525" v3="507"/>
+	<triangle id="177" v1="531" v2="521" v3="519"/>
+	<triangle id="178" v1="534" v2="531" v3="519"/>
+	<triangle id="179" v1="531" v2="525" v3="521"/>
+	<triangle id="180" v1="531" v2="539" v3="525"/>
+	<triangle id="181" v1="543" v2="531" v3="534"/>
+	<triangle id="182" v1="543" v2="545" v3="531"/>
+	<triangle id="183" v1="549" v2="539" v3="531"/>
+	<triangle id="184" v1="545" v2="549" v3="531"/>
+	<triangle id="185" v1="555" v2="545" v3="543"/>
+	<triangle id="186" v1="558" v2="555" v3="543"/>
+	<triangle id="187" v1="555" v2="549" v3="545"/>
+	<triangle id="188" v1="555" v2="563" v3="549"/>
+	<triangle id="189" v1="567" v2="555" v3="558"/>
+	<triangle id="190" v1="567" v2="569" v3="555"/>
+	<triangle id="191" v1="573" v2="563" v3="555"/>
+	<triangle id="192" v1="569" v2="573" v3="555"/>
+	<triangle id="193" v1="579" v2="569" v3="567"/>
+	<triangle id="194" v1="582" v2="579" v3="567"/>
+	<triangle id="195" v1="579" v2="573" v3="569"/>
+	<triangle id="196" v1="579" v2="587" v3="573"/>
+	<triangle id="197" v1="591" v2="579" v3="582"/>
+	<triangle id="198" v1="591" v2="593" v3="579"/>
+	<triangle id="199" v1="597" v2="587" v3="579"/>
+	<triangle id="200" v1="593" v2="597" v3="579"/>
+	<triangle id="201" v1="603" v2="593" v3="591"/>
+	<triangle id="202" v1="606" v2="603" v3="591"/>
+	<triangle id="203" v1="603" v2="597" v3="593"/>
+	<triangle id="204" v1="603" v2="611" v3="597"/>
+	<triangle id="205" v1="615" v2="614" v3="613"/>
+	<triangle id="206" v1="615" v2="617" v3="614"/>
+	<triangle id="207" v1="621" v2="620" v3="614"/>
+	<triangle id="208" v1="617" v2="621" v3="614"/>
+	<triangle id="209" v1="627" v2="617" v3="615"/>
+	<triangle id="210" v1="630" v2="627" v3="615"/>
+	<triangle id="211" v1="627" v2="621" v3="617"/>
+	<triangle id="212" v1="627" v2="635" v3="621"/>
+	<triangle id="213" v1="505" v2="627" v3="630"/>
+	<triangle id="214" v1="505" v2="506" v3="627"/>
+	<triangle id="215" v1="512" v2="635" v3="627"/>
+	<triangle id="216" v1="506" v2="512" v3="627"/>
+	<triangle id="217" v1="616" v2="645" v3="649"/>
+	<triangle id="218" v1="616" v2="649" v3="652"/>
+	<triangle id="219" v1="645" v2="612" v3="649"/>
+	<triangle id="220" v1="612" v2="659" v3="649"/>
+	<triangle id="221" v1="652" v2="649" v3="661"/>
+	<triangle id="222" v1="649" v2="665" v3="661"/>
+	<triangle id="223" v1="649" v2="659" v3="667"/>
+	<triangle id="224" v1="649" v2="667" v3="665"/>
+	<triangle id="225" v1="661" v2="665" v3="671"/>
+	<triangle id="226" v1="661" v2="671" v3="673"/>
+	<triangle id="227" v1="665" v2="667" v3="671"/>
+	<triangle id="228" v1="667" v2="670" v3="674"/>
+	<triangle id="229" v1="673" v2="671" v3="676"/>
+	<triangle id="230" v1="674" v2="664" v3="668"/>
+	<triangle id="231" v1="671" v2="670" v3="658"/>
+	<triangle id="232" v1="671" v2="658" v3="675"/>
+	<triangle id="233" v1="668" v2="664" v3="657"/>
+	<triangle id="234" v1="668" v2="657" v3="660"/>
+	<triangle id="235" v1="664" v2="669" v3="657"/>
+	<triangle id="236" v1="658" v2="662" v3="666"/>
+	<triangle id="237" v1="660" v2="657" v3="663"/>
+	<triangle id="238" v1="657" v2="672" v3="655"/>
+	<triangle id="239" v1="657" v2="662" v3="650"/>
+	<triangle id="240" v1="657" v2="650" v3="651"/>
+	<triangle id="241" v1="655" v2="651" v3="643"/>
+	<triangle id="242" v1="655" v2="643" v3="648"/>
+	<triangle id="243" v1="651" v2="650" v3="643"/>
+	<triangle id="244" v1="650" v2="653" v3="644"/>
+	<triangle id="245" v1="648" v2="644" v3="640"/>
+	<triangle id="246" v1="643" v2="636" v3="640"/>
+	<triangle id="247" v1="643" v2="653" v3="638"/>
+	<triangle id="248" v1="643" v2="638" v3="646"/>
+	<triangle id="249" v1="640" v2="636" v3="633"/>
+	<triangle id="250" v1="640" v2="633" v3="637"/>
+	<triangle id="251" v1="636" v2="638" v3="633"/>
+	<triangle id="252" v1="638" v2="629" v3="633"/>
+	<triangle id="253" v1="628" v2="632" v3="654"/>
+	<triangle id="254" v1="625" v2="631" v3="626"/>
+	<triangle id="255" v1="625" v2="634" v3="619"/>
+	<triangle id="256" v1="625" v2="656" v3="623"/>
+	<triangle id="257" v1="626" v2="623" v3="610"/>
+	<triangle id="258" v1="626" v2="610" v3="624"/>
+	<triangle id="259" v1="623" v2="619" v3="610"/>
+	<triangle id="260" v1="619" v2="622" v3="610"/>
+	<triangle id="261" v1="624" v2="610" v3="616"/>
+	<triangle id="262" v1="618" v2="645" v3="616"/>
+	<triangle id="263" v1="618" v2="622" v3="612"/>
+	<triangle id="264" v1="610" v2="612" v3="645"/>
+	<triangle id="265" v1="578" v2="605" v3="576"/>
+	<triangle id="266" v1="605" v2="578" v3="609"/>
+	<triangle id="267" v1="607" v2="605" v3="609"/>
+	<triangle id="268" v1="609" v2="602" v3="607"/>
+	<triangle id="269" v1="601" v2="647" v3="602"/>
+	<triangle id="270" v1="602" v2="608" v3="601"/>
+	<triangle id="271" v1="608" v2="599" v3="601"/>
+	<triangle id="272" v1="598" v2="601" v3="599"/>
+	<triangle id="273" v1="599" v2="596" v3="598"/>
+	<triangle id="274" v1="600" v2="598" v3="596"/>
+	<triangle id="275" v1="596" v2="604" v3="600"/>
+	<triangle id="276" v1="594" v2="600" v3="604"/>
+	<triangle id="277" v1="604" v2="592" v3="594"/>
+	<triangle id="278" v1="595" v2="594" v3="592"/>
+	<triangle id="279" v1="589" v2="595" v3="592"/>
+	<triangle id="280" v1="592" v2="588" v3="589"/>
+	<triangle id="281" v1="586" v2="589" v3="588"/>
+	<triangle id="282" v1="588" v2="585" v3="586"/>
+	<triangle id="283" v1="590" v2="586" v3="585"/>
+	<triangle id="284" v1="585" v2="581" v3="590"/>
+	<triangle id="285" v1="577" v2="590" v3="581"/>
+	<triangle id="286" v1="581" v2="583" v3="577"/>
+	<triangle id="287" v1="576" v2="577" v3="583"/>
+	<triangle id="288" v1="583" v2="578" v3="576"/>
+	<triangle id="289" v1="541" v2="575" v3="584"/>
+	<triangle id="290" v1="574" v2="584" v3="575"/>
+	<triangle id="291" v1="574" v2="575" v3="572"/>
+	<triangle id="292" v1="572" v2="570" v3="574"/>
+	<triangle id="293" v1="570" v2="572" v3="565"/>
+	<triangle id="294" v1="580" v2="568" v3="570"/>
+	<triangle id="295" v1="565" v2="566" v3="568"/>
+	<triangle id="296" v1="566" v2="565" v3="562"/>
+	<triangle id="297" v1="562" v2="560" v3="566"/>
+	<triangle id="298" v1="560" v2="562" v3="564"/>
+	<triangle id="299" v1="564" v2="571" v3="560"/>
+	<triangle id="300" v1="571" v2="564" v3="561"/>
+	<triangle id="301" v1="561" v2="557" v3="571"/>
+	<triangle id="302" v1="557" v2="561" v3="556"/>
+	<triangle id="303" v1="557" v2="556" v3="554"/>
+	<triangle id="304" v1="554" v2="551" v3="557"/>
+	<triangle id="305" v1="551" v2="554" v3="559"/>
+	<triangle id="306" v1="559" v2="553" v3="551"/>
+	<triangle id="307" v1="553" v2="559" v3="550"/>
+	<triangle id="308" v1="550" v2="552" v3="553"/>
+	<triangle id="309" v1="552" v2="550" v3="546"/>
+	<triangle id="310" v1="546" v2="548" v3="552"/>
+	<triangle id="311" v1="548" v2="546" v3="541"/>
+	<triangle id="312" v1="541" v2="584" v3="548"/>
+	<triangle id="313" v1="542" v2="547" v3="537"/>
+	<triangle id="314" v1="542" v2="544" v3="547"/>
+	<triangle id="315" v1="529" v2="533" v3="540"/>
+	<triangle id="316" v1="529" v2="530" v3="533"/>
+	<triangle id="317" v1="527" v2="536" v3="538"/>
+	<triangle id="318" v1="527" v2="535" v3="536"/>
+	<triangle id="319" v1="532" v2="526" v3="528"/>
+	<triangle id="320" v1="532" v2="522" v3="526"/>
+	<triangle id="321" v1="517" v2="524" v3="523"/>
+	<triangle id="322" v1="517" v2="514" v3="524"/>
+	<triangle id="323" v1="516" v2="520" v3="641"/>
+	<triangle id="324" v1="516" v2="518" v3="520"/>
+	<triangle id="325" v1="642" v2="509" v3="513"/>
+	<triangle id="326" v1="642" v2="511" v3="509"/>
+	<triangle id="327" v1="499" v2="504" v3="639"/>
+	<triangle id="328" v1="499" v2="508" v3="504"/>
+	<triangle id="329" v1="487" v2="495" v3="500"/>
+	<triangle id="330" v1="487" v2="494" v3="495"/>
+	<triangle id="331" v1="475" v2="486" v3="490"/>
+	<triangle id="332" v1="475" v2="474" v3="486"/>
+	<triangle id="333" v1="468" v2="493" v3="496"/>
+	<triangle id="334" v1="468" v2="488" v3="493"/>
+	<triangle id="335" v1="459" v2="494" v3="502"/>
+	<triangle id="336" v1="459" v2="462" v3="494"/>
+	<triangle id="337" v1="467" v2="460" v3="455"/>
+	<triangle id="338" v1="467" v2="456" v3="460"/>
+	<triangle id="339" v1="482" v2="481" v3="466"/>
+	<triangle id="340" v1="482" v2="484" v3="481"/>
+	<triangle id="341" v1="443" v2="447" v3="450"/>
+	<triangle id="342" v1="443" v2="435" v3="447"/>
+	<triangle id="343" v1="440" v2="444" v3="476"/>
+	<triangle id="344" v1="440" v2="470" v3="444"/>
+	<triangle id="345" v1="469" v2="436" v3="446"/>
+	<triangle id="346" v1="469" v2="478" v3="436"/>
+	<triangle id="347" v1="438" v2="435" v3="472"/>
+	<triangle id="348" v1="438" v2="431" v3="435"/>
+	<triangle id="349" v1="464" v2="428" v3="452"/>
+	<triangle id="350" v1="464" v2="463" v3="428"/>
+	<triangle id="351" v1="451" v2="420" v3="458"/>
+	<triangle id="352" v1="451" v2="419" v3="420"/>
+	<triangle id="353" v1="418" v2="427" v3="457"/>
+	<triangle id="354" v1="418" v2="434" v3="427"/>
+	<triangle id="355" v1="414" v2="412" v3="415"/>
+	<triangle id="356" v1="414" v2="454" v3="412"/>
+	<triangle id="357" v1="409" v2="411" v3="448"/>
+	<triangle id="358" v1="409" v2="407" v3="411"/>
+	<triangle id="359" v1="433" v2="434" v3="442"/>
+	<triangle id="360" v1="433" v2="439" v3="434"/>
+	<triangle id="361" v1="400" v2="335" v3="376"/>
+	<triangle id="362" v1="430" v2="400" v3="376"/>
+	<triangle id="363" v1="406" v2="332" v3="335"/>
+	<triangle id="364" v1="406" v2="397" v3="332"/>
+	<triangle id="365" v1="403" v2="400" v3="430"/>
+	<triangle id="366" v1="403" v2="395" v3="400"/>
+	<triangle id="367" v1="396" v2="397" v3="400"/>
+	<triangle id="368" v1="395" v2="396" v3="400"/>
+	<triangle id="369" v1="402" v2="395" v3="403"/>
+	<triangle id="370" v1="399" v2="402" v3="403"/>
+	<triangle id="371" v1="402" v2="396" v3="395"/>
+	<triangle id="372" v1="402" v2="394" v3="396"/>
+	<triangle id="373" v1="391" v2="402" v3="399"/>
+	<triangle id="374" v1="391" v2="388" v3="402"/>
+	<triangle id="375" v1="390" v2="394" v3="402"/>
+	<triangle id="376" v1="388" v2="390" v3="402"/>
+	<triangle id="377" v1="372" v2="388" v3="391"/>
+	<triangle id="378" v1="378" v2="372" v3="391"/>
+	<triangle id="379" v1="372" v2="390" v3="388"/>
+	<triangle id="380" v1="372" v2="421" v3="390"/>
+	<triangle id="381" v1="375" v2="372" v3="378"/>
+	<triangle id="382" v1="375" v2="371" v3="424"/>
+	<triangle id="383" v1="366" v2="421" v3="424"/>
+	<triangle id="384" v1="371" v2="366" v3="372"/>
+	<triangle id="385" v1="360" v2="371" v3="375"/>
+	<triangle id="386" v1="367" v2="360" v3="375"/>
+	<triangle id="387" v1="360" v2="408" v3="371"/>
+	<triangle id="388" v1="360" v2="363" v3="366"/>
+	<triangle id="389" v1="362" v2="360" v3="367"/>
+	<triangle id="390" v1="362" v2="359" v3="370"/>
+	<triangle id="391" v1="355" v2="363" v3="370"/>
+	<triangle id="392" v1="359" v2="355" v3="360"/>
+	<triangle id="393" v1="361" v2="359" v3="362"/>
+	<triangle id="394" v1="445" v2="361" v3="362"/>
+	<triangle id="395" v1="361" v2="355" v3="359"/>
+	<triangle id="396" v1="361" v2="483" v3="355"/>
+	<triangle id="397" v1="346" v2="349" v3="354"/>
+	<triangle id="398" v1="374" v2="352" v3="349"/>
+	<triangle id="399" v1="347" v2="351" v3="349"/>
+	<triangle id="400" v1="352" v2="347" v3="349"/>
+	<triangle id="401" v1="373" v2="352" v3="346"/>
+	<triangle id="402" v1="336" v2="373" v3="346"/>
+	<triangle id="403" v1="341" v2="347" v3="352"/>
+	<triangle id="404" v1="341" v2="368" v3="347"/>
+	<triangle id="405" v1="376" v2="341" v3="336"/>
+	<triangle id="406" v1="376" v2="335" v3="341"/>
+	<triangle id="407" v1="332" v2="368" v3="341"/>
+	<triangle id="408" v1="335" v2="332" v3="341"/>
+	<triangle id="409" v1="283" v2="280" v3="325"/>
+	<triangle id="410" v1="283" v2="325" v3="334"/>
+	<triangle id="411" v1="280" v2="302" v3="343"/>
+	<triangle id="412" v1="302" v2="330" v3="343"/>
+	<triangle id="413" v1="334" v2="325" v3="327"/>
+	<triangle id="414" v1="325" v2="344" v3="350"/>
+	<triangle id="415" v1="325" v2="330" v3="324"/>
+	<triangle id="416" v1="325" v2="324" v3="344"/>
+	<triangle id="417" v1="327" v2="344" v3="323"/>
+	<triangle id="418" v1="327" v2="323" v3="358"/>
+	<triangle id="419" v1="344" v2="324" v3="323"/>
+	<triangle id="420" v1="324" v2="319" v3="323"/>
+	<triangle id="421" v1="358" v2="323" v3="313"/>
+	<triangle id="422" v1="323" v2="340" v3="313"/>
+	<triangle id="423" v1="323" v2="319" v3="315"/>
+	<triangle id="424" v1="323" v2="315" v3="340"/>
+	<triangle id="425" v1="313" v2="340" v3="316"/>
+	<triangle id="426" v1="313" v2="316" v3="328"/>
+	<triangle id="427" v1="340" v2="315" v3="316"/>
+	<triangle id="428" v1="315" v2="318" v3="316"/>
+	<triangle id="429" v1="328" v2="316" v3="311"/>
+	<triangle id="430" v1="316" v2="326" v3="311"/>
+	<triangle id="431" v1="316" v2="318" v3="322"/>
+	<triangle id="432" v1="316" v2="322" v3="326"/>
+	<triangle id="433" v1="311" v2="326" v3="310"/>
+	<triangle id="434" v1="311" v2="306" v3="312"/>
+	<triangle id="435" v1="326" v2="322" v3="306"/>
+	<triangle id="436" v1="322" v2="356" v3="306"/>
+	<triangle id="437" v1="312" v2="306" v3="304"/>
+	<triangle id="438" v1="306" v2="337" v3="304"/>
+	<triangle id="439" v1="306" v2="356" v3="292"/>
+	<triangle id="440" v1="306" v2="292" v3="298"/>
+	<triangle id="441" v1="304" v2="298" v3="307"/>
+	<triangle id="442" v1="304" v2="307" v3="364"/>
+	<triangle id="443" v1="298" v2="292" v3="307"/>
+	<triangle id="444" v1="292" v2="320" v3="307"/>
+	<triangle id="445" v1="331" v2="294" v3="308"/>
+	<triangle id="446" v1="294" v2="288" v3="308"/>
+	<triangle id="447" v1="294" v2="287" v3="291"/>
+	<triangle id="448" v1="294" v2="291" v3="288"/>
+	<triangle id="449" v1="308" v2="288" v3="301"/>
+	<triangle id="450" v1="308" v2="284" v3="314"/>
+	<triangle id="451" v1="288" v2="291" v3="284"/>
+	<triangle id="452" v1="291" v2="295" v3="284"/>
+	<triangle id="453" v1="314" v2="284" v3="283"/>
+	<triangle id="454" v1="284" v2="280" v3="283"/>
+	<triangle id="455" v1="284" v2="295" v3="302"/>
+	<triangle id="456" v1="284" v2="302" v3="280"/>
+	<triangle id="457" v1="274" v2="279" v3="252"/>
+	<triangle id="458" v1="279" v2="274" v3="282"/>
+	<triangle id="459" v1="275" v2="279" v3="282"/>
+	<triangle id="460" v1="282" v2="276" v3="275"/>
+	<triangle id="461" v1="277" v2="275" v3="276"/>
+	<triangle id="462" v1="276" v2="286" v3="277"/>
+	<triangle id="463" v1="286" v2="271" v3="277"/>
+	<triangle id="464" v1="270" v2="277" v3="271"/>
+	<triangle id="465" v1="271" v2="272" v3="270"/>
+	<triangle id="466" v1="299" v2="270" v3="272"/>
+	<triangle id="467" v1="272" v2="263" v3="299"/>
+	<triangle id="468" v1="266" v2="299" v3="263"/>
+	<triangle id="469" v1="263" v2="267" v3="266"/>
+	<triangle id="470" v1="289" v2="266" v3="267"/>
+	<triangle id="471" v1="268" v2="289" v3="267"/>
+	<triangle id="472" v1="267" v2="257" v3="268"/>
+	<triangle id="473" v1="265" v2="268" v3="257"/>
+	<triangle id="474" v1="257" v2="290" v3="265"/>
+	<triangle id="475" v1="278" v2="265" v3="290"/>
+	<triangle id="476" v1="290" v2="251" v3="278"/>
+	<triangle id="477" v1="255" v2="278" v3="251"/>
+	<triangle id="478" v1="251" v2="259" v3="255"/>
+	<triangle id="479" v1="252" v2="255" v3="259"/>
+	<triangle id="480" v1="259" v2="274" v3="252"/>
+	<triangle id="481" v1="262" v2="246" v3="224"/>
+	<triangle id="482" v1="242" v2="224" v3="246"/>
+	<triangle id="483" v1="242" v2="246" v3="250"/>
+	<triangle id="484" v1="250" v2="243" v3="242"/>
+	<triangle id="485" v1="243" v2="250" v3="244"/>
+	<triangle id="486" v1="244" v2="239" v3="243"/>
+	<triangle id="487" v1="244" v2="260" v3="239"/>
+	<triangle id="488" v1="260" v2="244" v3="240"/>
+	<triangle id="489" v1="240" v2="232" v3="260"/>
+	<triangle id="490" v1="232" v2="240" v3="253"/>
+	<triangle id="491" v1="253" v2="229" v3="232"/>
+	<triangle id="492" v1="229" v2="253" v3="230"/>
+	<triangle id="493" v1="230" v2="234" v3="229"/>
+	<triangle id="494" v1="234" v2="230" v3="256"/>
+	<triangle id="495" v1="234" v2="256" v3="227"/>
+	<triangle id="496" v1="227" v2="231" v3="234"/>
+	<triangle id="497" v1="231" v2="227" v3="248"/>
+	<triangle id="498" v1="248" v2="236" v3="231"/>
+	<triangle id="499" v1="236" v2="248" v3="226"/>
+	<triangle id="500" v1="226" v2="223" v3="236"/>
+	<triangle id="501" v1="223" v2="226" v3="228"/>
+	<triangle id="502" v1="228" v2="235" v3="223"/>
+	<triangle id="503" v1="235" v2="228" v3="262"/>
+	<triangle id="504" v1="262" v2="224" v3="235"/>
+	<triangle id="505" v1="241" v2="198" v3="222"/>
+	<triangle id="506" v1="220" v2="241" v3="222"/>
+	<triangle id="507" v1="206" v2="220" v3="222"/>
+	<triangle id="508" v1="203" v2="206" v3="222"/>
+	<triangle id="509" v1="217" v2="203" v3="222"/>
+	<triangle id="510" v1="218" v2="217" v3="222"/>
+	<triangle id="511" v1="214" v2="218" v3="222"/>
+	<triangle id="512" v1="238" v2="214" v3="222"/>
+	<triangle id="513" v1="207" v2="211" v3="222"/>
+	<triangle id="514" v1="200" v2="207" v3="222"/>
+	<triangle id="515" v1="213" v2="200" v3="222"/>
+	<triangle id="516" v1="198" v2="213" v3="222"/>
+	<triangle id="517" v1="204" v2="193" v3="198"/>
+	<triangle id="518" v1="241" v2="204" v3="198"/>
+	<triangle id="519" v1="220" v2="247" v3="241"/>
+	<triangle id="520" v1="220" v2="194" v3="247"/>
+	<triangle id="521" v1="192" v2="194" v3="220"/>
+	<triangle id="522" v1="206" v2="192" v3="220"/>
+	<triangle id="523" v1="203" v2="192" v3="206"/>
+	<triangle id="524" v1="203" v2="210" v3="192"/>
+	<triangle id="525" v1="187" v2="210" v3="203"/>
+	<triangle id="526" v1="217" v2="187" v3="203"/>
+	<triangle id="527" v1="218" v2="187" v3="217"/>
+	<triangle id="528" v1="218" v2="195" v3="187"/>
+	<triangle id="529" v1="186" v2="195" v3="218"/>
+	<triangle id="530" v1="214" v2="186" v3="218"/>
+	<triangle id="531" v1="211" v2="186" v3="214"/>
+	<triangle id="532" v1="211" v2="179" v3="186"/>
+	<triangle id="533" v1="183" v2="179" v3="211"/>
+	<triangle id="534" v1="207" v2="183" v3="211"/>
+	<triangle id="535" v1="200" v2="183" v3="207"/>
+	<triangle id="536" v1="200" v2="215" v3="183"/>
+	<triangle id="537" v1="208" v2="215" v3="200"/>
+	<triangle id="538" v1="213" v2="208" v3="200"/>
+	<triangle id="539" v1="198" v2="208" v3="213"/>
+	<triangle id="540" v1="198" v2="193" v3="208"/>
+	<triangle id="541" v1="204" v2="191" v3="193"/>
+	<triangle id="542" v1="204" v2="176" v3="191"/>
+	<triangle id="543" v1="169" v2="176" v3="204"/>
+	<triangle id="544" v1="194" v2="169" v3="204"/>
+	<triangle id="545" v1="192" v2="169" v3="339"/>
+	<triangle id="546" v1="192" v2="190" v3="169"/>
+	<triangle id="547" v1="168" v2="190" v3="192"/>
+	<triangle id="548" v1="210" v2="168" v3="192"/>
+	<triangle id="549" v1="187" v2="168" v3="210"/>
+	<triangle id="550" v1="187" v2="178" v3="168"/>
+	<triangle id="551" v1="157" v2="178" v3="187"/>
+	<triangle id="552" v1="195" v2="157" v3="187"/>
+	<triangle id="553" v1="186" v2="157" v3="195"/>
+	<triangle id="554" v1="186" v2="196" v3="157"/>
+	<triangle id="555" v1="175" v2="196" v3="186"/>
+	<triangle id="556" v1="179" v2="175" v3="186"/>
+	<triangle id="557" v1="183" v2="175" v3="179"/>
+	<triangle id="558" v1="183" v2="162" v3="175"/>
+	<triangle id="559" v1="155" v2="162" v3="183"/>
+	<triangle id="560" v1="215" v2="155" v3="183"/>
+	<triangle id="561" v1="208" v2="155" v3="215"/>
+	<triangle id="562" v1="208" v2="188" v3="155"/>
+	<triangle id="563" v1="191" v2="188" v3="208"/>
+	<triangle id="564" v1="193" v2="191" v3="208"/>
+	<triangle id="565" v1="181" v2="182" v3="191"/>
+	<triangle id="566" v1="176" v2="181" v3="191"/>
+	<triangle id="567" v1="169" v2="181" v3="176"/>
+	<triangle id="568" v1="169" v2="202" v3="181"/>
+	<triangle id="569" v1="167" v2="202" v3="169"/>
+	<triangle id="570" v1="190" v2="167" v3="169"/>
+	<triangle id="571" v1="168" v2="167" v3="190"/>
+	<triangle id="572" v1="168" v2="205" v3="167"/>
+	<triangle id="573" v1="166" v2="205" v3="168"/>
+	<triangle id="574" v1="178" v2="166" v3="168"/>
+	<triangle id="575" v1="157" v2="166" v3="178"/>
+	<triangle id="576" v1="199" v2="184" v3="166"/>
+	<triangle id="577" v1="171" v2="184" v3="199"/>
+	<triangle id="578" v1="196" v2="171" v3="157"/>
+	<triangle id="579" v1="175" v2="171" v3="196"/>
+	<triangle id="580" v1="175" v2="156" v3="171"/>
+	<triangle id="581" v1="159" v2="156" v3="175"/>
+	<triangle id="582" v1="162" v2="159" v3="175"/>
+	<triangle id="583" v1="155" v2="159" v3="162"/>
+	<triangle id="584" v1="155" v2="172" v3="159"/>
+	<triangle id="585" v1="154" v2="172" v3="155"/>
+	<triangle id="586" v1="188" v2="154" v3="155"/>
+	<triangle id="587" v1="191" v2="154" v3="188"/>
+	<triangle id="588" v1="191" v2="182" v3="154"/>
+	<triangle id="589" v1="164" v2="126" v3="142"/>
+	<triangle id="590" v1="164" v2="142" v3="138"/>
+	<triangle id="591" v1="164" v2="138" v3="158"/>
+	<triangle id="592" v1="145" v2="158" v3="150"/>
+	<triangle id="593" v1="145" v2="150" v3="148"/>
+	<triangle id="594" v1="145" v2="148" v3="163"/>
+	<triangle id="595" v1="145" v2="163" v3="144"/>
+	<triangle id="596" v1="145" v2="144" v3="134"/>
+	<triangle id="597" v1="145" v2="134" v3="147"/>
+	<triangle id="598" v1="145" v2="147" v3="160"/>
+	<triangle id="599" v1="145" v2="140" v3="492"/>
+	<triangle id="600" v1="145" v2="139" v3="126"/>
+	<triangle id="601" v1="126" v2="123" v3="133"/>
+	<triangle id="602" v1="126" v2="133" v3="142"/>
+	<triangle id="603" v1="142" v2="133" v3="138"/>
+	<triangle id="604" v1="133" v2="122" v3="138"/>
+	<triangle id="605" v1="138" v2="122" v3="136"/>
+	<triangle id="606" v1="138" v2="136" v3="158"/>
+	<triangle id="607" v1="158" v2="152" v3="150"/>
+	<triangle id="608" v1="136" v2="151" v3="150"/>
+	<triangle id="609" v1="150" v2="151" v3="120"/>
+	<triangle id="610" v1="150" v2="120" v3="148"/>
+	<triangle id="611" v1="148" v2="120" v3="163"/>
+	<triangle id="612" v1="120" v2="131" v3="163"/>
+	<triangle id="613" v1="163" v2="131" v3="107"/>
+	<triangle id="614" v1="163" v2="107" v3="144"/>
+	<triangle id="615" v1="144" v2="107" v3="134"/>
+	<triangle id="616" v1="107" v2="143" v3="134"/>
+	<triangle id="617" v1="134" v2="143" v3="104"/>
+	<triangle id="618" v1="134" v2="104" v3="147"/>
+	<triangle id="619" v1="147" v2="104" v3="140"/>
+	<triangle id="620" v1="104" v2="106" v3="140"/>
+	<triangle id="621" v1="140" v2="106" v3="121"/>
+	<triangle id="622" v1="140" v2="119" v3="139"/>
+	<triangle id="623" v1="139" v2="119" v3="126"/>
+	<triangle id="624" v1="119" v2="123" v3="126"/>
+	<triangle id="625" v1="123" v2="71" v3="133"/>
+	<triangle id="626" v1="71" v2="95" v3="133"/>
+	<triangle id="627" v1="133" v2="95" v3="94"/>
+	<triangle id="628" v1="133" v2="94" v3="122"/>
+	<triangle id="629" v1="122" v2="94" v3="136"/>
+	<triangle id="630" v1="94" v2="129" v3="136"/>
+	<triangle id="631" v1="136" v2="129" v3="109"/>
+	<triangle id="632" v1="136" v2="297" v3="151"/>
+	<triangle id="633" v1="151" v2="109" v3="120"/>
+	<triangle id="634" v1="109" v2="108" v3="120"/>
+	<triangle id="635" v1="120" v2="108" v3="84"/>
+	<triangle id="636" v1="120" v2="84" v3="131"/>
+	<triangle id="637" v1="131" v2="84" v3="107"/>
+	<triangle id="638" v1="84" v2="111" v3="107"/>
+	<triangle id="639" v1="107" v2="111" v3="114"/>
+	<triangle id="640" v1="107" v2="114" v3="143"/>
+	<triangle id="641" v1="143" v2="114" v3="173"/>
+	<triangle id="642" v1="114" v2="118" v3="104"/>
+	<triangle id="643" v1="104" v2="118" v3="75"/>
+	<triangle id="644" v1="104" v2="75" v3="106"/>
+	<triangle id="645" v1="106" v2="75" v3="119"/>
+	<triangle id="646" v1="75" v2="100" v3="119"/>
+	<triangle id="647" v1="119" v2="100" v3="71"/>
+	<triangle id="648" v1="119" v2="71" v3="123"/>
+	<triangle id="649" v1="71" v2="102" v3="99"/>
+	<triangle id="650" v1="71" v2="99" v3="95"/>
+	<triangle id="651" v1="95" v2="99" v3="94"/>
+	<triangle id="652" v1="99" v2="130" v3="94"/>
+	<triangle id="653" v1="94" v2="130" v3="127"/>
+	<triangle id="654" v1="94" v2="127" v3="129"/>
+	<triangle id="655" v1="129" v2="127" v3="109"/>
+	<triangle id="656" v1="127" v2="110" v3="109"/>
+	<triangle id="657" v1="109" v2="110" v3="83"/>
+	<triangle id="658" v1="109" v2="83" v3="108"/>
+	<triangle id="659" v1="108" v2="146" v3="124"/>
+	<triangle id="660" v1="83" v2="112" v3="84"/>
+	<triangle id="661" v1="84" v2="112" v3="116"/>
+	<triangle id="662" v1="84" v2="116" v3="111"/>
+	<triangle id="663" v1="111" v2="116" v3="114"/>
+	<triangle id="664" v1="116" v2="82" v3="114"/>
+	<triangle id="665" v1="114" v2="82" v3="78"/>
+	<triangle id="666" v1="114" v2="78" v3="118"/>
+	<triangle id="667" v1="118" v2="78" v3="75"/>
+	<triangle id="668" v1="78" v2="115" v3="75"/>
+	<triangle id="669" v1="75" v2="115" v3="72"/>
+	<triangle id="670" v1="75" v2="72" v3="100"/>
+	<triangle id="671" v1="100" v2="72" v3="71"/>
+	<triangle id="672" v1="72" v2="102" v3="71"/>
+	<triangle id="673" v1="97" v2="98" v3="73"/>
+	<triangle id="674" v1="97" v2="85" v3="98"/>
+	<triangle id="675" v1="59" v2="66" v3="103"/>
+	<triangle id="676" v1="59" v2="63" v3="66"/>
+	<triangle id="677" v1="92" v2="60" v3="88"/>
+	<triangle id="678" v1="92" v2="67" v3="60"/>
+	<triangle id="679" v1="58" v2="54" v3="91"/>
+	<triangle id="680" v1="58" v2="423" v3="54"/>
+	<triangle id="681" v1="40" v2="503" v3="80"/>
+	<triangle id="682" v1="40" v2="501" v3="503"/>
+	<triangle id="683" v1="74" v2="37" v3="79"/>
+	<triangle id="684" v1="74" v2="76" v3="37"/>
+	<triangle id="685" v1="35" v2="39" v3="42"/>
+	<triangle id="686" v1="35" v2="497" v3="39"/>
+	<triangle id="687" v1="62" v2="68" v3="491"/>
+	<triangle id="688" v1="62" v2="36" v3="68"/>
+	<triangle id="689" v1="31" v2="489" v3="498"/>
+	<triangle id="690" v1="31" v2="34" v3="489"/>
+	<triangle id="691" v1="52" v2="61" v3="28"/>
+	<triangle id="692" v1="52" v2="70" v3="61"/>
+	<triangle id="693" v1="30" v2="27" v3="64"/>
+	<triangle id="694" v1="30" v2="23" v3="27"/>
+	<triangle id="695" v1="24" v2="25" v3="485"/>
+	<triangle id="696" v1="24" v2="56" v3="25"/>
+	<triangle id="697" v1="22" v2="479" v3="50"/>
+	<triangle id="698" v1="22" v2="477" v3="479"/>
+	<triangle id="699" v1="49" v2="16" v3="19"/>
+	<triangle id="700" v1="49" v2="13" v3="16"/>
+	<triangle id="701" v1="11" v2="18" v3="55"/>
+	<triangle id="702" v1="11" v2="15" v3="18"/>
+	<triangle id="703" v1="10" v2="473" v3="480"/>
+	<triangle id="704" v1="10" v2="471" v3="473"/>
+	<triangle id="705" v1="425" v2="383" v3="46"/>
+	<triangle id="706" v1="425" v2="47" v3="383"/>
+	<triangle id="707" v1="381" v2="45" v3="465"/>
+	<triangle id="708" v1="381" v2="43" v3="45"/>
+</emesh>

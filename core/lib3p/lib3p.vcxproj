@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6CA1658D-794F-4402-A90B-7EA9A8DCE353}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)_BUILD\lib3p_build\libs\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\lib3p_build\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)_BUILD\lib3p_build\libs\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\lib3p_build\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;FT_CONFIG_OPTION_SYSTEM_ZLIB;FT2_BUILD_LIBRARY;_CRT_SECURE_NO_WARNINGS;COMPILED_FROM_DSP;XML_STATIC;_CRT_NONSTDC_NO_DEPRECATE;PX_DEBUG=1;PX_CHECKED=1;PX_SUPPORT_PVD=1;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__DEBUG__;__WIN64__;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>zlib128;freetype255/include;libogg132/include;libogg132/include/ogg;libvorbis135/include;libvorbis135/include/vorbis;</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;FT_CONFIG_OPTION_SYSTEM_ZLIB;FT2_BUILD_LIBRARY;_CRT_SECURE_NO_WARNINGS;COMPILED_FROM_DSP;XML_STATIC;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__RELEASE__;__WIN64__;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>zlib128;freetype255/include;libogg132/include;libogg132/include/ogg;libvorbis135/include;libvorbis135/include/vorbis;</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>
+      </ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="expat\xmlparse.c" />
+    <ClCompile Include="expat\xmlrole.c" />
+    <ClCompile Include="expat\xmltok.c" />
+    <ClCompile Include="expat\xmltok_impl.c" />
+    <ClCompile Include="expat\xmltok_ns.c" />
+    <ClCompile Include="freetype255\src\autofit\afangles.c" />
+    <ClCompile Include="freetype255\src\autofit\afblue.c" />
+    <ClCompile Include="freetype255\src\autofit\afcjk.c" />
+    <ClCompile Include="freetype255\src\autofit\afdummy.c" />
+    <ClCompile Include="freetype255\src\autofit\afglobal.c" />
+    <ClCompile Include="freetype255\src\autofit\afhints.c" />
+    <ClCompile Include="freetype255\src\autofit\afindic.c" />
+    <ClCompile Include="freetype255\src\autofit\aflatin.c" />
+    <ClCompile Include="freetype255\src\autofit\afloader.c" />
+    <ClCompile Include="freetype255\src\autofit\afmodule.c" />
+    <ClCompile Include="freetype255\src\autofit\afpic.c" />
+    <ClCompile Include="freetype255\src\autofit\afranges.c" />
+    <ClCompile Include="freetype255\src\autofit\afwarp.c" />
+    <ClCompile Include="freetype255\src\autofit\hbshim.c" />
+    <ClCompile Include="freetype255\src\base\basepic.c" />
+    <ClCompile Include="freetype255\src\base\ftadvanc.c" />
+    <ClCompile Include="freetype255\src\base\ftapi.c" />
+    <ClCompile Include="freetype255\src\base\ftbbox.c" />
+    <ClCompile Include="freetype255\src\base\ftbdf.c" />
+    <ClCompile Include="freetype255\src\base\ftbitmap.c" />
+    <ClCompile Include="freetype255\src\base\ftcalc.c" />
+    <ClCompile Include="freetype255\src\base\ftcid.c" />
+    <ClCompile Include="freetype255\src\base\ftdbgmem.c" />
+    <ClCompile Include="freetype255\src\base\ftdebug.c" />
+    <ClCompile Include="freetype255\src\base\ftfstype.c" />
+    <ClCompile Include="freetype255\src\base\ftgasp.c" />
+    <ClCompile Include="freetype255\src\base\ftgloadr.c" />
+    <ClCompile Include="freetype255\src\base\ftglyph.c" />
+    <ClCompile Include="freetype255\src\base\ftgxval.c" />
+    <ClCompile Include="freetype255\src\base\ftinit.c" />
+    <ClCompile Include="freetype255\src\base\ftlcdfil.c" />
+    <ClCompile Include="freetype255\src\base\ftmm.c" />
+    <ClCompile Include="freetype255\src\base\ftobjs.c" />
+    <ClCompile Include="freetype255\src\base\ftotval.c" />
+    <ClCompile Include="freetype255\src\base\ftoutln.c" />
+    <ClCompile Include="freetype255\src\base\ftpatent.c" />
+    <ClCompile Include="freetype255\src\base\ftpfr.c" />
+    <ClCompile Include="freetype255\src\base\ftpic.c" />
+    <ClCompile Include="freetype255\src\base\ftrfork.c" />
+    <ClCompile Include="freetype255\src\base\ftsnames.c" />
+    <ClCompile Include="freetype255\src\base\ftstream.c" />
+    <ClCompile Include="freetype255\src\base\ftstroke.c" />
+    <ClCompile Include="freetype255\src\base\ftsynth.c" />
+    <ClCompile Include="freetype255\src\base\ftsystem.c" />
+    <ClCompile Include="freetype255\src\base\fttrigon.c" />
+    <ClCompile Include="freetype255\src\base\fttype1.c" />
+    <ClCompile Include="freetype255\src\base\ftutil.c" />
+    <ClCompile Include="freetype255\src\base\ftwinfnt.c" />
+    <ClCompile Include="freetype255\src\base\ftxf86.c" />
+    <ClCompile Include="freetype255\src\base\md5.c" />
+    <ClCompile Include="freetype255\src\bdf\bdfdrivr.c" />
+    <ClCompile Include="freetype255\src\bdf\bdflib.c" />
+    <ClCompile Include="freetype255\src\bzip2\ftbzip2.c" />
+    <ClCompile Include="freetype255\src\cache\ftcbasic.c" />
+    <ClCompile Include="freetype255\src\cache\ftccache.c" />
+    <ClCompile Include="freetype255\src\cache\ftccmap.c" />
+    <ClCompile Include="freetype255\src\cache\ftcglyph.c" />
+    <ClCompile Include="freetype255\src\cache\ftcimage.c" />
+    <ClCompile Include="freetype255\src\cache\ftcmanag.c" />
+    <ClCompile Include="freetype255\src\cache\ftcmru.c" />
+    <ClCompile Include="freetype255\src\cache\ftcsbits.c" />
+    <ClCompile Include="freetype255\src\cff\cf2arrst.c" />
+    <ClCompile Include="freetype255\src\cff\cf2blues.c" />
+    <ClCompile Include="freetype255\src\cff\cf2error.c" />
+    <ClCompile Include="freetype255\src\cff\cf2font.c" />
+    <ClCompile Include="freetype255\src\cff\cf2ft.c" />
+    <ClCompile Include="freetype255\src\cff\cf2hints.c" />
+    <ClCompile Include="freetype255\src\cff\cf2intrp.c" />
+    <ClCompile Include="freetype255\src\cff\cf2read.c" />
+    <ClCompile Include="freetype255\src\cff\cf2stack.c" />
+    <ClCompile Include="freetype255\src\cff\cffcmap.c" />
+    <ClCompile Include="freetype255\src\cff\cffdrivr.c" />
+    <ClCompile Include="freetype255\src\cff\cffgload.c" />
+    <ClCompile Include="freetype255\src\cff\cffload.c" />
+    <ClCompile Include="freetype255\src\cff\cffobjs.c" />
+    <ClCompile Include="freetype255\src\cff\cffparse.c" />
+    <ClCompile Include="freetype255\src\cff\cffpic.c" />
+    <ClCompile Include="freetype255\src\cid\cidgload.c" />
+    <ClCompile Include="freetype255\src\cid\cidload.c" />
+    <ClCompile Include="freetype255\src\cid\cidobjs.c" />
+    <ClCompile Include="freetype255\src\cid\cidparse.c" />
+    <ClCompile Include="freetype255\src\cid\cidriver.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvbsln.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvcommn.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvfeat.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvjust.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvkern.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvlcar.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvmod.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvmort.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvmort0.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvmort1.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvmort2.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvmort4.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvmort5.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvmorx.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvmorx0.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvmorx1.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvmorx2.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvmorx4.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvmorx5.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvopbd.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvprop.c" />
+    <ClCompile Include="freetype255\src\gxvalid\gxvtrak.c" />
+    <ClCompile Include="freetype255\src\gzip\ftgzip.c" />
+    <ClCompile Include="freetype255\src\lzw\ftlzw.c" />
+    <ClCompile Include="freetype255\src\otvalid\otvbase.c" />
+    <ClCompile Include="freetype255\src\otvalid\otvcommn.c" />
+    <ClCompile Include="freetype255\src\otvalid\otvgdef.c" />
+    <ClCompile Include="freetype255\src\otvalid\otvgpos.c" />
+    <ClCompile Include="freetype255\src\otvalid\otvgsub.c" />
+    <ClCompile Include="freetype255\src\otvalid\otvjstf.c" />
+    <ClCompile Include="freetype255\src\otvalid\otvmath.c" />
+    <ClCompile Include="freetype255\src\otvalid\otvmod.c" />
+    <ClCompile Include="freetype255\src\pcf\pcfdrivr.c" />
+    <ClCompile Include="freetype255\src\pcf\pcfread.c" />
+    <ClCompile Include="freetype255\src\pcf\pcfutil.c" />
+    <ClCompile Include="freetype255\src\pfr\pfrcmap.c" />
+    <ClCompile Include="freetype255\src\pfr\pfrdrivr.c" />
+    <ClCompile Include="freetype255\src\pfr\pfrgload.c" />
+    <ClCompile Include="freetype255\src\pfr\pfrload.c" />
+    <ClCompile Include="freetype255\src\pfr\pfrobjs.c" />
+    <ClCompile Include="freetype255\src\pfr\pfrsbit.c" />
+    <ClCompile Include="freetype255\src\psaux\afmparse.c" />
+    <ClCompile Include="freetype255\src\psaux\psauxmod.c" />
+    <ClCompile Include="freetype255\src\psaux\psconv.c" />
+    <ClCompile Include="freetype255\src\psaux\psobjs.c" />
+    <ClCompile Include="freetype255\src\psaux\t1cmap.c" />
+    <ClCompile Include="freetype255\src\psaux\t1decode.c" />
+    <ClCompile Include="freetype255\src\pshinter\pshalgo.c" />
+    <ClCompile Include="freetype255\src\pshinter\pshglob.c" />
+    <ClCompile Include="freetype255\src\pshinter\pshmod.c" />
+    <ClCompile Include="freetype255\src\pshinter\pshpic.c" />
+    <ClCompile Include="freetype255\src\pshinter\pshrec.c" />
+    <ClCompile Include="freetype255\src\psnames\psmodule.c" />
+    <ClCompile Include="freetype255\src\psnames\pspic.c" />
+    <ClCompile Include="freetype255\src\raster\ftraster.c" />
+    <ClCompile Include="freetype255\src\raster\ftrend1.c" />
+    <ClCompile Include="freetype255\src\raster\rastpic.c" />
+    <ClCompile Include="freetype255\src\sfnt\pngshim.c" />
+    <ClCompile Include="freetype255\src\sfnt\sfdriver.c" />
+    <ClCompile Include="freetype255\src\sfnt\sfntpic.c" />
+    <ClCompile Include="freetype255\src\sfnt\sfobjs.c" />
+    <ClCompile Include="freetype255\src\sfnt\ttbdf.c" />
+    <ClCompile Include="freetype255\src\sfnt\ttcmap.c" />
+    <ClCompile Include="freetype255\src\sfnt\ttkern.c" />
+    <ClCompile Include="freetype255\src\sfnt\ttload.c" />
+    <ClCompile Include="freetype255\src\sfnt\ttmtx.c" />
+    <ClCompile Include="freetype255\src\sfnt\ttpost.c" />
+    <ClCompile Include="freetype255\src\sfnt\ttsbit.c" />
+    <ClCompile Include="freetype255\src\smooth\ftgrays.c" />
+    <ClCompile Include="freetype255\src\smooth\ftsmooth.c" />
+    <ClCompile Include="freetype255\src\smooth\ftspic.c" />
+    <ClCompile Include="freetype255\src\truetype\ttdriver.c" />
+    <ClCompile Include="freetype255\src\truetype\ttgload.c" />
+    <ClCompile Include="freetype255\src\truetype\ttgxvar.c" />
+    <ClCompile Include="freetype255\src\truetype\ttinterp.c" />
+    <ClCompile Include="freetype255\src\truetype\ttobjs.c" />
+    <ClCompile Include="freetype255\src\truetype\ttpic.c" />
+    <ClCompile Include="freetype255\src\truetype\ttpload.c" />
+    <ClCompile Include="freetype255\src\truetype\ttsubpix.c" />
+    <ClCompile Include="freetype255\src\type1\t1afm.c" />
+    <ClCompile Include="freetype255\src\type1\t1driver.c" />
+    <ClCompile Include="freetype255\src\type1\t1gload.c" />
+    <ClCompile Include="freetype255\src\type1\t1load.c" />
+    <ClCompile Include="freetype255\src\type1\t1objs.c" />
+    <ClCompile Include="freetype255\src\type1\t1parse.c" />
+    <ClCompile Include="freetype255\src\type42\t42drivr.c" />
+    <ClCompile Include="freetype255\src\type42\t42objs.c" />
+    <ClCompile Include="freetype255\src\type42\t42parse.c" />
+    <ClCompile Include="freetype255\src\winfonts\winfnt.c" />
+    <ClCompile Include="fs_sys2\fs_bdio.c" />
+    <ClCompile Include="fs_sys2\fs_bdio_ex.c" />
+    <ClCompile Include="fs_sys2\fs_c_interface.cpp" />
+    <ClCompile Include="fs_sys2\fs_err.c" />
+    <ClCompile Include="fs_sys2\fs_file.cpp" />
+    <ClCompile Include="fs_sys2\fs_fs2.cpp" />
+    <ClCompile Include="fs_sys2\fs_list_stack.cpp" />
+    <ClCompile Include="fs_sys2\fs_lpk.cpp" />
+    <ClCompile Include="fs_sys2\fs_mem.cpp" />
+    <ClCompile Include="fs_sys2\fs_misc.c" />
+    <ClCompile Include="libogg132\src\bitwise.c" />
+    <ClCompile Include="libogg132\src\framing.c" />
+    <ClCompile Include="libvorbis135\lib\analysis.c" />
+    <ClCompile Include="libvorbis135\lib\bitrate.c" />
+    <ClCompile Include="libvorbis135\lib\block.c" />
+    <ClCompile Include="libvorbis135\lib\codebook.c" />
+    <ClCompile Include="libvorbis135\lib\envelope.c" />
+    <ClCompile Include="libvorbis135\lib\floor0.c" />
+    <ClCompile Include="libvorbis135\lib\floor1.c" />
+    <ClCompile Include="libvorbis135\lib\info.c" />
+    <ClCompile Include="libvorbis135\lib\lookup.c" />
+    <ClCompile Include="libvorbis135\lib\lpc.c" />
+    <ClCompile Include="libvorbis135\lib\lsp.c" />
+    <ClCompile Include="libvorbis135\lib\mapping0.c" />
+    <ClCompile Include="libvorbis135\lib\mdct.c" />
+    <ClCompile Include="libvorbis135\lib\psy.c" />
+    <ClCompile Include="libvorbis135\lib\registry.c" />
+    <ClCompile Include="libvorbis135\lib\res0.c" />
+    <ClCompile Include="libvorbis135\lib\sharedbook.c" />
+    <ClCompile Include="libvorbis135\lib\smallft.c" />
+    <ClCompile Include="libvorbis135\lib\synthesis.c" />
+    <ClCompile Include="libvorbis135\lib\vorbisenc.c" />
+    <ClCompile Include="libvorbis135\lib\vorbisfile.c" />
+    <ClCompile Include="libvorbis135\lib\window.c" />
+    <ClCompile Include="zlib128\adler32.c" />
+    <ClCompile Include="zlib128\compress.c" />
+    <ClCompile Include="zlib128\crc32.c" />
+    <ClCompile Include="zlib128\deflate.c" />
+    <ClCompile Include="zlib128\gzclose.c" />
+    <ClCompile Include="zlib128\gzlib.c" />
+    <ClCompile Include="zlib128\gzread.c" />
+    <ClCompile Include="zlib128\gzwrite.c" />
+    <ClCompile Include="zlib128\infback.c" />
+    <ClCompile Include="zlib128\inffast.c" />
+    <ClCompile Include="zlib128\inflate.c" />
+    <ClCompile Include="zlib128\inftrees.c" />
+    <ClCompile Include="zlib128\trees.c" />
+    <ClCompile Include="zlib128\uncompr.c" />
+    <ClCompile Include="zlib128\zutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="expat\amigaconfig.h" />
+    <ClInclude Include="expat\ascii.h" />
+    <ClInclude Include="expat\asciitab.h" />
+    <ClInclude Include="expat\expat.h" />
+    <ClInclude Include="expat\expat_external.h" />
+    <ClInclude Include="expat\iasciitab.h" />
+    <ClInclude Include="expat\internal.h" />
+    <ClInclude Include="expat\latin1tab.h" />
+    <ClInclude Include="expat\macconfig.h" />
+    <ClInclude Include="expat\nametab.h" />
+    <ClInclude Include="expat\utf8tab.h" />
+    <ClInclude Include="expat\watcomconfig.h" />
+    <ClInclude Include="expat\winconfig.h" />
+    <ClInclude Include="expat\xmlrole.h" />
+    <ClInclude Include="expat\xmltok.h" />
+    <ClInclude Include="expat\xmltok_impl.h" />
+    <ClInclude Include="freetype255\include\config\ftconfig.h" />
+    <ClInclude Include="freetype255\include\config\ftheader.h" />
+    <ClInclude Include="freetype255\include\config\ftmodule.h" />
+    <ClInclude Include="freetype255\include\config\ftoption.h" />
+    <ClInclude Include="freetype255\include\config\ftstdlib.h" />
+    <ClInclude Include="freetype255\include\internal\services\svbdf.h" />
+    <ClInclude Include="freetype255\include\internal\services\svcid.h" />
+    <ClInclude Include="freetype255\include\internal\services\svgldict.h" />
+    <ClInclude Include="freetype255\include\internal\services\svgxval.h" />
+    <ClInclude Include="freetype255\include\internal\services\svkern.h" />
+    <ClInclude Include="freetype255\include\internal\services\svmm.h" />
+    <ClInclude Include="freetype255\include\internal\services\svotval.h" />
+    <ClInclude Include="freetype255\include\internal\services\svpfr.h" />
+    <ClInclude Include="freetype255\include\internal\services\svpostnm.h" />
+    <ClInclude Include="freetype255\include\internal\services\svprop.h" />
+    <ClInclude Include="freetype255\include\internal\services\svpscmap.h" />
+    <ClInclude Include="freetype255\include\internal\services\svpsinfo.h" />
+    <ClInclude Include="freetype255\include\internal\services\svsfnt.h" />
+    <ClInclude Include="freetype255\include\internal\services\svttcmap.h" />
+    <ClInclude Include="freetype255\include\internal\services\svtteng.h" />
+    <ClInclude Include="freetype255\include\internal\services\svttglyf.h" />
+    <ClInclude Include="freetype255\include\internal\services\svwinfnt.h" />
+    <ClInclude Include="freetype255\include\internal\services\svxf86nm.h" />
+    <ClInclude Include="freetype255\include\internal\autohint.h" />
+    <ClInclude Include="freetype255\include\internal\ftcalc.h" />
+    <ClInclude Include="freetype255\include\internal\ftdebug.h" />
+    <ClInclude Include="freetype255\include\internal\ftdriver.h" />
+    <ClInclude Include="freetype255\include\internal\ftgloadr.h" />
+    <ClInclude Include="freetype255\include\internal\ftmemory.h" />
+    <ClInclude Include="freetype255\include\internal\ftobjs.h" />
+    <ClInclude Include="freetype255\include\internal\ftpic.h" />
+    <ClInclude Include="freetype255\include\internal\ftrfork.h" />
+    <ClInclude Include="freetype255\include\internal\ftserv.h" />
+    <ClInclude Include="freetype255\include\internal\ftstream.h" />
+    <ClInclude Include="freetype255\include\internal\fttrace.h" />
+    <ClInclude Include="freetype255\include\internal\ftvalid.h" />
+    <ClInclude Include="freetype255\include\internal\internal.h" />
+    <ClInclude Include="freetype255\include\internal\psaux.h" />
+    <ClInclude Include="freetype255\include\internal\pshints.h" />
+    <ClInclude Include="freetype255\include\internal\sfnt.h" />
+    <ClInclude Include="freetype255\include\internal\t1types.h" />
+    <ClInclude Include="freetype255\include\internal\tttypes.h" />
+    <ClInclude Include="freetype255\include\freetype.h" />
+    <ClInclude Include="freetype255\include\ft2build.h" />
+    <ClInclude Include="freetype255\include\ftadvanc.h" />
+    <ClInclude Include="freetype255\include\ftautoh.h" />
+    <ClInclude Include="freetype255\include\ftbbox.h" />
+    <ClInclude Include="freetype255\include\ftbdf.h" />
+    <ClInclude Include="freetype255\include\ftbitmap.h" />
+    <ClInclude Include="freetype255\include\ftbzip2.h" />
+    <ClInclude Include="freetype255\include\ftcache.h" />
+    <ClInclude Include="freetype255\include\ftcffdrv.h" />
+    <ClInclude Include="freetype255\include\ftchapters.h" />
+    <ClInclude Include="freetype255\include\ftcid.h" />
+    <ClInclude Include="freetype255\include\fterrdef.h" />
+    <ClInclude Include="freetype255\include\fterrors.h" />
+    <ClInclude Include="freetype255\include\ftgasp.h" />
+    <ClInclude Include="freetype255\include\ftglyph.h" />
+    <ClInclude Include="freetype255\include\ftgxval.h" />
+    <ClInclude Include="freetype255\include\ftgzip.h" />
+    <ClInclude Include="freetype255\include\ftimage.h" />
+    <ClInclude Include="freetype255\include\ftincrem.h" />
+    <ClInclude Include="freetype255\include\ftlcdfil.h" />
+    <ClInclude Include="freetype255\include\ftlist.h" />
+    <ClInclude Include="freetype255\include\ftlzw.h" />
+    <ClInclude Include="freetype255\include\ftmac.h" />
+    <ClInclude Include="freetype255\include\ftmm.h" />
+    <ClInclude Include="freetype255\include\ftmodapi.h" />
+    <ClInclude Include="freetype255\include\ftmoderr.h" />
+    <ClInclude Include="freetype255\include\ftotval.h" />
+    <ClInclude Include="freetype255\include\ftoutln.h" />
+    <ClInclude Include="freetype255\include\ftpfr.h" />
+    <ClInclude Include="freetype255\include\ftrender.h" />
+    <ClInclude Include="freetype255\include\ftsizes.h" />
+    <ClInclude Include="freetype255\include\ftsnames.h" />
+    <ClInclude Include="freetype255\include\ftstroke.h" />
+    <ClInclude Include="freetype255\include\ftsynth.h" />
+    <ClInclude Include="freetype255\include\ftsystem.h" />
+    <ClInclude Include="freetype255\include\fttrigon.h" />
+    <ClInclude Include="freetype255\include\ftttdrv.h" />
+    <ClInclude Include="freetype255\include\fttypes.h" />
+    <ClInclude Include="freetype255\include\ftwinfnt.h" />
+    <ClInclude Include="freetype255\include\ftxf86.h" />
+    <ClInclude Include="freetype255\include\t1tables.h" />
+    <ClInclude Include="freetype255\include\ttnameid.h" />
+    <ClInclude Include="freetype255\include\tttables.h" />
+    <ClInclude Include="freetype255\include\tttags.h" />
+    <ClInclude Include="freetype255\include\ttunpat.h" />
+    <ClInclude Include="freetype255\src\autofit\afangles.h" />
+    <ClInclude Include="freetype255\src\autofit\afblue.h" />
+    <ClInclude Include="freetype255\src\autofit\afcjk.h" />
+    <ClInclude Include="freetype255\src\autofit\afcover.h" />
+    <ClInclude Include="freetype255\src\autofit\afdummy.h" />
+    <ClInclude Include="freetype255\src\autofit\aferrors.h" />
+    <ClInclude Include="freetype255\src\autofit\afglobal.h" />
+    <ClInclude Include="freetype255\src\autofit\afhints.h" />
+    <ClInclude Include="freetype255\src\autofit\afindic.h" />
+    <ClInclude Include="freetype255\src\autofit\aflatin.h" />
+    <ClInclude Include="freetype255\src\autofit\aflatin2.h" />
+    <ClInclude Include="freetype255\src\autofit\afloader.h" />
+    <ClInclude Include="freetype255\src\autofit\afmodule.h" />
+    <ClInclude Include="freetype255\src\autofit\afpic.h" />
+    <ClInclude Include="freetype255\src\autofit\afranges.h" />
+    <ClInclude Include="freetype255\src\autofit\afscript.h" />
+    <ClInclude Include="freetype255\src\autofit\afstyles.h" />
+    <ClInclude Include="freetype255\src\autofit\aftypes.h" />
+    <ClInclude Include="freetype255\src\autofit\afwarp.h" />
+    <ClInclude Include="freetype255\src\autofit\afwrtsys.h" />
+    <ClInclude Include="freetype255\src\autofit\hbshim.h" />
+    <ClInclude Include="freetype255\src\base\basepic.h" />
+    <ClInclude Include="freetype255\src\base\ftbase.h" />
+    <ClInclude Include="freetype255\src\base\md5.h" />
+    <ClInclude Include="freetype255\src\bdf\bdf.h" />
+    <ClInclude Include="freetype255\src\bdf\bdfdrivr.h" />
+    <ClInclude Include="freetype255\src\bdf\bdferror.h" />
+    <ClInclude Include="freetype255\src\cache\ftccache.h" />
+    <ClInclude Include="freetype255\src\cache\ftccback.h" />
+    <ClInclude Include="freetype255\src\cache\ftcerror.h" />
+    <ClInclude Include="freetype255\src\cache\ftcglyph.h" />
+    <ClInclude Include="freetype255\src\cache\ftcimage.h" />
+    <ClInclude Include="freetype255\src\cache\ftcmanag.h" />
+    <ClInclude Include="freetype255\src\cache\ftcmru.h" />
+    <ClInclude Include="freetype255\src\cache\ftcsbits.h" />
+    <ClInclude Include="freetype255\src\cff\cf2arrst.h" />
+    <ClInclude Include="freetype255\src\cff\cf2blues.h" />
+    <ClInclude Include="freetype255\src\cff\cf2error.h" />
+    <ClInclude Include="freetype255\src\cff\cf2fixed.h" />
+    <ClInclude Include="freetype255\src\cff\cf2font.h" />
+    <ClInclude Include="freetype255\src\cff\cf2ft.h" />
+    <ClInclude Include="freetype255\src\cff\cf2glue.h" />
+    <ClInclude Include="freetype255\src\cff\cf2hints.h" />
+    <ClInclude Include="freetype255\src\cff\cf2intrp.h" />
+    <ClInclude Include="freetype255\src\cff\cf2read.h" />
+    <ClInclude Include="freetype255\src\cff\cf2stack.h" />
+    <ClInclude Include="freetype255\src\cff\cf2types.h" />
+    <ClInclude Include="freetype255\src\cff\cffcmap.h" />
+    <ClInclude Include="freetype255\src\cff\cffdrivr.h" />
+    <ClInclude Include="freetype255\src\cff\cfferrs.h" />
+    <ClInclude Include="freetype255\src\cff\cffgload.h" />
+    <ClInclude Include="freetype255\src\cff\cffload.h" />
+    <ClInclude Include="freetype255\src\cff\cffobjs.h" />
+    <ClInclude Include="freetype255\src\cff\cffparse.h" />
+    <ClInclude Include="freetype255\src\cff\cffpic.h" />
+    <ClInclude Include="freetype255\src\cff\cfftoken.h" />
+    <ClInclude Include="freetype255\src\cff\cfftypes.h" />
+    <ClInclude Include="freetype255\src\cid\ciderrs.h" />
+    <ClInclude Include="freetype255\src\cid\cidgload.h" />
+    <ClInclude Include="freetype255\src\cid\cidload.h" />
+    <ClInclude Include="freetype255\src\cid\cidobjs.h" />
+    <ClInclude Include="freetype255\src\cid\cidparse.h" />
+    <ClInclude Include="freetype255\src\cid\cidriver.h" />
+    <ClInclude Include="freetype255\src\cid\cidtoken.h" />
+    <ClInclude Include="freetype255\src\gxvalid\gxvalid.h" />
+    <ClInclude Include="freetype255\src\gxvalid\gxvcommn.h" />
+    <ClInclude Include="freetype255\src\gxvalid\gxverror.h" />
+    <ClInclude Include="freetype255\src\gxvalid\gxvfeat.h" />
+    <ClInclude Include="freetype255\src\gxvalid\gxvmod.h" />
+    <ClInclude Include="freetype255\src\gxvalid\gxvmort.h" />
+    <ClInclude Include="freetype255\src\gxvalid\gxvmorx.h" />
+    <ClInclude Include="freetype255\src\gzip\infblock.h" />
+    <ClInclude Include="freetype255\src\gzip\infcodes.h" />
+    <ClInclude Include="freetype255\src\gzip\inffixed.h" />
+    <ClInclude Include="freetype255\src\gzip\inftrees.h" />
+    <ClInclude Include="freetype255\src\gzip\infutil.h" />
+    <ClInclude Include="freetype255\src\gzip\zconf.h" />
+    <ClInclude Include="freetype255\src\gzip\zlib.h" />
+    <ClInclude Include="freetype255\src\gzip\zutil.h" />
+    <ClInclude Include="freetype255\src\lzw\ftzopen.h" />
+    <ClInclude Include="freetype255\src\otvalid\otvalid.h" />
+    <ClInclude Include="freetype255\src\otvalid\otvcommn.h" />
+    <ClInclude Include="freetype255\src\otvalid\otverror.h" />
+    <ClInclude Include="freetype255\src\otvalid\otvgpos.h" />
+    <ClInclude Include="freetype255\src\otvalid\otvmod.h" />
+    <ClInclude Include="freetype255\src\pcf\pcf.h" />
+    <ClInclude Include="freetype255\src\pcf\pcfdrivr.h" />
+    <ClInclude Include="freetype255\src\pcf\pcferror.h" />
+    <ClInclude Include="freetype255\src\pcf\pcfread.h" />
+    <ClInclude Include="freetype255\src\pcf\pcfutil.h" />
+    <ClInclude Include="freetype255\src\pfr\pfrcmap.h" />
+    <ClInclude Include="freetype255\src\pfr\pfrdrivr.h" />
+    <ClInclude Include="freetype255\src\pfr\pfrerror.h" />
+    <ClInclude Include="freetype255\src\pfr\pfrgload.h" />
+    <ClInclude Include="freetype255\src\pfr\pfrload.h" />
+    <ClInclude Include="freetype255\src\pfr\pfrobjs.h" />
+    <ClInclude Include="freetype255\src\pfr\pfrsbit.h" />
+    <ClInclude Include="freetype255\src\pfr\pfrtypes.h" />
+    <ClInclude Include="freetype255\src\psaux\afmparse.h" />
+    <ClInclude Include="freetype255\src\psaux\psauxerr.h" />
+    <ClInclude Include="freetype255\src\psaux\psauxmod.h" />
+    <ClInclude Include="freetype255\src\psaux\psconv.h" />
+    <ClInclude Include="freetype255\src\psaux\psobjs.h" />
+    <ClInclude Include="freetype255\src\psaux\t1cmap.h" />
+    <ClInclude Include="freetype255\src\psaux\t1decode.h" />
+    <ClInclude Include="freetype255\src\pshinter\pshalgo.h" />
+    <ClInclude Include="freetype255\src\pshinter\pshglob.h" />
+    <ClInclude Include="freetype255\src\pshinter\pshmod.h" />
+    <ClInclude Include="freetype255\src\pshinter\pshnterr.h" />
+    <ClInclude Include="freetype255\src\pshinter\pshpic.h" />
+    <ClInclude Include="freetype255\src\pshinter\pshrec.h" />
+    <ClInclude Include="freetype255\src\psnames\psmodule.h" />
+    <ClInclude Include="freetype255\src\psnames\psnamerr.h" />
+    <ClInclude Include="freetype255\src\psnames\pspic.h" />
+    <ClInclude Include="freetype255\src\psnames\pstables.h" />
+    <ClInclude Include="freetype255\src\raster\ftmisc.h" />
+    <ClInclude Include="freetype255\src\raster\ftraster.h" />
+    <ClInclude Include="freetype255\src\raster\ftrend1.h" />
+    <ClInclude Include="freetype255\src\raster\rasterrs.h" />
+    <ClInclude Include="freetype255\src\raster\rastpic.h" />
+    <ClInclude Include="freetype255\src\sfnt\pngshim.h" />
+    <ClInclude Include="freetype255\src\sfnt\sfdriver.h" />
+    <ClInclude Include="freetype255\src\sfnt\sferrors.h" />
+    <ClInclude Include="freetype255\src\sfnt\sfntpic.h" />
+    <ClInclude Include="freetype255\src\sfnt\sfobjs.h" />
+    <ClInclude Include="freetype255\src\sfnt\ttbdf.h" />
+    <ClInclude Include="freetype255\src\sfnt\ttcmap.h" />
+    <ClInclude Include="freetype255\src\sfnt\ttcmapc.h" />
+    <ClInclude Include="freetype255\src\sfnt\ttkern.h" />
+    <ClInclude Include="freetype255\src\sfnt\ttload.h" />
+    <ClInclude Include="freetype255\src\sfnt\ttmtx.h" />
+    <ClInclude Include="freetype255\src\sfnt\ttpost.h" />
+    <ClInclude Include="freetype255\src\sfnt\ttsbit.h" />
+    <ClInclude Include="freetype255\src\smooth\ftgrays.h" />
+    <ClInclude Include="freetype255\src\smooth\ftsmerrs.h" />
+    <ClInclude Include="freetype255\src\smooth\ftsmooth.h" />
+    <ClInclude Include="freetype255\src\smooth\ftspic.h" />
+    <ClInclude Include="freetype255\src\truetype\ttdriver.h" />
+    <ClInclude Include="freetype255\src\truetype\tterrors.h" />
+    <ClInclude Include="freetype255\src\truetype\ttgload.h" />
+    <ClInclude Include="freetype255\src\truetype\ttgxvar.h" />
+    <ClInclude Include="freetype255\src\truetype\ttinterp.h" />
+    <ClInclude Include="freetype255\src\truetype\ttobjs.h" />
+    <ClInclude Include="freetype255\src\truetype\ttpic.h" />
+    <ClInclude Include="freetype255\src\truetype\ttpload.h" />
+    <ClInclude Include="freetype255\src\truetype\ttsubpix.h" />
+    <ClInclude Include="freetype255\src\type1\t1afm.h" />
+    <ClInclude Include="freetype255\src\type1\t1driver.h" />
+    <ClInclude Include="freetype255\src\type1\t1errors.h" />
+    <ClInclude Include="freetype255\src\type1\t1gload.h" />
+    <ClInclude Include="freetype255\src\type1\t1load.h" />
+    <ClInclude Include="freetype255\src\type1\t1objs.h" />
+    <ClInclude Include="freetype255\src\type1\t1parse.h" />
+    <ClInclude Include="freetype255\src\type1\t1tokens.h" />
+    <ClInclude Include="freetype255\src\type42\t42drivr.h" />
+    <ClInclude Include="freetype255\src\type42\t42error.h" />
+    <ClInclude Include="freetype255\src\type42\t42objs.h" />
+    <ClInclude Include="freetype255\src\type42\t42parse.h" />
+    <ClInclude Include="freetype255\src\type42\t42types.h" />
+    <ClInclude Include="freetype255\src\winfonts\fnterrs.h" />
+    <ClInclude Include="freetype255\src\winfonts\winfnt.h" />
+    <ClInclude Include="fs_sys2\fs_bdio.h" />
+    <ClInclude Include="fs_sys2\fs_bdio.win32.h" />
+    <ClInclude Include="fs_sys2\fs_file.h" />
+    <ClInclude Include="fs_sys2\fs_fs2.h" />
+    <ClInclude Include="fs_sys2\fs_internal.h" />
+    <ClInclude Include="fs_sys2\fs_list_stack.h" />
+    <ClInclude Include="fs_sys2\fs_lpk.h" />
+    <ClInclude Include="fs_sys2\fs_sys2.h" />
+    <ClInclude Include="libogg132\include\ogg\ogg.h" />
+    <ClInclude Include="libogg132\include\ogg\os_types.h" />
+    <ClInclude Include="libvorbis135\include\vorbis\codec.h" />
+    <ClInclude Include="libvorbis135\include\vorbis\vorbisenc.h" />
+    <ClInclude Include="libvorbis135\include\vorbis\vorbisfile.h" />
+    <ClInclude Include="libvorbis135\lib\books\coupled\res_books_51.h" />
+    <ClInclude Include="libvorbis135\lib\books\coupled\res_books_stereo.h" />
+    <ClInclude Include="libvorbis135\lib\books\floor\floor_books.h" />
+    <ClInclude Include="libvorbis135\lib\books\uncoupled\res_books_uncoupled.h" />
+    <ClInclude Include="libvorbis135\lib\modes\floor_all.h" />
+    <ClInclude Include="libvorbis135\lib\modes\psych_11.h" />
+    <ClInclude Include="libvorbis135\lib\modes\psych_16.h" />
+    <ClInclude Include="libvorbis135\lib\modes\psych_44.h" />
+    <ClInclude Include="libvorbis135\lib\modes\psych_8.h" />
+    <ClInclude Include="libvorbis135\lib\modes\residue_16.h" />
+    <ClInclude Include="libvorbis135\lib\modes\residue_44.h" />
+    <ClInclude Include="libvorbis135\lib\modes\residue_44p51.h" />
+    <ClInclude Include="libvorbis135\lib\modes\residue_44u.h" />
+    <ClInclude Include="libvorbis135\lib\modes\residue_8.h" />
+    <ClInclude Include="libvorbis135\lib\modes\setup_11.h" />
+    <ClInclude Include="libvorbis135\lib\modes\setup_16.h" />
+    <ClInclude Include="libvorbis135\lib\modes\setup_22.h" />
+    <ClInclude Include="libvorbis135\lib\modes\setup_32.h" />
+    <ClInclude Include="libvorbis135\lib\modes\setup_44.h" />
+    <ClInclude Include="libvorbis135\lib\modes\setup_44p51.h" />
+    <ClInclude Include="libvorbis135\lib\modes\setup_44u.h" />
+    <ClInclude Include="libvorbis135\lib\modes\setup_8.h" />
+    <ClInclude Include="libvorbis135\lib\modes\setup_X.h" />
+    <ClInclude Include="libvorbis135\lib\backends.h" />
+    <ClInclude Include="libvorbis135\lib\bitrate.h" />
+    <ClInclude Include="libvorbis135\lib\codebook.h" />
+    <ClInclude Include="libvorbis135\lib\codec_internal.h" />
+    <ClInclude Include="libvorbis135\lib\envelope.h" />
+    <ClInclude Include="libvorbis135\lib\highlevel.h" />
+    <ClInclude Include="libvorbis135\lib\lookup.h" />
+    <ClInclude Include="libvorbis135\lib\lookup_data.h" />
+    <ClInclude Include="libvorbis135\lib\lpc.h" />
+    <ClInclude Include="libvorbis135\lib\lsp.h" />
+    <ClInclude Include="libvorbis135\lib\masking.h" />
+    <ClInclude Include="libvorbis135\lib\mdct.h" />
+    <ClInclude Include="libvorbis135\lib\misc.h" />
+    <ClInclude Include="libvorbis135\lib\os.h" />
+    <ClInclude Include="libvorbis135\lib\psy.h" />
+    <ClInclude Include="libvorbis135\lib\registry.h" />
+    <ClInclude Include="libvorbis135\lib\scales.h" />
+    <ClInclude Include="libvorbis135\lib\smallft.h" />
+    <ClInclude Include="libvorbis135\lib\window.h" />
+    <ClInclude Include="zlib128\crc32.h" />
+    <ClInclude Include="zlib128\deflate.h" />
+    <ClInclude Include="zlib128\gzguts.h" />
+    <ClInclude Include="zlib128\inffast.h" />
+    <ClInclude Include="zlib128\inffixed.h" />
+    <ClInclude Include="zlib128\inflate.h" />
+    <ClInclude Include="zlib128\inftrees.h" />
+    <ClInclude Include="zlib128\trees.h" />
+    <ClInclude Include="zlib128\zconf.h" />
+    <ClInclude Include="zlib128\zlib.h" />
+    <ClInclude Include="zlib128\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="expat\COPYING" />
+    <None Include="expat\libexpat.def" />
+    <None Include="expat\libexpatw.def" />
+    <None Include="freetype255\src\autofit\afblue.cin" />
+    <None Include="freetype255\src\autofit\afblue.dat" />
+    <None Include="freetype255\src\autofit\afblue.hin" />
+    <None Include="freetype255\src\autofit\Jamfile" />
+    <None Include="freetype255\src\autofit\module.mk" />
+    <None Include="freetype255\src\autofit\rules.mk" />
+    <None Include="freetype255\src\base\Jamfile" />
+    <None Include="freetype255\src\base\rules.mk" />
+    <None Include="freetype255\src\bdf\Jamfile" />
+    <None Include="freetype255\src\bdf\module.mk" />
+    <None Include="freetype255\src\bdf\README" />
+    <None Include="freetype255\src\bdf\rules.mk" />
+    <None Include="freetype255\src\bzip2\Jamfile" />
+    <None Include="freetype255\src\bzip2\rules.mk" />
+    <None Include="freetype255\src\cache\Jamfile" />
+    <None Include="freetype255\src\cache\rules.mk" />
+    <None Include="freetype255\src\cff\Jamfile" />
+    <None Include="freetype255\src\cff\module.mk" />
+    <None Include="freetype255\src\cff\rules.mk" />
+    <None Include="freetype255\src\cid\Jamfile" />
+    <None Include="freetype255\src\cid\module.mk" />
+    <None Include="freetype255\src\cid\rules.mk" />
+    <None Include="freetype255\src\gxvalid\Jamfile" />
+    <None Include="freetype255\src\gxvalid\module.mk" />
+    <None Include="freetype255\src\gxvalid\README" />
+    <None Include="freetype255\src\gxvalid\rules.mk" />
+    <None Include="freetype255\src\gzip\Jamfile" />
+    <None Include="freetype255\src\gzip\rules.mk" />
+    <None Include="freetype255\src\lzw\Jamfile" />
+    <None Include="freetype255\src\lzw\rules.mk" />
+    <None Include="freetype255\src\otvalid\Jamfile" />
+    <None Include="freetype255\src\otvalid\module.mk" />
+    <None Include="freetype255\src\otvalid\rules.mk" />
+    <None Include="freetype255\src\pcf\Jamfile" />
+    <None Include="freetype255\src\pcf\module.mk" />
+    <None Include="freetype255\src\pcf\README" />
+    <None Include="freetype255\src\pcf\rules.mk" />
+    <None Include="freetype255\src\pfr\Jamfile" />
+    <None Include="freetype255\src\pfr\module.mk" />
+    <None Include="freetype255\src\pfr\rules.mk" />
+    <None Include="freetype255\src\psaux\Jamfile" />
+    <None Include="freetype255\src\psaux\module.mk" />
+    <None Include="freetype255\src\psaux\rules.mk" />
+    <None Include="freetype255\src\pshinter\Jamfile" />
+    <None Include="freetype255\src\pshinter\module.mk" />
+    <None Include="freetype255\src\pshinter\rules.mk" />
+    <None Include="freetype255\src\psnames\Jamfile" />
+    <None Include="freetype255\src\psnames\module.mk" />
+    <None Include="freetype255\src\psnames\rules.mk" />
+    <None Include="freetype255\src\raster\Jamfile" />
+    <None Include="freetype255\src\raster\module.mk" />
+    <None Include="freetype255\src\raster\rules.mk" />
+    <None Include="freetype255\src\sfnt\Jamfile" />
+    <None Include="freetype255\src\sfnt\module.mk" />
+    <None Include="freetype255\src\sfnt\rules.mk" />
+    <None Include="freetype255\src\smooth\Jamfile" />
+    <None Include="freetype255\src\smooth\module.mk" />
+    <None Include="freetype255\src\smooth\rules.mk" />
+    <None Include="freetype255\src\tools\docmaker\content.py" />
+    <None Include="freetype255\src\tools\docmaker\docbeauty.py" />
+    <None Include="freetype255\src\tools\docmaker\docmaker.py" />
+    <None Include="freetype255\src\tools\docmaker\formatter.py" />
+    <None Include="freetype255\src\tools\docmaker\sources.py" />
+    <None Include="freetype255\src\tools\docmaker\tohtml.py" />
+    <None Include="freetype255\src\tools\docmaker\utils.py" />
+    <None Include="freetype255\src\tools\ftrandom\Makefile" />
+    <None Include="freetype255\src\tools\ftrandom\README" />
+    <None Include="freetype255\src\tools\afblue.pl" />
+    <None Include="freetype255\src\tools\chktrcmp.py" />
+    <None Include="freetype255\src\tools\cordic.py" />
+    <None Include="freetype255\src\tools\glnames.py" />
+    <None Include="freetype255\src\tools\Jamfile" />
+    <None Include="freetype255\src\truetype\Jamfile" />
+    <None Include="freetype255\src\truetype\module.mk" />
+    <None Include="freetype255\src\truetype\rules.mk" />
+    <None Include="freetype255\src\type1\Jamfile" />
+    <None Include="freetype255\src\type1\module.mk" />
+    <None Include="freetype255\src\type1\rules.mk" />
+    <None Include="freetype255\src\type42\Jamfile" />
+    <None Include="freetype255\src\type42\module.mk" />
+    <None Include="freetype255\src\type42\rules.mk" />
+    <None Include="freetype255\src\winfonts\Jamfile" />
+    <None Include="freetype255\src\winfonts\module.mk" />
+    <None Include="freetype255\src\winfonts\rules.mk" />
+    <None Include="freetype255\src\Jamfile" />
+    <None Include="libogg132\include\ogg\config_types.h.in" />
+    <None Include="libvorbis135\lib\lookups.pl" />
+    <None Include="zlib128\zlib.3.pdf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edef>
+
+	<properties>
+		<struct name="EntDef" ed_expanded="true" >
+			<property name="m_Id" value="ENT_Cosmetic_Shelf" />
+			<property name="m_ClassType" value="Game" />
+			<property name="m_EntityClassName" value="ExCosmeticEnt" />
+			<property name="m_UiClassName" value="ExTreasureChest" />
+			<property name="m_DefaultRenderFilter" value="PreFxPass" />
+			<property name="m_bIsSerialized" value="true" />
+			<property name="m_bIsLit" value="true" />
+			<property name="m_bIsAlwaysVisible" value="false" />
+			<struct name="m_BaseBounds" ed_expanded="true" >
+				<property name="Min" value="-2 0.5 -2.85" />
+				<property name="Max" value="2 1.25 -1.85" />
+			</struct>
+			<struct name="m_EditorConfig" ed_expanded="true" >
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bDrawGrid" value="true" />
+				<property name="GridSpacing" value="0.5" />
+				<property name="AmbientLight" value="ARGB32:255 255 255 255" />
+				<property name="GamePalette0" value="3 10 1 1" />
+				<property name="GamePalette1" value="1 1 1 1" />
+				<property name="GamePalette2" value="1 1 1 1" />
+				<property name="bDrawLights" value="true" />
+				<property name="CameraPos" value="6.04281 3.06235 0.996786" />
+				<property name="CameraYaw" value="4.2108" />
+				<property name="CameraPitch" value="0.3978" />
+				<property name="HasCameraPose" value="true" />
+			</struct>
+		</struct>
+	</properties>
+
+	<component id="Mesh0" class="EGMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 -1 0 -1.19209e-07 , 0 1 0.15 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="msh_cosmetic_shelf" />
+				</struct>
+			</struct>
+		</properties>
+	</component>
+
+</edef>

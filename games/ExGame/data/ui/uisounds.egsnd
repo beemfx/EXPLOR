@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="EGSndAsset">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Sounds" ed_expanded="true" reserve_size="15" >
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:buttonhighlight" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="buttonhighlight" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:dialogopen" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="buttonhighlight" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:levelup" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="levelup" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:purchase" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="money" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:notallowed" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="translator" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:MenuSlide" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="buttonhighlight" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:HealParty" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="/game/sounds/combat/magic-shine-01-edit" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:TranslatorSlide" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="translator" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:Ambush" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="ambush" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:InventoryEquip" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="equipsound" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:ExchangePartyMember" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="equipsound" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:TeleportParty" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="/game/sounds/combat/magic-shine-01-edit" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:DialogTextReveal" />
+				<property name="Type" value="Ambience" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="typing" />
+				<property name="bLooping" value="true" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:ConfirmDialogChoice" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="buttonhighlight" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="uisound:BuyFood" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="equipsound" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="true" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

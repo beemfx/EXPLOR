@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B07F400C-A597-436B-9C64-084DB32283F9}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)_BUILD\libs\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)_BUILD\libs\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)_BUILD\libs\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)_BUILD\libs\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__DEBUG__;__WIN64__;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>./;config;editor;egsm;gamedata;gcx;loc;mem;mesh;ms3d;platform;reflection;renderer;serialize;types;world;../eglib;../eglib/EG2Lib;../eglib/EG2Lib/Math;../eglib/EG2Lib/Primitives;../eglib/egwnd;../eglib/ext_sys;../eglib/math;../eglib/mem;../eglib/net;../eglib/serialize;../eglib/string;../eglib/templates;../eglib/text;../eglib/utilities;</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>EGCommon.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__RELEASE__;__WIN64__;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;config;editor;egsm;gamedata;gcx;loc;mem;mesh;ms3d;platform;reflection;renderer;serialize;types;world;../eglib;../eglib/EG2Lib;../eglib/EG2Lib/Math;../eglib/EG2Lib/Primitives;../eglib/egwnd;../eglib/ext_sys;../eglib/math;../eglib/mem;../eglib/net;../eglib/serialize;../eglib/string;../eglib/templates;../eglib/text;../eglib/utilities;</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>EGCommon.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__DEBUG__;__WIN32__;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>./;config;editor;egsm;gamedata;gcx;loc;mem;mesh;ms3d;platform;reflection;renderer;serialize;types;world;../eglib;../eglib/EG2Lib;../eglib/EG2Lib/Math;../eglib/EG2Lib/Primitives;../eglib/egwnd;../eglib/ext_sys;../eglib/math;../eglib/mem;../eglib/net;../eglib/serialize;../eglib/string;../eglib/templates;../eglib/text;../eglib/utilities;</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>EGCommon.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__RELEASE__;__WIN32__;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;config;editor;egsm;gamedata;gcx;loc;mem;mesh;ms3d;platform;reflection;renderer;serialize;types;world;../eglib;../eglib/EG2Lib;../eglib/EG2Lib/Math;../eglib/EG2Lib/Primitives;../eglib/egwnd;../eglib/ext_sys;../eglib/math;../eglib/mem;../eglib/net;../eglib/serialize;../eglib/string;../eglib/templates;../eglib/text;../eglib/utilities;</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>EGCommon.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="config\EGGlobalConfig.cpp" />
+    <ClCompile Include="config\EGSettings2.cpp" />
+    <ClCompile Include="config\EGSettings2Types.cpp" />
+    <ClCompile Include="editor\EGBuildConfig.cpp" />
+    <ClCompile Include="editor\EGEdCubeMapBuild.cpp" />
+    <ClCompile Include="editor\EGEdImportData.cpp" />
+    <ClCompile Include="editor\EGEdUtility.cpp" />
+    <ClCompile Include="egsm\EGSmEdVarMgr.cpp" />
+    <ClCompile Include="egsm\EGSmFile2.cpp" />
+    <ClCompile Include="egsm\EGSmTypes.cpp" />
+    <ClCompile Include="egsm\EgSmVars.cpp" />
+    <ClCompile Include="gamedata\EGDataAssetBase.cpp" />
+    <ClCompile Include="gamedata\EGDataAssetLoader.cpp" />
+    <ClCompile Include="gcx\EGGcxBuildData.cpp" />
+    <ClCompile Include="gcx\EGGcxFile.cpp" />
+    <ClCompile Include="gcx\EGGcxFloor.cpp" />
+    <ClCompile Include="gcx\EGGcxMapMetaData.cpp" />
+    <ClCompile Include="gcx\EGGcxRegion.cpp" />
+    <ClCompile Include="loc\EGLocAssets.cpp" />
+    <ClCompile Include="mem\EGToolMem.cpp" />
+    <ClCompile Include="mesh\EGMeshBase.cpp" />
+    <ClCompile Include="mesh\EGMeshState.cpp" />
+    <ClCompile Include="mesh\EGSkelBase.cpp" />
+    <ClCompile Include="ms3d\EGMs3DCompiler.cpp" />
+    <ClCompile Include="ms3d\EGMs3DFile.cpp" />
+    <ClCompile Include="reflection\EGRflFoundationImport.cpp" />
+    <ClCompile Include="renderer\EGMaterialDef.cpp" />
+    <ClCompile Include="renderer\EGVDynamicBuffer.cpp" />
+    <ClCompile Include="serialize\EGRflGen.cpp" />
+    <ClCompile Include="world\EGTerrain2.cpp" />
+    <ClCompile Include="world\EGWorldMapBase.cpp" />
+    <ClCompile Include="EGFoundationTypes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config\EGGlobalConfig.h" />
+    <ClInclude Include="config\EGSettings2.h" />
+    <ClInclude Include="config\EGSettings2Types.h" />
+    <ClInclude Include="editor\EGBuildConfig.h" />
+    <ClInclude Include="editor\EGEdCubeMapBuild.h" />
+    <ClInclude Include="editor\EGEdImportData.h" />
+    <ClInclude Include="editor\EGEdUtility.h" />
+    <ClInclude Include="egsm\EGSmEdVarMgr.h" />
+    <ClInclude Include="egsm\EGSmFile2.h" />
+    <ClInclude Include="egsm\EGSmNodes.items" />
+    <ClInclude Include="egsm\EGSmTypes.h" />
+    <ClInclude Include="egsm\EGSmVars.h" />
+    <ClInclude Include="gamedata\EGDataAssetBase.h" />
+    <ClInclude Include="gamedata\EGDataAssetLoader.h" />
+    <ClInclude Include="gcx\EGGcxBuildData.h" />
+    <ClInclude Include="gcx\EGGcxBuildTypes.h" />
+    <ClInclude Include="gcx\EGGcxCustomTiles.items" />
+    <ClInclude Include="gcx\EGGcxEnums.h" />
+    <ClInclude Include="gcx\EGGcxFile.h" />
+    <ClInclude Include="gcx\EGGcxFloor.h" />
+    <ClInclude Include="gcx\EGGcxMapMetaData.h" />
+    <ClInclude Include="gcx\EGGcxRegion.h" />
+    <ClInclude Include="gcx\EGGcxTypes.h" />
+    <ClInclude Include="loc\EGLocAssets.h" />
+    <ClInclude Include="mem\EGToolMem.h" />
+    <ClInclude Include="mesh\EGMeshBase.h" />
+    <ClInclude Include="mesh\EGMeshDataSections.inc" />
+    <ClInclude Include="mesh\EGMeshState.h" />
+    <ClInclude Include="mesh\EGSkelBase.h" />
+    <ClInclude Include="mesh\EGSkelDataSections.inc" />
+    <ClInclude Include="ms3d\EGMs3DCompiler.h" />
+    <ClInclude Include="ms3d\EGMs3DFile.h" />
+    <ClInclude Include="ms3d\EGMs3DSpecs.h" />
+    <ClInclude Include="platform\EGTargetPlatform.h" />
+    <ClInclude Include="platform\EGTargetPlatform.items.h" />
+    <ClInclude Include="reflection\EGDataAssetBase.reflection.h" />
+    <ClInclude Include="reflection\EGDataAssetBase.reflection.hpp" />
+    <ClInclude Include="reflection\EGEngineSerializeTypes.reflection.h" />
+    <ClInclude Include="reflection\EGEngineSerializeTypes.reflection.hpp" />
+    <ClInclude Include="reflection\EGFoundationTypes.reflection.h" />
+    <ClInclude Include="reflection\EGFoundationTypes.reflection.hpp" />
+    <ClInclude Include="reflection\EGGcxBuildData.reflection.h" />
+    <ClInclude Include="reflection\EGGcxBuildData.reflection.hpp" />
+    <ClInclude Include="reflection\EGGcxMapMetaData.reflection.h" />
+    <ClInclude Include="reflection\EGGcxMapMetaData.reflection.hpp" />
+    <ClInclude Include="reflection\EGRflPrimitiveTest.reflection.h" />
+    <ClInclude Include="reflection\EGRflPrimitiveTest.reflection.hpp" />
+    <ClInclude Include="reflection\foundation.link.reflection.hpp" />
+    <ClInclude Include="renderer\EGShaderConsts.inc" />
+    <ClInclude Include="renderer\EGVDynamicBuffer.h" />
+    <ClInclude Include="serialize\EGRflGen.h" />
+    <ClInclude Include="serialize\EGRflLinkSystem.hpp" />
+    <ClInclude Include="serialize\EGRflPrimitiveTest.h" />
+    <ClInclude Include="types\EGEngineSerializeTypes.h" />
+    <ClInclude Include="types\EGRendererTypes.h" />
+    <ClInclude Include="types\EGRenderTypes.inc" />
+    <ClInclude Include="world\EGMapDataSections.inc" />
+    <ClInclude Include="world\EGTerrain2.h" />
+    <ClInclude Include="world\EGWorldMapBase.h" />
+    <ClInclude Include="EGEngineConfig.h" />
+    <ClInclude Include="EGFoundationTypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

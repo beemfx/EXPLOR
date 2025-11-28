@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExLoadingHints">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Hints" ed_expanded="true" reserve_size="2" >
+			<struct name="-" ed_expanded="false" >
+				<property name="HintText" value="HintA" />
+				<property name="HintText_enus" value="This is a sample hint with |SC(EX_ATTR)|some color|RC()|." />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="HintText" value="HintB" />
+				<property name="HintText_enus" value="This is an alternate hint." />
+			</struct>
+		</array>
+	</struct>
+</egasset>

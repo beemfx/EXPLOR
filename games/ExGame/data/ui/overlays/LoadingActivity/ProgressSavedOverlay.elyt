@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elyt id="ProgressSavedOverlay" script="ExProgressSavedOverlay" flags="NOINPUT">
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="ProgressSaved" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="false" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_ProgressSaved" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , -40 -50 0 , 1" />
+				<property name="StartupEvent" value="Default" />
+				<property name="ScaleVec" value="0.25 0.25 0.25" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="RIGHT|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+</elyt>

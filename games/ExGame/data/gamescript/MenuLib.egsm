@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS FILE SCRIPT GENERATED: DO NOT EDIT BY HAND OR YOU RISK
+CORRUPTING FURTHER USE OF THIS SCRIPT IN GAME OR TOOL, AND MAY
+CAUSE SYSTEMS INTERPRETING IT TO CRASH. -->
+<egsm id="MenuLib" default_entry_point_node="N_0" new_node_id_prefix="N_" new_loc_key_prefix="LOCID_" new_node_id_suffix="12" new_loc_key_suffix="2" view_offset="124 -26" >
+	<node id="N_0" type="ENTRY_POINT" parm0="Main" en_ref="" editor_pos="10 150" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_1" type="ENTRY_POINT" parm0="OpenInventory" en_ref="" editor_pos="12 324" >
+		<branch id="NEXT" to_node="N_2" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_2" type="NATIVE_EVENT" parm0="ShowGameMenu" parm1="InventoryMenu" en_ref="" editor_pos="312 322" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_3" type="ENTRY_POINT" parm0="OpenContextMenu" en_ref="" editor_pos="14 237" >
+		<branch id="NEXT" to_node="N_5" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_5" type="NATIVE_EVENT" parm0="ShowGameMenu" parm1="ContextMenu" en_ref="" editor_pos="310 238" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_6" type="ENTRY_POINT" parm0="OpenQuestLog" en_ref="" editor_pos="9 421" >
+		<branch id="NEXT" to_node="N_7" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_7" type="NATIVE_EVENT" parm0="ShowGameMenu" parm1="QuestLogMenu" en_ref="" editor_pos="308 422" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_8" type="ENTRY_POINT" parm0="OpenMapMenu" en_ref="" editor_pos="14 538" >
+		<branch id="NEXT" to_node="N_9" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_9" type="NATIVE_EVENT" parm0="ShowGameMenu" parm1="MapMenu" en_ref="" editor_pos="309 542" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_10" type="ENTRY_POINT" parm0="OpenViewCharacterMenu" en_ref="" editor_pos="24.6667 677.333" >
+		<branch id="NEXT" to_node="N_11" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_11" type="NATIVE_EVENT" parm0="ShowGameMenu" parm1="CharacterMenu" en_ref="" editor_pos="311.333 679.333" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+</egsm>

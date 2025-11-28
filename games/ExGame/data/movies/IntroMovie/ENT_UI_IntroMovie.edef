@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edef>
+
+	<properties>
+		<struct name="EntDef" ed_expanded="true" >
+			<property name="m_Id" value="ENT_UI_IntroMovie" />
+			<property name="m_ClassType" value="UI" />
+			<property name="m_EntityClassName" value="" />
+			<property name="m_UiClassName" value="EGUiMeshWidget" />
+			<property name="m_DefaultRenderFilter" value="PreFxPass" />
+			<property name="m_bIsSerialized" value="true" />
+			<property name="m_bIsLit" value="true" />
+			<property name="m_bIsAlwaysVisible" value="false" />
+			<struct name="m_BaseBounds" ed_expanded="true" >
+				<property name="Min" value="-133.333 -100 0" />
+				<property name="Max" value="133.333 100 0" />
+			</struct>
+			<struct name="m_EditorConfig" ed_expanded="true" >
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bDrawGrid" value="true" />
+				<property name="GridSpacing" value="10" />
+				<property name="AmbientLight" value="ARGB32:255 51 51 51" />
+				<property name="GamePalette0" value="1 1 1 1" />
+				<property name="GamePalette1" value="1 1 1 1" />
+				<property name="GamePalette2" value="1 1 1 1" />
+				<property name="bDrawLights" value="true" />
+				<property name="bOrthoPreview" value="true" />
+				<struct name="OrthoCamera" ed_expanded="true" >
+					<property name="NearPlane" value="-10000" />
+					<property name="FarPlane" value="10000" />
+					<property name="Height" value="200" />
+				</struct>
+				<property name="CameraPos" value="-218.904 -1.51718 -453.89" />
+				<property name="CameraYaw" value="0.4716" />
+				<property name="CameraPitch" value="0.0611999" />
+				<property name="HasCameraPose" value="true" />
+			</struct>
+		</struct>
+	</properties>
+
+	<component id="SpaceBg" class="EGMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="500 500 500" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 100 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="/egdata/ui/eguiobjectimage1x1" />
+				</struct>
+				<array name="m_Materials" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="MeshGroupId" value="Image" />
+						<struct name="Material" ed_expanded="true" >
+							<property name="Texture0" value="/egdata/textures/default_white" />
+							<property name="Texture1" value="" />
+							<property name="Texture2" value="" />
+							<property name="Texture3" value="" />
+							<property name="VertexShader" value="/game/shaders/ex_ui" />
+							<property name="PixelShader" value="/game/shaders/ex_ui" />
+							<property name="Diffuse" value="ARGB32:255 120 120 120" />
+							<property name="Ambient" value="ARGB32:0 0 0 0" />
+							<property name="Specular" value="ARGB32:0 0 0 0" />
+							<property name="Emissive" value="ARGB32:0 0 0 0" />
+							<property name="Power" value="1" />
+						</struct>
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<component id="ScrollingText" class="ExTextRevealComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 -1 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<property name="m_Width" value="260" />
+				<property name="m_Height" value="180" />
+				<property name="m_NumLines" value="17" />
+				<property name="m_Color" value="ARGB32:255 255 255 255" />
+				<property name="m_LocText" value="" />
+				<property name="m_LocText_enus" value="A kind of long opening crawl can go here. It can contain multiple paragraphs but should not be too profoundly long that it is boring to read.&#xD;&#xA;&#xD;&#xA;The |SC(EX_H1)|second|RC()| paragraph should add to what the first one said. Likewise it will be followed by another paragraph.&#xD;&#xA;&#xD;&#xA;There will also be some odd formatting choices in the text to make it a little more interesting to read." />
+				<property name="m_Alignment" value="LEFT" />
+				<property name="m_bHasDropShadow" value="true" />
+				<property name="m_DropShadowColor" value="ARGB32:255 0 0 0" />
+				<property name="m_Font" value="ex_future" />
+				<property name="m_bDisableZTestAndZWrite" value="true" />
+				<property name="m_bPlaySound" value="false" />
+				<property name="m_ScriptRevealSpeed" value="Normal" />
+				<array name="m_TextDatabase" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="Text" value="OpeningCrawlText" />
+						<property name="Text_enus" value="This is where the intro movie can be played." />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<component id="CenterText" class="ExTextRevealComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<property name="m_Width" value="260" />
+				<property name="m_Height" value="10" />
+				<property name="m_NumLines" value="1" />
+				<property name="m_Color" value="ARGB32:255 255 255 255" />
+				<property name="m_LocText" value="" />
+				<property name="m_LocText_enus" value="Short Centered Text" />
+				<property name="m_Alignment" value="CENTER" />
+				<property name="m_bHasDropShadow" value="true" />
+				<property name="m_DropShadowColor" value="ARGB32:255 0 0 0" />
+				<property name="m_Font" value="ex_future" />
+				<property name="m_bDisableZTestAndZWrite" value="true" />
+				<property name="m_bPlaySound" value="false" />
+				<property name="m_ScriptRevealSpeed" value="Normal" />
+				<array name="m_TextDatabase" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="false" >
+						<property name="Text" value="BeemMediaPresentsText" />
+						<property name="Text_enus" value="Beem Media Presents" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<timeline id="PlayStart" editor_frame_time="0.5">
+		<keyframe time="0">CenterText.SetPalAlpha( 0 );&#xD;&#xA;CenterText.SetVisible( false );&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="AnimateBg" editor_frame_time="0.5">
+		<keyframe time="0">SpaceBg.SetRot( 0 , 0 , 0 );&#xD;&#xA;SpaceBg.TweenRotTo( 0 , 0 , -180 , 240 , &quot;LINEAR&quot; );</keyframe>
+	</timeline>
+
+	<timeline id="PlayPresents" editor_frame_time="0.5">
+		<keyframe time="0">CenterText.SetVisible( true );&#xD;&#xA;CenterText.SetPalAlpha( 0 );&#xD;&#xA;CenterText.SetText( &quot;BeemMediaPresentsText&quot; );</keyframe>
+		<keyframe time="0.5">CenterText.TweenPalAlphaTo( 1.0 , .5 , &quot;CUBIC&quot; );&#xD;&#xA;</keyframe>
+		<keyframe time="1"></keyframe>
+		<keyframe time="1.5">CenterText.TweenPalAlphaTo( 0.0 , .5 , &quot;CUBIC&quot; );</keyframe>
+		<keyframe time="2">CenterText.SetText( &quot;GameTitle&quot; );&#xD;&#xA;CenterText.TweenPalAlphaTo( 1.0 , .5 , &quot;CUBIC&quot; );</keyframe>
+		<keyframe time="2.5"></keyframe>
+		<keyframe time="3">CenterText.TweenPalAlphaTo( 0 , .5 , &quot;CUBIC&quot; );</keyframe>
+	</timeline>
+
+	<timeline id="PlayOpeningCrawl" editor_frame_time="5">
+		<keyframe time="0">CenterText.SetVisible( false );&#xD;&#xA;ScrollingText.SetText( &quot;OpeningCrawlText&quot; );&#xD;&#xA;ScrollingText.SetVisible( true );&#xD;&#xA;ScrollingText.SetPos( 0 , -200 , -1 );&#xD;&#xA;ScrollingText.TweenPosTo( 0 , 200 , -1 , 10 , &quot;LINEAR&quot; );&#xD;&#xA;ScrollingText.SetPalAlpha( 1 );&#xD;&#xA;</keyframe>
+		<keyframe time="5">ScrollingText.TweenPalAlphaTo( 0 , 5 , &quot;CUBIC&quot; );&#xD;&#xA;</keyframe>
+	</timeline>
+
+</edef>

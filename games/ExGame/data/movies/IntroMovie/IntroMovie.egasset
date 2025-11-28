@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExAnimationMenuTimeline">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_TimelineEvents" ed_expanded="true" reserve_size="7" >
+			<struct name="-" ed_expanded="false" >
+				<property name="Label" value="Fade In" />
+				<property name="EventType" value="RunWidgetEvent" />
+				<property name="DelayTime" value="0" />
+				<struct name="RunWidgetEventInfo" ed_expanded="true" >
+					<property name="WidgetId" value="Fg" />
+					<property name="EventName" value="IntroMovieFadeIn" />
+				</struct>
+				<struct name="PlayMusicInfo" ed_expanded="true" >
+					<property name="MusicTrack" value="" />
+				</struct>
+				<property name="CameraSplineId" value="" />
+				<property name="bCanSkipToThis" value="false" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Label" value="Play Start" />
+				<property name="EventType" value="RunWidgetEvent" />
+				<property name="DelayTime" value="0" />
+				<struct name="RunWidgetEventInfo" ed_expanded="true" >
+					<property name="WidgetId" value="Movie" />
+					<property name="EventName" value="PlayStart" />
+				</struct>
+				<struct name="PlayMusicInfo" ed_expanded="false" >
+					<property name="MusicTrack" value="" />
+				</struct>
+				<property name="CameraSplineId" value="" />
+				<property name="bCanSkipToThis" value="false" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Label" value="Animate Bg" />
+				<property name="EventType" value="RunWidgetEvent" />
+				<property name="DelayTime" value="0" />
+				<struct name="RunWidgetEventInfo" ed_expanded="true" >
+					<property name="WidgetId" value="Movie" />
+					<property name="EventName" value="AnimateBg" />
+				</struct>
+				<struct name="PlayMusicInfo" ed_expanded="false" >
+					<property name="MusicTrack" value="" />
+				</struct>
+				<property name="CameraSplineId" value="" />
+				<property name="bCanSkipToThis" value="false" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Label" value="Clear Overlay" />
+				<property name="EventType" value="RunWidgetEvent" />
+				<property name="DelayTime" value="1" />
+				<struct name="RunWidgetEventInfo" ed_expanded="true" >
+					<property name="WidgetId" value="Fg" />
+					<property name="EventName" value="IntroMovieFadeIn" />
+				</struct>
+				<struct name="PlayMusicInfo" ed_expanded="false" >
+					<property name="MusicTrack" value="" />
+				</struct>
+				<property name="CameraSplineId" value="" />
+				<property name="bCanSkipToThis" value="false" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Label" value="Play Presents" />
+				<property name="EventType" value="RunWidgetEvent" />
+				<property name="DelayTime" value="5" />
+				<struct name="RunWidgetEventInfo" ed_expanded="true" >
+					<property name="WidgetId" value="Movie" />
+					<property name="EventName" value="PlayPresents" />
+				</struct>
+				<struct name="PlayMusicInfo" ed_expanded="true" >
+					<property name="MusicTrack" value="" />
+				</struct>
+				<property name="CameraSplineId" value="" />
+				<property name="bCanSkipToThis" value="false" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Label" value="Play Crawl" />
+				<property name="EventType" value="RunWidgetEvent" />
+				<property name="DelayTime" value="5" />
+				<struct name="RunWidgetEventInfo" ed_expanded="true" >
+					<property name="WidgetId" value="Movie" />
+					<property name="EventName" value="PlayOpeningCrawl" />
+				</struct>
+				<struct name="PlayMusicInfo" ed_expanded="false" >
+					<property name="MusicTrack" value="" />
+				</struct>
+				<property name="CameraSplineId" value="" />
+				<property name="bCanSkipToThis" value="false" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Label" value="Fade Out" />
+				<property name="EventType" value="RunWidgetEvent" />
+				<property name="DelayTime" value="1" />
+				<struct name="RunWidgetEventInfo" ed_expanded="true" >
+					<property name="WidgetId" value="Fg" />
+					<property name="EventName" value="IntroMovieFadeOut" />
+				</struct>
+				<struct name="PlayMusicInfo" ed_expanded="false" >
+					<property name="MusicTrack" value="" />
+				</struct>
+				<property name="CameraSplineId" value="" />
+				<property name="bCanSkipToThis" value="false" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

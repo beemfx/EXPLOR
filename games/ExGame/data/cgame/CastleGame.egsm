@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS FILE SCRIPT GENERATED: DO NOT EDIT BY HAND OR YOU RISK
+CORRUPTING FURTHER USE OF THIS SCRIPT IN GAME OR TOOL, AND MAY
+CAUSE SYSTEMS INTERPRETING IT TO CRASH. -->
+<egsm id="CastleGame" default_entry_point_node="N_0" new_node_id_prefix="N_" new_loc_key_prefix="CastleGameText_" new_node_id_suffix="42" new_loc_key_suffix="6" view_offset="451 -34" >
+	<node id="N_0" type="ENTRY_POINT" parm0="Main" en_ref="" editor_pos="4 89" >
+		<branch id="NEXT" to_node="N_36" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_4" type="NATIVE_EVENT" parm0="DisplayTextAndChoices" parm1="CastleGameText_0" en_ref="Thanks for choosing to play, but Castle Game is not available in this demo." editor_pos="294 330" >
+		<branch id="CastleGameText_1" to_node="" is_terminal="FALSE" en_ref="Okay"  />
+	</node>
+	<node id="N_36" type="NATIVE_EVENT" parm0="SetTitleText" parm1="CastleGameText_2" en_ref="Castle Demo" editor_pos="285.667 89.333" >
+		<branch id="NEXT" to_node="N_40" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_37" type="ENTRY_POINT" parm0="MainGame" en_ref="" editor_pos="2 329.667" >
+		<branch id="NEXT" to_node="N_4" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_38" type="ENTRY_POINT" parm0="MainMenu" en_ref="" editor_pos="-0.333328 561.667" >
+		<branch id="NEXT" to_node="N_39" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_39" type="NATIVE_EVENT" parm0="DisplayTextAndChoices" parm1="CastleGameText_3" en_ref="Welcome to the Castle Demo" editor_pos="286.667 531.333" >
+		<branch id="CastleGameText_4" to_node="N_41" is_terminal="FALSE" en_ref="New Game"  />
+		<branch id="CastleGameText_5" to_node="" is_terminal="FALSE" en_ref="Quit"  />
+	</node>
+	<node id="N_40" type="CALL" parm1="MainMenu" en_ref="" editor_pos="580.333 89" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_41" type="CALL" parm1="MainGame" en_ref="" editor_pos="285.667 653" >
+		<branch id="NEXT" to_node="N_39" is_terminal="FALSE" en_ref=""  />
+	</node>
+</egsm>

@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="code" />
+    <Filter Include="code\combat" />
+    <Filter Include="code\entity" />
+    <Filter Include="code\entity\components" />
+    <Filter Include="code\gamedata" />
+    <Filter Include="code\menus" />
+    <Filter Include="code\overlays" />
+    <Filter Include="code\ui" />
+    <Filter Include="code\ui\combat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\combat\ExCombat.cpp">
+      <Filter>code\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="code\combat\ExCombatAI.cpp">
+      <Filter>code\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="code\combat\ExCombatant.cpp">
+      <Filter>code\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="code\combat\ExCombatTeam.cpp">
+      <Filter>code\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\components\ExAmbientSoundControllerComponent.cpp">
+      <Filter>code\entity\components</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\components\ExLookAtComponent.cpp">
+      <Filter>code\entity\components</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\components\ExMapIconComponent.cpp">
+      <Filter>code\entity\components</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\components\ExMapObjectComponent.cpp">
+      <Filter>code\entity\components</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\components\ExMonsterSpriteComponent.cpp">
+      <Filter>code\entity\components</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\components\ExNpcComponent.cpp">
+      <Filter>code\entity\components</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\components\ExNpcSpawnerComponent.cpp">
+      <Filter>code\entity\components</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\components\ExScriptExecComponent.cpp">
+      <Filter>code\entity\components</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\components\ExVarControllerComponent.cpp">
+      <Filter>code\entity\components</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\ExCameraSplineNodeEnt.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\ExCosmeticEnt.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\ExDoor.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\ExEnemyController.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\ExEnt.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\ExFreeMovePlayerController.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\ExGenericIoEnt.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\ExIoEnt.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\ExMapNavBase.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\ExMapTransitionEnt.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\ExMonsterSpawner.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\ExPlayerController.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\ExTorch.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\entity\ExTreasureChest.cpp">
+      <Filter>code\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExAchievements.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExArmory.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExArmoryItem.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExBeastiary.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExCombatEncounter.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExCreditsData.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExDayNightCycles.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExGlobalData.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExGlobalText.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExLoadingHints.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExMapInfos.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExNpcGossip.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExPortraits.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExQuestItems.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExQuests.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExShopData.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExSkills.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExSpellBook.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\gamedata\ExSpellInfo.cpp">
+      <Filter>code\gamedata</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExAnimationMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExBgComponent.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExCastleGameMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExCastSpellInWorldMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExCharacterCreateMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExCharacterMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExChoiceWidgetMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExContextMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExControlsSettingsMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExConversationMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExCreditsEndGameBgMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExCreditsMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExDebugCombatLauncherMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExDebugMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExDebugMonsterViewerMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExDebugWarpMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExDialogMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExEndGameFlowMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExFullScreenLoadingMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExGameCreateMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExHintBarWidget.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExInventoryMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExInventoryShopMenuBase.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExKeyboardMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExMainAndPauseMenuBase.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExMainMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExMapMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExMenuPortraitsGridWidget.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExNewGameFlowMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExPartyCreateMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExPauseMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExQuestLogMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExRestMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExRosterMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExScriptMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExSettingsMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExShopMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExTextEditWidget.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExToggleWidget.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExTrainingMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExTreasureChestMenu.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\menus\ExUiSounds.cpp">
+      <Filter>code\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="code\overlays\ExCharacterPortraitsOverlay.cpp">
+      <Filter>code\overlays</Filter>
+    </ClCompile>
+    <ClCompile Include="code\overlays\ExCharacterPortraitWidget.cpp">
+      <Filter>code\overlays</Filter>
+    </ClCompile>
+    <ClCompile Include="code\overlays\ExHUD.cpp">
+      <Filter>code\overlays</Filter>
+    </ClCompile>
+    <ClCompile Include="code\overlays\ExHUDAutomap.cpp">
+      <Filter>code\overlays</Filter>
+    </ClCompile>
+    <ClCompile Include="code\overlays\ExHUDBase.cpp">
+      <Filter>code\overlays</Filter>
+    </ClCompile>
+    <ClCompile Include="code\overlays\ExHUDCompass.cpp">
+      <Filter>code\overlays</Filter>
+    </ClCompile>
+    <ClCompile Include="code\overlays\ExHUDTranslatorWidget.cpp">
+      <Filter>code\overlays</Filter>
+    </ClCompile>
+    <ClCompile Include="code\overlays\ExLoadingActivityOverlay.cpp">
+      <Filter>code\overlays</Filter>
+    </ClCompile>
+    <ClCompile Include="code\overlays\ExProgressSavedOverlay.cpp">
+      <Filter>code\overlays</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ui\combat\ExCombatMenu.cpp">
+      <Filter>code\ui\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ui\combat\ExCombatMenu_SubMenus.cpp">
+      <Filter>code\ui\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ui\combat\ExCombatMenuOpponentsWidget.cpp">
+      <Filter>code\ui\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ui\combat\ExCombatPartyWidget.cpp">
+      <Filter>code\ui\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ui\combat\ExCombatTeamWidgetBase.cpp">
+      <Filter>code\ui\combat</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ui\ExHudTextWidget.cpp">
+      <Filter>code\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ui\ExInventoryBag.cpp">
+      <Filter>code\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ui\ExItemCardWidget.cpp">
+      <Filter>code\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ui\ExTextRevealComponent.cpp">
+      <Filter>code\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ui\ExTextRevealWidget.cpp">
+      <Filter>code\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExCharacterClass.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExClient.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExCore.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExDamage.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExEngineInst.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExFighter.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExGame.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExGameSettings.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExGameTypes.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExInventory.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExMapping.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExMenu.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExProfileData.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExReflectionImport.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExRoster.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExSaveMgr.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExServer.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExTime.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExWinMain.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\ExWorldRenderPipe.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\combat\ExCombat.h">
+      <Filter>code\combat</Filter>
+    </ClInclude>
+    <ClInclude Include="code\combat\ExCombatAI.h">
+      <Filter>code\combat</Filter>
+    </ClInclude>
+    <ClInclude Include="code\combat\ExCombatant.h">
+      <Filter>code\combat</Filter>
+    </ClInclude>
+    <ClInclude Include="code\combat\ExCombatTeam.h">
+      <Filter>code\combat</Filter>
+    </ClInclude>
+    <ClInclude Include="code\combat\ExCombatTypes.h">
+      <Filter>code\combat</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\components\ExAmbientSoundControllerComponent.h">
+      <Filter>code\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\components\ExLookAtComponent.h">
+      <Filter>code\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\components\ExMapIconComponent.h">
+      <Filter>code\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\components\ExMapObjectComponent.h">
+      <Filter>code\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\components\ExMonsterSpriteComponent.h">
+      <Filter>code\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\components\ExNpcComponent.h">
+      <Filter>code\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\components\ExNpcSpawnerComponent.h">
+      <Filter>code\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\components\ExScriptExecComponent.h">
+      <Filter>code\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\components\ExVarControllerComponent.h">
+      <Filter>code\entity\components</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\ExCameraSplineNodeEnt.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\ExCosmeticEnt.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\ExDoor.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\ExEnemyController.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\ExEnt.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\ExGenericIoEnt.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\ExIoEnt.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\ExMapNavBase.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\ExMapTransitionEnt.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\ExMonsterSpawner.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\ExPlayerController.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\entity\ExTreasureChest.h">
+      <Filter>code\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExAchievements.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExArmory.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExArmoryItem.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExBeastiary.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExCombatEncounter.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExCreditsData.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExDayNightCycles.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExGlobalData.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExGlobalText.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExLoadingHints.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExMapInfos.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExNpcGossip.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExPortraits.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExQuestItems.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExQuests.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExShopData.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExSkills.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExSpellBook.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\gamedata\ExSpellInfo.h">
+      <Filter>code\gamedata</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExAnimationMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExBgComponent.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExCastleGameMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExCastSpellInWorldMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExCharacterCreateMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExCharacterMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExChoiceWidgetMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExConversationMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExDebugCombatLauncherMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExDialogMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExEndGameFlowMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExFullScreenLoadingMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExHintBarWidget.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExInventoryShopMenuBase.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExKeyboardMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExMainAndPauseMenuBase.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExMenuPortraitsGridWidget.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExNewGameFlowMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExPartyCreateMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExRestMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExRosterMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExScriptMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExSettingsMenu.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExTextEditWidget.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExToggleWidget.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\menus\ExUiSounds.h">
+      <Filter>code\menus</Filter>
+    </ClInclude>
+    <ClInclude Include="code\overlays\ExCharacterPortraitWidget.h">
+      <Filter>code\overlays</Filter>
+    </ClInclude>
+    <ClInclude Include="code\overlays\ExHUD.h">
+      <Filter>code\overlays</Filter>
+    </ClInclude>
+    <ClInclude Include="code\overlays\ExHUDTranslatorWidget.h">
+      <Filter>code\overlays</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ui\combat\ExCombatMenu.h">
+      <Filter>code\ui\combat</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ui\combat\ExCombatMenu_SubMenus.h">
+      <Filter>code\ui\combat</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ui\combat\ExCombatMenuOpponentsWidget.h">
+      <Filter>code\ui\combat</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ui\combat\ExCombatPartyWidget.h">
+      <Filter>code\ui\combat</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ui\combat\ExCombatTeamWidgetBase.h">
+      <Filter>code\ui\combat</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ui\ExHudTextWidget.h">
+      <Filter>code\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ui\ExInventoryBag.h">
+      <Filter>code\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ui\ExItemCardWidget.h">
+      <Filter>code\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ui\ExTextRevealComponent.h">
+      <Filter>code\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ui\ExTextRevealWidget.h">
+      <Filter>code\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExAttrs.items">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExCharacterClass.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExClient.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExConsts.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExCore.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExDamage.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExEngineInst.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExFighter.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExGame.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExGameSettings.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExGameTypes.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExInput.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExInventory.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExItemSlots.items">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExMapping.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExMenu.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExProfileData.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExRoster.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExSaveMgr.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExServer.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExTime.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\ExWorldRenderPipe.h">
+      <Filter>code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="code\explor.rc">
+      <Filter>code</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Game.BuildConfig">
+      <Filter></Filter>
+    </None>
+    <None Include="packages.config">
+      <Filter></Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EG2Lib" />
+    <Filter Include="EG2Lib\Math" />
+    <Filter Include="EG2Lib\Primitives" />
+    <Filter Include="egwnd" />
+    <Filter Include="ext_sys" />
+    <Filter Include="math" />
+    <Filter Include="mem" />
+    <Filter Include="net" />
+    <Filter Include="serialize" />
+    <Filter Include="string" />
+    <Filter Include="templates" />
+    <Filter Include="text" />
+    <Filter Include="utilities" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EG2Lib\Math\EGMath.cpp">
+      <Filter>EG2Lib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="EG2Lib\Primitives\EGIntVector.cpp">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="EG2Lib\Primitives\EGMatrix.cpp">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="EG2Lib\Primitives\EGPlane.cpp">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="EG2Lib\Primitives\EGPrimitiveTypes.cpp">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="EG2Lib\Primitives\EGQuaternion.cpp">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="EG2Lib\Primitives\EGTransform.cpp">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="EG2Lib\Primitives\EGVector.cpp">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWnd.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndAppWindow.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndBase.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndChildBase.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndDebugLogPanel.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndDragableLayoutEditor.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndDraw.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndFileBrowser.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndPanel.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndPanelPropEditor.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndPropControl.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndPropControl_Anchor.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndPropControl_Bool.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndPropControl_Color.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndPropControl_ComboBox.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndPropControl_Containers.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndPropControl_Rot.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndPropControl_Text.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndPropControl_Transform.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndPropControl_Vector.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndPropControlTypes.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndScrollingPanel.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndTabbedPanel.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="egwnd\EGWndTextNodeWndControl.cpp">
+      <Filter>egwnd</Filter>
+    </ClCompile>
+    <ClCompile Include="math\EGMath_Color.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\EGMath_Types.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\EGNetSmoothTransform.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="mem\EGBucketAlloc2.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="mem\EGHeap2.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="mem\EGMem2.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="mem\EGMem2StdLibReplacement.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="mem\EGMemNew.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="mem\EGMemPool.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="mem\EGStaticAlloc.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="net\EGNetCore.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\EGSync.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="serialize\EGAssetPath.cpp">
+      <Filter>serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="serialize\EGClassName.cpp">
+      <Filter>serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="serialize\EGCopyPasteDeserializer.cpp">
+      <Filter>serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="serialize\EGEditProperty.cpp">
+      <Filter>serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="serialize\EGReflection.cpp">
+      <Filter>serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="serialize\EGReflectionDeserializer.cpp">
+      <Filter>serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="serialize\EGReflectionPrimitives.cpp">
+      <Filter>serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="serialize\EGReflectionStrConv.cpp">
+      <Filter>serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="string\EGBase64.cpp">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\EGDynamicString.cpp">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\EGPath2.cpp">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\EGString.cpp">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\EGStringEx.cpp">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="string\EGStringFormat.cpp">
+      <Filter>string</Filter>
+    </ClCompile>
+    <ClCompile Include="templates\EGTween.cpp">
+      <Filter>templates</Filter>
+    </ClCompile>
+    <ClCompile Include="text\EGLocText.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="text\EGTextFormat.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\EGCamera2.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\EGCameraController.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\EGFileData.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\EGForceSampler.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\EGLocCompiler.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\EGTGAWriter.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\EGThread.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\EGThreadRequest.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\EGTimer.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\EGTransformSpline.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\EGXMLBase.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="EGCompress.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGCrcDb.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGExtProcess.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGFunction.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGLibFile.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGLog.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGLogDispatcher.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGMutex.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGObject.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGOsFile.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGParse.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGRandom.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGResourceLib.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGToolsHelper.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGVertexEx.cpp">
+      <Filter></Filter>
+    </ClCompile>
+    <ClCompile Include="EGWeakPtrBase.cpp">
+      <Filter></Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EG2Lib\Math\EGMath.h">
+      <Filter>EG2Lib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EG2Lib\Primitives\EGIntVector.h">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="EG2Lib\Primitives\EGMatrix.h">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="EG2Lib\Primitives\EGPlane.h">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="EG2Lib\Primitives\EGPrimitiveTypes.h">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="EG2Lib\Primitives\EGQuaternion.h">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="EG2Lib\Primitives\EGTransform.h">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="EG2Lib\Primitives\EGTransformMult.h">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="EG2Lib\Primitives\EGVector.h">
+      <Filter>EG2Lib\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWnd.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndAppWindow.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndBase.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndChildBase.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndDebugLogPanel.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndDragableLayoutEditor.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndDraw.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndFileBrowser.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndHelpers.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndPanel.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndPanelPropEditor.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndPropControl.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndPropControl_Anchor.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndPropControl_Bool.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndPropControl_Color.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndPropControl_ComboBox.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndPropControl_Containers.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndPropControl_Rot.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndPropControl_Text.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndPropControl_Transform.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndPropControl_Vector.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndPropControlTypes.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndRcDefs.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndScrollingPanel.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndTabbedPanel.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndTextNode.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndTextNodeWndControl.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="egwnd\EGWndTypes.h">
+      <Filter>egwnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ext_sys\EGCppLibAPI.h">
+      <Filter>ext_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="ext_sys\EGDirectXAPI.h">
+      <Filter>ext_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="ext_sys\EGStdLibAPI.h">
+      <Filter>ext_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="ext_sys\EGWindowsAPI.h">
+      <Filter>ext_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="math\EGMath_Color.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\EGMath_Hull.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\EGMath_Types.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\EGNetSmoothTransform.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="mem\EGBucketAlloc2.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="mem\EGHeap2.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="mem\EGMem2.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="mem\EGMem2StdLibReplacement.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="mem\EGMemAlloc.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="mem\EGMemNew.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="mem\EGMemPool.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="mem\EGStaticAlloc.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="net\EGNetCore.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\EGSync.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGAssetPath.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGClassName.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGComboBoxEd.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGCopyPasteDeserializer.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGEditControlType.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGEditProperty.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGReflection.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGReflectionCore.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGReflectionDeclMacros.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGReflectionDeserializer.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGReflectionPrimitives.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGReflectionStrConv.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="serialize\EGSerializeTypes.h">
+      <Filter>serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="string\EGBase64.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="string\EGDynamicString.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="string\EGPath2.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="string\EGStackString.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="string\EGString.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="string\EGStringConvert.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="string\EGStringCrc.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="string\EGStringEx.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="string\EGStringFormat.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="string\EGStringLibrary.h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="string\EGStringLibrary.hpp">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="templates\EGArray.h">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="templates\EGArray.shared.hpp">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="templates\EGBoolList.h">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="templates\EGCircleArray.h">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="templates\EGDataLibrary.h">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="templates\EGItemMap.h">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="templates\EGList.h">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="templates\EGQueue.h">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="templates\EGStringMap.h">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="templates\EGTween.h">
+      <Filter>templates</Filter>
+    </ClInclude>
+    <ClInclude Include="text\EGLocText.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\EGTextFormat.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\EGTextFormatHelper.hpp">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\EGCamera2.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\EGCameraController.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\EGFileData.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\EGForceSampler.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\EGLocCompiler.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\EGTGAWriter.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\EGThread.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\EGThreadProc.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\EGThreadRequest.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\EGTimer.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\EGTransformSpline.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\EGXMLBase.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="assert.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGCommon.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGCompress.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGCrcDb.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGDelegate.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGExtProcess.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGFunction.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGFunction.inl">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGLibExtern.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGLibExtern_Tool.hpp">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGLibFile.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGLog.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGLogDispatcher.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGMutex.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGObject.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGOsFile.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGParse.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGRandom.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGRemoteEvent.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGResourceLib.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGShapes.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGToolsHelper.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGTypes.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGVertexTypes.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGVertexTypes.inc">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGWeakPtr.h">
+      <Filter></Filter>
+    </ClInclude>
+    <ClInclude Include="EGWeakPtrBase.h">
+      <Filter></Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assert">
+      <Filter></Filter>
+    </None>
+  </ItemGroup>
+</Project>

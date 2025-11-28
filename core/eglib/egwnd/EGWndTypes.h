@@ -1,0 +1,37 @@
+// (c) 2019 Beem Media
+
+#pragma once
+
+enum class egw_font_t
+{
+	DEFAULT,
+	DEFAULT_BOLD,
+	SMALL,
+	SMALL_BOLD,
+	CONSOLE,
+	CODE_EDIT,
+
+	COUNT,
+};
+
+enum class egw_color_t
+{
+	DEFAULT,
+	BG_STATIC,
+	FG_STATIC,
+	BG_EDIT,
+	BG_EDIT_DIRTY,
+	FG_EDIT,
+	BG_EDIT_HL,
+	FG_EDIT_HL,
+	GARBAGE,
+	BG_BTN,
+	FG_BTN,
+	BG_BTN_HOVER,
+	FG_BTN_HOVER,
+	BG_BTN_SELECTED,
+	FG_BTN_SELECTED,
+	BG_CONSOLE,
+
+	COUNT,
+};

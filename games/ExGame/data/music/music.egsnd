@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="EGSndAsset">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Sounds" ed_expanded="true" reserve_size="7" >
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/music/intown" />
+				<property name="Type" value="MusicTrack" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="intown" />
+				<property name="bLooping" value="true" />
+				<property name="bStreaming" value="true" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/music/mainmenu" />
+				<property name="Type" value="MusicTrack" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="menu" />
+				<property name="bLooping" value="true" />
+				<property name="bStreaming" value="true" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/music/combat" />
+				<property name="Type" value="MusicTrack" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="battle" />
+				<property name="bLooping" value="true" />
+				<property name="bStreaming" value="true" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/music/combat/victory" />
+				<property name="Type" value="MusicTrack" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="victory" />
+				<property name="bLooping" value="true" />
+				<property name="bStreaming" value="true" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/music/combat/defeat_part2" />
+				<property name="Type" value="MusicTrack" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="death" />
+				<property name="bLooping" value="true" />
+				<property name="bStreaming" value="true" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/music/Dungeon01" />
+				<property name="Type" value="MusicTrack" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="dungeon" />
+				<property name="bLooping" value="true" />
+				<property name="bStreaming" value="true" />
+				<property name="bCentered" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="/music/credits" />
+				<property name="Type" value="MusicTrack" />
+				<property name="VolumeOverrideType" value="Effect" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="credits" />
+				<property name="bLooping" value="true" />
+				<property name="bStreaming" value="true" />
+				<property name="bCentered" value="true" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

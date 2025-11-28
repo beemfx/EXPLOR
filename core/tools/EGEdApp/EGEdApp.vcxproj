@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D86A39F5-5B68-4955-A5BD-0AD9C3C7DF38}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)_BUILD\bin\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_$(PlatformShortName)_$(Configuration)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)_BUILD\bin\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_$(PlatformShortName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>;__TOOL__;__DEBUG__;__WIN64__;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../lib3p;./;../../eglib;../../eglib/EG2Lib;../../eglib/EG2Lib/Math;../../eglib/EG2Lib/Primitives;../../eglib/egwnd;../../eglib/ext_sys;../../eglib/math;../../eglib/mem;../../eglib/net;../../eglib/serialize;../../eglib/string;../../eglib/templates;../../eglib/text;../../eglib/utilities;../../foundation;../../foundation/config;../../foundation/editor;../../foundation/egsm;../../foundation/gamedata;../../foundation/gcx;../../foundation/loc;../../foundation/mem;../../foundation/mesh;../../foundation/ms3d;../../foundation/platform;../../foundation/reflection;../../foundation/renderer;../../foundation/serialize;../../foundation/types;../../foundation/world;$(SolutionDir)_BUILD\generated_code\reflection\tools\;$(SolutionDir)_BUILD\generated_code\reflection\core\</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>EGCommon.h</ForcedIncludeFiles>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>false</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>../../libs;$(SolutionDir)_BUILD/libs/$(PlatformShortName)_$(Configuration);$(SolutionDir)_BUILD/lib3p_build/libs/$(PlatformShortName)_$(Configuration);$(SolutionDir)_BUILD/eg/lib/$(PlatformShortName)_$(Configuration);$(SolutionDir)_BUILD/eg/lib/$(PlatformShortName)_DebugEditor</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>;__TOOL__;__RELEASE__;__WIN64__;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../lib3p;./;../../eglib;../../eglib/EG2Lib;../../eglib/EG2Lib/Math;../../eglib/EG2Lib/Primitives;../../eglib/egwnd;../../eglib/ext_sys;../../eglib/math;../../eglib/mem;../../eglib/net;../../eglib/serialize;../../eglib/string;../../eglib/templates;../../eglib/text;../../eglib/utilities;../../foundation;../../foundation/config;../../foundation/editor;../../foundation/egsm;../../foundation/gamedata;../../foundation/gcx;../../foundation/loc;../../foundation/mem;../../foundation/mesh;../../foundation/ms3d;../../foundation/platform;../../foundation/reflection;../../foundation/renderer;../../foundation/serialize;../../foundation/types;../../foundation/world;$(SolutionDir)_BUILD\generated_code\reflection\tools\;$(SolutionDir)_BUILD\generated_code\reflection\core\</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>EGCommon.h</ForcedIncludeFiles>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling>false</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../../libs;$(SolutionDir)_BUILD/libs/$(PlatformShortName)_$(Configuration);$(SolutionDir)_BUILD/lib3p_build/libs/$(PlatformShortName)_$(Configuration);$(SolutionDir)_BUILD/eg/lib/$(PlatformShortName)_$(Configuration);$(SolutionDir)_BUILD/eg/lib/$(PlatformShortName)_ReleaseEditor</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="EGEdApp.cpp" />
+    <ClCompile Include="EGEdAppProc.cpp" />
+    <ClCompile Include="EGEdAppRegExt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EGEdApp.h" />
+    <ClInclude Include="EGEdAppProc.h" />
+    <ClInclude Include="EGEdAppRegExt.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EGEdAppRes.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EGEdApp.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eloc language="en-US">
+	<!-- BEGIN ASSET-LOC Text TEXT -->
+	<text key="EGTextLevelList" string="Level List" />
+	<text key="EGTextCancel" string="Cancel" />
+	<text key="EGTextHUDLoadingText" string="Loading..." />
+	<text key="Sample Text" string="Sample Text" />
+	<text key="EGTextGameSettings" string="Game Settings" />
+	<text key="EGTextSaveAndExit" string="Save and Exit" />
+	<!-- END ASSET-LOC Text TEXT -->
+</eloc>

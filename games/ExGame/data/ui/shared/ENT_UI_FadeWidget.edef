@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edef>
+
+	<properties>
+		<struct name="EntDef" ed_expanded="true" >
+			<property name="m_Id" value="ENT_UI_FadeWidget" />
+			<property name="m_ClassType" value="UI" />
+			<property name="m_EntityClassName" value="" />
+			<property name="m_UiClassName" value="" />
+			<property name="m_DefaultRenderFilter" value="PreFxPass" />
+			<property name="m_bIsSerialized" value="false" />
+			<property name="m_bIsLit" value="false" />
+			<property name="m_bIsAlwaysVisible" value="false" />
+			<struct name="m_BaseBounds" ed_expanded="true" >
+				<property name="Min" value="-180 -102.5 0" />
+				<property name="Max" value="180 102.5 0" />
+			</struct>
+			<struct name="m_EditorConfig" ed_expanded="true" >
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bDrawGrid" value="true" />
+				<property name="GridSpacing" value="5" />
+				<property name="AmbientLight" value="ARGB32:255 51 51 51" />
+				<property name="GamePalette0" value="1 1 1 1" />
+				<property name="GamePalette1" value="1 1 1 1" />
+				<property name="GamePalette2" value="1 1 1 1" />
+				<property name="bDrawLights" value="true" />
+				<property name="CameraPos" value="-18.0316 0 -581.703" />
+				<property name="CameraYaw" value="0" />
+				<property name="CameraPitch" value="0" />
+				<property name="HasCameraPose" value="true" />
+			</struct>
+		</struct>
+	</properties>
+
+	<component id="FadeMesh" class="EGMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="360 205 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="/egdata/ui/eguiobjectimage1x1" />
+				</struct>
+				<array name="m_Materials" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="false" >
+						<property name="MeshGroupId" value="Image" />
+						<struct name="Material" ed_expanded="true" >
+							<property name="Texture0" value="/egdata/textures/default_white" />
+							<property name="Texture1" value="" />
+							<property name="Texture2" value="" />
+							<property name="Texture3" value="" />
+							<property name="VertexShader" value="/egdata/shaders/texture_with_palette" />
+							<property name="PixelShader" value="/egdata/shaders/texture_with_palette" />
+							<property name="Diffuse" value="ARGB32:255 255 255 255" />
+							<property name="Ambient" value="ARGB32:0 0 0 0" />
+							<property name="Specular" value="ARGB32:0 0 0 0" />
+							<property name="Emissive" value="ARGB32:0 0 0 0" />
+							<property name="Power" value="1" />
+						</struct>
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<timeline id="SetToBlack" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(0,0,0,1);</keyframe>
+	</timeline>
+
+	<timeline id="IntroSplineFadeToBlack" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.TweenPalAlphaTo(1,1,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+	<timeline id="FadeMainMenuWorldIn" editor_frame_time="1">
+		<keyframe time="0">FadeMesh.SetVisible( true );&#xD;&#xA;FadeMesh.SetPalette(0,0,0,1);</keyframe>
+		<keyframe time="1"></keyframe>
+		<keyframe time="2">FadeMesh.TweenPaletteTo(0,0,0,0,10,&quot;CUBIC&quot;);</keyframe>
+		<keyframe time="3"></keyframe>
+		<keyframe time="4"></keyframe>
+		<keyframe time="5"></keyframe>
+		<keyframe time="6"></keyframe>
+		<keyframe time="7"></keyframe>
+		<keyframe time="8"></keyframe>
+		<keyframe time="9"></keyframe>
+		<keyframe time="10"></keyframe>
+		<keyframe time="11"></keyframe>
+		<keyframe time="12">FadeMesh.SetVisible( false );</keyframe>
+	</timeline>
+
+	<timeline id="SetToClear" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(0,0,0,0);</keyframe>
+	</timeline>
+
+	<timeline id="FadeBlackToWhite" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(0,0,0,1);&#xD;&#xA;FadeMesh.TweenPaletteTo(1,1,1,1,.5,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+	<timeline id="FadeWhiteToClear" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(1,1,1,1);&#xD;&#xA;FadeMesh.TweenPaletteTo(1,1,1,0,.5,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+	<timeline id="FadeBlackToWhiteToClear" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(0,0,0,1);&#xD;&#xA;FadeMesh.TweenPaletteTo(1,1,1,1,.5,&quot;CUBIC&quot;);</keyframe>
+		<keyframe time="0.5">FadeMesh.TweenPaletteTo(1,1,1,0,.5,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+	<timeline id="FadeMainMenuIn" editor_frame_time="2">
+		<keyframe time="0">FadeMesh.SetVisible( true );&#xD;&#xA;FadeMesh.SetPalette(0,0,0,1);&#xD;&#xA;FadeMesh.TweenPaletteTo(0,0,0,0,2,&quot;CUBIC&quot;);</keyframe>
+		<keyframe time="2">FadeMesh.SetVisible( false );</keyframe>
+	</timeline>
+
+	<timeline id="FadePauseMenuDarken" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(0,0,0,0);&#xD;&#xA;FadeMesh.TweenPaletteTo(0,0,0,.6,.25,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+	<timeline id="FadeSettingsMenuDarken" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(0,0,0,0);&#xD;&#xA;FadeMesh.TweenPaletteTo(0,0,0,.9,.25,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+	<timeline id="FadeToBlood" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(1,0,0,0);&#xD;&#xA;FadeMesh.TweenPaletteTo(1,0,0,1,.5,&quot;CUBIC&quot;);&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="FadeDarkenToClear" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(0,0,0,.8);&#xD;&#xA;FadeMesh.TweenPaletteTo(0,0,0,0,.25,&quot;CUBIC&quot;);&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="FadeClearToBlack" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(0,0,0,0);&#xD;&#xA;FadeMesh.TweenPaletteTo(0,0,0,1,.25,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+	<timeline id="FadeClearToDarken" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(0,0,0,0);&#xD;&#xA;FadeMesh.TweenPaletteTo(0,0,0,.8,.25,&quot;CUBIC&quot;);&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="FadeToCredits" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(0,0,0,0);&#xD;&#xA;FadeMesh.TweenPaletteTo(0,0,0,1,.25,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+	<timeline id="FadeToEndGameCredits" editor_frame_time="5">
+		<keyframe time="0">FadeMesh.SetPalette(0,0,0,1);</keyframe>
+		<keyframe time="5">FadeMesh.TweenPaletteTo(0,0,0,0,5.f,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+	<timeline id="IntroMovieFadeIn" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(0,0,0,1);&#xD;&#xA;</keyframe>
+		<keyframe time="0.5">FadeMesh.TweenPaletteTo(0,0,0,0,.5,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+	<timeline id="IntroMovieFadeOut" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.TweenPaletteTo(0,0,0,1,6,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+	<timeline id="FadeRestIn" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(0,0,0,0);&#xD;&#xA;FadeMesh.TweenPaletteTo(0,0,0,.85,.5,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+	<timeline id="FadeRestOut" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.TweenPaletteAlphaTo(0,.5,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+	<timeline id="FadeRestAmbush" editor_frame_time="0.15">
+		<keyframe time="0">FadeMesh.TweenPaletteTo(1,0,0,.85,.1,&quot;CUBIC&quot;);</keyframe>
+		<keyframe time="0.15">FadeMesh.TweenPaletteTo(1,1,1,.85,.15,&quot;CUBIC&quot;);</keyframe>
+		<keyframe time="0.3">FadeMesh.TweenPaletteTo(1,0,0,.85,.15,&quot;CUBIC&quot;);</keyframe>
+		<keyframe time="0.45">FadeMesh.TweenPaletteTo(1,1,1,.85,.15,&quot;CUBIC&quot;);</keyframe>
+		<keyframe time="0.6">FadeMesh.TweenPaletteTo(1,0,0,.85,.15,&quot;CUBIC&quot;);</keyframe>
+		<keyframe time="0.75">FadeMesh.TweenPaletteTo(1,1,1,.85,.15,&quot;CUBIC&quot;);</keyframe>
+		<keyframe time="0.9">FadeMesh.TweenPaletteAlphaTo(0,.1,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+	<timeline id="FadeBlackToClear" editor_frame_time="0.5">
+		<keyframe time="0">FadeMesh.SetPalette(0,0,0,1);&#xD;&#xA;FadeMesh.TweenPaletteTo(0,0,0,0,.5,&quot;CUBIC&quot;);</keyframe>
+	</timeline>
+
+</edef>

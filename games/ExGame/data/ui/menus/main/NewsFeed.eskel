@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eskel
+	name="NewsFeed"
+	version="106"
+	format="base64"
+>
+	<animation id="1" name="Reveal" first_frame="3" frames="1" mode="default" />
+	<animation id="2" name="SetHidden" first_frame="2" frames="1" mode="default" />
+	<animation id="3" name="Hide" first_frame="4" frames="1" mode="default" />
+
+
+	<joint id="1" name="joint1" parent="0" position="MKgDwA/qtsIAAACA" rotation="AAAAAAAAAIAAAACA"/>
+
+	<frame id="1">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="2">
+		<joint_pose joint="1" position="AAAAAKyq4sEyM2vB" rotation="2A/JPwAAAAAAAACA"/>
+	</frame>
+
+	<frame id="3">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="4">
+		<joint_pose joint="1" position="AAAAAAEAiMIAAACA" rotation="2A/JvwAAAAAAAACA"/>
+	</frame>
+
+	<frame id="5">
+		<joint_pose joint="1" position="AAAAAAEAiMIAAACA" rotation="2A/JvwAAAAAAAACA"/>
+	</frame>
+
+</eskel>

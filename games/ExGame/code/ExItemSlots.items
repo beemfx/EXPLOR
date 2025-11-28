@@ -1,0 +1,16 @@
+// (c) 2017 Beem Media
+
+#if !defined( ITEM_SLOT )
+#define ITEM_SLOT( _var_ , _name_ , _desc_ )
+#endif
+
+ITEM_SLOT( NONE    , eg_loc("ItemSlotNameNone","None")                 , eg_loc("ItemSlotDescNone","No description") )
+ITEM_SLOT( HELM    , eg_loc("ItemSlotNameHelm","Helm")                 , eg_loc("ItemSlotDescHelm","Protection for the head.") )
+ITEM_SLOT( ARMOR   , eg_loc("ItemSlotNameArmor","Armor")               , eg_loc("ItemSlotDescArmor","Protection for the body.") )
+ITEM_SLOT( WEAPON1 , eg_loc("ItemSlotNamePrimaryWeapon","Main Hand")  , eg_loc("ItemSlotDescPrimaryWeapon","The primary weapon used in combat.") )
+ITEM_SLOT( WEAPON2 , eg_loc("ItemSlotNameSecondaryWeapon","Off Hand") , eg_loc("ItemSlotDescSecondaryWeapon","A secondary weapon or shield.") )
+ITEM_SLOT( AMULET  , eg_loc("ItemSlotNameAmulet","Necklace")           , eg_loc("ItemSlotDescAmulet","Worn around the neck, usually to provide a bonus, but may be decorative.") )
+ITEM_SLOT( RING1   , eg_loc("ItemSlotNameRing1","Right Hand Ring")     , eg_loc("ItemSlotDescRing1","Worn on the right hand, may be magical, but also decorative.") )
+ITEM_SLOT( RING2   , eg_loc("ItemSlotNameRing2","Left Hand Ring")      , eg_loc("ItemSlotDescRing2","Worn on the left hand, a fashion statement, but sometimes boosts attributes.") )
+
+#undef ITEM_SLOT

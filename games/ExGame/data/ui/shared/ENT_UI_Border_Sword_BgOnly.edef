@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edef>
+
+	<properties>
+		<struct name="EntDef" ed_expanded="true" >
+			<property name="m_Id" value="ENT_UI_Border_Sword_BgOnly" />
+			<property name="m_ClassType" value="UI" />
+			<property name="m_EntityClassName" value="" />
+			<property name="m_UiClassName" value="ExBgComponent" />
+			<property name="m_DefaultRenderFilter" value="PreFxPass" />
+			<property name="m_bIsSerialized" value="false" />
+			<property name="m_bIsLit" value="false" />
+			<property name="m_bIsAlwaysVisible" value="false" />
+			<struct name="m_BaseBounds" ed_expanded="true" >
+				<property name="Min" value="-20 -20 0" />
+				<property name="Max" value="20 20 0" />
+			</struct>
+			<struct name="m_EditorConfig" ed_expanded="true" >
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bDrawGrid" value="true" />
+				<property name="GridSpacing" value="10" />
+				<property name="AmbientLight" value="ARGB32:255 51 51 51" />
+				<property name="GamePalette0" value="1 1 1 1" />
+				<property name="GamePalette1" value="1 1 1 1" />
+				<property name="GamePalette2" value="1 1 1 1" />
+				<property name="bDrawLights" value="true" />
+				<property name="CameraPos" value="0 0 -60" />
+				<property name="CameraYaw" value="0" />
+				<property name="CameraPitch" value="0" />
+				<property name="HasCameraPose" value="true" />
+			</struct>
+		</struct>
+	</properties>
+
+	<component id="Base" class="EGSkelMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="msh_ui_borderswordsmallslice" />
+				</struct>
+				<array name="m_Materials" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="MeshGroupId" value="Background" />
+						<struct name="Material" ed_expanded="true" >
+							<property name="Texture0" value="t_ui_border_sword02_bgonly_d" />
+							<property name="Texture1" value="" />
+							<property name="Texture2" value="" />
+							<property name="Texture3" value="" />
+							<property name="VertexShader" value="/game/shaders/ex_ui" />
+							<property name="PixelShader" value="/game/shaders/ex_ui" />
+							<property name="Diffuse" value="ARGB32:255 255 255 255" />
+							<property name="Ambient" value="ARGB32:0 0 0 0" />
+							<property name="Specular" value="ARGB32:0 0 0 0" />
+							<property name="Emissive" value="ARGB32:0 0 0 0" />
+							<property name="Power" value="1" />
+						</struct>
+					</struct>
+				</array>
+				<array name="m_Skeletons" ed_expanded="false" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="Default" />
+						<property name="Filename" value="skl_ui_bordersword" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<timeline id="Reset" editor_frame_time="0.5">
+		<keyframe time="0">Base.PlayAnimation(&quot;Default&quot;,&quot;&quot;,0,0);&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="Nameplate" editor_frame_time="0.5">
+		<keyframe time="0">Base.PlayAnimation(&quot;Default&quot;,&quot;Nameplate&quot;,0,0);&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="DialogBox" editor_frame_time="0.5">
+		<keyframe time="0">Base.PlayAnimation(&quot;Default&quot;,&quot;DialogBox&quot;,0,0);&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="FullScreen" editor_frame_time="0.5">
+		<keyframe time="0">Base.PlayAnimation(&quot;Default&quot;,&quot;FullScreen&quot;,0,0);&#xA;&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="FullScreenSmall" editor_frame_time="0.5">
+		<keyframe time="0">Base.PlayAnimation( &quot;Default&quot; , &quot;QuestLog&quot; , 0 , 0 );&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="Show" editor_frame_time="0.25">
+		<keyframe time="0">StopAllTimelines();&#xD;&#xA;Base.SetVisible( true );&#xD;&#xA;Base.TweenPaletteAlphaTo( 1.0 , .25 , &quot;CUBIC&quot; );&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="Hide" editor_frame_time="0.25">
+		<keyframe time="0">StopAllTimelines();&#xD;&#xA;Base.TweenPaletteAlphaTo( 0.0 , .25 , &quot;CUBIC&quot; );&#xD;&#xA;</keyframe>
+		<keyframe time="0.25">Base.SetVisible( false );&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="ShowNow" editor_frame_time="0.5">
+		<keyframe time="0">StopAllTimelines();&#xD;&#xA;Base.SetVisible( true );&#xD;&#xA;Base.SetPalette( 1 , 1 , 1 , 1 );&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="HideNow" editor_frame_time="0.5">
+		<keyframe time="0">StopAllTimelines();&#xD;&#xA;Base.SetVisible( false );&#xD;&#xA;Base.SetPalette( 1 , 1 , 1 , 0 );&#xD;&#xA;</keyframe>
+	</timeline>
+
+</edef>

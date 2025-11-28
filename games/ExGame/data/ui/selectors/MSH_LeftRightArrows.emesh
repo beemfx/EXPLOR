@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<emesh version="123" format="base64" >
+
+	<material id="1" tex0="/egdata/textures/default_white" tex1="/egdata/textures/default_normal" tex2="/egdata/textures/default_white" diffuse="0.988235 0.988235 0.329412 1" specular="0 0 0 1" emissive="0 0 0 1" ambient="0 0 0 1" power="0" />
+
+	<bone id="1" name="LeftArrow"/>
+	<bone id="2" name="RightArrow"/>
+
+	<mesh id="1" name="Aarows" first_triangle="1" triangles="2" material="1"/>
+
+	<bounds min="wr7+wLTpmr8AAACA" max="PDz8QDzbsz8AAACA"/>
+
+	<vertex id="1" pos="AACgQDjbsz8AAACA" norm="AAAAAAAAAAAAAIC/" tan="AyFpP0CJ074AAAAA//9/Pw==" tex0="q6oqPwAAAAA=" tex1="q6oqPwAAAAA=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="2" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="2" pos="AACgQLLpmr8AAACA" norm="AAAAAAAAAAAAAIC/" tan="AyFpP0GJ074AAAAA//9/Pw==" tex0="AACAP6uqqj4=" tex1="AACAP6uqqj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="2" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="3" pos="PDz8QECMxz0AAACA" norm="AAAAAAAAAAAAAIC/" tan="AyFpP0CJ074AAAAA//9/Pw==" tex0="AACAPwAAAAA=" tex1="AACAPwAAAAA=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="2" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="4" pos="hoKiwLTpmr8AAACA" norm="AAAAAAAAAAAAAIC/" tan="AiFpv06J0z4AAAAAAQCAPw==" tex0="q6oqPwAAAAA=" tex1="q6oqPwAAAAA=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="5" pos="hoKiwDzbsz8AAACA" norm="AAAAAAAAAAAAAIC/" tan="AiFpv0+J0z4AAAAAAACAPw==" tex0="AACAP6uqqj4=" tex1="AACAP6uqqj4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="6" pos="wr7+wMCMxz0AAACA" norm="AAAAAAAAAAAAAIC/" tan="AiFpv06J0z4AAAAAAQCAPw==" tex0="AACAPwAAAAA=" tex1="AACAPwAAAAA=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+
+	<triangle id="1" v1="3" v2="2" v3="1"/>
+	<triangle id="2" v1="6" v2="5" v3="4"/>
+</emesh>

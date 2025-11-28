@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eskel version="106" format="base64" >
+	<animation id="1" name="HUDLoadingNeedle" first_frame="1" frames="4" mode="default" />
+
+	<joint id="1" name="Needle" parent="0" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAIAAAACA"/>
+
+	<frame id="1">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="2">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAADYD8k/"/>
+	</frame>
+
+	<frame id="3">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAADYD0lA"/>
+	</frame>
+
+	<frame id="4">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAIDjD8m/"/>
+	</frame>
+
+</eskel>

@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExGlobalData">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_WorldMapMenuMaps" ed_expanded="false" reserve_size="1" >
+			<property name="-" value="MAP_Demo_Town" />
+		</array>
+		<struct name="m_StartingMapTravelTarget" ed_expanded="false" >
+			<property name="MapId" value="MAP_Demo_Town" />
+			<property name="EntranceId" value="GameStart" />
+		</struct>
+		<struct name="m_LostMapTravelTarget" ed_expanded="false" >
+			<property name="MapId" value="MAP_Demo_Town" />
+			<property name="EntranceId" value="TownPortal" />
+		</struct>
+		<struct name="m_TownPortalTravelTarget" ed_expanded="false" >
+			<property name="MapId" value="MAP_Demo_Town" />
+			<property name="EntranceId" value="TownPortal" />
+		</struct>
+		<struct name="m_EndGameTravelTarget" ed_expanded="false" >
+			<property name="MapId" value="Map_Demo_Town" />
+			<property name="EntranceId" value="GameStart" />
+		</struct>
+		<property name="m_StartingYear" value="2115" />
+		<property name="m_StartingDay" value="310" />
+		<property name="m_StartingHour" value="8" />
+		<property name="m_StartingBagSize" value="40" />
+		<property name="m_TurnsInADay" value="240" />
+		<property name="m_RestTimePerHour" value="0.5" />
+		<property name="m_RestHours" value="8" />
+		<property name="m_RestTilMorningTime" value="6" />
+		<property name="m_MinRestHoursForRandomCombat" value="3" />
+		<property name="m_CharacterCreateAllocationPoints" value="20" />
+		<property name="m_BaseHealerHealCost" value="1" />
+		<property name="m_BaseHealerUnPetrifyCost" value="20" />
+		<property name="m_BaseHealerUnCurseCost" value="20" />
+		<property name="m_BaseHealerResurrectCost" value="20" />
+		<property name="m_CombatFleeChance" value="75" />
+		<property name="m_CombatFleeBackRowChance" value="95" />
+		<property name="m_CombatAdvanceChance" value="100" />
+		<property name="m_CombatBackAwayChance" value="85" />
+		<property name="m_CombatAggroFactor" value="0.1" />
+		<property name="m_CombatAggroFactorWarrior" value="0.1" />
+		<property name="m_CombatAggroFactorThief" value="0.1" />
+		<property name="m_CombatAggroFactorCleric" value="0.1" />
+		<property name="m_CombatAggroFactorMage" value="0.05" />
+		<property name="m_CombatPlayerTeamFrontLineMinSize" value="3" />
+		<property name="m_CombatPlayerTeamFrontLineDefaultSize" value="3" />
+		<property name="m_CombatEnemyTeamTeamFrontLineSize" value="5" />
+		<property name="m_CombatThiefBurglePercent" value="20" />
+		<property name="m_CombatSpellFortifyRanksRange" value="2 2" />
+		<property name="m_CombatPostBlurFactor" value="0.0009" />
+		<property name="m_DroppedTreasureEntity" value="ENT_Treasure_01" />
+		<struct name="m_CharacterClasses" ed_expanded="true" >
+			<array name="Classes" ed_expanded="true" reserve_size="5" >
+				<struct name="-" ed_expanded="false" >
+					<property name="ClassCrcId" value="Warrior" />
+					<property name="ClassEnum" value="Warrior" />
+					<property name="bIsCharacterClass" value="true" />
+					<property name="Name" value="WarriorName" />
+					<property name="Name_enus" value="Warrior" />
+					<property name="Description" value="WarriorDesc" />
+					<property name="Description_enus" value="A Warrior relies on |SC(EX_ATTR)|END|RC()| and |SC(EX_ATTR)|AGR|RC()| to take the brunt of |SC(EX_ATTR)|DMG|RC()| in battle by directing attacks away from other party members. |SC(EX_ATTR)|STR|RC()| will help to increase a warrior&apos;s |SC(EX_ATTR)|DMG|RC()|." />
+					<property name="DefaultRhWeapon" value="StartingWeaponWarrior" />
+					<property name="DefaultRhWeaponLevel" value="1" />
+					<property name="DefaultLhWeapon" value="" />
+					<property name="DefaultLhWeaponLevel" value="1" />
+					<array name="BalanceData" ed_expanded="false" reserve_size="10" >
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="1" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="StartingWeaponWarrior" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="2" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="HammerBasic" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorLeather" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmLeather" />
+								<property name="Level" value="1" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="4" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="HammerBasic" />
+								<property name="Level" value="2" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorLeather" />
+								<property name="Level" value="2" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmLeather" />
+								<property name="Level" value="2" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="7" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="HammerBasic" />
+								<property name="Level" value="3" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorChain" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmChain" />
+								<property name="Level" value="1" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="10" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="HammerBasic" />
+								<property name="Level" value="4" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorPlate" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmPlate" />
+								<property name="Level" value="1" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="13" />
+							<struct name="RhWeapon" ed_expanded="true" >
+								<property name="ItemId" value="HammerBasic" />
+								<property name="Level" value="5" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorPlate" />
+								<property name="Level" value="2" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmPlate" />
+								<property name="Level" value="2" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="16" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="HammerBasic" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorPlate" />
+								<property name="Level" value="3" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmPlate" />
+								<property name="Level" value="3" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="19" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="HammerBasic" />
+								<property name="Level" value="7" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorPlate" />
+								<property name="Level" value="4" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmPlate" />
+								<property name="Level" value="4" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="22" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="HammerBasic" />
+								<property name="Level" value="8" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorPlate" />
+								<property name="Level" value="5" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmPlate" />
+								<property name="Level" value="5" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="25" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="HammerBasic" />
+								<property name="Level" value="9" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorPlate" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmPlate" />
+								<property name="Level" value="6" />
+							</struct>
+						</struct>
+					</array>
+					<struct name="DefaultAttributes" ed_expanded="false" >
+						<property name="SPD" value="4" />
+						<property name="STR" value="8" />
+						<property name="END" value="8" />
+						<property name="ACC" value="5" />
+						<property name="MAG" value="0" />
+						<property name="AGR" value="40" />
+						<property name="BHP" value="52" />
+						<property name="BMP" value="0" />
+					</struct>
+					<struct name="CreationMinAttributes" ed_expanded="false" >
+						<property name="SPD" value="1" />
+						<property name="STR" value="1" />
+						<property name="END" value="1" />
+						<property name="ACC" value="0" />
+						<property name="MAG" value="0" />
+						<property name="AGR" value="0" />
+						<property name="BHP" value="20" />
+						<property name="BMP" value="0" />
+					</struct>
+					<struct name="CreationMaxAttributes" ed_expanded="false" >
+						<property name="SPD" value="6" />
+						<property name="STR" value="10" />
+						<property name="END" value="10" />
+						<property name="ACC" value="0" />
+						<property name="MAG" value="0" />
+						<property name="AGR" value="0" />
+						<property name="BHP" value="20" />
+						<property name="BMP" value="0" />
+					</struct>
+				</struct>
+				<struct name="-" ed_expanded="false" >
+					<property name="ClassCrcId" value="Thief" />
+					<property name="ClassEnum" value="Thief" />
+					<property name="bIsCharacterClass" value="true" />
+					<property name="Name" value="ThiefName" />
+					<property name="Name_enus" value="Thief" />
+					<property name="Description" value="ThiefDesc" />
+					<property name="Description_enus" value="A Thief can unlock doors leading to great treasures. The ability to unlock doors increases with |SC(EX_ATTR)|LVL|RC()|. They also burgle enemies when attacking, increasing the amount of |SC(EX_GOLD)|gold|RC()| rewarded during combat." />
+					<property name="DefaultRhWeapon" value="StartingWeaponThief" />
+					<property name="DefaultRhWeaponLevel" value="1" />
+					<property name="DefaultLhWeapon" value="" />
+					<property name="DefaultLhWeaponLevel" value="1" />
+					<array name="BalanceData" ed_expanded="false" reserve_size="10" >
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="1" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="StartingWeaponThief" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="StartingWeaponThief" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="2" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="DaggerBasic" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorLeather" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmLeather" />
+								<property name="Level" value="1" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="4" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="2" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="DaggerBasic" />
+								<property name="Level" value="2" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorLeather" />
+								<property name="Level" value="2" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmLeather" />
+								<property name="Level" value="2" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="7" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="3" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="DaggerBasic" />
+								<property name="Level" value="3" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorLeather" />
+								<property name="Level" value="3" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmLeather" />
+								<property name="Level" value="3" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="10" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="4" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="DaggerBasic" />
+								<property name="Level" value="4" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorLeather" />
+								<property name="Level" value="4" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmLeather" />
+								<property name="Level" value="4" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="13" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="5" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="DaggerBasic" />
+								<property name="Level" value="5" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorLeather" />
+								<property name="Level" value="5" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmLeather" />
+								<property name="Level" value="5" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="16" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="DaggerBasic" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorLeather" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmLeather" />
+								<property name="Level" value="6" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="19" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="7" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="DaggerBasic" />
+								<property name="Level" value="7" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorLeather" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmLeather" />
+								<property name="Level" value="6" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="22" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="8" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="DaggerBasic" />
+								<property name="Level" value="8" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorLeather" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmLeather" />
+								<property name="Level" value="6" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="25" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="9" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="DaggerBasic" />
+								<property name="Level" value="9" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorLeather" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmLeather" />
+								<property name="Level" value="6" />
+							</struct>
+						</struct>
+					</array>
+					<struct name="DefaultAttributes" ed_expanded="false" >
+						<property name="SPD" value="8" />
+						<property name="STR" value="6" />
+						<property name="END" value="6" />
+						<property name="ACC" value="8" />
+						<property name="MAG" value="0" />
+						<property name="AGR" value="10" />
+						<property name="BHP" value="34" />
+						<property name="BMP" value="0" />
+					</struct>
+					<struct name="CreationMinAttributes" ed_expanded="false" >
+						<property name="SPD" value="1" />
+						<property name="STR" value="1" />
+						<property name="END" value="1" />
+						<property name="ACC" value="1" />
+						<property name="MAG" value="0" />
+						<property name="AGR" value="1" />
+						<property name="BHP" value="10" />
+						<property name="BMP" value="0" />
+					</struct>
+					<struct name="CreationMaxAttributes" ed_expanded="false" >
+						<property name="SPD" value="10" />
+						<property name="STR" value="8" />
+						<property name="END" value="8" />
+						<property name="ACC" value="20" />
+						<property name="MAG" value="0" />
+						<property name="AGR" value="20" />
+						<property name="BHP" value="10" />
+						<property name="BMP" value="0" />
+					</struct>
+				</struct>
+				<struct name="-" ed_expanded="false" >
+					<property name="ClassCrcId" value="Mage" />
+					<property name="ClassEnum" value="Mage" />
+					<property name="bIsCharacterClass" value="true" />
+					<property name="Name" value="MageName" />
+					<property name="Name_enus" value="Warlock" />
+					<property name="Description" value="MageDesc" />
+					<property name="Description_enus" value="A Warlock uses |SC(EX_ATTR)|MAG|RC()| to cast spells causing elemental |SC(EX_ATTR)|DMG|RC()| to one or more enemies. As the Warlock&apos;s |SC(EX_ATTR)|LVL|RC()| increases, more powerful spells are learned. |SC(EX_ATTR)|SPD|RC()| will help them attack more often." />
+					<property name="DefaultRhWeapon" value="StartingWeaponMage" />
+					<property name="DefaultRhWeaponLevel" value="1" />
+					<property name="DefaultLhWeapon" value="" />
+					<property name="DefaultLhWeaponLevel" value="1" />
+					<array name="DefaultAttunedSkills" ed_expanded="true" reserve_size="2" >
+						<property name="-" value="FlameSingle" />
+						<property name="-" value="ColdSingle" />
+					</array>
+					<array name="BalanceData" ed_expanded="false" reserve_size="10" >
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="1" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="StartingWeaponMage" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="2" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="StaffBasic" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorCloth" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmCloth" />
+								<property name="Level" value="1" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="4" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="StaffBasic" />
+								<property name="Level" value="2" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorCloth" />
+								<property name="Level" value="2" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmCloth" />
+								<property name="Level" value="2" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="7" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="StaffBasic" />
+								<property name="Level" value="3" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorCloth" />
+								<property name="Level" value="3" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmCloth" />
+								<property name="Level" value="3" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="10" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="StaffBasic" />
+								<property name="Level" value="4" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorCloth" />
+								<property name="Level" value="4" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmCloth" />
+								<property name="Level" value="4" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="13" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="StaffBasic" />
+								<property name="Level" value="5" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorCloth" />
+								<property name="Level" value="5" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmCloth" />
+								<property name="Level" value="5" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="16" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="StaffBasic" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorCloth" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmCloth" />
+								<property name="Level" value="6" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="19" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="StaffBasic" />
+								<property name="Level" value="7" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorCloth" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmCloth" />
+								<property name="Level" value="6" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="22" />
+							<struct name="RhWeapon" ed_expanded="true" >
+								<property name="ItemId" value="StaffBasic" />
+								<property name="Level" value="8" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorCloth" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmCloth" />
+								<property name="Level" value="6" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="25" />
+							<struct name="RhWeapon" ed_expanded="true" >
+								<property name="ItemId" value="StaffBasic" />
+								<property name="Level" value="9" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorCloth" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmCloth" />
+								<property name="Level" value="6" />
+							</struct>
+						</struct>
+					</array>
+					<struct name="DefaultAttributes" ed_expanded="true" >
+						<property name="SPD" value="6" />
+						<property name="STR" value="1" />
+						<property name="END" value="3" />
+						<property name="ACC" value="5" />
+						<property name="MAG" value="10" />
+						<property name="AGR" value="20" />
+						<property name="BHP" value="6" />
+						<property name="BMP" value="30" />
+					</struct>
+					<struct name="CreationMinAttributes" ed_expanded="false" >
+						<property name="SPD" value="1" />
+						<property name="STR" value="1" />
+						<property name="END" value="1" />
+						<property name="ACC" value="1" />
+						<property name="MAG" value="1" />
+						<property name="AGR" value="1" />
+						<property name="BHP" value="6" />
+						<property name="BMP" value="30" />
+					</struct>
+					<struct name="CreationMaxAttributes" ed_expanded="true" >
+						<property name="SPD" value="8" />
+						<property name="STR" value="5" />
+						<property name="END" value="5" />
+						<property name="ACC" value="20" />
+						<property name="MAG" value="15" />
+						<property name="AGR" value="15" />
+						<property name="BHP" value="6" />
+						<property name="BMP" value="30" />
+					</struct>
+				</struct>
+				<struct name="-" ed_expanded="false" >
+					<property name="ClassCrcId" value="Cleric" />
+					<property name="ClassEnum" value="Cleric" />
+					<property name="bIsCharacterClass" value="true" />
+					<property name="Name" value="ClericName" />
+					<property name="Name_enus" value="Cleric" />
+					<property name="Description" value="ClericDesc" />
+					<property name="Description_enus" value="A Cleric uses |SC(EX_ATTR)|MAG|RC()| to restore the |SC(EX_ATTR)|HP|RC()| of fellow party members. As their |SC(EX_ATTR)|LVL|RC()| increases they learn new spells to protect and boost the abilities of the party." />
+					<property name="DefaultRhWeapon" value="StartingWeaponCleric" />
+					<property name="DefaultRhWeaponLevel" value="1" />
+					<property name="DefaultLhWeapon" value="" />
+					<property name="DefaultLhWeaponLevel" value="1" />
+					<array name="DefaultAttunedSkills" ed_expanded="false" reserve_size="2" >
+						<property name="-" value="HealWeak" />
+						<property name="-" value="MightyFist" />
+					</array>
+					<array name="BalanceData" ed_expanded="false" reserve_size="10" >
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="1" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="StartingWeaponCleric" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="" />
+								<property name="Level" value="0" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="2" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="ShieldBasic" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorLeather" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmLeather" />
+								<property name="Level" value="1" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="4" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="2" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="ShieldBasic" />
+								<property name="Level" value="2" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorLeather" />
+								<property name="Level" value="2" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmLeather" />
+								<property name="Level" value="2" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="7" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="3" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="ShieldBasic" />
+								<property name="Level" value="3" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorChain" />
+								<property name="Level" value="1" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmChain" />
+								<property name="Level" value="1" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="10" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="4" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="ShieldBasic" />
+								<property name="Level" value="4" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorChain" />
+								<property name="Level" value="2" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmChain" />
+								<property name="Level" value="2" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="13" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="5" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="ShieldBasic" />
+								<property name="Level" value="5" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorChain" />
+								<property name="Level" value="3" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmChain" />
+								<property name="Level" value="3" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="16" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="ShieldBasic" />
+								<property name="Level" value="6" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorChain" />
+								<property name="Level" value="3" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmChain" />
+								<property name="Level" value="3" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="19" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="7" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="ShieldBasic" />
+								<property name="Level" value="7" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorChain" />
+								<property name="Level" value="3" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmChain" />
+								<property name="Level" value="3" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="22" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="8" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="ShieldBasic" />
+								<property name="Level" value="8" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorChain" />
+								<property name="Level" value="3" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmChain" />
+								<property name="Level" value="3" />
+							</struct>
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="25" />
+							<struct name="RhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="MaceBasic" />
+								<property name="Level" value="9" />
+							</struct>
+							<struct name="LhWeapon" ed_expanded="false" >
+								<property name="ItemId" value="ShieldBasic" />
+								<property name="Level" value="9" />
+							</struct>
+							<struct name="Armor" ed_expanded="false" >
+								<property name="ItemId" value="ArmorChain" />
+								<property name="Level" value="3" />
+							</struct>
+							<struct name="Helm" ed_expanded="false" >
+								<property name="ItemId" value="HelmChain" />
+								<property name="Level" value="3" />
+							</struct>
+						</struct>
+					</array>
+					<struct name="DefaultAttributes" ed_expanded="true" >
+						<property name="SPD" value="6" />
+						<property name="STR" value="3" />
+						<property name="END" value="3" />
+						<property name="ACC" value="5" />
+						<property name="MAG" value="8" />
+						<property name="AGR" value="5" />
+						<property name="BHP" value="19" />
+						<property name="BMP" value="20" />
+					</struct>
+					<struct name="CreationMinAttributes" ed_expanded="false" >
+						<property name="SPD" value="1" />
+						<property name="STR" value="1" />
+						<property name="END" value="1" />
+						<property name="ACC" value="1" />
+						<property name="MAG" value="1" />
+						<property name="AGR" value="1" />
+						<property name="BHP" value="6" />
+						<property name="BMP" value="30" />
+					</struct>
+					<struct name="CreationMaxAttributes" ed_expanded="true" >
+						<property name="SPD" value="8" />
+						<property name="STR" value="8" />
+						<property name="END" value="8" />
+						<property name="ACC" value="20" />
+						<property name="MAG" value="12" />
+						<property name="AGR" value="20" />
+						<property name="BHP" value="6" />
+						<property name="BMP" value="30" />
+					</struct>
+				</struct>
+				<struct name="-" ed_expanded="false" >
+					<property name="ClassCrcId" value="EnemyMonster" />
+					<property name="ClassEnum" value="EnemyMonster" />
+					<property name="bIsCharacterClass" value="false" />
+					<property name="Name" value="BasicMonsterName" />
+					<property name="Name_enus" value="-Basic Monster-" />
+					<property name="Description" value="BasicMonsterDesc" />
+					<property name="Description_enus" value="Basic monsters die easy in large numbers." />
+					<property name="DefaultRhWeapon" value="" />
+					<property name="DefaultRhWeaponLevel" value="1" />
+					<property name="DefaultLhWeapon" value="" />
+					<property name="DefaultLhWeaponLevel" value="1" />
+					<struct name="DefaultAttributes" ed_expanded="true" >
+						<property name="SPD" value="5" />
+						<property name="STR" value="5" />
+						<property name="END" value="5" />
+						<property name="ACC" value="5" />
+						<property name="MAG" value="0" />
+						<property name="AGR" value="5" />
+						<property name="BHP" value="1" />
+						<property name="BMP" value="0" />
+					</struct>
+					<struct name="CreationMinAttributes" ed_expanded="true" >
+						<property name="SPD" value="1" />
+						<property name="STR" value="1" />
+						<property name="END" value="1" />
+						<property name="ACC" value="1" />
+						<property name="MAG" value="0" />
+						<property name="AGR" value="1" />
+						<property name="BHP" value="1" />
+						<property name="BMP" value="0" />
+					</struct>
+					<struct name="CreationMaxAttributes" ed_expanded="true" >
+						<property name="SPD" value="5" />
+						<property name="STR" value="10" />
+						<property name="END" value="10" />
+						<property name="ACC" value="10" />
+						<property name="MAG" value="10" />
+						<property name="AGR" value="10" />
+						<property name="BHP" value="1" />
+						<property name="BMP" value="0" />
+					</struct>
+				</struct>
+			</array>
+			<array name="DefaultCharacters" ed_expanded="true" reserve_size="6" >
+				<struct name="-" ed_expanded="false" >
+					<property name="CharacterName" value="Demo Warrior 1" />
+					<property name="ClassId" value="Warrior" />
+					<property name="PortraitId" value="Male01" />
+				</struct>
+				<struct name="-" ed_expanded="false" >
+					<property name="CharacterName" value="Demo Warrior 2" />
+					<property name="ClassId" value="Warrior" />
+					<property name="PortraitId" value="Female01" />
+				</struct>
+				<struct name="-" ed_expanded="false" >
+					<property name="CharacterName" value="Demo Thief" />
+					<property name="ClassId" value="Thief" />
+					<property name="PortraitId" value="Male01" />
+				</struct>
+				<struct name="-" ed_expanded="false" >
+					<property name="CharacterName" value="Demo Cleric" />
+					<property name="ClassId" value="Cleric" />
+					<property name="PortraitId" value="Female01" />
+				</struct>
+				<struct name="-" ed_expanded="false" >
+					<property name="CharacterName" value="Demo Warlock 1" />
+					<property name="ClassId" value="Mage" />
+					<property name="PortraitId" value="Male01" />
+				</struct>
+				<struct name="-" ed_expanded="false" >
+					<property name="CharacterName" value="Demo Warlock 2" />
+					<property name="ClassId" value="Mage" />
+					<property name="PortraitId" value="Female01" />
+				</struct>
+			</array>
+		</struct>
+		<array name="m_CameraSplines" ed_expanded="true" reserve_size="3" >
+			<struct name="-" ed_expanded="false" >
+				<property name="Id" value="TownIntro1" />
+				<property name="SplineId" value="TownIntro1" />
+				<property name="Acceleration" value="1" />
+				<property name="StartingSpeed" value="2" />
+				<property name="MaxSpeed" value="2" />
+				<property name="bLooping" value="false" />
+				<property name="bJumpToStart" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Id" value="TownIntro2" />
+				<property name="SplineId" value="TownIntro2" />
+				<property name="Acceleration" value="0.2" />
+				<property name="StartingSpeed" value="2" />
+				<property name="MaxSpeed" value="2" />
+				<property name="bLooping" value="false" />
+				<property name="bJumpToStart" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Id" value="TownIntro3" />
+				<property name="SplineId" value="TownIntro3" />
+				<property name="Acceleration" value="0.2" />
+				<property name="StartingSpeed" value="3" />
+				<property name="MaxSpeed" value="3" />
+				<property name="bLooping" value="false" />
+				<property name="bJumpToStart" value="true" />
+			</struct>
+		</array>
+		<property name="m_DefaultShopKeeperInventory" value="DefaultInventory" />
+		<property name="m_HoursToTrain" value="4" />
+		<property name="m_WarriorCriticalPercent" value="10" />
+		<property name="m_ThiefCriticalPercent" value="30" />
+		<property name="m_ClericCriticalPercent" value="0" />
+		<property name="m_MageCriticalPercent" value="0" />
+		<struct name="m_UiColors" ed_expanded="true" >
+			<property name="EX_GOLD" value="ARGB32:255 255 215 0" />
+			<property name="EX_INPARTY" value="ARGB32:255 0 101 0" />
+			<property name="EX_ITEM" value="ARGB32:255 10 203 238" />
+			<property name="EX_RARE_1" value="ARGB32:255 0 0 0" />
+			<property name="EX_RARE_2" value="ARGB32:255 0 255 0" />
+			<property name="EX_RARE_3" value="ARGB32:255 0 0 255" />
+			<property name="EX_RARE_4" value="ARGB32:255 128 0 128" />
+			<property name="EX_RARE_5" value="ARGB32:255 255 170 0" />
+			<property name="EX_CLASS" value="ARGB32:255 64 0 64" />
+			<property name="EX_ATTR" value="ARGB32:255 64 0 64" />
+			<property name="EX_ATTRV" value="ARGB32:255 0 0 0" />
+			<property name="EX_H1" value="ARGB32:255 26 26 26" />
+			<property name="EX_H2" value="ARGB32:255 48 48 48" />
+			<property name="EX_HEAL" value="ARGB32:255 0 199 252" />
+			<property name="EX_HURT" value="ARGB32:255 232 0 0" />
+			<property name="EX_INC" value="ARGB32:255 0 199 252" />
+			<property name="EX_DEC" value="ARGB32:255 232 0 0" />
+			<property name="EX_WARN" value="ARGB32:255 252 252 84" />
+			<property name="EX_PDMG" value="ARGB32:255 0 0 0" />
+			<property name="EX_FDMG" value="ARGB32:255 255 106 0" />
+			<property name="EX_WDMG" value="ARGB32:255 0 86 214" />
+			<property name="EX_EDMG" value="ARGB32:255 122 74 0" />
+			<property name="EX_ADMG" value="ARGB32:255 0 162 232" />
+			<property name="EX_SPELLDESC" value="ARGB32:255 128 128 128" />
+			<property name="EX_CLUE" value="ARGB32:255 55 255 255" />
+			<property name="EX_DISABLED_OPTION" value="ARGB32:255 128 128 128" />
+			<property name="DefaultDialogHeaderColor" value="ARGB32:255 0 0 0" />
+			<property name="DefaultDialogBodyColor" value="ARGB32:255 28 28 28" />
+		</struct>
+		<property name="m_SaveGamePrefix" value="demo_" />
+	</struct>
+</egasset>

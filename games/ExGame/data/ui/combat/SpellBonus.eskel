@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eskel
+	name="SpellBonus"
+	version="106"
+	format="base64"
+>
+	<animation id="1" name="Play" first_frame="2" frames="3" mode="once" />
+	<animation id="2" name="Stop" first_frame="1" frames="1" mode="default" />
+
+
+	<joint id="1" name="SparkleJoint" parent="0" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAIAAAACA"/>
+
+	<frame id="1">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="2">
+		<joint_pose joint="1" position="AAAAAAAAAAAAACDB" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="3">
+		<joint_pose joint="1" position="AAAAAAAAAAAAACDB" rotation="MPqOPQAAAAAAAACA"/>
+	</frame>
+
+	<frame id="4">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="MPqOPQAAAAAAAACA"/>
+	</frame>
+
+	<frame id="5">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="MPqOPQAAAIAAAACA"/>
+	</frame>
+
+</eskel>

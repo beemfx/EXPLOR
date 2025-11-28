@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edef>
+
+	<properties>
+		<struct name="EntDef" ed_expanded="true" >
+			<property name="m_Id" value="PlayerController" />
+			<property name="m_ClassType" value="Game" />
+			<property name="m_EntityClassName" value="ExPlayerController" />
+			<property name="m_UiClassName" value="ExPlayerController" />
+			<property name="m_DefaultRenderFilter" value="NpcPass" />
+			<property name="m_bIsSerialized" value="false" />
+			<property name="m_bIsLit" value="false" />
+			<property name="m_bIsAlwaysVisible" value="false" />
+			<struct name="m_BaseBounds" ed_expanded="true" >
+				<property name="Min" value="-0.13 -0.13 -0.13" />
+				<property name="Max" value="0.13 0.13 0.13" />
+			</struct>
+			<struct name="m_EditorConfig" ed_expanded="true" >
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bDrawGrid" value="true" />
+				<property name="GridSpacing" value="0.5" />
+				<property name="AmbientLight" value="ARGB32:255 51 51 51" />
+				<property name="GamePalette0" value="1 1 1 1" />
+				<property name="GamePalette1" value="1 1 1 1" />
+				<property name="GamePalette2" value="1 1 1 1" />
+				<property name="bDrawLights" value="true" />
+				<property name="CameraPos" value="-0.552541 0.3432 -0.779946" />
+				<property name="CameraYaw" value="0.579998" />
+				<property name="CameraPitch" value="0.125" />
+				<property name="HasCameraPose" value="true" />
+			</struct>
+		</struct>
+	</properties>
+
+	<component id="DebugHitBoxMesh" class="EGMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="0.25 0.25 0.25" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="/egdata/mesh/debug/box1x1x1" />
+				</struct>
+			</struct>
+		</properties>
+	</component>
+
+	<component id="PhysBody0" class="EGPhysBodyComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_BodyClass" value="EGPxPhysBody" />
+				<struct name="m_BodyFlags" ed_expanded="true" >
+					<property name="bKinematicEnabled" value="true" />
+					<property name="bCollisionEnabled" value="true" />
+					<property name="bRaycastHitEnabled" value="true" />
+					<property name="bIsTrigger" value="false" />
+					<property name="bNoRotateX" value="false" />
+					<property name="bNoRotateY" value="false" />
+					<property name="bNoRotateZ" value="false" />
+					<property name="bNoMoveX" value="false" />
+					<property name="bNoMoveY" value="false" />
+					<property name="bNoMoveZ" value="false" />
+				</struct>
+				<array name="m_Shapes" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="Type" value="Box" />
+						<property name="Pose" value="RqTS1:-0 0 -0 1 , 0 0 0 , 1" />
+						<property name="Mass" value="160" />
+						<property name="StaticFriction" value="0" />
+						<property name="DynamicFriction" value="0" />
+						<property name="Restitution" value="0" />
+						<property name="Radius" value="1" />
+						<property name="Height" value="1" />
+						<property name="XDim" value="0.26" />
+						<property name="YDim" value="0.26" />
+						<property name="ZDim" value="0.26" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<component id="SoundPlayer0" class="EGSoundPlayerComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<array name="m_Sounds" ed_expanded="true" reserve_size="6" >
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="Walk1" />
+						<property name="Filename" value="/WalkingSounds/LS1Cave" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="Walk2" />
+						<property name="Filename" value="/WalkingSounds/LS2Cave" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="Walk3" />
+						<property name="Filename" value="/WalkingSounds/LS3Cave" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="Turn1" />
+						<property name="Filename" value="/WalkingSounds/Slidestep1" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="Turn2" />
+						<property name="Filename" value="/WalkingSounds/Slidestep2" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="Turn3" />
+						<property name="Filename" value="/WalkingSounds/Slidestep3" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<timeline id="Init" editor_frame_time="0.5">
+		<keyframe time="0">DebugHitBoxMesh.SetPalette(1,0,1,.5);&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="Walk1" editor_frame_time="0.5">
+		<keyframe time="0">&#xA;&#x9;&#x9;&#x9;SoundPlayer0.PlaySound(&quot;Walk1&quot;);&#xA;&#x9;&#x9;</keyframe>
+	</timeline>
+
+	<timeline id="Walk2" editor_frame_time="0.5">
+		<keyframe time="0">&#xA;&#x9;&#x9;&#x9;SoundPlayer0.PlaySound(&quot;Walk2&quot;);&#xA;&#x9;&#x9;</keyframe>
+	</timeline>
+
+	<timeline id="Walk3" editor_frame_time="0.5">
+		<keyframe time="0">&#xA;&#x9;&#x9;&#x9;SoundPlayer0.PlaySound(&quot;Walk3&quot;);&#xA;&#x9;&#x9;</keyframe>
+	</timeline>
+
+	<timeline id="Halt" editor_frame_time="0.5">
+		<keyframe time="0">&#xA;&#x9;&#x9;&#x9;SoundPlayer0.PlaySound(&quot;Walk3&quot;);&#xA;&#x9;&#x9;</keyframe>
+	</timeline>
+
+	<timeline id="Turn1" editor_frame_time="0.5">
+		<keyframe time="0">&#xA;&#x9;&#x9;&#x9;SoundPlayer0.PlaySound(&quot;Turn2&quot;);&#xA;&#x9;&#x9;</keyframe>
+	</timeline>
+
+	<timeline id="Turn2" editor_frame_time="0.5">
+		<keyframe time="0">&#xA;&#x9;&#x9;&#x9;SoundPlayer0.PlaySound(&quot;Turn3&quot;);&#xA;&#x9;&#x9;</keyframe>
+	</timeline>
+
+</edef>

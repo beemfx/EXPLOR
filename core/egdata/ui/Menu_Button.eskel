@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eskel version="106" format="base64" >
+	<animation id="1" name="Init" first_frame="1" frames="1" mode="default" />
+	<animation id="2" name="Select" first_frame="2" frames="1" mode="default" />
+	<animation id="3" name="Deselect" first_frame="1" frames="1" mode="default" />
+
+	<joint id="1" name="jointHlt" parent="0" position="AAAAANAQ5znQEOe5" rotation="AAAAAAAAAIAAAACA"/>
+
+	<frame id="1">
+		<joint_pose joint="1" position="AAAAAAAAAADNzMw9" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="2">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAIAAAACA"/>
+	</frame>
+
+</eskel>

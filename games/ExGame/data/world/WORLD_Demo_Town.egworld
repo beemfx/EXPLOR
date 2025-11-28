@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egworld>
+	<globals>
+		<struct name="Globals" ed_expanded="true" >
+			<property name="GravityVector" value="0 -9.8 0" />
+			<struct name="EditorSettings" ed_expanded="true" >
+				<property name="bDrawGrid" value="true" />
+				<property name="GridOffset" value="-93 1 3" />
+				<property name="GridSpacing" value="6" />
+				<property name="GridSize" value="25 30" />
+				<property name="GridColor" value="ARGB32:255 128 128 128" />
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bMoveInFrontOfCameraTargetsGrid" value="true" />
+				<property name="bSnapToGridAlsoAlignsToAxis" value="true" />
+				<struct name="SpawnAtCamera" ed_expanded="true" >
+					<property name="Ent" value="ENT_Treasure_01" />
+					<property name="SpawnMode" value="InFrontOfCameraSnapToGrid" />
+					<property name="NextIndex" value="11" />
+					<property name="LabelStringFmt" value="DTT_{0:INDEX}" />
+					<property name="InitStringFmt" value="SetId(&quot;DTT_{0:INDEX}&quot;);&#xD;&#xA;AddItem(&quot;MaceBasic&quot;,1);" />
+				</struct>
+			</struct>
+		</struct>
+	</globals>
+	<editor_config>
+		<struct name="EditorConfig" ed_expanded="true" >
+			<property name="CameraPose" value="RqTS1:-0.00430124 0.974413 -0.223942 -0.0187155 , -62.7225 2.76232 6.75379 , 1" />
+		</struct>
+	</editor_config>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="Sky" />
+			<property name="m_Pose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="TownSky" />
+			<property name="m_InitializationString" value="" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectMap">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="Map" />
+			<property name="m_Pose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_MapFile" value="/game/mapsf/map_demo_town" />
+			<property name="m_bSpawnMapEntities" value="true" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="Trans_LoadFromInn" />
+			<property name="m_Pose" value="RqTS1:0 -0.707107 0 0.707107 , -21 1 21 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_MapTrans_Invisible" />
+			<property name="m_InitializationString" value="SetId( &quot;LoadFromInn&quot; );" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="Trans_DemoDungeon" />
+			<property name="m_Pose" value="RqTS1:0 -0.707107 0 0.707107 , -93 0 15 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_MapTrans_SewerLadder" />
+			<property name="m_InitializationString" value="SetId( &quot;DemoDungeonEntrance&quot; );&#xD;&#xA;SetScript( &quot;SCR_MapTransitions.DemoTownToDemoDungeon&quot; );" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="Trans_TownPortal" />
+			<property name="m_Pose" value="RqTS1:0 1 0 -1.19209e-07 , -63 1 3 , 1" />
+			<property name="m_bIsLockedInTool" value="false" />
+			<property name="m_EntityDefinition" value="ENT_MapTrans_Invisible" />
+			<property name="m_InitializationString" value="SetId(&quot;TownPortal&quot;);" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="TransSpawner_TownPortalArch" />
+			<property name="m_Pose" value="RqTS1:0 1 0 -1.19209e-07 , -63 0 3 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_MapObject_EntranceSpawner" />
+			<property name="m_InitializationString" value="TownPortal" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="Trans_GameStart" />
+			<property name="m_Pose" value="RqTS1:0 0.707107 0 -0.707107 , -63 1 27 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_MapTrans_Invisible" />
+			<property name="m_InitializationString" value="SetId(&quot;GameStart&quot;);" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="TownGround" />
+			<property name="m_Pose" value="RqTS1:0 0 0 1 , 60 -0.6 30 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_W_TownGround" />
+			<property name="m_InitializationString" value="" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObject">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="WorldObject" />
+			<property name="m_Pose" value="RqTS1:0 0 0 1 , 1 5 -2 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+		</struct>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro1Spline_0" />
+				<property name="m_Pose" value="RqTS1:0.0748119 0.848719 -0.124887 0.508412 , -60.4545 6.02309 48.3546 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro1&quot;);&#xD;&#xA;SetSplineIndex(0);" />
+			</struct>
+		</worldobject>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro1Spline_1" />
+				<property name="m_Pose" value="RqTS1:0.0797561 0.769031 -0.0978825 0.626618 , -63.3057 6.04569 38.4204 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro1&quot;);&#xD;&#xA;SetSplineIndex(1);" />
+			</struct>
+		</worldobject>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro1Spline_2" />
+				<property name="m_Pose" value="RqTS1:0.0784991 0.73199 -0.0855896 0.671345 , -64.3387 3.15037 26.0392 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro1&quot;);&#xD;&#xA;SetSplineIndex(2);" />
+			</struct>
+		</worldobject>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro1Spline_3" />
+				<property name="m_Pose" value="RqTS1:0.0882797 0.579845 -0.0633957 0.807445 , -63.3885 3.16287 15.9884 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro1&quot;);&#xD;&#xA;SetSplineIndex(3);" />
+			</struct>
+		</worldobject>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro1Spline_4" />
+				<property name="m_Pose" value="RqTS1:0.109709 0.511422 -0.0660297 0.849736 , -61.2035 3.13289 10.7856 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro1&quot;);&#xD;&#xA;SetSplineIndex(4);" />
+			</struct>
+		</worldobject>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro1Spline_5" />
+				<property name="m_Pose" value="RqTS1:0.0697967 0.332465 -0.0246807 0.940205 , -49.1181 0.553535 7.74997 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro1&quot;);&#xD;&#xA;SetSplineIndex(5);" />
+			</struct>
+		</worldobject>
+	</worldobject>
+	<worldobject class="EGWorldObject">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="WorldObject0" />
+			<property name="m_Pose" value="RqTS1:0 0 0 1 , 0 0.5 6 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+		</struct>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro2Spline_0" />
+				<property name="m_Pose" value="RqTS1:-0.089986 0.269029 -0.0252548 -0.958587 , -25.0063 10.626 14.3773 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro2&quot;);&#xD;&#xA;SetSplineIndex(0);" />
+			</struct>
+		</worldobject>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro2Spline_1" />
+				<property name="m_Pose" value="RqTS1:-0.139303 0.0688748 -0.00971294 -0.987804 , -33.9605 11.1794 10.3655 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro2&quot;);&#xD;&#xA;SetSplineIndex(1);" />
+			</struct>
+		</worldobject>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro2Spline_2" />
+				<property name="m_Pose" value="RqTS1:0.161189 0.0913339 -0.0149831 0.982574 , -43.3243 11.4438 11.3379 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro2&quot;);&#xD;&#xA;SetSplineIndex(2);" />
+			</struct>
+		</worldobject>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro2Spline_3" />
+				<property name="m_Pose" value="RqTS1:0.171363 0.161451 -0.0284793 0.971472 , -51.2569 11.5837 13.8099 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro2&quot;);&#xD;&#xA;SetSplineIndex(3);" />
+			</struct>
+		</worldobject>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro2Spline_4" />
+				<property name="m_Pose" value="RqTS1:0.0858281 0.407304 -0.0384817 0.908436 , -59.4969 7.11447 21.0097 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro2&quot;);&#xD;&#xA;SetSplineIndex(4);" />
+			</struct>
+		</worldobject>
+	</worldobject>
+	<worldobject class="EGWorldObject">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="WorldObject1" />
+			<property name="m_Pose" value="RqTS1:0 0 0 1 , -2 1 0 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+		</struct>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro3Spline_0" />
+				<property name="m_Pose" value="RqTS1:0.0334981 0.715128 -0.0343524 0.697345 , -90 4.24827 27 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro3&quot;);&#xD;&#xA;SetSplineIndex(0);" />
+			</struct>
+		</worldobject>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro3Spline_1" />
+				<property name="m_Pose" value="RqTS1:0.0052921 0.708563 -0.00531426 0.705608 , -82.1426 3.79132 27 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro3&quot;);&#xD;&#xA;SetSplineIndex(1);" />
+			</struct>
+		</worldobject>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro3Spline_2" />
+				<property name="m_Pose" value="RqTS1:0.0052905 0.708774 -0.00531584 0.705396 , -76.1383 3.70122 27 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro3&quot;);&#xD;&#xA;SetSplineIndex(2);" />
+			</struct>
+		</worldobject>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro3Spline_3" />
+				<property name="m_Pose" value="RqTS1:0.0505928 0.709065 -0.051141 0.701464 , -72.2258 3.2539 27 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro3&quot;);&#xD;&#xA;SetSplineIndex(3);" />
+			</struct>
+		</worldobject>
+		<worldobject class="EGWorldObjectEntity">
+			<struct name="WorldObject" ed_expanded="true" >
+				<property name="m_Id" value="TownIntro3Spline_4" />
+				<property name="m_Pose" value="RqTS1:0.0694061 0.708475 -0.070369 0.69878 , -69.9357 2.88471 27 , 1" />
+				<property name="m_bIsLockedInTool" value="true" />
+				<property name="m_EntityDefinition" value="ENT_CameraSplineNode" />
+				<property name="m_InitializationString" value="SetSplineId(&quot;TownIntro3&quot;);&#xD;&#xA;SetSplineIndex(4);" />
+			</struct>
+		</worldobject>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="DemoTownChest_1 (Key, In Town)" />
+			<property name="m_Pose" value="RqTS1:0 -1 0 -5.96047e-08 , -27 0 33 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_Treasure_01" />
+			<property name="m_InitializationString" value="SetId(&quot;DTT_7&quot;);&#xD;&#xA;AddQuestItem(&quot;DemoQuestKey&quot;);" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="NPC - Quest Giver" />
+			<property name="m_Pose" value="RqTS1:0 -0.707107 0 0.707107 , -15 1 27 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_NPC_DemoQuestGiver" />
+			<property name="m_InitializationString" value="" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="NPC - Services" />
+			<property name="m_Pose" value="RqTS1:0 -0.707107 0 0.707107 , -15 1 21 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_NPC_DemoServices" />
+			<property name="m_InitializationString" value="" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="NPC - Gossip" />
+			<property name="m_Pose" value="RqTS1:0 -0.707107 0 0.707107 , -15 1 15 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_NPC_DemoGossip" />
+			<property name="m_InitializationString" value="" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="Shelf" />
+			<property name="m_Pose" value="RqTS1:0 0.707107 0 0.707107 , -27 1 15 , 1" />
+			<property name="m_bIsLockedInTool" value="false" />
+			<property name="m_EntityDefinition" value="ENT_Cosmetic_Shelf" />
+			<property name="m_InitializationString" value="" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="TownBuildingNote" />
+			<property name="m_Pose" value="RqTS1:0 -0.707107 0 0.707107 , -33 1 33 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_IO_WallNote_Town" />
+			<property name="m_InitializationString" value="SCR_DemoWallNotes.TownBuildingNote" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="DemoQuestLever" />
+			<property name="m_Pose" value="RqTS1:0 -1 0 -1.19209e-07 , -39 1 45.4 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_IO_Lever" />
+			<property name="m_InitializationString" value="SetControlVar(&quot;DemoQuestLeverState&quot;);" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="DemoQuestLeverInteraction" />
+			<property name="m_Pose" value="RqTS1:0 1 0 -1.19209e-07 , -39 1 45 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_IO_ScriptExec_Facing" />
+			<property name="m_InitializationString" value="SCR_DemoQuest.LeverInteraction" />
+		</struct>
+	</worldobject>
+</egworld>

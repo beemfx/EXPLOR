@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eloc language="en-US">
+	<!-- BEGIN ASSET-LOC Text TEXT -->
+	<text key="CastleGameText_0" string="Thanks for choosing to play, but Castle Game is not available in this demo." />
+	<text key="CastleGameText_1" string="Okay" />
+	<text key="CastleGameText_2" string="Castle Demo" />
+	<text key="CastleGameText_3" string="Welcome to the Castle Demo" />
+	<text key="CastleGameText_4" string="New Game" />
+	<text key="CastleGameText_5" string="Quit" />
+	<text key="CoreLibLoc_3" string="Do you want to travel to the next map?" />
+	<text key="CoreLibLoc_8" string="There is nowhere to teleport to. The party must first teleport from the dungeon in order to return to it." />
+	<text key="CoreLibLoc_10" string="Combat {0:VARS:TotalCombats} was completed. Each party member earned {0:VARS:DebugCombatXp} |SC(EX_ATTR)|XP|RC()|. |SC(EX_GOLD)|{0:VARS:DebugCombatGold}|RC()| gold was found." />
+	<text key="InnLib_0" string="Pay |SetColor(EX_GOLD)|{0:VARS:NextCostForFood} gold|RestoreColor()| to restock the party&apos;s supply to {0:VARS:NextBuyFoodAmount} food?" />
+	<text key="InnLib_1" string="You need |SetColor(EX_GOLD)|{0:VARS:NextCostForFood} gold|RestoreColor()| to restock the party&apos;s food." />
+	<text key="InnLib_2" string="Welcome to the Rest Easy Inn. How can I help you?" />
+	<text key="InnLib_3" string="Leave the Inn" />
+	<text key="InnLib_4" string="Buy Food" />
+	<text key="InnLib_5" string="Edit Roster" />
+	<text key="InnLib_6" string="Sleep (Save and Quit)" />
+	<text key="InnLib_7" string="No problem. Anything else I can help you with?" />
+	<text key="InnLib_8" string="Leave the Inn" />
+	<text key="InnLib_9" string="Buy Food" />
+	<text key="InnLib_10" string="Edit Roster" />
+	<text key="InnLib_11" string="Sleep (Save and Quit)" />
+	<text key="DemoText_0" string="Demo Gossiper" />
+	<text key="DemoQuestText_0" string="Demo Quest Giver" />
+	<text key="DemoQuestText_1" string="Welcome to the Demo. To complete the quest, find the |SC(EX_ITEM)|Demo Key|RC()| to open the room in town. Then flip the lever and return to me." />
+	<text key="DemoQuestText_2" string="Remember to find the |SC(EX_ITEM)|Demo Key|RC()| and switch the lever." />
+	<text key="DemoQuestText_3" string="You have found a |SC(EX_ITEM)|Demo Key|RC()| in some old boxes." />
+	<text key="DemoQuestText_5" string="You have the |SC(EX_ITEM)|Demo Key|RC()|, but you still need to switch the lever." />
+	<text key="DemoQuestText_6" string="There is a lever before you, do you wish to switch it?" />
+	<text key="DemoQuestText_7" string="Thank you for switching the lever. You&apos;ve completed the demo!" />
+	<text key="DemoQuestText_8" string="The demo is complete. Thanks for playing!" />
+	<text key="DemoServicesText_0" string="Demo Services" />
+	<text key="DemoServicesText_1" string="Would you like services?" />
+	<text key="DemoServicesText_2" string="I am the Demo Services person. Normally my services would be from different NPCs, but you&apos;re in luck in this demo I do them all." />
+	<text key="DemoServicesText_3" string="Okay" />
+	<text key="DemoServicesText_7" string="What service would you like?" />
+	<text key="DemoServicesText_8" string="Blacksmith" />
+	<text key="DemoServicesText_9" string="Training" />
+	<text key="DemoServicesText_10" string="Healing" />
+	<text key="DemoServicesText_11" string="Visit Inn" />
+	<text key="DemoServicesText_12" string="None" />
+	<text key="DemoWallNotes_Text0" string="Demo Test Building" />
+	<text key="DemoWallNotes_Text1" string="The key is blocked by a boss creature." />
+	<text key="SCR_EndGame_0" string="E.X.P.L.O.R.|SUP|TM|SUP|: A New World has been completed already, but thanks for visiting the end of the game again." />
+	<text key="SCR_EndGame_1" string="Watch the Ending and Return to Town." />
+	<text key="SCR_EndGame_2" string="Leave." />
+	<text key="SCR_EndGame_3" string="Core Matter" />
+	<text key="SCR_EndGame_4" string="The Core Matter containment chamber has a pleasant glow. Clearly, it was brought here from another world and is the source of the fantastic beasts that ravaged Altera." />
+	<text key="SCR_EndGame_5" string="Take the Core Matter and repair the ship." />
+	<text key="SCR_EndGame_6" string="Leave." />
+	<text key="SCR_MapTransitions_0" string="This script will transfer you to another map. Take the exit?" />
+	<text key="SCR_MapTransitions_1" string="Do you want to travel back to the Demo Town?" />
+	<text key="SCR_MapTransitions_2" string="Travel through portal back to dungeon?" />
+	<text key="SCR_MapTransitions_3" string="Yes" />
+	<text key="SCR_MapTransitions_4" string="No" />
+	<text key="ShopLibText_0" string="You need |SC(EX_GOLD)|{0:VARS:NextCostToHeal} gold|RC()| to heal the party." />
+	<!-- END ASSET-LOC Text TEXT -->
+</eloc>

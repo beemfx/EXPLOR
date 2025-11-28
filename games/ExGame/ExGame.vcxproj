@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugEditor|x64">
+      <Configuration>DebugEditor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseEditor|x64">
+      <Configuration>ReleaseEditor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FB5A37C6-1756-4AE0-9DEB-69038DC9B20B}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugEditor|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugEditor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>$(ProjectName)_$(PlatformShortName)_$(Configuration)</TargetName>
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)_BUILD\bin\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>$(ProjectName)_$(PlatformShortName)</TargetName>
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)_BUILD\bin\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugEditor|x64'">
+    <TargetName>$(ProjectName)_$(PlatformShortName)_$(Configuration)</TargetName>
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)_BUILD\bin\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|x64'">
+    <TargetName>$(ProjectName)_$(PlatformShortName)_$(Configuration)</TargetName>
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)_BUILD\bin\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__BREAKASSERT__;__GAMELIB__;__DEBUG__;__WIN64__;_DEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../../core/lib3p;code;code/combat;code/entity;code/entity/components;code/gamedata;code/menus;code/overlays;code/ui;code/ui/combat;../../core/eglib;../../core/eglib/EG2Lib;../../core/eglib/EG2Lib/Math;../../core/eglib/EG2Lib/Primitives;../../core/eglib/egwnd;../../core/eglib/ext_sys;../../core/eglib/math;../../core/eglib/mem;../../core/eglib/net;../../core/eglib/serialize;../../core/eglib/string;../../core/eglib/templates;../../core/eglib/text;../../core/eglib/utilities;../../core/engine;../../core/engine/audio;../../core/engine/audio/noaudio;../../core/engine/audio/xaudio2;../../core/engine/client_sys;../../core/engine/editor_sys;../../core/engine/egsm_sys;../../core/engine/engine_lib;../../core/engine/engine_sys;../../core/engine/engine_sys/components;../../core/engine/entity_sys;../../core/engine/entity_sys/components;../../core/engine/game_lib;../../core/engine/input_sys;../../core/engine/loc_sys;../../core/engine/map_sys;../../core/engine/mesh_sys;../../core/engine/net_sys;../../core/engine/phys_sys;../../core/engine/phys_sys/BeemPhys;../../core/engine/platform_sys;../../core/engine/renderer;../../core/engine/renderer/d3d11;../../core/engine/renderer/null;../../core/engine/renderer/shared;../../core/engine/server_sys;../../core/engine/sound_sys;../../core/engine/ui_sys;../../core/engine/ui_sys/text;../../core/engine/ui_sys/widgets;../../core/engine/world;../../core/foundation;../../core/foundation/config;../../core/foundation/editor;../../core/foundation/egsm;../../core/foundation/gamedata;../../core/foundation/gcx;../../core/foundation/loc;../../core/foundation/mem;../../core/foundation/mesh;../../core/foundation/ms3d;../../core/foundation/platform;../../core/foundation/reflection;../../core/foundation/renderer;../../core/foundation/serialize;../../core/foundation/types;../../core/foundation/world;$(SolutionDir)_BUILD\generated_code\reflection\core\;$(SolutionDir)_BUILD\generated_code\reflection\$(ProjectName)\;$(SolutionDir)_BUILD\generated_code\platform\</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>EGEngineCommon.h</ForcedIncludeFiles>
+      <ExceptionHandling>false</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\core\libs\;$(SolutionDir)_BUILD\libs\$(PlatformShortName)_$(Configuration)\;$(SolutionDir)_BUILD\lib3p_build\libs\$(PlatformShortName)_$(Configuration)\;$(SolutionDir)_BUILD\eg\lib\$(PlatformShortName)_$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>eglib.lib;egfoundation.lib;eg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__BREAKASSERT__;__GAMELIB__;__RELEASE__;__WIN64__;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../core/lib3p;code;code/combat;code/entity;code/entity/components;code/gamedata;code/menus;code/overlays;code/ui;code/ui/combat;../../core/eglib;../../core/eglib/EG2Lib;../../core/eglib/EG2Lib/Math;../../core/eglib/EG2Lib/Primitives;../../core/eglib/egwnd;../../core/eglib/ext_sys;../../core/eglib/math;../../core/eglib/mem;../../core/eglib/net;../../core/eglib/serialize;../../core/eglib/string;../../core/eglib/templates;../../core/eglib/text;../../core/eglib/utilities;../../core/engine;../../core/engine/audio;../../core/engine/audio/noaudio;../../core/engine/audio/xaudio2;../../core/engine/client_sys;../../core/engine/editor_sys;../../core/engine/egsm_sys;../../core/engine/engine_lib;../../core/engine/engine_sys;../../core/engine/engine_sys/components;../../core/engine/entity_sys;../../core/engine/entity_sys/components;../../core/engine/game_lib;../../core/engine/input_sys;../../core/engine/loc_sys;../../core/engine/map_sys;../../core/engine/mesh_sys;../../core/engine/net_sys;../../core/engine/phys_sys;../../core/engine/phys_sys/BeemPhys;../../core/engine/platform_sys;../../core/engine/renderer;../../core/engine/renderer/d3d11;../../core/engine/renderer/null;../../core/engine/renderer/shared;../../core/engine/server_sys;../../core/engine/sound_sys;../../core/engine/ui_sys;../../core/engine/ui_sys/text;../../core/engine/ui_sys/widgets;../../core/engine/world;../../core/foundation;../../core/foundation/config;../../core/foundation/editor;../../core/foundation/egsm;../../core/foundation/gamedata;../../core/foundation/gcx;../../core/foundation/loc;../../core/foundation/mem;../../core/foundation/mesh;../../core/foundation/ms3d;../../core/foundation/platform;../../core/foundation/reflection;../../core/foundation/renderer;../../core/foundation/serialize;../../core/foundation/types;../../core/foundation/world;$(SolutionDir)_BUILD\generated_code\reflection\core\;$(SolutionDir)_BUILD\generated_code\reflection\$(ProjectName)\;$(SolutionDir)_BUILD\generated_code\platform\</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>EGEngineCommon.h</ForcedIncludeFiles>
+      <ExceptionHandling>false</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>eglib.lib;egfoundation.lib;eg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\core\libs\;$(SolutionDir)_BUILD\libs\$(PlatformShortName)_$(Configuration)\;$(SolutionDir)_BUILD\lib3p_build\libs\$(PlatformShortName)_$(Configuration)\;$(SolutionDir)_BUILD\eg\lib\$(PlatformShortName)_$(Configuration)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugEditor|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__BREAKASSERT__;__EGEDITOR__;__GAMELIB__;__DEBUG__;__WIN64__;_DEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../../core/lib3p;code;code/combat;code/entity;code/entity/components;code/gamedata;code/menus;code/overlays;code/ui;code/ui/combat;../../core/eglib;../../core/eglib/EG2Lib;../../core/eglib/EG2Lib/Math;../../core/eglib/EG2Lib/Primitives;../../core/eglib/egwnd;../../core/eglib/ext_sys;../../core/eglib/math;../../core/eglib/mem;../../core/eglib/net;../../core/eglib/serialize;../../core/eglib/string;../../core/eglib/templates;../../core/eglib/text;../../core/eglib/utilities;../../core/engine;../../core/engine/audio;../../core/engine/audio/noaudio;../../core/engine/audio/xaudio2;../../core/engine/client_sys;../../core/engine/editor_sys;../../core/engine/egsm_sys;../../core/engine/engine_lib;../../core/engine/engine_sys;../../core/engine/engine_sys/components;../../core/engine/entity_sys;../../core/engine/entity_sys/components;../../core/engine/game_lib;../../core/engine/input_sys;../../core/engine/loc_sys;../../core/engine/map_sys;../../core/engine/mesh_sys;../../core/engine/net_sys;../../core/engine/phys_sys;../../core/engine/phys_sys/BeemPhys;../../core/engine/platform_sys;../../core/engine/renderer;../../core/engine/renderer/d3d11;../../core/engine/renderer/null;../../core/engine/renderer/shared;../../core/engine/server_sys;../../core/engine/sound_sys;../../core/engine/ui_sys;../../core/engine/ui_sys/text;../../core/engine/ui_sys/widgets;../../core/engine/world;../../core/foundation;../../core/foundation/config;../../core/foundation/editor;../../core/foundation/egsm;../../core/foundation/gamedata;../../core/foundation/gcx;../../core/foundation/loc;../../core/foundation/mem;../../core/foundation/mesh;../../core/foundation/ms3d;../../core/foundation/platform;../../core/foundation/reflection;../../core/foundation/renderer;../../core/foundation/serialize;../../core/foundation/types;../../core/foundation/world;$(SolutionDir)_BUILD\generated_code\reflection\core\;$(SolutionDir)_BUILD\generated_code\reflection\$(ProjectName)\;$(SolutionDir)_BUILD\generated_code\platform\</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>EGEngineCommon.h</ForcedIncludeFiles>
+      <ExceptionHandling>false</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\core\libs\;$(SolutionDir)_BUILD\libs\$(PlatformShortName)_Debug\;$(SolutionDir)_BUILD\lib3p_build\libs\$(PlatformShortName)_Debug\;$(SolutionDir)_BUILD\eg\lib\$(PlatformShortName)_$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>eglib.lib;egfoundation.lib;eg.lib;EGEdLib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__BREAKASSERT__;__EGEDITOR__;__GAMELIB__;__RELEASE__;__WIN64__;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../core/lib3p;code;code/combat;code/entity;code/entity/components;code/gamedata;code/menus;code/overlays;code/ui;code/ui/combat;../../core/eglib;../../core/eglib/EG2Lib;../../core/eglib/EG2Lib/Math;../../core/eglib/EG2Lib/Primitives;../../core/eglib/egwnd;../../core/eglib/ext_sys;../../core/eglib/math;../../core/eglib/mem;../../core/eglib/net;../../core/eglib/serialize;../../core/eglib/string;../../core/eglib/templates;../../core/eglib/text;../../core/eglib/utilities;../../core/engine;../../core/engine/audio;../../core/engine/audio/noaudio;../../core/engine/audio/xaudio2;../../core/engine/client_sys;../../core/engine/editor_sys;../../core/engine/egsm_sys;../../core/engine/engine_lib;../../core/engine/engine_sys;../../core/engine/engine_sys/components;../../core/engine/entity_sys;../../core/engine/entity_sys/components;../../core/engine/game_lib;../../core/engine/input_sys;../../core/engine/loc_sys;../../core/engine/map_sys;../../core/engine/mesh_sys;../../core/engine/net_sys;../../core/engine/phys_sys;../../core/engine/phys_sys/BeemPhys;../../core/engine/platform_sys;../../core/engine/renderer;../../core/engine/renderer/d3d11;../../core/engine/renderer/null;../../core/engine/renderer/shared;../../core/engine/server_sys;../../core/engine/sound_sys;../../core/engine/ui_sys;../../core/engine/ui_sys/text;../../core/engine/ui_sys/widgets;../../core/engine/world;../../core/foundation;../../core/foundation/config;../../core/foundation/editor;../../core/foundation/egsm;../../core/foundation/gamedata;../../core/foundation/gcx;../../core/foundation/loc;../../core/foundation/mem;../../core/foundation/mesh;../../core/foundation/ms3d;../../core/foundation/platform;../../core/foundation/reflection;../../core/foundation/renderer;../../core/foundation/serialize;../../core/foundation/types;../../core/foundation/world;$(SolutionDir)_BUILD\generated_code\reflection\core\;$(SolutionDir)_BUILD\generated_code\reflection\$(ProjectName)\;$(SolutionDir)_BUILD\generated_code\platform\</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>EGEngineCommon.h</ForcedIncludeFiles>
+      <ExceptionHandling>false</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>eglib.lib;egfoundation.lib;eg.lib;EGEdLib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\core\libs\;$(SolutionDir)_BUILD\libs\$(PlatformShortName)_Release\;$(SolutionDir)_BUILD\lib3p_build\libs\$(PlatformShortName)_Release\;$(SolutionDir)_BUILD\eg\lib\$(PlatformShortName)_$(Configuration)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="code\combat\ExCombat.cpp" />
+    <ClCompile Include="code\combat\ExCombatAI.cpp" />
+    <ClCompile Include="code\combat\ExCombatant.cpp" />
+    <ClCompile Include="code\combat\ExCombatTeam.cpp" />
+    <ClCompile Include="code\entity\components\ExAmbientSoundControllerComponent.cpp" />
+    <ClCompile Include="code\entity\components\ExLookAtComponent.cpp" />
+    <ClCompile Include="code\entity\components\ExMapIconComponent.cpp" />
+    <ClCompile Include="code\entity\components\ExMapObjectComponent.cpp" />
+    <ClCompile Include="code\entity\components\ExMonsterSpriteComponent.cpp" />
+    <ClCompile Include="code\entity\components\ExNpcComponent.cpp" />
+    <ClCompile Include="code\entity\components\ExNpcSpawnerComponent.cpp" />
+    <ClCompile Include="code\entity\components\ExScriptExecComponent.cpp" />
+    <ClCompile Include="code\entity\components\ExVarControllerComponent.cpp" />
+    <ClCompile Include="code\entity\ExCameraSplineNodeEnt.cpp" />
+    <ClCompile Include="code\entity\ExCosmeticEnt.cpp" />
+    <ClCompile Include="code\entity\ExDoor.cpp" />
+    <ClCompile Include="code\entity\ExEnemyController.cpp" />
+    <ClCompile Include="code\entity\ExEnt.cpp" />
+    <ClCompile Include="code\entity\ExFreeMovePlayerController.cpp" />
+    <ClCompile Include="code\entity\ExGenericIoEnt.cpp" />
+    <ClCompile Include="code\entity\ExIoEnt.cpp" />
+    <ClCompile Include="code\entity\ExMapNavBase.cpp" />
+    <ClCompile Include="code\entity\ExMapTransitionEnt.cpp" />
+    <ClCompile Include="code\entity\ExMonsterSpawner.cpp" />
+    <ClCompile Include="code\entity\ExPlayerController.cpp" />
+    <ClCompile Include="code\entity\ExTorch.cpp" />
+    <ClCompile Include="code\entity\ExTreasureChest.cpp" />
+    <ClCompile Include="code\gamedata\ExAchievements.cpp" />
+    <ClCompile Include="code\gamedata\ExArmory.cpp" />
+    <ClCompile Include="code\gamedata\ExArmoryItem.cpp" />
+    <ClCompile Include="code\gamedata\ExBeastiary.cpp" />
+    <ClCompile Include="code\gamedata\ExCombatEncounter.cpp" />
+    <ClCompile Include="code\gamedata\ExCreditsData.cpp" />
+    <ClCompile Include="code\gamedata\ExDayNightCycles.cpp" />
+    <ClCompile Include="code\gamedata\ExGlobalData.cpp" />
+    <ClCompile Include="code\gamedata\ExGlobalText.cpp" />
+    <ClCompile Include="code\gamedata\ExLoadingHints.cpp" />
+    <ClCompile Include="code\gamedata\ExMapInfos.cpp" />
+    <ClCompile Include="code\gamedata\ExNpcGossip.cpp" />
+    <ClCompile Include="code\gamedata\ExPortraits.cpp" />
+    <ClCompile Include="code\gamedata\ExQuestItems.cpp" />
+    <ClCompile Include="code\gamedata\ExQuests.cpp" />
+    <ClCompile Include="code\gamedata\ExShopData.cpp" />
+    <ClCompile Include="code\gamedata\ExSkills.cpp" />
+    <ClCompile Include="code\gamedata\ExSpellBook.cpp" />
+    <ClCompile Include="code\gamedata\ExSpellInfo.cpp" />
+    <ClCompile Include="code\menus\ExAnimationMenu.cpp" />
+    <ClCompile Include="code\menus\ExBgComponent.cpp" />
+    <ClCompile Include="code\menus\ExCastleGameMenu.cpp" />
+    <ClCompile Include="code\menus\ExCastSpellInWorldMenu.cpp" />
+    <ClCompile Include="code\menus\ExCharacterCreateMenu.cpp" />
+    <ClCompile Include="code\menus\ExCharacterMenu.cpp" />
+    <ClCompile Include="code\menus\ExChoiceWidgetMenu.cpp" />
+    <ClCompile Include="code\menus\ExContextMenu.cpp" />
+    <ClCompile Include="code\menus\ExControlsSettingsMenu.cpp" />
+    <ClCompile Include="code\menus\ExConversationMenu.cpp" />
+    <ClCompile Include="code\menus\ExCreditsEndGameBgMenu.cpp" />
+    <ClCompile Include="code\menus\ExCreditsMenu.cpp" />
+    <ClCompile Include="code\menus\ExDebugCombatLauncherMenu.cpp" />
+    <ClCompile Include="code\menus\ExDebugMenu.cpp" />
+    <ClCompile Include="code\menus\ExDebugMonsterViewerMenu.cpp" />
+    <ClCompile Include="code\menus\ExDebugWarpMenu.cpp" />
+    <ClCompile Include="code\menus\ExDialogMenu.cpp" />
+    <ClCompile Include="code\menus\ExEndGameFlowMenu.cpp" />
+    <ClCompile Include="code\menus\ExFullScreenLoadingMenu.cpp" />
+    <ClCompile Include="code\menus\ExGameCreateMenu.cpp" />
+    <ClCompile Include="code\menus\ExHintBarWidget.cpp" />
+    <ClCompile Include="code\menus\ExInventoryMenu.cpp" />
+    <ClCompile Include="code\menus\ExInventoryShopMenuBase.cpp" />
+    <ClCompile Include="code\menus\ExKeyboardMenu.cpp" />
+    <ClCompile Include="code\menus\ExMainAndPauseMenuBase.cpp" />
+    <ClCompile Include="code\menus\ExMainMenu.cpp" />
+    <ClCompile Include="code\menus\ExMapMenu.cpp" />
+    <ClCompile Include="code\menus\ExMenuPortraitsGridWidget.cpp" />
+    <ClCompile Include="code\menus\ExNewGameFlowMenu.cpp" />
+    <ClCompile Include="code\menus\ExPartyCreateMenu.cpp" />
+    <ClCompile Include="code\menus\ExPauseMenu.cpp" />
+    <ClCompile Include="code\menus\ExQuestLogMenu.cpp" />
+    <ClCompile Include="code\menus\ExRestMenu.cpp" />
+    <ClCompile Include="code\menus\ExRosterMenu.cpp" />
+    <ClCompile Include="code\menus\ExScriptMenu.cpp" />
+    <ClCompile Include="code\menus\ExSettingsMenu.cpp" />
+    <ClCompile Include="code\menus\ExShopMenu.cpp" />
+    <ClCompile Include="code\menus\ExTextEditWidget.cpp" />
+    <ClCompile Include="code\menus\ExToggleWidget.cpp" />
+    <ClCompile Include="code\menus\ExTrainingMenu.cpp" />
+    <ClCompile Include="code\menus\ExTreasureChestMenu.cpp" />
+    <ClCompile Include="code\menus\ExUiSounds.cpp" />
+    <ClCompile Include="code\overlays\ExCharacterPortraitsOverlay.cpp" />
+    <ClCompile Include="code\overlays\ExCharacterPortraitWidget.cpp" />
+    <ClCompile Include="code\overlays\ExHUD.cpp" />
+    <ClCompile Include="code\overlays\ExHUDAutomap.cpp" />
+    <ClCompile Include="code\overlays\ExHUDBase.cpp" />
+    <ClCompile Include="code\overlays\ExHUDCompass.cpp" />
+    <ClCompile Include="code\overlays\ExHUDTranslatorWidget.cpp" />
+    <ClCompile Include="code\overlays\ExLoadingActivityOverlay.cpp" />
+    <ClCompile Include="code\overlays\ExProgressSavedOverlay.cpp" />
+    <ClCompile Include="code\ui\combat\ExCombatMenu.cpp" />
+    <ClCompile Include="code\ui\combat\ExCombatMenu_SubMenus.cpp" />
+    <ClCompile Include="code\ui\combat\ExCombatMenuOpponentsWidget.cpp" />
+    <ClCompile Include="code\ui\combat\ExCombatPartyWidget.cpp" />
+    <ClCompile Include="code\ui\combat\ExCombatTeamWidgetBase.cpp" />
+    <ClCompile Include="code\ui\ExHudTextWidget.cpp" />
+    <ClCompile Include="code\ui\ExInventoryBag.cpp" />
+    <ClCompile Include="code\ui\ExItemCardWidget.cpp" />
+    <ClCompile Include="code\ui\ExTextRevealComponent.cpp" />
+    <ClCompile Include="code\ui\ExTextRevealWidget.cpp" />
+    <ClCompile Include="code\ExCharacterClass.cpp" />
+    <ClCompile Include="code\ExClient.cpp" />
+    <ClCompile Include="code\ExCore.cpp" />
+    <ClCompile Include="code\ExDamage.cpp" />
+    <ClCompile Include="code\ExEngineInst.cpp" />
+    <ClCompile Include="code\ExFighter.cpp" />
+    <ClCompile Include="code\ExGame.cpp" />
+    <ClCompile Include="code\ExGameSettings.cpp" />
+    <ClCompile Include="code\ExGameTypes.cpp" />
+    <ClCompile Include="code\ExInventory.cpp" />
+    <ClCompile Include="code\ExMapping.cpp" />
+    <ClCompile Include="code\ExMenu.cpp" />
+    <ClCompile Include="code\ExProfileData.cpp" />
+    <ClCompile Include="code\ExReflectionImport.cpp" />
+    <ClCompile Include="code\ExRoster.cpp" />
+    <ClCompile Include="code\ExSaveMgr.cpp" />
+    <ClCompile Include="code\ExServer.cpp" />
+    <ClCompile Include="code\ExTime.cpp" />
+    <ClCompile Include="code\ExWinMain.cpp" />
+    <ClCompile Include="code\ExWorldRenderPipe.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\combat\ExCombat.h" />
+    <ClInclude Include="code\combat\ExCombatAI.h" />
+    <ClInclude Include="code\combat\ExCombatant.h" />
+    <ClInclude Include="code\combat\ExCombatTeam.h" />
+    <ClInclude Include="code\combat\ExCombatTypes.h" />
+    <ClInclude Include="code\entity\components\ExAmbientSoundControllerComponent.h" />
+    <ClInclude Include="code\entity\components\ExLookAtComponent.h" />
+    <ClInclude Include="code\entity\components\ExMapIconComponent.h" />
+    <ClInclude Include="code\entity\components\ExMapObjectComponent.h" />
+    <ClInclude Include="code\entity\components\ExMonsterSpriteComponent.h" />
+    <ClInclude Include="code\entity\components\ExNpcComponent.h" />
+    <ClInclude Include="code\entity\components\ExNpcSpawnerComponent.h" />
+    <ClInclude Include="code\entity\components\ExScriptExecComponent.h" />
+    <ClInclude Include="code\entity\components\ExVarControllerComponent.h" />
+    <ClInclude Include="code\entity\ExCameraSplineNodeEnt.h" />
+    <ClInclude Include="code\entity\ExCosmeticEnt.h" />
+    <ClInclude Include="code\entity\ExDoor.h" />
+    <ClInclude Include="code\entity\ExEnemyController.h" />
+    <ClInclude Include="code\entity\ExEnt.h" />
+    <ClInclude Include="code\entity\ExGenericIoEnt.h" />
+    <ClInclude Include="code\entity\ExIoEnt.h" />
+    <ClInclude Include="code\entity\ExMapNavBase.h" />
+    <ClInclude Include="code\entity\ExMapTransitionEnt.h" />
+    <ClInclude Include="code\entity\ExMonsterSpawner.h" />
+    <ClInclude Include="code\entity\ExPlayerController.h" />
+    <ClInclude Include="code\entity\ExTreasureChest.h" />
+    <ClInclude Include="code\gamedata\ExAchievements.h" />
+    <ClInclude Include="code\gamedata\ExArmory.h" />
+    <ClInclude Include="code\gamedata\ExArmoryItem.h" />
+    <ClInclude Include="code\gamedata\ExBeastiary.h" />
+    <ClInclude Include="code\gamedata\ExCombatEncounter.h" />
+    <ClInclude Include="code\gamedata\ExCreditsData.h" />
+    <ClInclude Include="code\gamedata\ExDayNightCycles.h" />
+    <ClInclude Include="code\gamedata\ExGlobalData.h" />
+    <ClInclude Include="code\gamedata\ExGlobalText.h" />
+    <ClInclude Include="code\gamedata\ExLoadingHints.h" />
+    <ClInclude Include="code\gamedata\ExMapInfos.h" />
+    <ClInclude Include="code\gamedata\ExNpcGossip.h" />
+    <ClInclude Include="code\gamedata\ExPortraits.h" />
+    <ClInclude Include="code\gamedata\ExQuestItems.h" />
+    <ClInclude Include="code\gamedata\ExQuests.h" />
+    <ClInclude Include="code\gamedata\ExShopData.h" />
+    <ClInclude Include="code\gamedata\ExSkills.h" />
+    <ClInclude Include="code\gamedata\ExSpellBook.h" />
+    <ClInclude Include="code\gamedata\ExSpellInfo.h" />
+    <ClInclude Include="code\menus\ExAnimationMenu.h" />
+    <ClInclude Include="code\menus\ExBgComponent.h" />
+    <ClInclude Include="code\menus\ExCastleGameMenu.h" />
+    <ClInclude Include="code\menus\ExCastSpellInWorldMenu.h" />
+    <ClInclude Include="code\menus\ExCharacterCreateMenu.h" />
+    <ClInclude Include="code\menus\ExCharacterMenu.h" />
+    <ClInclude Include="code\menus\ExChoiceWidgetMenu.h" />
+    <ClInclude Include="code\menus\ExConversationMenu.h" />
+    <ClInclude Include="code\menus\ExDebugCombatLauncherMenu.h" />
+    <ClInclude Include="code\menus\ExDialogMenu.h" />
+    <ClInclude Include="code\menus\ExEndGameFlowMenu.h" />
+    <ClInclude Include="code\menus\ExFullScreenLoadingMenu.h" />
+    <ClInclude Include="code\menus\ExHintBarWidget.h" />
+    <ClInclude Include="code\menus\ExInventoryShopMenuBase.h" />
+    <ClInclude Include="code\menus\ExKeyboardMenu.h" />
+    <ClInclude Include="code\menus\ExMainAndPauseMenuBase.h" />
+    <ClInclude Include="code\menus\ExMenuPortraitsGridWidget.h" />
+    <ClInclude Include="code\menus\ExNewGameFlowMenu.h" />
+    <ClInclude Include="code\menus\ExPartyCreateMenu.h" />
+    <ClInclude Include="code\menus\ExRestMenu.h" />
+    <ClInclude Include="code\menus\ExRosterMenu.h" />
+    <ClInclude Include="code\menus\ExScriptMenu.h" />
+    <ClInclude Include="code\menus\ExSettingsMenu.h" />
+    <ClInclude Include="code\menus\ExTextEditWidget.h" />
+    <ClInclude Include="code\menus\ExToggleWidget.h" />
+    <ClInclude Include="code\menus\ExUiSounds.h" />
+    <ClInclude Include="code\overlays\ExCharacterPortraitWidget.h" />
+    <ClInclude Include="code\overlays\ExHUD.h" />
+    <ClInclude Include="code\overlays\ExHUDTranslatorWidget.h" />
+    <ClInclude Include="code\ui\combat\ExCombatMenu.h" />
+    <ClInclude Include="code\ui\combat\ExCombatMenu_SubMenus.h" />
+    <ClInclude Include="code\ui\combat\ExCombatMenuOpponentsWidget.h" />
+    <ClInclude Include="code\ui\combat\ExCombatPartyWidget.h" />
+    <ClInclude Include="code\ui\combat\ExCombatTeamWidgetBase.h" />
+    <ClInclude Include="code\ui\ExHudTextWidget.h" />
+    <ClInclude Include="code\ui\ExInventoryBag.h" />
+    <ClInclude Include="code\ui\ExItemCardWidget.h" />
+    <ClInclude Include="code\ui\ExTextRevealComponent.h" />
+    <ClInclude Include="code\ui\ExTextRevealWidget.h" />
+    <ClInclude Include="code\ExAttrs.items" />
+    <ClInclude Include="code\ExCharacterClass.h" />
+    <ClInclude Include="code\ExClient.h" />
+    <ClInclude Include="code\ExConsts.h" />
+    <ClInclude Include="code\ExCore.h" />
+    <ClInclude Include="code\ExDamage.h" />
+    <ClInclude Include="code\ExEngineInst.h" />
+    <ClInclude Include="code\ExFighter.h" />
+    <ClInclude Include="code\ExGame.h" />
+    <ClInclude Include="code\ExGameSettings.h" />
+    <ClInclude Include="code\ExGameTypes.h" />
+    <ClInclude Include="code\ExInput.h" />
+    <ClInclude Include="code\ExInventory.h" />
+    <ClInclude Include="code\ExItemSlots.items" />
+    <ClInclude Include="code\ExMapping.h" />
+    <ClInclude Include="code\ExMenu.h" />
+    <ClInclude Include="code\ExProfileData.h" />
+    <ClInclude Include="code\ExRoster.h" />
+    <ClInclude Include="code\ExSaveMgr.h" />
+    <ClInclude Include="code\ExServer.h" />
+    <ClInclude Include="code\ExTime.h" />
+    <ClInclude Include="code\ExWorldRenderPipe.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="code\explor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Game.BuildConfig" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\..\packages\Microsoft.XAudio2.Redist.1.2.13\build\native\Microsoft.XAudio2.Redist.targets" Condition="Exists('..\..\packages\Microsoft.XAudio2.Redist.1.2.13\build\native\Microsoft.XAudio2.Redist.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Microsoft.XAudio2.Redist.1.2.13\build\native\Microsoft.XAudio2.Redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.XAudio2.Redist.1.2.13\build\native\Microsoft.XAudio2.Redist.targets'))" />
+  </Target>
+</Project>

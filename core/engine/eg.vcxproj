@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugEditor|x64">
+      <Configuration>DebugEditor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseEditor|x64">
+      <Configuration>ReleaseEditor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{79ACB775-429A-4C9A-9DDF-B30F42601FE0}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugEditor|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='DebugEditor|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)_BUILD\$(ProjectName)\lib\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)_BUILD\$(ProjectName)\lib\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugEditor|x64'">
+    <OutDir>$(SolutionDir)_BUILD\$(ProjectName)\lib\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|x64'">
+    <OutDir>$(SolutionDir)_BUILD\$(ProjectName)\lib\$(PlatformShortName)_$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)_BUILD\$(ProjectName)\$(PlatformShortName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__DEBUG__;__WIN64__;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../lib3p/xaudio2/include;../lib3p/xinput/include;../lib3p;../eglib;../eglib/EG2Lib;../eglib/EG2Lib/Math;../eglib/EG2Lib/Primitives;../eglib/egwnd;../eglib/ext_sys;../eglib/math;../eglib/mem;../eglib/net;../eglib/serialize;../eglib/string;../eglib/templates;../eglib/text;../eglib/utilities;../foundation;../foundation/config;../foundation/editor;../foundation/egsm;../foundation/gamedata;../foundation/gcx;../foundation/loc;../foundation/mem;../foundation/mesh;../foundation/ms3d;../foundation/platform;../foundation/reflection;../foundation/renderer;../foundation/serialize;../foundation/types;../foundation/world;./;audio;audio/noaudio;audio/xaudio2;client_sys;editor_sys;egsm_sys;engine_lib;engine_sys;engine_sys/components;entity_sys;entity_sys/components;game_lib;input_sys;loc_sys;map_sys;mesh_sys;net_sys;phys_sys;phys_sys/BeemPhys;platform_sys;renderer;renderer/d3d11;renderer/null;renderer/shared;server_sys;sound_sys;ui_sys;ui_sys/text;ui_sys/widgets;world;../tools;../tools/EGEdApp;../tools/EGEdConfig;../tools/EGEdLib;../tools/EGEdLib/EGDefEd;../tools/EGEdLib/EGLpkViewer;../tools/EGEdLib/EGLytEd;../tools/EGEdLib/EGSmEd;../tools/EGEdLib/EGWorldEd;../tools/EGEdResLib;../tools/egmake2;../tools/EGScc;../tools/EGWndTest;../libs/inc;../lib3p/libogg132/include;../lib3p/libogg132/include/ogg;../lib3p/libvorbis135/include;../lib3p/libvorbis135/include/vorbis;../lib3p/steamworks/sdk/public/steam;../lib3p/steamworks/sdk/public/steam/lib;../lib3p/steamworks/sdk/public/steam/lib/linux32;../lib3p/steamworks/sdk/public/steam/lib/linux64;../lib3p/steamworks/sdk/public/steam/lib/osx;../lib3p/steamworks/sdk/public/steam/lib/win32;../lib3p/steamworks/sdk/public/steam/lib/win64;$(SolutionDir)_BUILD\generated_code\reflection\core\;$(SolutionDir)_BUILD\generated_code\platform\</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>EGEngineCommon.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__RELEASE__;__WIN64__;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../lib3p/xaudio2/include;../lib3p/xinput/include;../lib3p;../eglib;../eglib/EG2Lib;../eglib/EG2Lib/Math;../eglib/EG2Lib/Primitives;../eglib/egwnd;../eglib/ext_sys;../eglib/math;../eglib/mem;../eglib/net;../eglib/serialize;../eglib/string;../eglib/templates;../eglib/text;../eglib/utilities;../foundation;../foundation/config;../foundation/editor;../foundation/egsm;../foundation/gamedata;../foundation/gcx;../foundation/loc;../foundation/mem;../foundation/mesh;../foundation/ms3d;../foundation/platform;../foundation/reflection;../foundation/renderer;../foundation/serialize;../foundation/types;../foundation/world;./;audio;audio/noaudio;audio/xaudio2;client_sys;editor_sys;egsm_sys;engine_lib;engine_sys;engine_sys/components;entity_sys;entity_sys/components;game_lib;input_sys;loc_sys;map_sys;mesh_sys;net_sys;phys_sys;phys_sys/BeemPhys;platform_sys;renderer;renderer/d3d11;renderer/null;renderer/shared;server_sys;sound_sys;ui_sys;ui_sys/text;ui_sys/widgets;world;../tools;../tools/EGEdApp;../tools/EGEdConfig;../tools/EGEdLib;../tools/EGEdLib/EGDefEd;../tools/EGEdLib/EGLpkViewer;../tools/EGEdLib/EGLytEd;../tools/EGEdLib/EGSmEd;../tools/EGEdLib/EGWorldEd;../tools/EGEdResLib;../tools/egmake2;../tools/EGScc;../tools/EGWndTest;../libs/inc;../lib3p/libogg132/include;../lib3p/libogg132/include/ogg;../lib3p/libvorbis135/include;../lib3p/libvorbis135/include/vorbis;../lib3p/steamworks/sdk/public/steam;../lib3p/steamworks/sdk/public/steam/lib;../lib3p/steamworks/sdk/public/steam/lib/linux32;../lib3p/steamworks/sdk/public/steam/lib/linux64;../lib3p/steamworks/sdk/public/steam/lib/osx;../lib3p/steamworks/sdk/public/steam/lib/win32;../lib3p/steamworks/sdk/public/steam/lib/win64;$(SolutionDir)_BUILD\generated_code\reflection\core\;$(SolutionDir)_BUILD\generated_code\platform\</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>EGEngineCommon.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugEditor|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__EGEDITOR__;__DEBUG__;__WIN64__;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../lib3p/xaudio2/include;../lib3p/xinput/include;../lib3p;../eglib;../eglib/EG2Lib;../eglib/EG2Lib/Math;../eglib/EG2Lib/Primitives;../eglib/egwnd;../eglib/ext_sys;../eglib/math;../eglib/mem;../eglib/net;../eglib/serialize;../eglib/string;../eglib/templates;../eglib/text;../eglib/utilities;../foundation;../foundation/config;../foundation/editor;../foundation/egsm;../foundation/gamedata;../foundation/gcx;../foundation/loc;../foundation/mem;../foundation/mesh;../foundation/ms3d;../foundation/platform;../foundation/reflection;../foundation/renderer;../foundation/serialize;../foundation/types;../foundation/world;./;audio;audio/noaudio;audio/xaudio2;client_sys;editor_sys;egsm_sys;engine_lib;engine_sys;engine_sys/components;entity_sys;entity_sys/components;game_lib;input_sys;loc_sys;map_sys;mesh_sys;net_sys;phys_sys;phys_sys/BeemPhys;platform_sys;renderer;renderer/d3d11;renderer/null;renderer/shared;server_sys;sound_sys;ui_sys;ui_sys/text;ui_sys/widgets;world;../tools;../tools/EGEdApp;../tools/EGEdConfig;../tools/EGEdLib;../tools/EGEdLib/EGDefEd;../tools/EGEdLib/EGLpkViewer;../tools/EGEdLib/EGLytEd;../tools/EGEdLib/EGSmEd;../tools/EGEdLib/EGWorldEd;../tools/EGEdResLib;../tools/egmake2;../tools/EGScc;../tools/EGWndTest;../libs/inc;../lib3p/libogg132/include;../lib3p/libogg132/include/ogg;../lib3p/libvorbis135/include;../lib3p/libvorbis135/include/vorbis;../lib3p/steamworks/sdk/public/steam;../lib3p/steamworks/sdk/public/steam/lib;../lib3p/steamworks/sdk/public/steam/lib/linux32;../lib3p/steamworks/sdk/public/steam/lib/linux64;../lib3p/steamworks/sdk/public/steam/lib/osx;../lib3p/steamworks/sdk/public/steam/lib/win32;../lib3p/steamworks/sdk/public/steam/lib/win64;$(SolutionDir)_BUILD\generated_code\reflection\core\;$(SolutionDir)_BUILD\generated_code\platform\</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>EGEngineCommon.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseEditor|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;__EGEDITOR__;__RELEASE__;__WIN64__;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../lib3p/xaudio2/include;../lib3p/xinput/include;../lib3p;../eglib;../eglib/EG2Lib;../eglib/EG2Lib/Math;../eglib/EG2Lib/Primitives;../eglib/egwnd;../eglib/ext_sys;../eglib/math;../eglib/mem;../eglib/net;../eglib/serialize;../eglib/string;../eglib/templates;../eglib/text;../eglib/utilities;../foundation;../foundation/config;../foundation/editor;../foundation/egsm;../foundation/gamedata;../foundation/gcx;../foundation/loc;../foundation/mem;../foundation/mesh;../foundation/ms3d;../foundation/platform;../foundation/reflection;../foundation/renderer;../foundation/serialize;../foundation/types;../foundation/world;./;audio;audio/noaudio;audio/xaudio2;client_sys;editor_sys;egsm_sys;engine_lib;engine_sys;engine_sys/components;entity_sys;entity_sys/components;game_lib;input_sys;loc_sys;map_sys;mesh_sys;net_sys;phys_sys;phys_sys/BeemPhys;platform_sys;renderer;renderer/d3d11;renderer/null;renderer/shared;server_sys;sound_sys;ui_sys;ui_sys/text;ui_sys/widgets;world;../tools;../tools/EGEdApp;../tools/EGEdConfig;../tools/EGEdLib;../tools/EGEdLib/EGDefEd;../tools/EGEdLib/EGLpkViewer;../tools/EGEdLib/EGLytEd;../tools/EGEdLib/EGSmEd;../tools/EGEdLib/EGWorldEd;../tools/EGEdResLib;../tools/egmake2;../tools/EGScc;../tools/EGWndTest;../libs/inc;../lib3p/libogg132/include;../lib3p/libogg132/include/ogg;../lib3p/libvorbis135/include;../lib3p/libvorbis135/include/vorbis;../lib3p/steamworks/sdk/public/steam;../lib3p/steamworks/sdk/public/steam/lib;../lib3p/steamworks/sdk/public/steam/lib/linux32;../lib3p/steamworks/sdk/public/steam/lib/linux64;../lib3p/steamworks/sdk/public/steam/lib/osx;../lib3p/steamworks/sdk/public/steam/lib/win32;../lib3p/steamworks/sdk/public/steam/lib/win64;$(SolutionDir)_BUILD\generated_code\reflection\core\;$(SolutionDir)_BUILD\generated_code\platform\</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ForcedIncludeFiles>EGEngineCommon.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="audio\noaudio\EGNoAudioDevice.cpp" />
+    <ClCompile Include="audio\xaudio2\EGXAudioDevice.cpp" />
+    <ClCompile Include="audio\xaudio2\EGXAudioDeviceEnumerator.cpp" />
+    <ClCompile Include="audio\xaudio2\EGXSound.cpp" />
+    <ClCompile Include="audio\EGAudio.cpp" />
+    <ClCompile Include="audio\EGAudioDevice.cpp" />
+    <ClCompile Include="audio\EGAudioFile.cpp" />
+    <ClCompile Include="audio\EGAudioFileMgr.cpp" />
+    <ClCompile Include="audio\EGAudioList.cpp" />
+    <ClCompile Include="audio\EGOggVorbisFile.cpp" />
+    <ClCompile Include="audio\EGSoundFile.cpp" />
+    <ClCompile Include="client_sys\EGClient.cpp" />
+    <ClCompile Include="client_sys\EGClient_NetCode.cpp" />
+    <ClCompile Include="client_sys\EGClientView.cpp" />
+    <ClCompile Include="client_sys\EGViewFr.cpp" />
+    <ClCompile Include="editor_sys\EGDataAssetEditor.cpp" />
+    <ClCompile Include="editor_sys\EGDataBuilder.cpp" />
+    <ClCompile Include="editor_sys\EGEdDataBuild.cpp" />
+    <ClCompile Include="editor_sys\EGEditor.cpp" />
+    <ClCompile Include="editor_sys\EGEditorResave.cpp" />
+    <ClCompile Include="egsm_sys\EGSmMgr.cpp" />
+    <ClCompile Include="egsm_sys\EGSmProc.cpp" />
+    <ClCompile Include="egsm_sys\EGSmRuntime.cpp" />
+    <ClCompile Include="engine_sys\components\EGEngineCore.cpp" />
+    <ClCompile Include="engine_sys\EGAlwaysLoaded.cpp" />
+    <ClCompile Include="engine_sys\EGClassImport.cpp" />
+    <ClCompile Include="engine_sys\EGConsole.cpp" />
+    <ClCompile Include="engine_sys\EGDebugShapes.cpp" />
+    <ClCompile Include="engine_sys\EGDebugText.cpp" />
+    <ClCompile Include="engine_sys\EGEngine.cpp" />
+    <ClCompile Include="engine_sys\EGEngineDataAssetLib.cpp" />
+    <ClCompile Include="engine_sys\EGEngineFS.cpp" />
+    <ClCompile Include="engine_sys\EGEngineInst.cpp" />
+    <ClCompile Include="engine_sys\EGEngineMem.cpp" />
+    <ClCompile Include="engine_sys\EGGame.cpp" />
+    <ClCompile Include="engine_sys\EGLoader.cpp" />
+    <ClCompile Include="engine_sys\EGSaveMgr.cpp" />
+    <ClCompile Include="engine_sys\EGWorkerThreads.cpp" />
+    <ClCompile Include="entity_sys\components\EGAmbientSoundComponent.cpp" />
+    <ClCompile Include="entity_sys\components\EGBillboardComponent.cpp" />
+    <ClCompile Include="entity_sys\components\EGComponent.cpp" />
+    <ClCompile Include="entity_sys\components\EGDebugDrawCloseLightsComponent.cpp" />
+    <ClCompile Include="entity_sys\components\EGEntComponentTree.cpp" />
+    <ClCompile Include="entity_sys\components\EGMeshComponent.cpp" />
+    <ClCompile Include="entity_sys\components\EGMeshShadowComponent.cpp" />
+    <ClCompile Include="entity_sys\components\EGPhysBodyComponent.cpp" />
+    <ClCompile Include="entity_sys\components\EGPhysBodyComponentTypes.cpp" />
+    <ClCompile Include="entity_sys\components\EGSkelMeshComponent.cpp" />
+    <ClCompile Include="entity_sys\components\EGSkyboxMeshComponent.cpp" />
+    <ClCompile Include="entity_sys\components\EGSoundEventComponent.cpp" />
+    <ClCompile Include="entity_sys\components\EGSoundPlayerComponent.cpp" />
+    <ClCompile Include="entity_sys\components\EGStaticMeshComponent.cpp" />
+    <ClCompile Include="entity_sys\components\EGTextNodeComponent.cpp" />
+    <ClCompile Include="entity_sys\components\EGVisualComponent.cpp" />
+    <ClCompile Include="entity_sys\EGEnt.cpp" />
+    <ClCompile Include="entity_sys\EGEntDef.cpp" />
+    <ClCompile Include="entity_sys\EGEntDefTypes.cpp" />
+    <ClCompile Include="entity_sys\EGEntDict.cpp" />
+    <ClCompile Include="entity_sys\EGEntObj.cpp" />
+    <ClCompile Include="entity_sys\EGEntTypes.cpp" />
+    <ClCompile Include="entity_sys\EGEntWorld.cpp" />
+    <ClCompile Include="entity_sys\EGEntWorldMap.cpp" />
+    <ClCompile Include="entity_sys\EGEntWorldRegion.cpp" />
+    <ClCompile Include="entity_sys\EGEntWorldTerrain.cpp" />
+    <ClCompile Include="entity_sys\EGTimeline.cpp" />
+    <ClCompile Include="entity_sys\EGTimelineMgr.cpp" />
+    <ClCompile Include="entity_sys\EGTimelineTypes.cpp" />
+    <ClCompile Include="game_lib\EGGameSettingsMenu.cpp" />
+    <ClCompile Include="game_lib\EGHUDLoading.cpp" />
+    <ClCompile Include="game_lib\EGLevelListMenu.cpp" />
+    <ClCompile Include="input_sys\EGInput.cpp" />
+    <ClCompile Include="input_sys\EGInputButtons.cpp" />
+    <ClCompile Include="input_sys\EGInputGpDevice.cpp" />
+    <ClCompile Include="input_sys\EGInputKbmDevice.cpp" />
+    <ClCompile Include="input_sys\EGKbCharHandler.cpp" />
+    <ClCompile Include="loc_sys\EGLocalize.cpp" />
+    <ClCompile Include="map_sys\EGGameMap.cpp" />
+    <ClCompile Include="map_sys\EGGameTerrain2.cpp" />
+    <ClCompile Include="map_sys\EGMap_PhysLoader.cpp" />
+    <ClCompile Include="map_sys\EGNavGraph.cpp" />
+    <ClCompile Include="mesh_sys\EGMesh.cpp" />
+    <ClCompile Include="mesh_sys\EGMeshMgr2.cpp" />
+    <ClCompile Include="mesh_sys\EGSkel.cpp" />
+    <ClCompile Include="mesh_sys\EGTerrainMesh.cpp" />
+    <ClCompile Include="net_sys\EGNetCommBase.cpp" />
+    <ClCompile Include="net_sys\EGNetCommCli.cpp" />
+    <ClCompile Include="net_sys\EGNetCommSrv.cpp" />
+    <ClCompile Include="net_sys\EGNetLocal.cpp" />
+    <ClCompile Include="net_sys\EGNetMsgBuffer.cpp" />
+    <ClCompile Include="net_sys\EGNetOnline.cpp" />
+    <ClCompile Include="net_sys\EGNetOnlineTCP.cpp" />
+    <ClCompile Include="net_sys\EGNetOnlineUDP.cpp" />
+    <ClCompile Include="net_sys\EGNetRequest.cpp" />
+    <ClCompile Include="net_sys\EGNetThread.cpp" />
+    <ClCompile Include="phys_sys\BeemPhys\EGBpPhysBody.cpp" />
+    <ClCompile Include="phys_sys\BeemPhys\EGBpPhysLib.cpp" />
+    <ClCompile Include="phys_sys\BeemPhys\EGBpPhysSim.cpp" />
+    <ClCompile Include="phys_sys\EGPhysBody2.cpp" />
+    <ClCompile Include="phys_sys\EGPhysBodyDef.cpp" />
+    <ClCompile Include="phys_sys\EGPhysMemMgr.cpp" />
+    <ClCompile Include="phys_sys\EGPhysSim2.cpp" />
+    <ClCompile Include="platform_sys\EGEgWinCon.cpp" />
+    <ClCompile Include="platform_sys\EGPlatform.cpp" />
+    <ClCompile Include="platform_sys\EGPlatformWindows.cpp" />
+    <ClCompile Include="platform_sys\EGPlatformWinSteam.cpp" />
+    <ClCompile Include="platform_sys\EGSteamworks.cpp" />
+    <ClCompile Include="platform_sys\EGWinMain.cpp" />
+    <ClCompile Include="renderer\d3d11\EGD11R_BufferMgr.cpp" />
+    <ClCompile Include="renderer\d3d11\EGD11R_Mtrl.cpp" />
+    <ClCompile Include="renderer\d3d11\EGD11R_MtrlMgr2.cpp" />
+    <ClCompile Include="renderer\d3d11\EGD11R_Renderer.cpp" />
+    <ClCompile Include="renderer\d3d11\EGD11R_RenderTarget.cpp" />
+    <ClCompile Include="renderer\d3d11\EGD11R_SetRS.cpp" />
+    <ClCompile Include="renderer\d3d11\EGD11R_ShaderMgr.cpp" />
+    <ClCompile Include="renderer\d3d11\EGD11R_Texture.cpp" />
+    <ClCompile Include="renderer\null\EGNullR_Renderer.cpp" />
+    <ClCompile Include="renderer\shared\EGBaseR_Core.cpp" />
+    <ClCompile Include="renderer\EGDisplayList.cpp" />
+    <ClCompile Include="renderer\EGRenderer.cpp" />
+    <ClCompile Include="renderer\EGRenderThread.cpp" />
+    <ClCompile Include="server_sys\EGGameLoader.cpp" />
+    <ClCompile Include="server_sys\EGSaveGame.cpp" />
+    <ClCompile Include="server_sys\EGServer.cpp" />
+    <ClCompile Include="server_sys\EGServer_NetCode.cpp" />
+    <ClCompile Include="server_sys\EGServerInterface.cpp" />
+    <ClCompile Include="sound_sys\EGSoundScape.cpp" />
+    <ClCompile Include="sound_sys\EGSoundTrack.cpp" />
+    <ClCompile Include="ui_sys\text\EGFont.cpp" />
+    <ClCompile Include="ui_sys\text\EGInputGlyphs.cpp" />
+    <ClCompile Include="ui_sys\text\EGTextNode.cpp" />
+    <ClCompile Include="ui_sys\widgets\EGUiButtonWidget.cpp" />
+    <ClCompile Include="ui_sys\widgets\EGUiCameraWidget.cpp" />
+    <ClCompile Include="ui_sys\widgets\EGUiClearZWidget.cpp" />
+    <ClCompile Include="ui_sys\widgets\EGUiDragAndDropWidget.cpp" />
+    <ClCompile Include="ui_sys\widgets\EGUiGridWidget.cpp" />
+    <ClCompile Include="ui_sys\widgets\EGUiGridWidget2.cpp" />
+    <ClCompile Include="ui_sys\widgets\EGUiGridWidgetItem.cpp" />
+    <ClCompile Include="ui_sys\widgets\EGUiImageWidget.cpp" />
+    <ClCompile Include="ui_sys\widgets\EGUiLightWidget.cpp" />
+    <ClCompile Include="ui_sys\widgets\EGUiMeshWidget.cpp" />
+    <ClCompile Include="ui_sys\widgets\EGUiScrollbarWidget.cpp" />
+    <ClCompile Include="ui_sys\widgets\EGUiTextWidget.cpp" />
+    <ClCompile Include="ui_sys\widgets\EGUiWidget.cpp" />
+    <ClCompile Include="ui_sys\EGConDraw.cpp" />
+    <ClCompile Include="ui_sys\EGMenu.cpp" />
+    <ClCompile Include="ui_sys\EGMenuStack.cpp" />
+    <ClCompile Include="ui_sys\EGOverlayMgr.cpp" />
+    <ClCompile Include="ui_sys\EGUiGrid2.cpp" />
+    <ClCompile Include="ui_sys\EGUiLayout.cpp" />
+    <ClCompile Include="ui_sys\EGUiWidgetInfo.cpp" />
+    <ClCompile Include="world\EGEntWorldLoader.cpp" />
+    <ClCompile Include="world\EGWorldFile.cpp" />
+    <ClCompile Include="world\EGWorldObject.cpp" />
+    <ClCompile Include="world\EGWorldObjectEntity.cpp" />
+    <ClCompile Include="world\EGWorldObjectMap.cpp" />
+    <ClCompile Include="world\EGWorldObjectTerrain.cpp" />
+    <ClCompile Include="world\EGWorldRenderPipe.cpp" />
+    <ClCompile Include="world\EGWorldSceneGraph.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio\noaudio\EGNoAudioDevice.h" />
+    <ClInclude Include="audio\xaudio2\EGXAudioDevice.h" />
+    <ClInclude Include="audio\xaudio2\EGXAudioDeviceEnumerator.h" />
+    <ClInclude Include="audio\xaudio2\EGXSound.h" />
+    <ClInclude Include="audio\EGAudio.h" />
+    <ClInclude Include="audio\EGAudioDevice.h" />
+    <ClInclude Include="audio\EGAudioFile.h" />
+    <ClInclude Include="audio\EGAudioFileMgr.h" />
+    <ClInclude Include="audio\EGAudioList.h" />
+    <ClInclude Include="audio\EGAudioTypes.h" />
+    <ClInclude Include="audio\EGOggVorbisFile.h" />
+    <ClInclude Include="audio\EGSoundFile.h" />
+    <ClInclude Include="client_sys\EGClient.h" />
+    <ClInclude Include="client_sys\EGClientView.h" />
+    <ClInclude Include="client_sys\EGViewFr.h" />
+    <ClInclude Include="editor_sys\EGDataAsset.h" />
+    <ClInclude Include="editor_sys\EGDataAssetEditor.h" />
+    <ClInclude Include="editor_sys\EGDataBuilder.h" />
+    <ClInclude Include="editor_sys\EGEdDataBuild.h" />
+    <ClInclude Include="editor_sys\EGEditor.h" />
+    <ClInclude Include="editor_sys\EGEditorResave.h" />
+    <ClInclude Include="egsm_sys\EGSmMgr.h" />
+    <ClInclude Include="egsm_sys\EGSmProc.h" />
+    <ClInclude Include="egsm_sys\EGSmRuntime.h" />
+    <ClInclude Include="engine_lib\EGEngineTemplates.h" />
+    <ClInclude Include="engine_sys\components\EGEngineCore.h" />
+    <ClInclude Include="engine_sys\EGAlwaysLoaded.h" />
+    <ClInclude Include="engine_sys\EGClassImport.h" />
+    <ClInclude Include="engine_sys\EGConsole.h" />
+    <ClInclude Include="engine_sys\EGDebugShapes.h" />
+    <ClInclude Include="engine_sys\EGDebugText.h" />
+    <ClInclude Include="engine_sys\EGEngine.h" />
+    <ClInclude Include="engine_sys\EGEngineApp.h" />
+    <ClInclude Include="engine_sys\EGEngineCommon.h" />
+    <ClInclude Include="engine_sys\EGEngineDataAssetLib.h" />
+    <ClInclude Include="engine_sys\EGEngineForTools.h" />
+    <ClInclude Include="engine_sys\EGEngineFS.h" />
+    <ClInclude Include="engine_sys\EGEngineInst.h" />
+    <ClInclude Include="engine_sys\EGEngineMem.h" />
+    <ClInclude Include="engine_sys\EGGame.h" />
+    <ClInclude Include="engine_sys\EGGameTypes.h" />
+    <ClInclude Include="engine_sys\EGLoader.h" />
+    <ClInclude Include="engine_sys\EGLoader_Loadable.h" />
+    <ClInclude Include="engine_sys\EGSaveMgr.h" />
+    <ClInclude Include="engine_sys\EGWorkerThreads.h" />
+    <ClInclude Include="entity_sys\components\EGAmbientSoundComponent.h" />
+    <ClInclude Include="entity_sys\components\EGBillboardComponent.h" />
+    <ClInclude Include="entity_sys\components\EGComponent.h" />
+    <ClInclude Include="entity_sys\components\EGDebugDrawCloseLightsComponent.h" />
+    <ClInclude Include="entity_sys\components\EGEntComponentTree.h" />
+    <ClInclude Include="entity_sys\components\EGMeshComponent.h" />
+    <ClInclude Include="entity_sys\components\EGMeshShadowComponent.h" />
+    <ClInclude Include="entity_sys\components\EGPhysBodyComponent.h" />
+    <ClInclude Include="entity_sys\components\EGPhysBodyComponentTypes.h" />
+    <ClInclude Include="entity_sys\components\EGSkelMeshComponent.h" />
+    <ClInclude Include="entity_sys\components\EGSkyboxMeshComponent.h" />
+    <ClInclude Include="entity_sys\components\EGSoundEventComponent.h" />
+    <ClInclude Include="entity_sys\components\EGSoundPlayerComponent.h" />
+    <ClInclude Include="entity_sys\components\EGStaticMeshComponent.h" />
+    <ClInclude Include="entity_sys\components\EGTextNodeComponent.h" />
+    <ClInclude Include="entity_sys\components\EGVisualComponent.h" />
+    <ClInclude Include="entity_sys\EGEnt.h" />
+    <ClInclude Include="entity_sys\EGEntDef.h" />
+    <ClInclude Include="entity_sys\EGEntDefTypes.h" />
+    <ClInclude Include="entity_sys\EGEntDict.h" />
+    <ClInclude Include="entity_sys\EGEntObj.h" />
+    <ClInclude Include="entity_sys\EGEntTypes.h" />
+    <ClInclude Include="entity_sys\EGEntWorld.h" />
+    <ClInclude Include="entity_sys\EGEntWorldMap.h" />
+    <ClInclude Include="entity_sys\EGEntWorldRegion.h" />
+    <ClInclude Include="entity_sys\EGEntWorldTerrain.h" />
+    <ClInclude Include="entity_sys\EGTimeline.h" />
+    <ClInclude Include="entity_sys\EGTimelineMgr.h" />
+    <ClInclude Include="entity_sys\EGTimelineTypes.h" />
+    <ClInclude Include="input_sys\EGInput.h" />
+    <ClInclude Include="input_sys\EGInputBindings.h" />
+    <ClInclude Include="input_sys\EGInputButtons.h" />
+    <ClInclude Include="input_sys\EGInputButtons.items" />
+    <ClInclude Include="input_sys\EGInputCmdState.h" />
+    <ClInclude Include="input_sys\EGInputCmdState.hpp" />
+    <ClInclude Include="input_sys\EGInputGpDevice.h" />
+    <ClInclude Include="input_sys\EGInputKbmDevice.h" />
+    <ClInclude Include="input_sys\EGInputKbmTables.h" />
+    <ClInclude Include="input_sys\EGInputTypes.h" />
+    <ClInclude Include="input_sys\EGKbCharHandler.h" />
+    <ClInclude Include="loc_sys\EGLocalize.h" />
+    <ClInclude Include="map_sys\EGGameMap.h" />
+    <ClInclude Include="map_sys\EGGameTerrain2.h" />
+    <ClInclude Include="map_sys\EGMap_PhysLoader.h" />
+    <ClInclude Include="map_sys\EGNavGraph.h" />
+    <ClInclude Include="mesh_sys\EGMesh.h" />
+    <ClInclude Include="mesh_sys\EGMeshMgr2.h" />
+    <ClInclude Include="mesh_sys\EGSkel.h" />
+    <ClInclude Include="mesh_sys\EGTerrainMesh.h" />
+    <ClInclude Include="net_sys\EGNetCommBase.h" />
+    <ClInclude Include="net_sys\EGNetCommCli.h" />
+    <ClInclude Include="net_sys\EGNetCommSrv.h" />
+    <ClInclude Include="net_sys\EGNetLocal.h" />
+    <ClInclude Include="net_sys\EGNetMsgBuffer.h" />
+    <ClInclude Include="net_sys\EGNetMsgs.h" />
+    <ClInclude Include="net_sys\EGNetMsgs_EntWorld.h" />
+    <ClInclude Include="net_sys\EGNetOnline.h" />
+    <ClInclude Include="net_sys\EGNetRequest.h" />
+    <ClInclude Include="net_sys\EGNetThread.h" />
+    <ClInclude Include="phys_sys\BeemPhys\EGBpPhysBody.h" />
+    <ClInclude Include="phys_sys\BeemPhys\EGBpPhysLib.h" />
+    <ClInclude Include="phys_sys\BeemPhys\EGBpPhysSim.h" />
+    <ClInclude Include="phys_sys\EGPhysBody2.h" />
+    <ClInclude Include="phys_sys\EGPhysBodyDef.h" />
+    <ClInclude Include="phys_sys\EGPhysMemMgr.h" />
+    <ClInclude Include="phys_sys\EGPhysSim2.h" />
+    <ClInclude Include="platform_sys\EGEgWinCon.h" />
+    <ClInclude Include="platform_sys\EGPlatform.h" />
+    <ClInclude Include="platform_sys\EGPlatformWindows.h" />
+    <ClInclude Include="platform_sys\EGPlatformWinSteam.h" />
+    <ClInclude Include="platform_sys\EGSteamworks.h" />
+    <ClInclude Include="renderer\d3d11\EGD11R_Base.h" />
+    <ClInclude Include="renderer\d3d11\EGD11R_BufferMgr.h" />
+    <ClInclude Include="renderer\d3d11\EGD11R_Mtrl.h" />
+    <ClInclude Include="renderer\d3d11\EGD11R_MtrlMgr2.h" />
+    <ClInclude Include="renderer\d3d11\EGD11R_Renderer.h" />
+    <ClInclude Include="renderer\d3d11\EGD11R_RenderTarget.h" />
+    <ClInclude Include="renderer\d3d11\EGD11R_ShaderMgr.h" />
+    <ClInclude Include="renderer\d3d11\EGD11R_Texture.h" />
+    <ClInclude Include="renderer\null\EGNullR_Renderer.h" />
+    <ClInclude Include="renderer\shared\EGBaseR_Core.h" />
+    <ClInclude Include="renderer\EGDisplayList.h" />
+    <ClInclude Include="renderer\EGDisplayListFunctions.items" />
+    <ClInclude Include="renderer\EGRenderer.h" />
+    <ClInclude Include="renderer\EGRendererInterface.h" />
+    <ClInclude Include="renderer\EGRenderThread.h" />
+    <ClInclude Include="server_sys\EGGameLoader.h" />
+    <ClInclude Include="server_sys\EGSaveGame.h" />
+    <ClInclude Include="server_sys\EGServer.h" />
+    <ClInclude Include="server_sys\EGServerInterface.h" />
+    <ClInclude Include="sound_sys\EGSoundScape.h" />
+    <ClInclude Include="sound_sys\EGSoundTrack.h" />
+    <ClInclude Include="ui_sys\text\EGFont.h" />
+    <ClInclude Include="ui_sys\text\EGInputGlyphs.h" />
+    <ClInclude Include="ui_sys\text\EGTextNode.h" />
+    <ClInclude Include="ui_sys\widgets\EGUiButtonWidget.h" />
+    <ClInclude Include="ui_sys\widgets\EGUiCameraWidget.h" />
+    <ClInclude Include="ui_sys\widgets\EGUiClearZWidget.h" />
+    <ClInclude Include="ui_sys\widgets\EGUiDragAndDropWidget.h" />
+    <ClInclude Include="ui_sys\widgets\EGUiGridWidget.h" />
+    <ClInclude Include="ui_sys\widgets\EGUiGridWidget2.h" />
+    <ClInclude Include="ui_sys\widgets\EGUiGridWidgetItem.h" />
+    <ClInclude Include="ui_sys\widgets\EGUiImageWidget.h" />
+    <ClInclude Include="ui_sys\widgets\EGUiLightWidget.h" />
+    <ClInclude Include="ui_sys\widgets\EGUiMeshWidget.h" />
+    <ClInclude Include="ui_sys\widgets\EGUiScrollbarWidget.h" />
+    <ClInclude Include="ui_sys\widgets\EGUiTextWidget.h" />
+    <ClInclude Include="ui_sys\widgets\EGUiWidget.h" />
+    <ClInclude Include="ui_sys\EGConDraw.h" />
+    <ClInclude Include="ui_sys\EGMenu.h" />
+    <ClInclude Include="ui_sys\EGMenuStack.h" />
+    <ClInclude Include="ui_sys\EGOverlayMgr.h" />
+    <ClInclude Include="ui_sys\EGUiGrid2.h" />
+    <ClInclude Include="ui_sys\EGUiLayout.h" />
+    <ClInclude Include="ui_sys\EGUiTypes.h" />
+    <ClInclude Include="ui_sys\EGUiWidgetInfo.h" />
+    <ClInclude Include="ui_sys\EGUiWidgetInfoTypes.h" />
+    <ClInclude Include="world\EGEntWorldLoader.h" />
+    <ClInclude Include="world\EGWorldFile.h" />
+    <ClInclude Include="world\EGWorldObject.h" />
+    <ClInclude Include="world\EGWorldObjectEntity.h" />
+    <ClInclude Include="world\EGWorldObjectMap.h" />
+    <ClInclude Include="world\EGWorldObjectTerrain.h" />
+    <ClInclude Include="world\EGWorldRenderPipe.h" />
+    <ClInclude Include="world\EGWorldSceneGraph.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

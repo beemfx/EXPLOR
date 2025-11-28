@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eskel version="106" format="base64" >
+	<animation id="1" name="Default" first_frame="3" frames="4" mode="default" />
+
+	<joint id="1" name="MousePointer" parent="0" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAIAAAACA"/>
+
+	<frame id="1">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAIAAAACA"/>
+	</frame>
+
+	<frame id="2">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="3">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="1g/Jv9gPST/VD0k/"/>
+	</frame>
+
+	<frame id="4">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="2A9JwMzkqjTZD8k/"/>
+	</frame>
+
+	<frame id="5">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="5Q/JP98PSb/nD0k/"/>
+	</frame>
+
+	<frame id="6">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="StwzNZ0sY7VRgtqz"/>
+	</frame>
+
+</eskel>

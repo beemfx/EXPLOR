@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<emesh
+	version="123"
+	name="1x1"
+	format="text"
+>
+
+	<material id="1" tex0="/egdata/textures/default_white" tex1="/egdata/textures/default_normal" tex2="/egdata/textures/default_white" diffuse="1 1 1 1" specular="0 0 0 0" emissive="0 0 0 0" ambient="0 0 0 0" power="0" />
+
+
+	<mesh id="1" name="Image" first_triangle="1" triangles="2" material="1" flags=""/>
+
+	<bounds min="-0.5 -0.5 -0" max="0.5 0.5 -0"/>
+
+	<vertex id="1" pos="-0.5 0.5 -0" norm="0 0 -1" tan="1 0 0 1" tex0="0 0" tex1="0 0" color0="1 1 1 1" bone0="0" weight0="1" bone1="0" weight1="0"/>
+	<vertex id="2" pos="-0.5 -0.5 -0" norm="0 0 -1" tan="1 0 0 1" tex0="0 1" tex1="0 1" color0="1 1 1 1" bone0="0" weight0="1" bone1="0" weight1="0"/>
+	<vertex id="3" pos="0.5 -0.5 -0" norm="0 0 -1" tan="1 -0 0 1" tex0="1 1" tex1="1 1" color0="1 1 1 1" bone0="0" weight0="1" bone1="0" weight1="0"/>
+	<vertex id="4" pos="-0.5 0.5 -0" norm="0 0 -1" tan="1 0 0 1" tex0="0 0" tex1="0 0" color0="1 1 1 1" bone0="0" weight0="1" bone1="0" weight1="0"/>
+	<vertex id="5" pos="0.5 -0.5 -0" norm="0 0 -1" tan="1 -0 0 1" tex0="1 1" tex1="1 1" color0="1 1 1 1" bone0="0" weight0="1" bone1="0" weight1="0"/>
+	<vertex id="6" pos="0.5 0.5 -0" norm="0 0 -1" tan="1 -0 0 1" tex0="1 0" tex1="1 0" color0="1 1 1 1" bone0="0" weight0="1" bone1="0" weight1="0"/>
+
+	<triangle id="1" v1="3" v2="2" v3="1"/>
+	<triangle id="2" v1="6" v2="5" v3="4"/>
+</emesh>
