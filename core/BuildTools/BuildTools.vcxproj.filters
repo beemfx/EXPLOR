@@ -21,12 +21,6 @@
     <None Include="bin\DiffDir.exe">
       <Filter>bin</Filter>
     </None>
-    <None Include="bin\EGEdConfig_x64.exe">
-      <Filter>bin</Filter>
-    </None>
-    <None Include="bin\fxc.exe">
-      <Filter>bin</Filter>
-    </None>
     <None Include="bin\oggenc2.88srcs.zip">
       <Filter>bin</Filter>
     </None>

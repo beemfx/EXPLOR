@@ -95,7 +95,7 @@
 				<property name="AudibleFallofPercent" value="0.5" />
 				<property name="InstanceType" value="Closest" />
 				<property name="MaxInstances" value="1" />
-				<property name="SoundFile" value="/game/sounds/combat/magic-shine-01-edit" />
+				<property name="SoundFile" value="/game/sounds/combat/spellfire" />
 				<property name="bLooping" value="false" />
 				<property name="bStreaming" value="false" />
 				<property name="bCentered" value="true" />
@@ -165,7 +165,7 @@
 				<property name="AudibleFallofPercent" value="0.5" />
 				<property name="InstanceType" value="Closest" />
 				<property name="MaxInstances" value="1" />
-				<property name="SoundFile" value="/game/sounds/combat/magic-shine-01-edit" />
+				<property name="SoundFile" value="/game/sounds/combat/spellfire" />
 				<property name="bLooping" value="false" />
 				<property name="bStreaming" value="false" />
 				<property name="bCentered" value="true" />

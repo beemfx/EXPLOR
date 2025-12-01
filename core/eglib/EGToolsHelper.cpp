@@ -15,7 +15,7 @@ struct egBuildVar
 
 static egBuildVar EGToolsHelper_BuildVars[] = 
 {
-	{ "EGGAME" , L"ExGame" } ,
+	{ "EGGAME" , L"" } ,
 	{ "EGNOAUTOBUILD" , L"" } ,
 	{ "EGNOTOOLDELTA" , L"" } ,
 	{ "EGSRC" , L"." } ,
@@ -29,6 +29,16 @@ static egBuildVar EGToolsHelper_BuildVars[] =
 	{ "EGP4USER" , L"" } ,
 };
 
+eg_string_big EGToolsHelper_GetDefaultGameName()
+{
+#define EG_DECLARE_GAME(_GameName_) #_GameName_
+	static eg_cpstr GameName =
+#include "../../EGEngine.egconfig"
+		;
+
+	return GameName;
+}
+
 eg_string_big EGToolsHelper_GetEnvVar( eg_cpstr Var , eg_bool bForceFromRegistry /* = false */ )
 {
 	unused(bForceFromRegistry);
@@ -38,10 +48,17 @@ eg_string_big EGToolsHelper_GetEnvVar( eg_cpstr Var , eg_bool bForceFromRegistry
 
 eg_s_string_big16 EGToolsHelper_GetBuildVar( eg_cpstr Var )
 {
+	const eg_bool bIsGameVar = EGString_EqualsI( Var , "EGGAME" );
+
 	for( auto& Item : EGToolsHelper_BuildVars )
 	{
 		if( EGString_EqualsI( Item.VarName , Var ) )
 		{
+			if (bIsGameVar && EGString_StrLen( Item.Value ) == 0 )
+			{
+				return *EGToolsHelper_GetDefaultGameName();
+			}
+
 			return Item.Value;
 		}
 	}
@@ -130,7 +147,7 @@ eg_bool EGToolsHelper_SaveFile( eg_cpstr16 Filename, const class EGFileData& In 
 void EGToolsHelper_SetPathEnv()
 {
 	eg_string_big StrSrcTools = EGToolsHelper_GetEnvVar( "EGSRC" );
-	StrSrcTools.Append( "/tools/bin" );
+	StrSrcTools.Append( "/core/BuildTools/bin" );
 
 	eg_string_big StrBuildTools = EGToolsHelper_GetEnvVar( "EGOUT" );
 	StrBuildTools.Append( "/bin" );

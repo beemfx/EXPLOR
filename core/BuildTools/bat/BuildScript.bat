@@ -22,7 +22,7 @@ echo [EGBUILDSCRIPT] Setting Visual Studio Environment...
 call "%EGBUILD_VS_VARS_TOOL%" x86_amd64
 
 setlocal EnableDelayedExpansion
-set PATH=%EGOUT%/bin;%EGSRC%/tools/bin;%PATH%
+set PATH=%EGOUT%/bin;%EGSRC%/core/BuildTools/bin;%PATH%
 
 echo [EGBUILDSCRIPT] Games set:
 for %%i in (%EGBUILD_GAMES%) do echo [EGBUILDSCRIPT] %%i

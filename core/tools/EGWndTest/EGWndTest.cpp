@@ -132,7 +132,7 @@ public:
 
 		if( m_FileBrowser )
 		{
-			m_FileBrowser->SetRoot( L"C:\\Projects\\Emergence\\Source\\games\\ExGame\\data" );
+			m_FileBrowser->SetRoot( L".\\" );
 		}
 
 		m_MainPanel.HandleResize();

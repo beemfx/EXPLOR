@@ -1,0 +1,9 @@
+// (c) 2025 Beem Media. All rights reserved.
+
+#ifndef EG_ENGINE_GAME
+#define EG_ENGINE_GAME(...)
+#endif
+
+EG_DECLARE_GAME(ExGame)
+
+#undef EG_DECLARE_GAME

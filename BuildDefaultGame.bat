@@ -1,4 +1,7 @@
 @echo off
+
+set EG_GAME_BUILD=ExGame
+
 rem This will be different depending on the installation of Visual Studio
 echo Checking if MSBuild is available
 MSBuild /version
@@ -12,17 +15,17 @@ if (%ERRORLEVEL%==0) goto NO_MS_BUILD
 :BUILD_START
 
 set EGTARGETPLATFORM=Default
-set PATH=.\_BUILD\bin;.\tools\bin;%PATH%
+set PATH=.\_BUILD\bin;.\core\BuildTools\bin;%PATH%
 
 MSBuild EG.sln /nologo -t:restore -p:RestorePackagesConfig=true
 MSBuild EG.sln /nologo /v:m -t:"Engine\PreBuild" -p:Configuration=Release;Platform=x64
-MSBuild EG.sln /nologo /v:m -t:"Games\ExGame" -p:Configuration=Release;Platform=x64
-MSBuild EG.sln /nologo /v:m -t:"Games\ExGame" -p:Configuration=Debug;Platform=x64
-MSBuild EG.sln /nologo /v:m -t:"Games\ExGame" -p:Configuration=ReleaseEditor;Platform=x64
-MSBuild EG.sln /nologo /v:m -t:"Games\ExGame" -p:Configuration=DebugEditor;Platform=x64
+MSBuild EG.sln /nologo /v:m -t:"Games\%EG_GAME_BUILD%" -p:Configuration=Release;Platform=x64
+MSBuild EG.sln /nologo /v:m -t:"Games\%EG_GAME_BUILD%" -p:Configuration=Debug;Platform=x64
+MSBuild EG.sln /nologo /v:m -t:"Games\%EG_GAME_BUILD%" -p:Configuration=ReleaseEditor;Platform=x64
+MSBuild EG.sln /nologo /v:m -t:"Games\%EG_GAME_BUILD%" -p:Configuration=DebugEditor;Platform=x64
 egmake2_x64 DATA
 egmake2_x64 CREATE_GAME_INI
-egmake2_x64 BUILD_DIST -game "ExGame" -root "_BUILD"
+egmake2_x64 BUILD_DIST -game "%EG_GAME_BUILD%" -root "_BUILD"
 echo Build Complete.
 goto DONE
 

@@ -94,15 +94,29 @@ void EGEdImportData_Execute( eg_cpstr FileExt )
 
 	auto ImportProject = [&SourceRoot,&FileExt]( eg_cpstr SourceFolder , eg_cpstr TargetFolder , eg_bool bIsEngine ) -> void
 	{
-		eg_d_string RawRoot = SourceRoot;
-		RawRoot.Append( "/rawassets/" );
-		RawRoot.Append( SourceFolder );
-		RawRoot.Append( "/" );
-		RawRoot = EGPath2_CleanPath( *RawRoot , '/' );
-		eg_d_string DestRoot = SourceRoot;
-		DestRoot.Append( TargetFolder );
-		DestRoot.Append( bIsEngine ? "/egdata/" : "/data/" );
-		DestRoot = EGPath2_CleanPath( *DestRoot , '/' );
+		eg_d_string RawRoot;
+		eg_d_string DestRoot;
+		RawRoot = SourceRoot;
+		if( bIsEngine )
+		{
+			RawRoot.Append( "/core/egdata_src/" );
+			RawRoot = EGPath2_CleanPath( *RawRoot , '/' );
+			DestRoot = SourceRoot;
+			DestRoot.Append( TargetFolder );
+			DestRoot.Append( "/egdata/" );
+			DestRoot = EGPath2_CleanPath( *DestRoot , '/' );
+		}
+		else
+		{
+			RawRoot.Append( "/rawassets/" );
+			RawRoot.Append( SourceFolder );
+			RawRoot.Append( "/" );
+			RawRoot = EGPath2_CleanPath( *RawRoot , '/' );
+			DestRoot = SourceRoot;
+			DestRoot.Append( TargetFolder );
+			DestRoot.Append( "/data/" );
+			DestRoot = EGPath2_CleanPath( *DestRoot , '/' );
+		}
 
 		EGLogf( eg_log_t::General , "Importing from \"%s\" -> \"%s\"" , *RawRoot , *DestRoot );
 
@@ -167,9 +181,10 @@ void EGEdImportData_ImportSourceFile( eg_cpstr GameFilePath )
 
 	// This is a hack to get things working...
 	eg_d_string8 ImportRoot;
-	if (GameFilePathParts.Folders.IsValidIndex(2) && GameFilePathParts.Folders[2].EqualsI(L"ExGame"))
+	const eg_string_big DefGameName = EGToolsHelper_GetDefaultGameName();
+	if (GameFilePathParts.Folders.IsValidIndex(2) && GameFilePathParts.Folders[2].EqualsI(*eg_d_string16(DefGameName)))
 	{
-		ImportRoot = "./Games/ExGame/data";
+		ImportRoot = EGSFormat8( "./Games/{0}/data" , *DefGameName );
 	}
 	else
 	{

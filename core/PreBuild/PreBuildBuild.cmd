@@ -5,7 +5,6 @@ echo [DATASYNC] Starting data sync...
 CD /D %~1%
 set EGSRC=%~1%
 set EGOUT=%~1%_BUILD\
-set EGGAME=ExGame
 
 echo Building from "%EGSRC%" to "%EGOUT%".
 
@@ -16,7 +15,7 @@ rem exit 0
 if "x%EGSRC%" == "x" goto had_pathserror
 if "x%EGOUT%" == "x" goto had_pathserror
 
-set PATH=%EGOUT%\bin;%EGSRC%\tools\bin;%EGSRC%\tools\bat;%PATH%
+set PATH=%EGOUT%\bin;%EGSRC%\core\BuildTools\bin;%EGSRC%\core\BuiltTools\bat;%PATH%
 
 echo [DATASYNC] Creating directories...
 if not exist "%EGOUT%\bin" @md "%EGOUT%\bin"
@@ -109,7 +108,6 @@ goto all_done
 :had_pathserror
 
 echo [DATASYNC] Certain environment variables must be set before Emergence can be built.
-call mshta "javascript:var sh=new ActiveXObject( 'WScript.Shell' ); sh.Popup( 'Certain environment variables must be set before Emergence can be built.', 10, '[DATASYNC]', 64 );close()"
 
 :had_error
 echo [DATASYNC] An error occured in the data sync.

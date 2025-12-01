@@ -46,6 +46,7 @@ static void LocalizeDir( eg_cpstr DirPath )
 	IgnorePaths.Append( "core/PreBuild" );
 	IgnorePaths.Append( "core/audio" );
 	IgnorePaths.Append( "core/web" );
+	IgnorePaths.Append( "core/BuildTools" );
 
 	EGArray<eg_string_big> TargetFiles;
 

@@ -173,7 +173,7 @@ public:
 
 
 		EGFileData TemplateFileData( eg_file_data_init_t::HasOwnMemory );
-		const eg_d_string16 TemplateFilename = EGPath2_CleanPath( *EGSFormat16( L"{0}/tools/vst/{1}.txt" , *EGToolsHelper_GetBuildVar( "EGSRC" ) , *m_BuildInfo.TemplateName ) , '\\' );
+		const eg_d_string16 TemplateFilename = EGPath2_CleanPath( *EGSFormat16( L"{0}/core/BuildTools/vst/{1}.txt" , *EGToolsHelper_GetBuildVar( "EGSRC" ) , *m_BuildInfo.TemplateName ) , '\\' );
 		EGToolsHelper_OpenFile( *TemplateFilename , TemplateFileData );
 		TemplateFileData.Seek( eg_file_data_seek_t::End , 0 );
 		TemplateFileData.Write<eg_char8>( '\0' );
@@ -544,7 +544,7 @@ static void EGVSGen_BuildEngineProject()
 	ProjectBuildInfo.IncludeRoots.Append( L"../libs/inc" );
 	ProjectBuildInfo.IncludeRoots.Append( L"../lib3p/libogg132/include" );
 	ProjectBuildInfo.IncludeRoots.Append( L"../lib3p/libvorbis135/include" );
-	ProjectBuildInfo.IncludeRoots.Append( L"../lib3p/steamworks/sdk/public/steam" );
+	ProjectBuildInfo.IncludeDirs.Append( L"../lib3p/steamworks/sdk/public" );
 	ProjectBuildInfo.IncludeDirs.Append( L"../lib3p/xaudio2/include" );
 	ProjectBuildInfo.IncludeDirs.Append( L"../lib3p/xinput/include" );
 	ProjectBuildInfo.IncludeDirs.Append( L"../lib3p" );
@@ -625,9 +625,9 @@ static void EGVSGen_BuildLib3P()
 static void EGVSGen_BuildPreTools()
 {
 	egVSGenBuildInfo ProjectBuildInfo;
-	ProjectBuildInfo.ProjectName = "PreTools";
+	ProjectBuildInfo.ProjectName = "BuildTools";
 	ProjectBuildInfo.TemplateName = "vst_files_only";
-	ProjectBuildInfo.ProjectDir = L"tools";
+	ProjectBuildInfo.ProjectDir = L"core/BuildTools";
 	ProjectBuildInfo.ProjectRoots.Append( L"bat" );
 	ProjectBuildInfo.ProjectRoots.Append( L"python" );
 	ProjectBuildInfo.ProjectRoots.Append( L"bin" );

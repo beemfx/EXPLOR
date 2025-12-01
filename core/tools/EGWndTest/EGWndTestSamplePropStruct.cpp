@@ -153,7 +153,7 @@ void EGWndTestPropStruct::Save()
 	}
 	else
 	{
-		EGLogf( eg_log_t::Error , "Self eidtor got broken." );
+		EGLogf( eg_log_t::Error , "Self editor got broken." );
 	}
 }
 

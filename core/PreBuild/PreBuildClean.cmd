@@ -4,8 +4,6 @@ echo [PreBuild] Cleaning files...
 CD /D %~1%
 set EGSRC=%~1%
 set EGOUT=%~1%_BUILD\
-set EGGAME=ExGame
-
 
 rem if not exist "%EGOUT%/" goto clean_done
 cd %EGOUT%

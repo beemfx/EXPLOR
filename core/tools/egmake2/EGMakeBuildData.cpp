@@ -369,12 +369,12 @@ static bool EGMake_ShaderHeader( eg_cpstr Path , eg_uint HlslVersion )
 static void EGMake_SetToolsEnv()
 {
 	eg_string_big StrSrcTools = EGToolsHelper_GetEnvVar( "EGSRC" );
-	StrSrcTools.Append( "/tools/bin" );
+	StrSrcTools.Append( "/core/BuildTools/bin" );
 
 	eg_string_big StrBuildTools = EGToolsHelper_GetEnvVar( "EGOUT" );
 	StrBuildTools.Append( "/bin" );
 
-	const eg_d_string8 PathStr = "_BUILD\\bin;tools\\bin";// EGSFormat8( "{0}\\\\_BUILD\\\\bin;{0}\\\\tools\\\\bin" , *EGOsFile_GetCWD() );
+	const eg_d_string8 PathStr = "_BUILD\\bin;core\\BuildTools\\bin";// EGSFormat8( "{0}\\\\_BUILD\\\\bin;{0}\\\\tools\\\\bin" , *EGOsFile_GetCWD() );
 	_putenv_s( "PATH" , *PathStr );
 }
 

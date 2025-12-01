@@ -13,7 +13,7 @@
 
 #pragma warning(push)
 #pragma warning(disable:4996)
-#include "steam_api.h"
+#include "steam/steam_api.h"
 #pragma warning(pop)
 
 #pragma comment(lib,"steam_api64.lib")

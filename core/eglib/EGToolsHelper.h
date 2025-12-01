@@ -2,6 +2,7 @@
 
 class EGFileData;
 
+eg_string_big EGToolsHelper_GetDefaultGameName();
 eg_string_big EGToolsHelper_GetEnvVar( eg_cpstr Var , eg_bool bForceFromRegistry = false );
 eg_s_string_big16 EGToolsHelper_GetBuildVar( eg_cpstr Var );
 void EGToolsHelper_SetBuildVar( eg_cpstr Var , eg_cpstr16 NewValue );
