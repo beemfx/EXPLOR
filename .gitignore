@@ -421,4 +421,5 @@ FodyWeavers.xsd
 !tools/bin/**
 !rawassets/**
 !core/egdata/**
+!core/BuildTools/**
 _BUILD/*
