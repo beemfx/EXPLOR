@@ -284,7 +284,8 @@ private:
 
 			if( !EGVSGen_bIncludeData )
 			{
-				if( EGString_EqualsI( Filename , L"data" ) || EGString_BeginsWithI( Filename , L"data/" ) )
+				if( EGString_EqualsI( Filename , L"data" ) || EGString_BeginsWithI( Filename , L"data/" )
+					|| EGString_EqualsI( Filename , L"data_src" ) || EGString_BeginsWithI( Filename , L"data_src/" ) )
 				{
 					return;
 				}

@@ -191,15 +191,13 @@ eg_string EGToolsHelper_GameAssetPathToSource( eg_cpstr GameAssetPath , eg_cpstr
 eg_d_string16 EGToolsHelper_GetRawAssetPathFromGameAssetPath( eg_cpstr16 GameAssetPathIn )
 {
 	// const egPathParts2 PathParts = EGPath2_BreakPath( FullPath );
-	const eg_d_string16 EgSrc = EGToolsHelper_GetEnvVar( "EGSRC" );
-	const eg_d_string16 RelativePath = EGPath2_GetRelativePathTo( GameAssetPathIn , *(EgSrc + "/games/") );
-	egPathParts2 RawAssetParts = EGPath2_BreakPath( *(EgSrc + "/rawassets/" + RelativePath ) );
+	egPathParts2 RawAssetParts = EGPath2_BreakPath( GameAssetPathIn );
 	for( eg_int i=0; i<RawAssetParts.Folders.LenAs<eg_int>(); i++ )
 	{
-		// Remove first occurence of "data" since that is not in the rawasset path
+		// Replace "data" with "data_src".
 		if( RawAssetParts.Folders[i].EqualsI( L"data" ) )
 		{
-			RawAssetParts.Folders.DeleteByIndex( i );
+			RawAssetParts.Folders[i] = L"data_src";
 			break;
 		}
 	}

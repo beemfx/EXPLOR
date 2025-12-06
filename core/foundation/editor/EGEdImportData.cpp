@@ -108,8 +108,9 @@ void EGEdImportData_Execute( eg_cpstr FileExt )
 		}
 		else
 		{
-			RawRoot.Append( "/rawassets/" );
+			RawRoot.Append( "/games/" );
 			RawRoot.Append( SourceFolder );
+			RawRoot.Append( "/data_src/" );
 			RawRoot.Append( "/" );
 			RawRoot = EGPath2_CleanPath( *RawRoot , '/' );
 			DestRoot = SourceRoot;
