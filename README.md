@@ -16,22 +16,24 @@ You may also open EG.sln with Visual Studio 2022. When buildng this way, you'll 
 
 If you only want to run the game against pre-built data (such as data purchased through Steam), you may select "Debug" or "Release" for the configuration instead. If building the source code in this manner you should then specify the debug working directory as the directory where the game content is located.
 
+For example:
+<pre>
+C:\Program Files (x86)\Steam\steamapps\common\EXPLOR A New World
+</pre>
+
 ## Modifying the Game
 
 If you want to build your own game using the source code you can use EGEdApp_x64.exe (this will be built when running BuildDefaultGame.bat, but if building from Visual Studio you may need to build this yourself). This will open an asset browser that provides an interface for opening editor applications than can modify and create game assets. Note that we never optimized how the editor builds assets so modifying a single asset may cause long asset build times for the entire game. Also note that the editor is primitive and not a commercial product so using it will be very finicky.
 
 If you want to make new map for the game, we recommend Grid Cartographer (https://store.steampowered.com/app/684690/Grid_Cartographer/) this is the software we used to create maps during development. Grid Cartographer maps are not natively supported, they first need to be exported to XML format and then imported into the game. You can find an example of the raw maps in the rawassets\ExGame\mapsf directory. EGEdApp_x64.exe can be used to import assets from the rawassets directory into the game.
 
-For example:
-<pre>
-C:\Program Files (x86)\Steam\steamapps\common\EXPLOR A New World
-</pre>
-
 ## About the Licensing
 
 ### Source Code
 
-Beem Media is releasing the source code found in this repository under the license indicated by the LICENSE document found in the root directory of the repository. This applies to source code created by Beem Media. Additional source code may be subject to its own copyright and license, such instances will generally be noted as such in the source code itself or in adjacent documents.
+Beem Media is releasing the source code found in this repository under the license indicated by the LICENSE document found in the root directory of the repository. This applies to source code created by Beem Media specifically for EXPLOR. Additional source code may be subject to its own copyright and license, such instances will generally be noted as such in the source code itself or in adjacent documents.
+
+The Emergence Engine source code is licensed by the LICENSE file found in "core/LICENSE" which is a less strict license than the game code. See the associated README.md for more information about the Emergence Engine.
 
 ### Demo Assets
 
