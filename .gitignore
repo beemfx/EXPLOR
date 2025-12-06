@@ -419,7 +419,9 @@ FodyWeavers.xsd
 
 # EXPLOR Exceptions
 !tools/bin/**
-!rawassets/**
 !core/egdata/**
+!core/egdata_src/**
 !core/BuildTools/**
+!games/ExGame/data/**
+!games/ExGamke/data_src/**
 _BUILD/*
