@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elyt id="TreasureChestMenu" script="ExTreasureChestMenu" flags="">
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 80 0 , 1" />
+				<property name="IsGuide" value="true" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="TreasureMenuHeader" />
+					<property name="LocText_enus" value="Treasure!" />
+					<property name="Font" value="ex_header" />
+					<property name="Width" value="200" />
+					<property name="Height" value="8" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="CENTER" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="HintBar" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="ExHintBarWidget" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 -58 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="Sample Text" />
+					<property name="LocText_enus" value="" />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="240" />
+					<property name="Height" value="5" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="CENTER" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+</elyt>

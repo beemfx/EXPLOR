@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExCreditsData">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Lines" ed_expanded="true" reserve_size="2" >
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="Final |COPY|" />
+				<property name="Type" value="FuturePop" />
+				<struct name="Title" ed_expanded="true" >
+					<property name="Name" value="CopyrightNotice" />
+					<property name="Name_enus" value="|COPY| 2025 Beem Media" />
+				</struct>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="Delay" />
+				<property name="Type" value="Delay" />
+				<property name="DelayTime" value="10" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExBeastiary">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Categories" ed_expanded="true" reserve_size="2" >
+			<struct name="-" ed_expanded="false" >
+				<property name="CategoryId" value="Sewers" />
+				<array name="Beasts" ed_expanded="true" reserve_size="4" >
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="Turtle" />
+						<property name="Name" value="TurtleName" />
+						<property name="Name_enus" value="Shell Man" />
+						<property name="Class" value="EnemyMonster" />
+						<property name="ImagePath" value="/game/monstersprites/t_monster_demo_d" />
+						<property name="bIsBossCreature" value="false" />
+						<struct name="BehaviorData" ed_expanded="true" >
+							<property name="BaseXPReward" value="8" />
+							<property name="BaseGoldDropMin" value="40" />
+							<property name="BaseGoldDropMax" value="50" />
+							<struct name="Attributes" ed_expanded="true" >
+								<property name="SPD" value="3" />
+								<property name="STR" value="8" />
+								<property name="END" value="10" />
+								<property name="ACC" value="1" />
+								<property name="MAG" value="0" />
+								<property name="AGR" value="1" />
+								<property name="BHP" value="36" />
+								<property name="BMP" value="0" />
+							</struct>
+							<property name="TargetStrategy" value="Agression" />
+							<property name="bHasRangedAttack" value="false" />
+							<array name="CombatModifiers" ed_expanded="true" reserve_size="2" >
+								<struct name="-" ed_expanded="true" >
+									<property name="Attribute" value="PDMG" />
+									<property name="Value" value="7" />
+									<property name="Function" value="ScaledByMonsterLevel" />
+								</struct>
+								<struct name="-" ed_expanded="true" >
+									<property name="Attribute" value="PDEF" />
+									<property name="Value" value="15" />
+									<property name="Function" value="ScaledByMonsterLevel" />
+								</struct>
+							</array>
+						</struct>
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="Tick" />
+						<property name="Name" value="TickName" />
+						<property name="Name_enus" value="Bug" />
+						<property name="Class" value="EnemyMonster" />
+						<property name="ImagePath" value="/game/monstersprites/t_monster_demo_d" />
+						<property name="bIsBossCreature" value="false" />
+						<struct name="BehaviorData" ed_expanded="true" >
+							<property name="BaseXPReward" value="2" />
+							<property name="BaseGoldDropMin" value="0" />
+							<property name="BaseGoldDropMax" value="4" />
+							<struct name="Attributes" ed_expanded="true" >
+								<property name="SPD" value="9" />
+								<property name="STR" value="2" />
+								<property name="END" value="2" />
+								<property name="ACC" value="1" />
+								<property name="MAG" value="0" />
+								<property name="AGR" value="1" />
+								<property name="BHP" value="10" />
+								<property name="BMP" value="0" />
+							</struct>
+							<property name="TargetStrategy" value="Agression" />
+							<property name="bHasRangedAttack" value="false" />
+							<array name="CombatModifiers" ed_expanded="true" reserve_size="1" >
+								<struct name="-" ed_expanded="true" >
+									<property name="Attribute" value="PDMG" />
+									<property name="Value" value="6" />
+									<property name="Function" value="ScaledByMonsterLevel" />
+								</struct>
+							</array>
+						</struct>
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="Frog" />
+						<property name="Name" value="FrogName" />
+						<property name="Name_enus" value="Ribbit Creature" />
+						<property name="Class" value="EnemyMonster" />
+						<property name="ImagePath" value="/game/monstersprites/t_monster_demo_d" />
+						<property name="bIsBossCreature" value="false" />
+						<struct name="BehaviorData" ed_expanded="true" >
+							<property name="BaseXPReward" value="13" />
+							<property name="BaseGoldDropMin" value="0" />
+							<property name="BaseGoldDropMax" value="20" />
+							<struct name="Attributes" ed_expanded="true" >
+								<property name="SPD" value="8" />
+								<property name="STR" value="1" />
+								<property name="END" value="2" />
+								<property name="ACC" value="1" />
+								<property name="MAG" value="0" />
+								<property name="AGR" value="1" />
+								<property name="BHP" value="58" />
+								<property name="BMP" value="0" />
+							</struct>
+							<property name="TargetStrategy" value="Agression" />
+							<property name="bHasRangedAttack" value="false" />
+							<array name="CombatModifiers" ed_expanded="true" reserve_size="3" >
+								<struct name="-" ed_expanded="true" >
+									<property name="Attribute" value="PDMG" />
+									<property name="Value" value="6" />
+									<property name="Function" value="ScaledByMonsterLevel" />
+								</struct>
+								<struct name="-" ed_expanded="true" >
+									<property name="Attribute" value="WDMG" />
+									<property name="Value" value="2" />
+									<property name="Function" value="Fixed" />
+								</struct>
+								<struct name="-" ed_expanded="true" >
+									<property name="Attribute" value="WDEF" />
+									<property name="Value" value="20" />
+									<property name="Function" value="ScaledByMonsterLevel" />
+								</struct>
+							</array>
+						</struct>
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="Barbarian" />
+						<property name="Name" value="BarbarianName" />
+						<property name="Name_enus" value="Barbarian" />
+						<property name="Class" value="EnemyMonster" />
+						<property name="ImagePath" value="/game/monstersprites/t_monster_demo_d" />
+						<property name="bIsBossCreature" value="true" />
+						<struct name="BehaviorData" ed_expanded="true" >
+							<property name="BaseXPReward" value="170" />
+							<property name="BaseGoldDropMin" value="210" />
+							<property name="BaseGoldDropMax" value="250" />
+							<struct name="Attributes" ed_expanded="true" >
+								<property name="SPD" value="6" />
+								<property name="STR" value="10" />
+								<property name="END" value="10" />
+								<property name="ACC" value="1" />
+								<property name="MAG" value="0" />
+								<property name="AGR" value="1" />
+								<property name="BHP" value="640" />
+								<property name="BMP" value="0" />
+							</struct>
+							<property name="TargetStrategy" value="Agression" />
+							<property name="bHasRangedAttack" value="false" />
+							<array name="CombatModifiers" ed_expanded="true" reserve_size="2" >
+								<struct name="-" ed_expanded="true" >
+									<property name="Attribute" value="PDMG" />
+									<property name="Value" value="11" />
+									<property name="Function" value="ScaledByMonsterLevel" />
+								</struct>
+								<struct name="-" ed_expanded="true" >
+									<property name="Attribute" value="FDEF" />
+									<property name="Value" value="20" />
+									<property name="Function" value="ScaledByMonsterLevel" />
+								</struct>
+							</array>
+						</struct>
+					</struct>
+				</array>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="CategoryId" value="Town" />
+				<array name="Beasts" ed_expanded="false" reserve_size="2" >
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="GuardB" />
+						<property name="Name" value="GuardBName" />
+						<property name="Name_enus" value="Tough City Guard" />
+						<property name="Class" value="EnemyMonster" />
+						<property name="ImagePath" value="/game/monstersprites/t_monster_demo_d" />
+						<property name="bIsBossCreature" value="false" />
+						<struct name="BehaviorData" ed_expanded="true" >
+							<property name="BaseXPReward" value="9" />
+							<property name="BaseGoldDropMin" value="40" />
+							<property name="BaseGoldDropMax" value="50" />
+							<struct name="Attributes" ed_expanded="true" >
+								<property name="SPD" value="5" />
+								<property name="STR" value="3" />
+								<property name="END" value="2" />
+								<property name="ACC" value="1" />
+								<property name="MAG" value="0" />
+								<property name="AGR" value="1" />
+								<property name="BHP" value="73" />
+								<property name="BMP" value="0" />
+							</struct>
+							<property name="TargetStrategy" value="Agression" />
+							<property name="bHasRangedAttack" value="false" />
+							<array name="CombatModifiers" ed_expanded="true" reserve_size="2" >
+								<struct name="-" ed_expanded="true" >
+									<property name="Attribute" value="PDMG" />
+									<property name="Value" value="12" />
+									<property name="Function" value="ScaledByMonsterLevel" />
+								</struct>
+								<struct name="-" ed_expanded="true" >
+									<property name="Attribute" value="PDEF" />
+									<property name="Value" value="2" />
+									<property name="Function" value="ScaledByMonsterLevel" />
+								</struct>
+							</array>
+						</struct>
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="EarlOfDanGuard" />
+						<property name="Name" value="EarlOfDanGuardName" />
+						<property name="Name_enus" value="Earl of Dan&apos;s Guard" />
+						<property name="Class" value="EnemyMonster" />
+						<property name="ImagePath" value="/game/monstersprites/t_monster_demo_d" />
+						<property name="bIsBossCreature" value="false" />
+						<struct name="BehaviorData" ed_expanded="true" >
+							<property name="BaseXPReward" value="13" />
+							<property name="BaseGoldDropMin" value="57" />
+							<property name="BaseGoldDropMax" value="57" />
+							<struct name="Attributes" ed_expanded="true" >
+								<property name="SPD" value="5" />
+								<property name="STR" value="3" />
+								<property name="END" value="2" />
+								<property name="ACC" value="1" />
+								<property name="MAG" value="0" />
+								<property name="AGR" value="1" />
+								<property name="BHP" value="200" />
+								<property name="BMP" value="0" />
+							</struct>
+							<property name="TargetStrategy" value="Agression" />
+							<property name="bHasRangedAttack" value="false" />
+							<array name="CombatModifiers" ed_expanded="true" reserve_size="2" >
+								<struct name="-" ed_expanded="true" >
+									<property name="Attribute" value="PDMG" />
+									<property name="Value" value="20" />
+									<property name="Function" value="ScaledByMonsterLevel" />
+								</struct>
+								<struct name="-" ed_expanded="true" >
+									<property name="Attribute" value="PDEF" />
+									<property name="Value" value="2" />
+									<property name="Function" value="ScaledByMonsterLevel" />
+								</struct>
+							</array>
+						</struct>
+					</struct>
+				</array>
+			</struct>
+		</array>
+		<array name="m_DebugMenuSortOrder" ed_expanded="false" reserve_size="16" >
+			<property name="-" value="Turtle" />
+			<property name="-" value="TurtleHard" />
+			<property name="-" value="Tick" />
+			<property name="-" value="TickHard" />
+			<property name="-" value="Mushroom" />
+			<property name="-" value="MushroomHard" />
+			<property name="-" value="Frog" />
+			<property name="-" value="FrogHard" />
+			<property name="-" value="Bee" />
+			<property name="-" value="BeeHard" />
+			<property name="-" value="Barbarian" />
+			<property name="-" value="BarbarianHard" />
+			<property name="-" value="Fishman" />
+			<property name="-" value="FishmanHard" />
+			<property name="-" value="Boar" />
+			<property name="-" value="BoarHard" />
+		</array>
+	</struct>
+</egasset>

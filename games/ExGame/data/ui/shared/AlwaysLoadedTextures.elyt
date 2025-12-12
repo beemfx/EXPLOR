@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elyt id="AlwaysLoadedTextures" script="EGMenu" flags="">
+
+	<image>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="Check0" />
+				<property name="bIsLocked" value="false" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , -113.778 36 0 , 1" />
+				<property name="ScaleVec" value="100 100 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="ImageInfo" ed_expanded="true" >
+					<property name="Texture" value="t_ui_checkbox_checked_d" />
+					<property name="Shader" value="" />
+					<struct name="Properties" ed_expanded="true" >
+						<property name="Diffuse" value="ARGB32:255 255 255 255" />
+						<property name="Ambient" value="ARGB32:255 0 0 0" />
+						<property name="Specular" value="ARGB32:255 0 0 0" />
+						<property name="Emissive" value="ARGB32:255 0 0 0" />
+						<property name="Power" value="1" />
+					</struct>
+				</struct>
+			</struct>
+		</properties>
+	</image>
+
+	<image>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="Check1" />
+				<property name="bIsLocked" value="false" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , -9.55556 35.1111 0 , 1" />
+				<property name="ScaleVec" value="100 100 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="ImageInfo" ed_expanded="true" >
+					<property name="Texture" value="t_ui_checkbox_disabled_d" />
+					<property name="Shader" value="" />
+					<struct name="Properties" ed_expanded="true" >
+						<property name="Diffuse" value="ARGB32:255 255 255 255" />
+						<property name="Ambient" value="ARGB32:255 0 0 0" />
+						<property name="Specular" value="ARGB32:255 0 0 0" />
+						<property name="Emissive" value="ARGB32:255 0 0 0" />
+						<property name="Power" value="1" />
+					</struct>
+				</struct>
+			</struct>
+		</properties>
+	</image>
+
+	<image>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="Check2" />
+				<property name="bIsLocked" value="false" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 92.8889 34.6667 0 , 1" />
+				<property name="ScaleVec" value="100 100 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="ImageInfo" ed_expanded="true" >
+					<property name="Texture" value="t_ui_checkbox_unchecked_d" />
+					<property name="Shader" value="" />
+					<struct name="Properties" ed_expanded="true" >
+						<property name="Diffuse" value="ARGB32:255 255 255 255" />
+						<property name="Ambient" value="ARGB32:255 0 0 0" />
+						<property name="Specular" value="ARGB32:255 0 0 0" />
+						<property name="Emissive" value="ARGB32:255 0 0 0" />
+						<property name="Power" value="1" />
+					</struct>
+				</struct>
+			</struct>
+		</properties>
+	</image>
+
+</elyt>

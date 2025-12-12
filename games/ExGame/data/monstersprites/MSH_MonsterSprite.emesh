@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<emesh version="123" format="base64" >
+
+	<material id="1" tex0="T_Monster_Turtle_d" tex1="/egdata/textures/default_normal" tex2="/egdata/textures/default_white" diffuse="1 1 1 1" specular="0 0 0 1" emissive="0 0 0 1" ambient="0 0 0 1" power="0" />
+
+
+	<mesh id="1" name="Mesh" first_triangle="1" triangles="2" material="1"/>
+
+	<bounds min="/v9/vwAAgL8AAACA" max="AACAPwAAgD8AAACA"/>
+
+	<vertex id="1" pos="/v9/vwAAgD8AAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="AAAAAAAAAAA=" tex1="AAAAAAAAAAA=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="2" pos="/v9/vwAAgL8AAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="AAAAAAAAgD4=" tex1="AAAAAAAAgD4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="3" pos="AACAPwAAgL8AAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="AACAPgAAgD4=" tex1="AACAPgAAgD4=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="4" pos="AACAPwAAgD8AAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="AACAPgAAAAA=" tex1="AACAPgAAAAA=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+
+	<triangle id="1" v1="3" v2="2" v3="1"/>
+	<triangle id="2" v1="4" v2="3" v3="1"/>
+</emesh>

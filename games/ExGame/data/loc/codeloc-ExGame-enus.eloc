@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eloc language="en-US">
+	<!-- BEGIN CODE-LOC Text TEXT -->
+	<text key="CombatBeginString" string="|SC(EX_HURT)|Combat Ensues!|RC()|" />
+	<text key="CombatNextUp" string="{0:NAME} fights next." />
+	<text key="CombatCastString" string="{0:NAME} casts {1:NAME} and" />
+	<text key="CombatAdditionalBoostAmountText" string="and |SC(EX_ATTR)|{0} {1}|RC()|" />
+	<text key="CombatBoostAmountText" string="boosts |SC(EX_ATTR)|{0} {1}|RC()|" />
+	<text key="CombatBoostsSingleText" string="on {0:NAME}." />
+	<text key="CombatBoostsMultipleText" string="on {0} fighters." />
+	<text key="CombatHealSingle" string="restored |SC(EX_HEAL)|{1} HP|RC()| to {0:NAME}." />
+	<text key="CombatHealMultiple" string="restored |SC(EX_HEAL)|{1} HP|RC()| to {0} fighters." />
+	<text key="CombatSpellDamageSingleWithResist" string="hit {0:NAME} damaging |SC(RED)|{1} HP|RC()|, |SC({3})|{2}|RC()| was resisted." />
+	<text key="CombatSpellDamageSingle" string="hit {0:NAME} damaging |SC(RED)|{1} HP|RC()|." />
+	<text key="CombatSpellDamageMultiple" string="hit {0} fighters damaging |SC(RED)|{1} HP|RC()|." />
+	<text key="CombatWasKilled" string="{0:NAME} was killed." />
+	<text key="GoesDownString" string="{0:NAME} goes down." />
+	<text key="CombatMultipleDownString" string="{0} fighters go down." />
+	<text key="CombatSpellResurrectMultiple" string="resurrected {0} fighters." />
+	<text key="CombatSpellResurrectSingleTarget" string="resurrected {0:NAME}." />
+	<text key="CombatSpellResurrectNoOne" string="there was no one to resurrect." />
+	<text key="MeleeAttackStringFull" string="{0:NAME} attacked {1:NAME} with {2} DAM, was blocked by {3} DEF, and damaged |SC(EX_HURT)|{4} HP|RC()|." />
+	<text key="MeleeAttackStringMinimalMissed" string="{0:NAME} attacked {1:NAME} and missed." />
+	<text key="MeleeAttackStringMinimal" string="{0:NAME} attacked {1:NAME} damaging |SC(EX_HURT)|{4} HP|RC()|." />
+	<text key="BurgleString" string="|SC(EX_GOLD)|{0} gold|RC()| was burgled." />
+	<text key="RangedAttackStringFull" string="{0:NAME} shot {1:NAME} with {2} DAM, was blocked by {3} DEF, and damaged |SC(EX_HURT)|{4} HP|RC()|." />
+	<text key="RangedAttackStringMinimalMissed" string="{0:NAME} shot {1:NAME} and missed." />
+	<text key="RangedAttackStringMinimal" string="{0:NAME} shot {1:NAME} damaging |SC(EX_HURT)|{4} HP|RC()|." />
+	<text key="BlockString" string="{0:NAME} blocks." />
+	<text key="RunStringSuccess" string="{0:NAME} made a run for it and escaped." />
+	<text key="RunStringFailure" string="{0:NAME} made a run for it but could not find an escape route." />
+	<text key="AdvanceStringSuccess" string="{0:NAME} advanced ranks." />
+	<text key="AdvanceStringFailure" string="{0:NAME} couldn&apos;t find an opening to advance ranks." />
+	<text key="CombatBackAwayStringSuccess" string="{0:NAME} backs away." />
+	<text key="CombatBackAwayStringFailure" string="{0:NAME} couldn&apos;t find an opening to back away." />
+	<text key="CombatComplete" string="The combat was completed." />
+	<text key="FrontRowText" string="Front Row" />
+	<text key="BackRowText" string="Back Row" />
+	<text key="OutOfCombatText" string="Out of Combat" />
+	<text key="CombatDownText" string="Down" />
+	<text key="CombatEscapedText" string="Escaped" />
+	<text key="SettingsDebugShowMapObjects" string="DEBUG: Draw Map Objects" />
+	<text key="ShowEntityHintBoxesText" string="DEBUG: Show Entity Hit Boxes" />
+	<text key="SettingsDebugShowTarget" string="DEBUG: Show Player Target" />
+	<text key="ExSettingsEnableHeadBob" string="Enable Head Bob" />
+	<text key="DoorLockedText" string="The door is locked..." />
+	<text key="AttrAbrNameXP" string="XP" />
+	<text key="AttrNameXP" string="Experience" />
+	<text key="AttrDescXP" string="A measure of a character&apos;s successes. Required to train |SC(EX_ATTR)|LVL|RC()|." />
+	<text key="AttrAbrNameLVL" string="LVL" />
+	<text key="AttrNameLVL" string="Level" />
+	<text key="AttrDescLVL" string="The measure of a character&apos;s training. Higher levels increase |SC(EX_ATTR)|HP|RC()|, |SC(EX_ATTR)|MP|RC()|, |SC(EX_ATTR)|DEF|RC()|, and increase |SC(EX_ATTR)|DMG|RC()| caused by attacks and spells." />
+	<text key="AttrAbrNameSPD" string="SPD" />
+	<text key="AttrNameSPD" string="Speed" />
+	<text key="AttrDescSPD" string="Determines how often a character has a turn in combat. Characters with higher values attack more often and consequently deal more |SC(EX_ATTR)|DMG|RC()| over time." />
+	<text key="AttrAbrNameSTR" string="STR" />
+	<text key="AttrNameSTR" string="Strength" />
+	<text key="AttrDescSTR" string="Affects |SC(EX_ATTR)|PDMG|RC()| and the effectiveness of weapons." />
+	<text key="AttrAbrNameEND" string="END" />
+	<text key="AttrNameEND" string="Endurance" />
+	<text key="AttrDescEND" string="Determines how much |SC(EX_ATTR)|HP|RC()| is gained per |SC(EX_ATTR)|LVL|RC()|. Affects |SC(EX_ATTR)|PDEF|RC()| and the effectiveness of armor." />
+	<text key="AttrAbrNameACC" string="ACC" />
+	<text key="AttrNameACC" string="Accuracy (UNUSED)" />
+	<text key="AttrDescACC" string="Determines how much |SC(EX_ATTR)|HIT|RC()| a character has." />
+	<text key="AttrAbrNameMAG" string="MAG" />
+	<text key="AttrNameMAG" string="Magic" />
+	<text key="AttrDescMAG" string="Determines how much |SC(EX_ATTR)|MP|RC()| is gained per |SC(EX_ATTR)|LVL|RC()|. Affects |SC(EX_ATTR)|DMG|RC()| caused by spells." />
+	<text key="AttrAbrNameAGR" string="AGR" />
+	<text key="AttrNameAGR" string="Aggression" />
+	<text key="AttrDescAGR" string="Affects the likelihood that a character will be attacked by an opponent. Increases as the character deals |SC(EX_ATTR)|DMG|RC()| and aggravates opponents during combat." />
+	<text key="AttrAbrNameBHP" string="BHP" />
+	<text key="AttrNameBHP" string="Base Hit Points" />
+	<text key="AttrDescBHP" string="Designer: HIDDEN ATTRIBUTE, SHOULDN&apos;T BE DISPLAYED" />
+	<text key="AttrAbrNameBMP" string="BMP" />
+	<text key="AttrNameBMP" string="Base Mana Points" />
+	<text key="AttrDescBMP" string="Designer: HIDDEN ATTRIBUTE, SHOULDN&apos;T BE DISPLAYED" />
+	<text key="AttrAbrNameDMG" string="DMG" />
+	<text key="AttrNameDMG" string="Total Damage" />
+	<text key="AttrDescDMG" string="Affects how much |SC(EX_ATTR)|HP|RC()| an opponent will lose when attacked. The sum of |SC(EX_ATTR)|PDMG|RC()|, |SC(EX_ATTR)|FDMG|RC()|, |SC(EX_ATTR)|WDMG|RC()|, |SC(EX_ATTR)|EDMG|RC()|, and |SC(EX_ATTR)|ADMG|RC()|." />
+	<text key="AttrAbrNamePDMG" string="PDMG" />
+	<text key="AttrNamePDMG" string="Physical Damage" />
+	<text key="AttrDescPDMG" string="Amount of |SC(EX_ATTR)|DMG|RC()| caused by |SC(EX_ATTR)|STR|RC()| and non-magical weapons." />
+	<text key="AttrAbrNameFDMG" string="FDMG" />
+	<text key="AttrNameFDMG" string="Fire Damage" />
+	<text key="AttrDescFDMG" string="Amount of |SC(EX_ATTR)|DMG|RC()| caused by weapons and items with fire enchantments." />
+	<text key="AttrAbrNameWDMG" string="WDMG" />
+	<text key="AttrNameWDMG" string="Water Damage" />
+	<text key="AttrDescWDMG" string="Amount of |SC(EX_ATTR)|DMG|RC()| caused by weapons and items with water enchantments." />
+	<text key="AttrAbrNameEDMG" string="EDMG" />
+	<text key="AttrNameEDMG" string="Earth Damage" />
+	<text key="AttrDescEDMG" string="Amount of |SC(EX_ATTR)|DMG|RC()| caused by weapons and items with earth enchantments." />
+	<text key="AttrAbrNameADMG" string="ADMG" />
+	<text key="AttrNameADMG" string="Air Damage" />
+	<text key="AttrDescADMG" string="Amount of |SC(EX_ATTR)|DMG|RC()| caused by weapons and items with air enchantments." />
+	<text key="AttrAbrNameDEF" string="DEF" />
+	<text key="AttrNameDEF" string="Total Defense" />
+	<text key="AttrDescDEF" string="Affects how much |SC(EX_ATTR)|DMG|RC()| can be blocked when defending an attack. The sum of |SC(EX_ATTR)|PDEF|RC()|, |SC(EX_ATTR)|FDEF|RC()|, |SC(EX_ATTR)|WDEF|RC()|, |SC(EX_ATTR)|EDEF|RC()|, and |SC(EX_ATTR)|ADEF|RC()|." />
+	<text key="AttrAbrNamePDEF" string="PDEF" />
+	<text key="AttrNamePDEF" string="Physical Defense" />
+	<text key="AttrDescPDEF" string="Amount of |SC(EX_ATTR)|PDMG|RC()| that can be blocked when defending an attack." />
+	<text key="AttrAbrNameFDEF" string="FDEF" />
+	<text key="AttrNameFDEF" string="Fire Defense" />
+	<text key="AttrDescFDEF" string="Amount of |SC(EX_ATTR)|FDMG|RC()| that can be blocked when defending an attack." />
+	<text key="AttrAbrNameWDEF" string="WDEF" />
+	<text key="AttrNameWDEF" string="Water Defense" />
+	<text key="AttrDescWDEF" string="Amount of |SC(EX_ATTR)|WDMG|RC()| that can be blocked when defending an attack." />
+	<text key="AttrAbrNameEDEF" string="EDEF" />
+	<text key="AttrNameEDEF" string="Earth Defense" />
+	<text key="AttrDescEDEF" string="Amount of |SC(EX_ATTR)|EDMG|RC()| that can be blocked when defending an attack." />
+	<text key="AttrAbrNameADEF" string="ADEF" />
+	<text key="AttrNameADEF" string="Air Defense" />
+	<text key="AttrDescADEF" string="Amount of |SC(EX_ATTR)|ADMG|RC()| that can be blocked when defending an attack." />
+	<text key="AttrAbrNameHP" string="HP" />
+	<text key="AttrNameHP" string="Hit Points" />
+	<text key="AttrDescHP" string="The amount of |SC(EX_ATTR)|DMG|RC()| a character can receive before falling in battle. Healing spells and resting can recover lost points." />
+	<text key="AttrAbrNameMP" string="MP" />
+	<text key="AttrNameMP" string="Mana Points" />
+	<text key="AttrDescMP" string="The amount of spell power that can be used in battle. Resting recovers spent points." />
+	<text key="AttrAbrNameHIT" string="HIT" />
+	<text key="AttrNameHIT" string="Chance to Hit (UNUSED)" />
+	<text key="AttrDescHIT" string="The likelihood that an attack will hit an opponent." />
+	<text key="AttrAbrNameDG" string="DG" />
+	<text key="AttrNameDG" string="Chance to Dodge (UNUSED)" />
+	<text key="AttrDescDG" string="The likelihood that an attack will miss the character entirely." />
+	<text key="AttrAbrNameATK" string="ATK" />
+	<text key="AttrNameATK" string="Number of Attacks (UNUSED)" />
+	<text key="AttrDescATK" string="The number of times the character swings their weapon while attacking." />
+	<text key="UnkClassOut" string="-Unknown Class-" />
+	<text key="UnkClassDescOut" string="-Unknown Class Description-" />
+	<text key="GenderNameUnk" string="Unknown" />
+	<text key="GenderNameMale" string="Male" />
+	<text key="GenderNameFemale" string="Female" />
+	<text key="AttrNameUnknown" string="Unknown" />
+	<text key="AttrLongNameUnknown" string="Unknown" />
+	<text key="AttrDescUnknown" string="Unknown" />
+	<text key="CoreHelpPortrait" string="Choose the appearance of this character. Appearance has no effect on the abilities of the character." />
+	<text key="CoreHelpTextName" string="Name this character. A name speaks to who one is, what their family thought of them, and perhaps what was hoped or expected of them in this life." />
+	<text key="CoreCreateCharacterHelpText" string="Create this character." />
+	<text key="ExSettingsClassicAspectRatio" string="Classic Aspect Ratio (4:3)" />
+	<text key="DeadText" string="Dead" />
+	<text key="PetrifiedText" string="Petrified" />
+	<text key="UnconsciousText" string="Unconscious" />
+	<text key="CursedText" string="Cursed" />
+	<text key="DebugSimulateCombatText" string="DEBUG: Simulate Random Combat" />
+	<text key="DebugCombatAfterRester" string="DEBUG: Force Ambushes While Resting" />
+	<text key="UnlockedText" string="{0:NAME} unlocked the door!" />
+	<text key="CantUnlockKey" string="This door is locked by some mechanism or requires a key that the party does not possess." />
+	<text key="CantUnlockThief" string="The lock on this door can be picked by a |SC(EX_CLASS)|Thief|RC()| only." />
+	<text key="CantUnlockLevel" string="A more skilled |SC(EX_CLASS)|Thief|RC()| is needed to pick this lock." />
+	<text key="ExGameTreasure" string="Treasure" />
+	<text key="ExGameChestContains" string="The chest contains:&#xA;" />
+	<text key="ExGameTreasureGold" string="|SC(EX_GOLD)|{0} gold|RC()|&#xA;" />
+	<text key="ExGameTreasureQuestItemBagHint" string="&#xA;(Quest Items are stored in a special bag found in the Game Status menu.)" />
+	<text key="NotEnoughBackpackForTreasure" string="The party does not have enough backpack space to collect the items in this chest." />
+	<text key="SettingsDialogTextSpeed" string="Dialog Text Speed" />
+	<text key="SettingsCombatTextSpeed" string="Combat Text Speed" />
+	<text key="SettingsDebugSaveAllowed" string="DEBUG: Save Anywhere" />
+	<text key="ExSettingsWalkAnimation" string="Movement Animation" />
+	<text key="ExSettingsTurnAnimation" string="Turn Animation" />
+	<text key="TextRevealSettingSlow" string="Slow" />
+	<text key="TextRevealSettingNormal" string="Moderate" />
+	<text key="TextRevealSettingFast" string="Fast" />
+	<text key="TextRevealSettingSuperFast" string="Really Fast" />
+	<text key="MoveAnimationSettingSmooth" string="Smooth" />
+	<text key="MoveAnimationSettingHalfStep" string="Half-Step" />
+	<text key="MoveAnimationSettingNone" string="None" />
+	<text key="InventoryItemNameNoLevel" string="{0}" />
+	<text key="InventoryItemNameWithLevel" string="{0} +{1}" />
+	<text key="InventoryItemCostSellText" string="Sell Price: |SC(EX_GOLD)|{0} gold|RC()|" />
+	<text key="InventoryItemCostBuyText" string="Purchase Price: |SC(EX_GOLD)|{0} gold|RC()|" />
+	<text key="InventoryItemCostBuyBackText" string="Buy-back Price: |SC(EX_GOLD)|{0} gold|RC()|" />
+	<text key="InventoryItemCostText" string="|SC(EX_GOLD)|{0} gold|RC()|" />
+	<text key="InventoryCantUseAttribute" string="|SC(EX_ATTR)|{0}|RC()| |SC(RED)|N/A|RC()|" />
+	<text key="ExArmoryItemTwoHanded" string="Two-handed" />
+	<text key="ExArmoryItemAnyHand" string="Any Hand" />
+	<text key="ExArmoryItemAnyClass" string="Any Class" />
+	<text key="ItemSlotNameNone" string="None" />
+	<text key="ItemSlotDescNone" string="No description" />
+	<text key="ItemSlotNameHelm" string="Helm" />
+	<text key="ItemSlotDescHelm" string="Protection for the head." />
+	<text key="ItemSlotNameArmor" string="Armor" />
+	<text key="ItemSlotDescArmor" string="Protection for the body." />
+	<text key="ItemSlotNamePrimaryWeapon" string="Main Hand" />
+	<text key="ItemSlotDescPrimaryWeapon" string="The primary weapon used in combat." />
+	<text key="ItemSlotNameSecondaryWeapon" string="Off Hand" />
+	<text key="ItemSlotDescSecondaryWeapon" string="A secondary weapon or shield." />
+	<text key="ItemSlotNameAmulet" string="Necklace" />
+	<text key="ItemSlotDescAmulet" string="Worn around the neck, usually to provide a bonus, but may be decorative." />
+	<text key="ItemSlotNameRing1" string="Right Hand Ring" />
+	<text key="ItemSlotDescRing1" string="Worn on the right hand, may be magical, but also decorative." />
+	<text key="ItemSlotNameRing2" string="Left Hand Ring" />
+	<text key="ItemSlotDescRing2" string="Worn on the left hand, a fashion statement, but sometimes boosts attributes." />
+	<text key="SaveMgrCorruptedSave" string="Corrupted Save" />
+	<text key="OutOfDateSave" string="The requested save file was saved with an older version of the game and cannot be loaded." />
+	<text key="NoSuchSave" string="The requested save file did not exist." />
+	<text key="BCE" string="BCE" />
+	<text key="CE" string="CE" />
+	<text key="PM" string="PM" />
+	<text key="AM" string="AM" />
+	<text key="TimeAbbrMonthJan" string="JAN" />
+	<text key="TimeAbbrMonthFeb" string="FEB" />
+	<text key="TimeAbbrMonthMar" string="MAR" />
+	<text key="TimeAbbrMonthApr" string="APR" />
+	<text key="TimeAbbrMonthMay" string="MAY" />
+	<text key="TimeAbbrMonthJun" string="JUN" />
+	<text key="TimeAbbrMonthJul" string="JUL" />
+	<text key="TimeAbbrMonthAug" string="AUG" />
+	<text key="TimeAbbrMonthSep" string="SEP" />
+	<text key="TimeAbbrMonthOct" string="OCT" />
+	<text key="TimeAbbrMonthNov" string="NOV" />
+	<text key="TimeAbbrMonthDec" string="DEC" />
+	<text key="TimeMonthJan" string="January" />
+	<text key="TimeMonthFeb" string="February" />
+	<text key="TimeMonthMar" string="March" />
+	<text key="TimeMonthApr" string="April" />
+	<text key="TimeMonthMay" string="May" />
+	<text key="TimeMonthJun" string="June" />
+	<text key="TimeMonthJul" string="July" />
+	<text key="TimeMonthAug" string="August" />
+	<text key="TimeMonthSep" string="September" />
+	<text key="TimeMonthOct" string="October" />
+	<text key="TimeMonthNov" string="November" />
+	<text key="TimeMonthDec" string="December" />
+	<text key="TimeAbbrMonthUnk" string="Unknown Month" />
+	<text key="TimeAbbrWeekDayMon" string="MON" />
+	<text key="TimeAbbrWeekDayTue" string="TUE" />
+	<text key="TimeAbbrWeekDayWed" string="WED" />
+	<text key="TimeAbbrWeekDayThu" string="THU" />
+	<text key="TimeAbbrWeekDayFri" string="FRI" />
+	<text key="TimeAbbrWeekDaySat" string="SAT" />
+	<text key="TimeAbbrWeekDaySun" string="SUN" />
+	<text key="TimeWeekDayMon" string="Monday" />
+	<text key="TimeWeekDayTue" string="Tuesday" />
+	<text key="TimeWeekDayWed" string="Wednesday" />
+	<text key="TimeWeekDayThu" string="Thursday" />
+	<text key="TimeWeekDayFri" string="Friday" />
+	<text key="TimeWeekDaySat" string="Saturday" />
+	<text key="TimeWeekDaySun" string="Sunday" />
+	<text key="DayAbbrWeekDayUnk" string="Unknown Day" />
+	<text key="SettingsDebugDebugDrawPlayerLight" string="DEBUG: Draw Player Light" />
+	<text key="SettingsCombatPostProcessingEnabled" string="Combat Post Processing" />
+	<text key="SettingsDepthOfFieldPostProcessingEnabled" string="Depth of Field" />
+	<text key="SettingsGamma" string="Gamma" />
+	<text key="MissingMonsterName" string="Missing Monster" />
+	<text key="QuestItemsItemCardDesc" string="|SC(EX_ITEM)|Quest Item|RC()|&#xA;{0}" />
+	<text key="QuestItemsCostText" string="|SC(EX_GOLD)|Not for sale|RC()|" />
+	<text key="SpellTargetText" string="|SC(EX_ATTR)|Target|RC()| {0}" />
+	<text key="SpellTargetNAText" string="N/A" />
+	<text key="SpellTargetMultEnemiesFormat" string="{0} Enemies" />
+	<text key="SpellTargetSingleEnemiesFormat" string="{0} Enemy" />
+	<text key="SpellTargetFullPartyAllyFormat" string="Entire Party" />
+	<text key="SpellTargetMultAllyFormat" string="{0} Party Members" />
+	<text key="SpellTargetSingleAllyFormat" string="{0} Party Member" />
+	<text key="SpellTargetEveryone" string="Everyone" />
+	<text key="SpellTargetSelfWithName" string="Self ({0:NAME})" />
+	<text key="SpellTargetSelfNoName" string="Self" />
+	<text key="SpellInfoHealText" string="Restore |SC(EX_HEAL)|{0} HP|RC()|" />
+	<text key="SpellInfoHealTextMultiple" string="Restore |SC(EX_HEAL)|{0} HP|RC()| ({1}X)" />
+	<text key="SpellInfoDamagerPerTarget" string="|SC(EX_H2)|Damage Per Target|RC()|" />
+	<text key="SpellInfoAttributeBoostHeader" string="|SC(EX_H2)|Attribute Boosts|RC()|" />
+	<text key="SpellInfoNAText" string="|SC(EX_HURT)|N/A|RC()|" />
+	<text key="SpellInfoManaCost" string="|SC(EX_ATTR)|MP Cost|RC()| {0}" />
+	<text key="SpellInfoNotEnoughManaCost" string="|SC(EX_ATTR)|MP Cost|RC()| |SC(EX_HURT)|{0}|RC()|" />
+	<text key="CombatSpellName" string="{0} ({1} MP)" />
+	<text key="InWorldCastNotEnoughMana" string="Not enough mana to cast this spell." />
+	<text key="InWorldCastResurrectFail" string="That character is not dead, and the |SC(EX_ATTR)|MP|RC()| was wasted." />
+	<text key="InWorldCastTownPortalNotAllowed" string="A mystical force prevents Lloyd&apos;s Beacon from opening." />
+	<text key="CastSpellInWorldChooseTargetText" string="Choose Target" />
+	<text key="CharacterCreatePortraitText" string="Portrait {0}" />
+	<text key="AttrPool" string="Attribute Points Allocated: {0}/{1}" />
+	<text key="AttrPoolFull" string="Attribute Points Allocated: |SetColor(RED)|{0}/{1}|RestoreColor()|" />
+	<text key="CharacterCreateMenuEditTextHint" string="Edit Text" />
+	<text key="CharacterCreateMenuCreateHint" string="Create Character" />
+	<text key="CharacterCreateMenuChangeValueHint" string="Change Value" />
+	<text key="CharacterCreateMenuBackOut" string="Cancel" />
+	<text key="CreateMsg_TooManyPointsAllocated" string="You have too many attribute points allocated to create this character." />
+	<text key="CreateMsg_NoName" string="Your character must have a name." />
+	<text key="CreateMsg_NotAllPointsAllocated" string="You have not allocated all attribute points, are you sure you want to create this character?" />
+	<text key="CharacterCreateMenuCharacterSharesThis" string="|SC(EX_WARN)|Notice|RC()|: {0:NAME} shares this portrait." />
+	<text key="CharacterCreateMenuCharacterMultipleSharesThis" string="|SC(EX_WARN)|Notice|RC()|: {0} characters share this portrait." />
+	<text key="CharacterCreateMenuStartingInfoFormatText" string="|SC(EX_H2)|Equipment|RC()|&#xA;{0:EQUIPMENT}&#xA;|SC(EX_H2)|Attributes|RC()|&#xA;|SC(EX_ATTR)|HP|RC()| {0:ATTR:HP}&#xA;|SC(EX_ATTR)|MP|RC()| {0:ATTR:MP}&#xA;|SC(EX_ATTR)|DMG|RC()| {0:ATTR:DMG_}&#xA;|SC(EX_ATTR)|DEF|RC()| {0:ATTR:DEF_}&#xA;|SC(EX_ATTR)|AGR|RC()| {0:ATTR:AGR}" />
+	<text key="CharacterCreateMenu_AttrDesc_SingleRange" string="|SC(EX_ATTR)|{0}|RC()|: {1}&#xA;&#xA;{2} Limit: {3}" />
+	<text key="CharacterCreateMenu_AttrDesc" string="|SC(EX_ATTR)|{0}|RC()|: {1}&#xA;&#xA;{2} Limit: {3}-{4}" />
+	<text key="CharacterMenuTitle" string="{0:NAME}" />
+	<text key="CharacterMenuLevelText" string="LVL {0:ATTR:LVL} {0:CLASS}" />
+	<text key="CharacterMenuMaxLevelText" string="Maximum |SC(EX_ATTR)|LVL|RC()|." />
+	<text key="CharacterMenuEligibleToTrainText" string="Eligible to train to |SC(EX_ATTR)|LVL|RC()| {0}." />
+	<text key="CharacterMenuXPToNextLevelText" string="{0} |SC(EX_ATTR)|XP|RC()| needed to train to |SC(EX_ATTR)|LVL|RC()| {1}." />
+	<text key="CharacterMenuTotalXP" string="{0:XP} |SC(EX_ATTR)|XP|RC()|" />
+	<text key="CharacterMenuCombatPosition" string="Combat Slot {0}" />
+	<text key="CharacterMenuPartyPosition" string="Party Slot {0}" />
+	<text key="CharacterMenuInInnText" string="Visiting Inn" />
+	<text key="CharacterMenuNextParty" string="Switch Character" />
+	<text key="BackOutText" string="Back" />
+	<text key="ContextMenuUnlockDoorText" string="Unlock Door" />
+	<text key="ContextMenuRestText" string="Rest" />
+	<text key="ContextMenuInventoryText" string="Inventory" />
+	<text key="ContextMenuViewMapText" string="View Map" />
+	<text key="ContextMenuCastSpellText" string="Cast Spell" />
+	<text key="ContextMenuViewCharacterText" string="View Character" />
+	<text key="ContextMenuAttuneSkillsText" string="Attune Skills" />
+	<text key="ContextMenuGameStatusText" string="View Quests/Status" />
+	<text key="ContextMenuExchangeText" string="Exchange" />
+	<text key="ContextMenuBackText" string="Back" />
+	<text key="ContextMenuRestUntilHealed" string="Rest Until Healed (8 Hours)" />
+	<text key="ContextMenuRestUntilMorning" string="Rest Until Morning (6AM)" />
+	<text key="PartyStarvingDialogText" string="|SC(EX_WARN)|Notice|RC()|: The party will not recover |SC(EX_ATTR)|HP|RC()| or |SC(EX_ATTR)|MP|RC()| because they have no food. Purchase food from the Inn in order to recover. Do you wish to rest anyway?" />
+	<text key="ControlsSettingsMenuTitle" string="Controls" />
+	<text key="ControlSettingsMenuCannotUnbind" string="The binding for &quot;{0}&quot; cannot be changed." />
+	<text key="ControlSettingsMenuGameSystemUsage" string="Menu: Interact" />
+	<text key="ControlSettingsMenuOSUsage" string="Operating System Functions" />
+	<text key="ControlSettingsCannotRebindsAssociatedWithReason" string="&quot;{0}&quot; cannot be bound to |ButtonGlyph({1})|. That button is already bound to &quot;{2}&quot;" />
+	<text key="ControlSettingsCannotRebindsWithReason" string="&quot;{0}&quot; cannot be bound to |ButtonGlyph({1})|. That button is permanently bound to &quot;{2}&quot;" />
+	<text key="ControlSettingsCannotRebinds" string="&quot;{0}&quot; cannot be bound to |ButtonGlyph({1})|. That button cannot be bound." />
+	<text key="ControlsSettingsMenuCannotRebind" string="The binding for &quot;{0}&quot; cannot be changed." />
+	<text key="KeyBindDialogHeader" string="Input Bind" />
+	<text key="KeyBindGamepadBodyText" string="Press a gamepad button to bind to &quot;{0}&quot;.&#xA;&#xA;|ButtonGlyph(KBM_ESCAPE)|/|ButtonGlyph(GP_START)| Cancel" />
+	<text key="KeyBindKeyboardBodyText" string="Press a keyboard or mouse button to bind to &quot;{0}&quot;.&#xA;&#xA;|ButtonGlyph(KBM_ESCAPE)|/|ButtonGlyph(GP_START)| Cancel" />
+	<text key="ControlMoveForward" string="Move Forward" />
+	<text key="ControlMoveBack" string="Move Backward" />
+	<text key="ControlMoveStrafeLeft" string="Strafe Left" />
+	<text key="ControlMoveStrafeRight" string="Strafe Right" />
+	<text key="ControlMoveTurnLeft" string="Turn Left" />
+	<text key="ControlMoveTurnRight" string="Turn Right" />
+	<text key="ControlNextPartyMember" string="Next Party Member" />
+	<text key="ControlPrevPartyMember" string="Previous Party Member" />
+	<text key="ControlWaitTurn" string="Wait" />
+	<text key="ControlPartyOptions" string="Character Options" />
+	<text key="ControlQuestLog" string="View Quest Log" />
+	<text key="ControlInventoryMenu" string="View Inventory" />
+	<text key="ControlMap" string="View Map" />
+	<text key="ControlCharacter" string="View Character" />
+	<text key="ControlMoveForwardAlt" string="Move Forward (Alternate)" />
+	<text key="ControlMoveBackAlt" string="Move Backward (Alternate)" />
+	<text key="ControlMoveStrafeLeftAlt" string="Strafe Left (Alternate)" />
+	<text key="ControlMoveStrafeRightAlt" string="Strafe Right (Alternate)" />
+	<text key="ControlMoveTurnLeftAlt" string="Turn Left (Alternate)" />
+	<text key="ControlMoveTurnRightAlt" string="Turn Right (Alternate)" />
+	<text key="ControlChangePartyMember" string="Next Party Member (Alternate)" />
+	<text key="ControlGameMenu" string="Open Game Menu" />
+	<text key="ControlMenuSelect" string="Menu: Select" />
+	<text key="ControlMenuBack" string="Menu: Back/Close/Cancel" />
+	<text key="ControlMenuAltSelect" string="Menu: Select (Alternate)" />
+	<text key="ControlMenuAltBack" string="Menu: Back/Close/Cancel (Alternate)" />
+	<text key="ControlMenuUp" string="Menu: Navigate Up" />
+	<text key="ControlMenuDown" string="Menu: Navigate Down" />
+	<text key="ControlMenuLeft" string="Menu: Navigate Left" />
+	<text key="ControlMenuRight" string="Menu: Navigate Right" />
+	<text key="ControlMenuAltUp" string="Menu: Navigate Up (Alternate)" />
+	<text key="ControlMenuAltDown" string="Menu: Navigate Down (Alternate)" />
+	<text key="ControlMenuAltLeft" string="Menu: Navigate Left (Alternate)" />
+	<text key="ControlMenuAltRight" string="Menu: Navigate Right (Alternate)" />
+	<text key="ControlMenuLMB" string="Menu: Interact" />
+	<text key="ControlMenuRMB" string="Menu: Back/Close/Cancel" />
+	<text key="ControlMenuScrollUp" string="Menu: Scroll Up" />
+	<text key="ControlMenuScrollDown" string="Menu: Scroll Down" />
+	<text key="ControlMenuExtra1" string="Menu: Contextual Command 1" />
+	<text key="ControlMenuExtra2" string="Menu: Contextual Command 2" />
+	<text key="ControlMenuNextPage" string="Menu: Next Party Member" />
+	<text key="ControlMenuPrevPage" string="Menu: Previous Party Member" />
+	<text key="ControlMenuNextSubPage" string="Menu: Next Sub-Page" />
+	<text key="ControlMenuPrevSubPage" string="Menu: Previous Sub-Page" />
+	<text key="ControlMenuBackspace" string="Menu: Backspace" />
+	<text key="ControlMenuDelete" string="Menu: Delete" />
+	<text key="ControlMenuCompare" string="Menu: Compare" />
+	<text key="ControlMenuClose" string="Menu: Close" />
+	<text key="ControlConToggle" string="Menu: Console Toggle" />
+	<text key="ControlConPageUp" string="Menu: Console Scroll Up" />
+	<text key="ControlConPageDown" string="Menu: Console PageDown" />
+	<text key="ControlConHistory" string="Menu: Console History" />
+	<text key="ControlDebugQuickSave" string="Debug: Quick Save" />
+	<text key="ControlDebugQuickLoad" string="Debug: Quick Load" />
+	<text key="ControlDebugNext" string="Debug: Inc Day Time" />
+	<text key="ControlDebugPrev" string="Debug: Dec Day Time" />
+	<text key="ControlDebugSpeed" string="Debug: Inc/Dec Day Time Adjustment" />
+	<text key="ControlsSettingsBindKey" string="Change Binding" />
+	<text key="ControlsSettingsUnbindKey" string="Unbind" />
+	<text key="ControlsSettingsResetToDefault" string="Reset to Defaults" />
+	<text key="ControlsSettingsMenuBack" string="Back" />
+	<text key="LevelUpDataViewHeaderText" string="Level Up Data" />
+	<text key="ShoppingDataViewHeaderText" string="Shopping Data" />
+	<text key="DebugMonsterMenuMenuLevelText" string="{0:NAME} LVL {0:ATTR:LVL} ({0:CLASS})" />
+	<text key="MonsterRewardGoldSameText" string="XP Reward: {0}, Gold Reward: {1}" />
+	<text key="MonsterRewardGoldDiffText" string="XP Reward: {0}, Gold Reward: {1}-{2}" />
+	<text key="TestAgainstFormatText" string="Test Against: {0} |SC(EX_ATTR)|LVL|RC()| {1}" />
+	<text key="ToggleMonsterText" string="Toggle Monster" />
+	<text key="ChangeLevelText" string="Change Level" />
+	<text key="ChangeTestAgainstClassText" string="Change Test Class" />
+	<text key="TestFightText" string="Test Fight" />
+	<text key="EndGameFlowCongratsHeader" string="Congratulations" />
+	<text key="EndGameFlowCongratsMessage" string="You have successfully completed E.X.P.L.O.R.|SUP|TM|SUP|: A New World. You will now be returned to town where you may continue adventuring." />
+	<text key="CreateMsg_NoSaveName" string="You must name your save game to continue." />
+	<text key="CreateHelp_SaveName" string="Name your game to refer to it later." />
+	<text key="CreateHelp_CreateButton" string="Begin your EXPLORation of a New World." />
+	<text key="GameCreateMenuEditText" string="Edit Text" />
+	<text key="GameCreateMenuCancel" string="Cancel" />
+	<text key="InventoryMenuEquipHint" string="Equip" />
+	<text key="InventoryMenuSwapHint" string="Swap" />
+	<text key="InventoryMenuDropItem" string="Discard" />
+	<text key="InventoryMenuUneqiupHint" string="Unequip" />
+	<text key="InventoryMenuEquipToSlotHint" string="Equip to Slot" />
+	<text key="InventoryMenuSortBag" string="Sort Backpack" />
+	<text key="InventoryMenuNextParty" string="Switch Character" />
+	<text key="InventoryMenuCancelHint" string="Cancel" />
+	<text key="InventoryMenuCloseHint" string="Back" />
+	<text key="InventoryMenuEquipErrorUnk" string="Unknown error." />
+	<text key="InventoryMenuNotEquippable" string="{0:NAME} cannot be equipped." />
+	<text key="InventoryMenuInvalidData" string="This item had invalid data. Menu logic is incorrect." />
+	<text key="InventoryMenuRequirementsNotMet" string="{1:NAME} does not meet the requirements to equip {0:NAME}." />
+	<text key="InventoryMenuNotEnoughBagSpaceToUnequip" string="There is not enough bag space to remove {0:NAME}." />
+	<text key="InventoryMenuNotEnoughBagSpace" string="There is not enough bag space to equip {0:NAME}. Too many items would be unequipped." />
+	<text key="InventoryMenuConfirmDelete" string="Are you sure you want to remove {0:NAME} from the inventory? This cannot be undone, you will receive no |SC(EX_GOLD)|gold|RC()|, and the item cannot be retrieved." />
+	<text key="InventoryMenuAttributesRanged" string=" (Ranged Attack)" />
+	<text key="InventoryMenuAttributesHeaderCharacter" string="{0:NAME} LVL {0:ATTR:LVL} {0:CLASS}" />
+	<text key="InventoryMenuAttributesHeaderRemoveEffect" string="Effect removing from {0}" />
+	<text key="InventoryMenuAttributesHeaderEffect" string="Effect on {0}{1}" />
+	<text key="InventoryMenuAttributesHeaderCannotEquip" string="|SC(RED)|Cannot Equip|RC(RED)|" />
+	<text key="InventoryMenuAttributesCurrent" string="Current Attributes" />
+	<text key="KeyboardMenuLimitText" string="{0}/{1} Characters" />
+	<text key="KeyboardMenuSpaceBarKey" string="SPC" />
+	<text key="KeyboardMenuEraseCharacter" string="Erase Character" />
+	<text key="KeybaordMenuBackOut" string="Back" />
+	<text key="VersionTextFormat" string="Version: {0}" />
+	<text key="PauseMenuConfirmDelete" string="Are you sure you want to delete {0}? This cannot be undone." />
+	<text key="PauseMenuNewGameText" string="New Game" />
+	<text key="DeleteSaveHintText" string="Delete Save Game" />
+	<text key="MainMenuHintBack" string="Back" />
+	<text key="PauseMenuResumeText" string="Resume" />
+	<text key="PauseMenuContinueText" string="Continue" />
+	<text key="PauseMenuPlayText" string="Play" />
+	<text key="PauseMenuExtrasText" string="Extras" />
+	<text key="PauseMenuSettingsText" string="Settings" />
+	<text key="PauseMenuSaveAndQuitText" string="Save and Quit" />
+	<text key="PauseMenuQuitText" string="Quit" />
+	<text key="PauseMenuExitGameText" string="Exit to Windows" />
+	<text key="PauseMenuDebugSubmenuText" string="Debug" />
+	<text key="PauseMenuGameplaySettings" string="Gameplay" />
+	<text key="PauseMenuGraphicsSettings" string="Graphics" />
+	<text key="PauseMenuAudioSettings" string="Audio" />
+	<text key="PauseMenuControlsSettings" string="Controls" />
+	<text key="PauseMenuDebugSettings" string="Debug" />
+	<text key="TooManySaves" string="You have used all your save slots. You must delete a save in order to create a new game." />
+	<text key="PauseMenuViewIntroText" string="View Intro" />
+	<text key="PauseMenuViewEndingText" string="View Ending" />
+	<text key="PauseMenuCreditsText" string="Credits" />
+	<text key="PauseMenuViewClassicIntroText" string="View Classic &apos;99 Intro" />
+	<text key="PauseMenuPlayCastleText" string="Castle Game" />
+	<text key="QuitFromDungeonWarningText" string="If you quit from the dungeon your progress since the last visit to town will be lost. Are you sure you want to quit?" />
+	<text key="PauseMenuDebugSettingsText" string="Debug Settings" />
+	<text key="PauseMenuMapListText" string="Map List" />
+	<text key="PauseMenuMonsterViewTextText" string="Monster Viewer" />
+	<text key="PauseMenuTestCombatText" string="Test Combat" />
+	<text key="PauseMenuDebugMenuText" string="Debug Menu" />
+	<text key="PauseMenuDebugWipeAchievements" string="Reset Achievements" />
+	<text key="PauseMenuDebugPartyCreate" string="Party Create" />
+	<text key="PauseMenuDebugRoster" string="Roster Menu" />
+	<text key="ConfirmWipeAchievements" string="Are you sure you want to reset your achievements?" />
+	<text key="MapMenuBackOutHint" string="Back" />
+	<text key="MapMenuPlayerPosText" string="Party Position: {0}, {1}" />
+	<text key="PartyCreateTutorial" string="Welcome to party creation. Here you will create the characters that will begin exploring the world. The pre-made party is suitable for completing the game with reasonable challenge. Party members may be created and swapped out at any time by visiting the Inn." />
+	<text key="PartyCreateMenuTooManyPointsAllocated" string="Too many attribute points have been used on a character. You must reduce the number of points used in order to create the character." />
+	<text key="PartyCreateMenuNoName" string="A character name is empty. A character must have a name to be created." />
+	<text key="PartyCreateMenuNotAllPointsAllocated" string="Some attribute points have not been allocated. This may increase the difficulty of the game. Are you sure you want to continue? (You can always create new party members and swap them by visiting the Inn.)" />
+	<text key="PartyCreateMenuConfirmCreation" string="Is this the party you want to begin the game with? (You can always create new party members and swap them by visiting the Inn.)" />
+	<text key="PartyCreateMenuEditTextHint" string="Edit Text" />
+	<text key="PartyCreateMenu_AttrDesc_SingleRange" string="|SC(EX_ATTR)|{0}|RC()|: {1} |SC(EX_CLASS)|{2}|RC()| Limit: {3}" />
+	<text key="PartyCreateMenu_AttrDesc" string="|SC(EX_ATTR)|{0}|RC()|: {1} |SC(EX_CLASS)|{2}|RC()| Limit: {3}-{4}" />
+	<text key="PartyCreateMenuBeginGameHint" string="Begin Exploring" />
+	<text key="PartyCreateMenuChangeValueHint" string="Change Value" />
+	<text key="PartyCreateMenuChangeCharacterHint" string="Switch Character" />
+	<text key="PartyCreateMenuPortraitText" string="Portrait {0}" />
+	<text key="PartyCreateMenuAttrPool" string="Unused Points: {0}" />
+	<text key="PartyCreateMenuAttrPoolFull" string="Unused Points: |SC(RED)|{0}|RC()|" />
+	<text key="PartyCreateMenuStartingInfoFormatText" string="|SC(EX_H2)|Equipment|RC()|&#xA;{0:EQUIPMENT}&#xA;|SC(EX_H2)|Attributes|RC()|&#xA;|SC(EX_ATTR)|HP|RC()| {0:ATTR:HP}&#xA;|SC(EX_ATTR)|MP|RC()| {0:ATTR:MP}&#xA;|SC(EX_ATTR)|DMG|RC()| {0:ATTR:DMG_}&#xA;|SC(EX_ATTR)|DEF|RC()| {0:ATTR:DEF_}&#xA;|SC(EX_ATTR)|AGR|RC()| {0:ATTR:AGR}" />
+	<text key="QuestLogMenuSwitchToDispositionHint" string="Edit Disposition" />
+	<text key="QuestLogMenuSwitchToQuestInventoryItemsHint" string="View Quest Items" />
+	<text key="QuestLogMenuChangeBoolHint" string="Change Value" />
+	<text key="QuestLogMenuChangeToggleHint" string="Change Value" />
+	<text key="QuestLogMenuSwitchToQuestsHint" string="View Quests Progress" />
+	<text key="txtTmpQuest" string="Quest {0}" />
+	<text key="QuestLogMenuNoItemsText" string="No Quest Items" />
+	<text key="QuestLogMenuNoQuestItemText" string="No Item" />
+	<text key="ThrillSeekerText" string="Thrill Seeker" />
+	<text key="FrontLineText" string="Front Line Ranks" />
+	<text key="ThrillSeekerDescription" string="When Thrill Seeker mode is active the party will have random combat encounters at an increased rate. This may be useful if the party does not have enough XP or Gold to make progress in lower levels of the dungeon." />
+	<text key="FrontLineDescription" string="The number of party members that will be on the front lines at the start of combat. These party members will be able to use melee attacks but are also vulnerable to the same." />
+	<text key="RosterMenuCrewMemberOptions" string="Crew Member Options" />
+	<text key="AddToPartyHelp" string="Add {0:NAME}" />
+	<text key="ExchangePartyHelp" string="Exchange {0:NAME}" />
+	<text key="RosterMenu_NoParty" string="You must have at least one living party member to go adventuring." />
+	<text key="RosterNotInPartyString" string="{0} - LVL {1} {2}" />
+	<text key="EmptyRoster" string="-Available-" />
+	<text key="DeleteCharacterConfirm" string="Are you sure you want to delete {0}? This cannot be undone." />
+	<text key="RosterMenuCancel" string="Cancel" />
+	<text key="RosterMenuCreateCharacter" string="Create Character" />
+	<text key="RosterMenuRemoveFromParty" string="Remove From Party" />
+	<text key="RosterMenuViewCharacter" string="View Character" />
+	<text key="RosterMenuAddToParty" string="Add To Party" />
+	<text key="RosterMenuExchange" string="Exchange" />
+	<text key="RosterMenuDeleteCharacter" string="Delete Character" />
+	<text key="SettingsMenuTitleGameplaySettings" string="Gameplay Settings" />
+	<text key="SettingsMenuTitleGraphicsSettings" string="Graphics Settings" />
+	<text key="SettingsMenuTitleAudioSettings" string="Audio Settings" />
+	<text key="SettingsMenuTitleDebugSettings" string="Debug Settings" />
+	<text key="SettingsMenuDescDialogSpeed" string="The speed at which text appears when interacting with NPCs." />
+	<text key="SettingsMenuDescCombatTextSpeed" string="The speed at which the combat log is revealed. Affects the wait time between combat actions." />
+	<text key="SettingsMenuEnableHeadBobDesc" string="Enables camera bob while navigating the world. Disabling may aid players that experience motion sickness." />
+	<text key="SettingsMenuWalkAnimationDesc" string="How the camera animates while moving the world. Half-Step or None is reminiscent of classic dungeon crawlers and may aid players that experience motion sickness. Also affects door animations." />
+	<text key="SettingsMenuTurnAnimationDesc" string="How the camera animates while rotating the world. Half-Step or None is reminiscent of classic dungeon crawlers and may aid players that experience motion sickness." />
+	<text key="SettingsMenuDescVolumeEffect" string="Volume of sound effects." />
+	<text key="SettingsMenuDescVolumeMusic" string="Volume of music." />
+	<text key="SettingsMenuDescScreenRes" string="The screen resolution of the game. Lower resolutions may improve performance on some computer hardware." />
+	<text key="SettingsMenuDescClassicAspectRatio" string="Forces the game to run in a 4:3 aspect ratio. A classic experience, but not recommended." />
+	<text key="SettingsMenuDescScreenMode" string="How the game is rendered to the display device." />
+	<text key="SettingsMenuDescVSync" string="Enabling reduces screen tearing. Disabling may improve performance on some computer hardware." />
+	<text key="SettingsMenuDescGamma" string="Adjusts brightness and darkness levels." />
+	<text key="SettingsMenuDescPostFXAA" string="Enables an FXAA effect that reduces the appearance of jagged edges. Disabling may improve performance on some hardware." />
+	<text key="SettingsMenuDescMotionBlur" string="Enables a motion blur effect. Disabling may improve performance on some hardware." />
+	<text key="SettingsMenuDescDepthOfFieldPost" string="Enables a blur effect for distant objects. Disabling may improve performance on some hardware." />
+	<text key="SettingsMenuDescCombatPost" string="Enables a background effect during combat encounters. Disabling is not recommended but may improve performance on some hardware during combat encounters." />
+	<text key="ExSettingsMenuScreenModeName" string="Screen Mode" />
+	<text key="SettingsMenuInvalidText" string="INVALID" />
+	<text key="SettingsMenuDropDownHint" string="Change Value" />
+	<text key="SettingsMenuBoolHint" string="Change Value" />
+	<text key="SettingsMenuDefaultHint" string="Change Value" />
+	<text key="SettingsMenuSaveAndExitHint" string="Back" />
+	<text key="SettingsRestoreDefaultsHint" string="Restore Defaults" />
+	<text key="ExSettingsMenuScreenModeWindow" string="Window" />
+	<text key="ExSettingsMenuScreenModeBorderlessWindow" string="Borderless Window" />
+	<text key="ExSettingsMenuScreenModeFullScreen" string="Exclusive Full Screen" />
+	<text key="CantBuyTooExpensive" string="You need more |SC(EX_GOLD)|gold|RC()| to purchase {0:NAME}." />
+	<text key="CantButNoBagSpace" string="You need free space in your inventory to purchase {0:NAME}." />
+	<text key="ShopHeaderInventory" string="Shop Inventory" />
+	<text key="ShopHeaderBuyback" string="Buy-back Inventory" />
+	<text key="ShopMenuPurchaseHint" string="Purchase" />
+	<text key="ShopMenuSellHint" string="Sell" />
+	<text key="ShopMenuChangeShopCategory" string="Switch to Buy-back" />
+	<text key="ShopMenuChangeBuyBackCategory" string="Switch to Shop" />
+	<text key="ShopMenuSort" string="Sort Backpack" />
+	<text key="ShopMenuNextParty" string="Switch Character" />
+	<text key="ShopMenuBackOutText" string="Back" />
+	<text key="ShopMenuSoldOutShopInventory" string="SOLD OUT&#xA;Check back tomorrow for new stock." />
+	<text key="ShopMenuSoldOutBuyBack" string="NO ITEMS" />
+	<text key="TrainingMenuAttrValueUp" string="{0} |SC(EX_HEAL)|(+ {1})|RC()|" />
+	<text key="TrainingMenuMaxLevel" string="{0:NAME} has reached the maximum |SC(EX_ATTR)|LVL|RC()| and cannot train further." />
+	<text key="TrainingMenuNeedsHealing" string="{0:NAME} is not in a condition to train to |SC(EX_ATTR)|LVL|RC()| {1}. Good health is required to train." />
+	<text key="TrainingMenuNotEnoughXP" string="{0:NAME} does not have enough experience to train to |SC(EX_ATTR)|LVL|RC()| {1}." />
+	<text key="TrainingMenuNotEnoughGold" string="|SC(EX_GOLD)|{2} gold|RC()| is needed to train {0:NAME} to |SC(EX_ATTR)|LVL|RC()| {1}." />
+	<text key="TrainingMenuMaxLevelText" string="{0:NAME} has reached the maximum |SC(EX_ATTR)|LVL|RC()|." />
+	<text key="TrainingMenuXPToNextLevelText" string="{1} |SC(EX_ATTR)|XP|RC()| needed to train to |SC(EX_ATTR)|LVL|RC()| {2}." />
+	<text key="TrainingMenuEligibleToTrainText" string="The cost is |SC(EX_GOLD)|{0} gold|RC()| to train to |SC(EX_ATTR)|LVL|RC()| {2}." />
+	<text key="TrainingMenuNameText" string="{0:NAME}" />
+	<text key="TraningMenuClassText" string="LVL {0:ATTR:LVL} {0:CLASS}" />
+	<text key="TrainingMenuXpText" string="{0:XP} |SC(EX_ATTR)|XP|RC()|" />
+	<text key="TrainingMenuProgressionHeaderLeveledUp" string="Progression from LVL {0} to LVL {1} (Current Equipment)" />
+	<text key="TrainingMenuProgressionHeaderMaxed" string="Maximum LVL Attained" />
+	<text key="TrainingMenuProgressionHeaderCurrentLevel" string="Progression at LVL {0} (Current Equipment)" />
+	<text key="TrainingMenuAttributesHeaderMaxLevel" string="Attributes" />
+	<text key="NoNewSkillsText" string="None" />
+	<text key="TrainingMenuTrainHint" string="Train" />
+	<text key="TrainingMenuNextParty" string="Switch Character" />
+	<text key="TrainingMenuBackOutText" string="Back" />
+	<text key="TreasureChestMenuHintOpen" string="Open Chest" />
+	<text key="ContextMenuHelp" string="Character Options" />
+	<text key="ChangePlayerHelp" string="Switch Character" />
+	<text key="WaitHelp" string="Wait" />
+	<text key="LoadingActivitySavingText" string="Saving..." />
+	<text key="LoadingActivityLoadingText" string="Loading..." />
+	<text key="SettingsDebugShowCombatOrder" string="DEBUG: Show Combat Order" />
+	<text key="WaitingMonstersText" string="Additional Monsters: {0}" />
+	<text key="CombatCompleteHeader" string="Combat!" />
+	<text key="CombatCompleteHeaderFailure" string="|SC(EX_HURT)|Death Strikes!" />
+	<text key="CombatCompleteFailure" string="Defeat! All party members were vanquished. All progress since the last save has been lost." />
+	<text key="CombatCompleteHeaderSuccess" string="|SC(EX_HEAL)|Victory!" />
+	<text key="CombatCompleteSuccesS" string="Combat was successful! Each surviving party member receives |SC(EX_ATTR)|{0} XP|RC()|." />
+	<text key="CombatCompleteHeaderFled" string="Escaped!" />
+	<text key="CombatCompleteFled" string="The party fled and will be returned to a safe location. No |SC(EX_ATTR)|XP|RC()| was awarded. All party members that did not escape have died." />
+	<text key="AbandonCombatQuestion" string="Are you sure you want to abandon combat? Doing so will result in the death of all party members that have not escaped." />
+	<text key="CombatInvalidMeleeTarget" string="That target is out of range for melee combat." />
+	<text key="CombatInvalidShootingTarget" string="That target is out of range for shooting." />
+	<text key="CombatInvalidSpellTarget" string="This spell cannot reach that target." />
+	<text key="CombatHelp_Continue" string="Continue" />
+	<text key="CombatHelp_QuickCombatText" string="Quick Combat" />
+	<text key="CombatHelp_Back" string="Back" />
+	<text key="CombatHelp_ChooseTarget" string="Choose Target" />
+	<text key="CombatMenuNextMonsterText" string="Next: {0:NAME}" />
+	<text key="CombatMenuTeamBName" string="{0:NAME} LVL {0:ATTR:LVL}" />
+	<text key="CombatNotEnoughMana" string="Not enough mana to cast this spell." />
+	<text key="CombatActionAuto" string="Auto" />
+	<text key="CombatActionFight" string="Auto" />
+	<text key="CombatActionBlock" string="Block" />
+	<text key="CombatActionAttack" string="Attack" />
+	<text key="CombatActionShoot" string="Shoot" />
+	<text key="CombatActionCast" string="Cast" />
+	<text key="CombatActionAdvance" string="Advance" />
+	<text key="CombatActionBackAway" string="Back Away" />
+	<text key="CombatActionRun" string="Run" />
+	<text key="CombatActionViewCharacter" string="View Character" />
+	<text key="CombatActionAbandon" string="Abandon Combat" />
+	<text key="CombatActionDebugWin" string="DEBUG: Win Fight" />
+	<text key="CombatBurgleDamageNumber" string="|SC(EX_GOLD)|+{0} gold|RC()|" />
+	<text key="CombatCriticalHitDamageNumber" string="|SC(EX_HURT)|CRITICAL|RC()|" />
+	<text key="CombatResistDamageNumber" string="|SC({1})|RESISTED!|RC()|" />
+	<text key="InventoryMenuMissing" string="Fix Me" />
+	<text key="InventoryMenuInventoryItemListName" string="{0:NAME}" />
+	<text key="InventoryMenuUnk" string="-Unknown Type-" />
+	<!-- END CODE-LOC Text TEXT -->
+</eloc>

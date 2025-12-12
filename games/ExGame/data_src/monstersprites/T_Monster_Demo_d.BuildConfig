@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuildConfig>
+	<Ignore>False</Ignore>
+	<NoMipMaps>False</NoMipMaps>
+	<Format>BC3_UNORM</Format>
+	<Filter>POINT</Filter>
+</BuildConfig>

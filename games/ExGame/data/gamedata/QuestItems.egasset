@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExQuestItems">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_QuestItems" ed_expanded="true" reserve_size="1" >
+			<struct name="-" ed_expanded="false" >
+				<property name="Id" value="DemoQuestKey" />
+				<property name="Name" value="DemoQuestKey_Name" />
+				<property name="Name_enus" value="Demo Quest Key" />
+				<property name="Desc" value="DemoQuestKey_Desc" />
+				<property name="Desc_enus" value="It&apos;s the key for the demo. It unlocks the locked door in town." />
+				<property name="HasVarId" value="bHasQuestKey" />
+				<property name="IconPath" value="/game/icons/map/t_icon_lever_d" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

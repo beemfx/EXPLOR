@@ -1,0 +1,9 @@
+/******************************************************************************
+Game Resources
+
+(c) 2016 Beem Media
+******************************************************************************/
+
+// Icon (must be named EGICON for engine to find it)
+EGICON        ICON "data/textures/explor.ico"
+EGICON_ENGINE ICON "../../core/egdata/textures/eg.ico"

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExCreditsData">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Lines" ed_expanded="true" reserve_size="9" >
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="Technology" />
+				<property name="Type" value="Header" />
+				<struct name="Title" ed_expanded="true" >
+					<property name="Name" value="TechnologyHeaderText" />
+					<property name="Name_enus" value="Technology" />
+				</struct>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="Delay" />
+				<property name="Type" value="Delay" />
+				<property name="DelayTime" value="1" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="Powered by Blob" />
+				<property name="Type" value="Blob" />
+				<struct name="Title" ed_expanded="true" >
+					<property name="Name" value="LibText1" />
+					<property name="Name_enus" value="Powered by Emergence Technology |COPY| 2008-2021 Beem Media." />
+				</struct>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="3rd Party Header: This software may utilize..." />
+				<property name="Type" value="Blob" />
+				<struct name="Title" ed_expanded="true" >
+					<property name="Name" value="LibText2" />
+					<property name="Name_enus" value="This software may utilize certain third-party software. Such third-party software is copyrighted by their respective owners as indicated below." />
+				</struct>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="zlib Credit" />
+				<property name="Type" value="Blob" />
+				<struct name="Title" ed_expanded="true" >
+					<property name="Name" value="LibText3" />
+					<property name="Name_enus" value="zlib |COPY| 1995-2013 Jean-loup Gailly and Mark Adler." />
+				</struct>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="expat Credit" />
+				<property name="Type" value="Blob" />
+				<struct name="Title" ed_expanded="true" >
+					<property name="Name" value="LibText4" />
+					<property name="Name_enus" value="expat |COPY| 1998-2000 Thai Open Source Software Center Ltd and Clark Cooper |COPY| 2001-2016 Expat maintainers." />
+				</struct>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="Ogg Vorbis Credit" />
+				<property name="Type" value="Blob" />
+				<struct name="Title" ed_expanded="true" >
+					<property name="Name" value="LibText6" />
+					<property name="Name_enus" value="OggVorbis |COPY| 1994-2007 by the Xiph.Org Foundation http://www.xiph.org/." />
+				</struct>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="All other trademarks..." />
+				<property name="Type" value="Blob" />
+				<struct name="Title" ed_expanded="true" >
+					<property name="Name" value="LibFinal" />
+					<property name="Name_enus" value="All other trademarks are properties of their respective owners." />
+				</struct>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="Delay" />
+				<property name="Type" value="Delay" />
+				<property name="DelayTime" value="13" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

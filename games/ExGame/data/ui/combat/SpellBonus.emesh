@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<emesh
+	version="123"
+	name="SpellBonus"
+	format="base64"
+>
+
+	<material id="1" tex0="SpellBonus" tex1="/egdata/textures/default_normal" tex2="/egdata/textures/default_white" shader="/game/shaders/ex_ui" diffuse="1 1 1 1" specular="0 0 0 1" emissive="0 0 0 1" ambient="0 0 0 1" power="0" />
+	<material id="2" tex0="/egdata/textures/default_white" tex1="/egdata/textures/default_normal" tex2="/egdata/textures/default_white" diffuse="0 0 0 0" specular="0 0 0 0" emissive="0 0 0 0" ambient="0 0 0 0" power="0" />
+
+	<bone id="1" name="SparkleJoint"/>
+
+	<mesh id="1" name="Mask" first_triangle="1" triangles="2" material="2" flags=""/>
+	<mesh id="2" name="Sparkle" first_triangle="3" triangles="2" material="1" flags=""/>
+
+	<bounds min="AADIwQAASMIAAKDA" max="AACgQQAASEIAAACA"/>
+
+	<vertex id="1" pos="AADIwQAASEIAAKDA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="AAAAAAAAAAA=" tex1="AAAAAAAAAAA=" color0="AACAPwAAgD8AAIA/AAAAAA==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="2" pos="AADIwQAASMIAAKDA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="AAAAAAAAgD8=" tex1="AAAAAAAAgD8=" color0="AACAPwAAgD8AAIA/AAAAAA==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="3" pos="AACgQQAASMIAAKDA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="AACAPwAAgD8=" tex1="AACAPwAAgD8=" color0="AACAPwAAgD8AAIA/AAAAAA==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="4" pos="AADIwQAASEIAAKDA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="AAAAAAAAAAA=" tex1="AAAAAAAAAAA=" color0="AACAPwAAgD8AAIA/AAAAAA==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="5" pos="AACgQQAASMIAAKDA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="AACAPwAAgD8=" tex1="AACAPwAAgD8=" color0="AACAPwAAgD8AAIA/AAAAAA==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="6" pos="AACgQQAASEIAAKDA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="AACAPwAAAAA=" tex1="AACAPwAAAAA=" color0="AACAPwAAgD8AAIA/AAAAAA==" bone0="0" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="7" pos="AACgwQAANEIAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="AAAAAAAAAAA=" tex1="AAAAAAAAAAA=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="8" pos="AACgwQAANMIAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="AAAAAAAAgD8=" tex1="AAAAAAAAgD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="9" pos="AABwQQAANMIAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="AACAPwAAgD8=" tex1="AACAPwAAgD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="10" pos="AACgwQAANEIAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="AAAAAAAAAAA=" tex1="AAAAAAAAAAA=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="11" pos="AABwQQAANMIAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="AACAPwAAgD8=" tex1="AACAPwAAgD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="12" pos="AABwQQAANEIAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="AACAPwAAAAA=" tex1="AACAPwAAAAA=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+
+	<triangle id="1" v1="3" v2="2" v3="1"/>
+	<triangle id="2" v1="6" v2="5" v3="4"/>
+	<triangle id="3" v1="9" v2="8" v3="7"/>
+	<triangle id="4" v1="12" v2="11" v3="10"/>
+</emesh>

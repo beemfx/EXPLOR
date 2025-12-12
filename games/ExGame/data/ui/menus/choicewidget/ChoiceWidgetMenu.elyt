@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elyt id="ChoiceWidgetMenu" script="ExChoiceWidgetMenu" flags="">
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="Background" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="false" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_Border_Sword" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 -1 1 , 1" />
+				<property name="StartupEvent" value="ChoiceWidget" />
+				<property name="ScaleVec" value="0.8 0.8 0.8" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="List" />
+				<property name="WidgetType" value="GRID" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ExSelector_ChoiceWidget" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 9.5 0 , 1" />
+				<property name="ScaleVec" value="0.8 0.8 0.8" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="Adjacency" ed_expanded="true" >
+					<property name="Up" value="" />
+					<property name="Down" value="" />
+					<property name="Left" value="" />
+					<property name="Right" value="" />
+				</struct>
+				<struct name="GridInfo" ed_expanded="true" >
+					<property name="ObjectClassName" value="" />
+					<property name="Cols" value="1" />
+					<property name="Rows" value="10" />
+					<property name="ScrollbarId" value="Scrollbar" />
+					<property name="WrapType" value="WRAP" />
+					<property name="bAutoMask" value="true" />
+				</struct>
+			</struct>
+		</properties>
+	</object>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="Scrollbar" />
+				<property name="WidgetType" value="SCROLLBAR" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_ScrollBar" />
+				<property name="GridIdOfThisScrollbar" value="List" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 28.5 13 0 , 1" />
+				<property name="StartupEvent" value="" />
+				<property name="ScaleVec" value="1 1 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="TrackExtend" value="32" />
+				<property name="Anchor" value="CENTER|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+</elyt>

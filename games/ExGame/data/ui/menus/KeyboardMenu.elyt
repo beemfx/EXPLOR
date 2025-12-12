@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elyt id="KeyboardMenu" script="ExKeyboardMenu" flags="">
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="Background" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="ExBgComponent" />
+				<property name="EntDefCrc" value="ENT_UI_Border_Sword" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="StartupEvent" value="FullScreenSmall" />
+				<property name="ScaleVec" value="1 1 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="HeaderText" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 82 -0.2 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="TextEditHeaderText" />
+					<property name="LocText_enus" value="Text Edit" />
+					<property name="Font" value="ex_header" />
+					<property name="Width" value="200" />
+					<property name="Height" value="8" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="CENTER" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="EnteredTextBg" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_Border_Sword" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , -76.9732 55.861 0 , 1" />
+				<property name="StartupEvent" value="" />
+				<property name="ScaleVec" value="1 1 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<array name="BoneOverrides" ed_expanded="true" reserve_size="3" >
+					<struct name="-" ed_expanded="false" >
+						<property name="BoneId" value="ur" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , 155 0 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="BoneId" value="lr" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , 155 25 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="ll" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , 0 25 0 , 1" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</object>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="EnteredText" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0.278068 67.8787 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="Sample Text" />
+					<property name="LocText_enus" value="" />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="188" />
+					<property name="Height" value="8" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="LEFT" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="LimitText" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , -0.395061 58.2428 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="" />
+					<property name="LocText_enus" value="X/Y Characters" />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="185" />
+					<property name="Height" value="4" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="LEFT" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="Keys" />
+				<property name="WidgetType" value="GRID" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ExSelector_KbKey" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , -86.9153 37.182 0 , 1" />
+				<property name="ScaleVec" value="1.5 1.5 1.5" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="Adjacency" ed_expanded="true" >
+					<property name="Up" value="" />
+					<property name="Down" value="" />
+					<property name="Left" value="" />
+					<property name="Right" value="" />
+				</struct>
+				<struct name="GridInfo" ed_expanded="true" >
+					<property name="ObjectClassName" value="" />
+					<property name="Cols" value="12" />
+					<property name="Rows" value="7" />
+					<property name="ScrollbarId" value="KeysScrollbar" />
+					<property name="WrapType" value="WRAP" />
+					<property name="bAutoMask" value="true" />
+				</struct>
+			</struct>
+		</properties>
+	</object>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="KeysScrollbar" />
+				<property name="WidgetType" value="SCROLLBAR" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_ScrollBar" />
+				<property name="GridIdOfThisScrollbar" value="Keys" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 99.9104 53.1286 0 , 1" />
+				<property name="StartupEvent" value="" />
+				<property name="ScaleVec" value="1 1 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="TrackExtend" value="72" />
+				<property name="Anchor" value="CENTER|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="HintBar" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="ExHintBarWidget" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 -80 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="" />
+					<property name="LocText_enus" value="Hint Text" />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="200" />
+					<property name="Height" value="6" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="LEFT" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+</elyt>

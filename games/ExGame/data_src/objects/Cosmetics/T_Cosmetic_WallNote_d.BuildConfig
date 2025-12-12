@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuildConfig>
+	<Ignore>False</Ignore>
+	<NoMipMaps>False</NoMipMaps>
+	<Width>Default</Width>
+	<Height>Default</Height>
+	<Format>BC1_UNORM</Format>
+	<Filter></Filter>
+</BuildConfig>

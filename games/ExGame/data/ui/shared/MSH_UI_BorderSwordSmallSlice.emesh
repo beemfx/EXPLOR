@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<emesh version="123" format="base64" >
+
+	<material id="1" tex0="T_UI_Border_Sword02_d" tex1="/egdata/textures/default_normal" tex2="/egdata/textures/default_white" diffuse="1 1 1 1" specular="0 0 0 1" emissive="0 0 0 1" ambient="0 0 0 1" power="0" />
+
+	<bone id="1" name="ul"/>
+	<bone id="2" name="ur"/>
+	<bone id="3" name="lr"/>
+	<bone id="4" name="ll"/>
+
+	<mesh id="1" name="Background" first_triangle="1" triangles="18" material="1"/>
+
+	<bounds min="AACgwQAAoMEAAACA" max="AACgQQAAoEEAAACA"/>
+
+	<vertex id="1" pos="AACgwQAAoEEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="lxmaPIfk7jw=" tex1="lxmaPIfk7jw=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="2" pos="AACgwQAAkEEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="lxmaPIkfoj0=" tex1="lxmaPIkfoj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="3" pos="AACQwQAAkEEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="y+yMPYkfoj0=" tex1="y+yMPYkfoj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="4" pos="AACgQQAAkMEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="yFB4P1Gqaz8=" tex1="yFB4P1Gqaz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="3" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="5" pos="AACQQQAAkMEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="+4NrP1Gqaz8=" tex1="+4NrP1Gqaz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="3" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="6" pos="AACQwQAAoEEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="y+yMPYfk7jw=" tex1="y+yMPYfk7jw=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="1" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="7" pos="AACgQQAAoMEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="yFB4Px53eD8=" tex1="yFB4Px53eD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="3" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="8" pos="AACQQQAAkEEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="+4NrP4kfoj0=" tex1="+4NrP4kfoj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="2" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="9" pos="AACQQQAAoEEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="+4NrP4fk7jw=" tex1="+4NrP4fk7jw=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="2" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="10" pos="AACQQQAAoMEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="+4NrPx53eD8=" tex1="+4NrPx53eD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="3" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="11" pos="AACQwQAAoMEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="y+yMPR53eD8=" tex1="y+yMPR53eD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="4" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="12" pos="AACgwQAAkMEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="lxmaPFGqaz8=" tex1="lxmaPFGqaz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="4" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="13" pos="AACQwQAAkMEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="y+yMPVGqaz8=" tex1="y+yMPVGqaz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="4" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="14" pos="AACgQQAAkEEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="yFB4P4kfoj0=" tex1="yFB4P4kfoj0=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="2" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="15" pos="AACQwQAAoMEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="y+yMPR53eD8=" tex1="y+yMPR53eD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="4" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="16" pos="AACgwQAAoMEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="lxmaPB53eD8=" tex1="lxmaPB53eD8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="4" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="17" pos="AACQwQAAkMEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAAAAAAAAAACAPw==" tex0="y+yMPVGqaz8=" tex1="y+yMPVGqaz8=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="4" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+	<vertex id="18" pos="AACgQQAAoEEAAACA" norm="AAAAAAAAAAAAAIC/" tan="AACAPwAAAIAAAAAAAACAPw==" tex0="yFB4P4fk7jw=" tex1="yFB4P4fk7jw=" color0="AACAPwAAgD8AAIA/AACAPw==" bone0="2" weight0="AACAPw==" bone1="0" weight1="AAAAAA=="/>
+
+	<triangle id="1" v1="3" v2="2" v3="1"/>
+	<triangle id="2" v1="6" v2="3" v3="1"/>
+	<triangle id="3" v1="9" v2="8" v3="3"/>
+	<triangle id="4" v1="6" v2="9" v3="3"/>
+	<triangle id="5" v1="14" v2="8" v3="9"/>
+	<triangle id="6" v1="18" v2="14" v3="9"/>
+	<triangle id="7" v1="3" v2="13" v3="12"/>
+	<triangle id="8" v1="2" v2="3" v3="12"/>
+	<triangle id="9" v1="5" v2="13" v3="3"/>
+	<triangle id="10" v1="8" v2="5" v3="3"/>
+	<triangle id="11" v1="14" v2="4" v3="5"/>
+	<triangle id="12" v1="8" v2="14" v3="5"/>
+	<triangle id="13" v1="11" v2="16" v3="12"/>
+	<triangle id="14" v1="13" v2="11" v3="12"/>
+	<triangle id="15" v1="5" v2="10" v3="11"/>
+	<triangle id="16" v1="17" v2="5" v3="15"/>
+	<triangle id="17" v1="7" v2="10" v3="5"/>
+	<triangle id="18" v1="4" v2="7" v3="5"/>
+</emesh>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elyt id="RosterMenu_ExchangeOnly" script="ExRosterMenu" flags="">
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="CharacterPortraits" />
+				<property name="WidgetType" value="GRID" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="CharacterPortrait" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , -58.4375 -95 0 , 1" />
+				<property name="ScaleVec" value="0.5 0.5 0.5" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="Adjacency" ed_expanded="true" >
+					<property name="Up" value="" />
+					<property name="Down" value="" />
+					<property name="Left" value="" />
+					<property name="Right" value="" />
+				</struct>
+				<struct name="GridInfo" ed_expanded="true" >
+					<property name="ObjectClassName" value="" />
+					<property name="Cols" value="6" />
+					<property name="Rows" value="1" />
+					<property name="ScrollbarId" value="" />
+					<property name="WrapType" value="WRAP" />
+					<property name="bAutoMask" value="true" />
+				</struct>
+			</struct>
+		</properties>
+	</object>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="HintBar" />
+				<property name="bIsLocked" value="false" />
+				<property name="ClassName" value="ExHintBarWidget" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 -58 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="Sample Text" />
+					<property name="LocText_enus" value="" />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="140.5" />
+					<property name="Height" value="5" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="CENTER" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+</elyt>

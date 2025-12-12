@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elyt id="MapMenu" script="ExMapMenu" flags="">
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="Background" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="ExBgComponent" />
+				<property name="EntDefCrc" value="ENT_UI_Border_Sword" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="StartupEvent" value="FullScreenSmall" />
+				<property name="ScaleVec" value="1 1 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="TitleText" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 82 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="MapMenuHeaderText" />
+					<property name="LocText_enus" value="Map" />
+					<property name="Font" value="ex_header" />
+					<property name="Width" value="240" />
+					<property name="Height" value="8" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="CENTER" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="HintBar" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="ExHintBarWidget" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 -80 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="" />
+					<property name="LocText_enus" value="Help Text" />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="200" />
+					<property name="Height" value="6" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="LEFT" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<image>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="MapImage" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="ScaleVec" value="150 150 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="ImageInfo" ed_expanded="true" >
+					<property name="Texture" value="/game/ui/overlays/hudautomap/t_samplemap_d" />
+					<property name="Shader" value="" />
+					<struct name="Properties" ed_expanded="true" >
+						<property name="Diffuse" value="ARGB32:255 255 255 255" />
+						<property name="Ambient" value="ARGB32:0 0 0 0" />
+						<property name="Specular" value="ARGB32:0 0 0 0" />
+						<property name="Emissive" value="ARGB32:0 0 0 0" />
+						<property name="Power" value="1" />
+					</struct>
+				</struct>
+			</struct>
+		</properties>
+	</image>
+
+	<image>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="MapIconTemplate" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="ScaleVec" value="10 10 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="ImageInfo" ed_expanded="true" >
+					<property name="Texture" value="/game/icons/map/t_icon_exit_d" />
+					<property name="Shader" value="/game/shaders/ex_ui" />
+					<struct name="Properties" ed_expanded="true" >
+						<property name="Diffuse" value="ARGB32:255 255 255 255" />
+						<property name="Ambient" value="ARGB32:255 0 0 0" />
+						<property name="Specular" value="ARGB32:255 0 0 0" />
+						<property name="Emissive" value="ARGB32:255 0 0 0" />
+						<property name="Power" value="1" />
+					</struct>
+				</struct>
+			</struct>
+		</properties>
+	</image>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="PlayerPose" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_PartyIcon" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="StartupEvent" value="" />
+				<property name="ScaleVec" value="10 10 10" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="PlayerPosText" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 52 -80 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="" />
+					<property name="LocText_enus" value="X:? Y:?" />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="100" />
+					<property name="Height" value="6" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="RIGHT" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+</elyt>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExShopData">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Inventories" ed_expanded="true" reserve_size="1" >
+			<struct name="-" ed_expanded="true" >
+				<property name="Id" value="DefaultInventory" />
+				<property name="PartyLevelAdjustment" value="1" />
+				<struct name="SelectionMethod" ed_expanded="true" >
+					<property name="Method" value="RandomSelection" />
+					<property name="RandomSelectionCountRange" value="9 18" />
+					<property name="RandomSelectionLevelsBack" value="9" />
+					<property name="RandomSelectionLevelBackChance" value="20" />
+					<property name="bAllowDuplicateItems" value="true" />
+				</struct>
+				<array name="Items" ed_expanded="true" reserve_size="2" >
+					<struct name="-" ed_expanded="false" >
+						<struct name="Item" ed_expanded="false" >
+							<property name="ItemId" value="DemoSword" />
+							<property name="Level" value="1" />
+						</struct>
+						<property name="RequiredPartyLevel" value="1" />
+						<property name="bItemLevelBasedOnPartyLevel" value="true" />
+						<property name="ScalingMaxItemLevel" value="9" />
+						<property name="ScalingPartyLevelRange" value="25" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<struct name="Item" ed_expanded="true" >
+							<property name="ItemId" value="DemoShield" />
+							<property name="Level" value="1" />
+						</struct>
+						<property name="RequiredPartyLevel" value="1" />
+						<property name="bItemLevelBasedOnPartyLevel" value="true" />
+						<property name="ScalingMaxItemLevel" value="9" />
+						<property name="ScalingPartyLevelRange" value="25" />
+					</struct>
+				</array>
+			</struct>
+		</array>
+	</struct>
+</egasset>

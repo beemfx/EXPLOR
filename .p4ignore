@@ -1,0 +1,16 @@
+packages/
+*.sdf
+*.vcxproj.user
+*.suo
+*.opendb
+*.aps
+*datasync.log
+*databuild.log
+*.VC.db
+*.ipch
+*__pycache__*
+.vs/
+*PreTools.log
+*Thumbs.db
+*.vcxprojAssemblyReference.cache
+_BUILD/

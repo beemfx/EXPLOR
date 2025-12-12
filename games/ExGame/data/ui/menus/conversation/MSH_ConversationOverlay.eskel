@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eskel version="106" format="base64" >
+	<animation id="1" name="Clear" first_frame="1" frames="1" mode="default" />
+	<animation id="2" name="Play" first_frame="2" frames="1" mode="default" />
+
+	<joint id="1" name="JointTop" parent="0" position="wMzMvd3d/EIAAACA" rotation="AAAAAAAAAIAAAACA"/>
+	<joint id="2" name="JointBottom" parent="0" position="0MyMvxIRAsMAAACA" rotation="AAAAAAAAAIAAAACA"/>
+
+	<frame id="1">
+		<joint_pose joint="1" position="AAAAAICqKj8AAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAACqKr8AAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="2">
+		<joint_pose joint="1" position="AAAAAAQAEMIAAACA" rotation="AAAAAAAAAIAAAACA"/>
+		<joint_pose joint="2" position="AAAAAKyqjkIAAACA" rotation="AAAAAAAAAIAAAACA"/>
+	</frame>
+
+</eskel>

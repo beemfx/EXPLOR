@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edef>
+
+	<properties>
+		<struct name="EntDef" ed_expanded="true" >
+			<property name="m_Id" value="ExSelector_CombatFighter" />
+			<property name="m_ClassType" value="UI" />
+			<property name="m_EntityClassName" value="" />
+			<property name="m_UiClassName" value="" />
+			<property name="m_DefaultRenderFilter" value="PreFxPass" />
+			<property name="m_bIsSerialized" value="true" />
+			<property name="m_bIsLit" value="false" />
+			<property name="m_bIsAlwaysVisible" value="false" />
+			<struct name="m_BaseBounds" ed_expanded="true" >
+				<property name="Min" value="-50 0 -0.2" />
+				<property name="Max" value="50 10 0" />
+			</struct>
+			<struct name="m_EditorConfig" ed_expanded="true" >
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bDrawGrid" value="true" />
+				<property name="GridSpacing" value="10" />
+				<property name="AmbientLight" value="ARGB32:255 51 51 51" />
+				<property name="GamePalette0" value="1 1 1 1" />
+				<property name="GamePalette1" value="1 1 1 1" />
+				<property name="GamePalette2" value="1 1 1 1" />
+				<property name="bDrawLights" value="true" />
+				<property name="CameraPos" value="-10.6801 15 -86.2963" />
+				<property name="CameraYaw" value="0.114996" />
+				<property name="CameraPitch" value="0" />
+				<property name="HasCameraPose" value="true" />
+			</struct>
+		</struct>
+	</properties>
+
+	<component id="Base" class="EGSkelMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="ExSelector_CombatFighter" />
+				</struct>
+				<array name="m_Skeletons" ed_expanded="true" reserve_size="2" >
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="Default" />
+						<property name="Filename" value="ExSelector_Skel" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="1" />
+						<property name="Filename" value="ExSelector_Skel" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+		<component id="NameText" class="EGTextNodeComponent">
+			<properties>
+				<struct name="ComponentDef" ed_expanded="true" >
+					<property name="m_ParentJointId" value="" />
+					<property name="m_ScaleVector" value="1 1 1" />
+					<property name="m_BasePose" value="RqTS1:0 0 0 1 , -11.675 4.79962 -0.2 , 1" />
+					<property name="m_bIsLockedInTool" value="false" />
+					<property name="m_bIsHidden" value="false" />
+					<property name="m_RenderFilter" value="" />
+					<property name="m_bIsReflective" value="false" />
+					<property name="m_bIsTransparent" value="false" />
+					<property name="m_Width" value="73.6333" />
+					<property name="m_Height" value="6.53333" />
+					<property name="m_NumLines" value="1" />
+					<property name="m_Color" value="ARGB32:255 255 255 255" />
+					<property name="m_LocText" value="" />
+					<property name="m_LocText_enus" value="Monster Name" />
+					<property name="m_Alignment" value="LEFT" />
+					<property name="m_bHasDropShadow" value="true" />
+					<property name="m_DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="m_Font" value="ex_body" />
+				</struct>
+			</properties>
+		</component>
+		<component id="HpText" class="EGTextNodeComponent">
+			<properties>
+				<struct name="ComponentDef" ed_expanded="true" >
+					<property name="m_ParentJointId" value="" />
+					<property name="m_ScaleVector" value="1 1 1" />
+					<property name="m_BasePose" value="RqTS1:0 0 0 1 , 37.8917 3.43295 -0.2 , 1" />
+					<property name="m_bIsLockedInTool" value="false" />
+					<property name="m_bIsHidden" value="false" />
+					<property name="m_RenderFilter" value="" />
+					<property name="m_bIsReflective" value="false" />
+					<property name="m_bIsTransparent" value="false" />
+					<property name="m_Width" value="21.1667" />
+					<property name="m_Height" value="3.6" />
+					<property name="m_NumLines" value="1" />
+					<property name="m_Color" value="ARGB32:255 255 255 255" />
+					<property name="m_LocText" value="" />
+					<property name="m_LocText_enus" value="X/Y" />
+					<property name="m_Alignment" value="RIGHT" />
+					<property name="m_bHasDropShadow" value="true" />
+					<property name="m_DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="m_Font" value="ex_body" />
+				</struct>
+			</properties>
+		</component>
+	</component>
+
+	<component id="SoundPlayer0" class="EGSoundPlayerComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<array name="m_Sounds" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="click" />
+						<property name="Filename" value="uisound:ButtonHighlight" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<timeline id="Reset" editor_frame_time="0.5">
+		<keyframe time="0">Base.PlayAnimation(&quot;1&quot;,&quot;Deselect&quot;,0,0);&#xA;&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="Select" editor_frame_time="0.5">
+		<keyframe time="0">Base.PlayAnimation(&quot;1&quot;,&quot;Select&quot;,2,0);&#xD;&#xA;SoundPlayer0.PlaySound(&quot;click&quot;);&#xA;&#x9;&#x9;</keyframe>
+	</timeline>
+
+	<timeline id="Deselect" editor_frame_time="0.5">
+		<keyframe time="0">Base.PlayAnimation(&quot;1&quot;,&quot;Deselect&quot;,2,0);&#xA;&#xD;&#xA;</keyframe>
+	</timeline>
+
+</edef>

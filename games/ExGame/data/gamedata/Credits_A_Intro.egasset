@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExCreditsData">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Lines" ed_expanded="true" reserve_size="7" >
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="Delay" />
+				<property name="Type" value="Delay" />
+				<property name="DelayTime" value="1" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="Future Header Pop Credit" />
+				<property name="Type" value="FutureHeaderPop" />
+				<struct name="Title" ed_expanded="false" >
+					<property name="Name" value="CreditsGameTitleText" />
+					<property name="Name_enus" value="Demo Game" />
+				</struct>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="Delay" />
+				<property name="Type" value="Delay" />
+				<property name="DelayTime" value="4" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="Prepared by" />
+				<property name="Type" value="Header" />
+				<struct name="Title" ed_expanded="true" >
+					<property name="Name" value="CreditsPreparedByText" />
+					<property name="Name_enus" value="Prepared By" />
+				</struct>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="Prepared by" />
+				<property name="Type" value="Normal" />
+				<struct name="Title" ed_expanded="true" >
+					<property name="Name" value="" />
+					<property name="Name_enus" value="" />
+				</struct>
+				<struct name="Name" ed_expanded="true" >
+					<property name="Name" value="Jack Everett" />
+					<property name="Name_enus" value="Jack Everett" />
+				</struct>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="Prepared by" />
+				<property name="Type" value="Normal" />
+				<struct name="Title" ed_expanded="true" >
+					<property name="Name" value="" />
+					<property name="Name_enus" value="" />
+				</struct>
+				<struct name="Name" ed_expanded="true" >
+					<property name="Name" value="Blaine Myers" />
+					<property name="Name_enus" value="Blaine Myers" />
+				</struct>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Comment" value="Delay" />
+				<property name="Type" value="Delay" />
+				<property name="DelayTime" value="2" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

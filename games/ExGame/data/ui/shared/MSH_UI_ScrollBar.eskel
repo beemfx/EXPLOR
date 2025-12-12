@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eskel version="106" format="base64" >
+	<animation id="1" name="Default" first_frame="1" frames="30" mode="default"/>
+
+	<joint id="1" name="track_top" parent="0" position="AAAAAAAAoDUAAACA" rotation="AAAAAAAAAIAAAACA"/>
+	<joint id="2" name="track_bottom" parent="0" position="AAAAAAAAIMIAAACA" rotation="AAAAAAAAAIAAAACA"/>
+	<joint id="3" name="handle_top" parent="0" position="AAAAAAAAoDUAAADA" rotation="AAAAAAAAAIAAAACA"/>
+	<joint id="4" name="handle_bottom" parent="0" position="AAAAAAIAoMEAAADA" rotation="AAAAAAAAAIAAAACA"/>
+
+	<frame id="1">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="2">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="3">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="4">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="5">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="6">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="7">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="8">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="9">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="10">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="11">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="12">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="13">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="14">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="15">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="16">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="17">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="18">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="19">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="20">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="21">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="22">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="23">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="24">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="25">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="26">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="27">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="28">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="29">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="30">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+</eskel>

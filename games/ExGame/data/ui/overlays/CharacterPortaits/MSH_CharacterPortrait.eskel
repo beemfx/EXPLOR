@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eskel version="106" format="base64" >
+	<animation id="1" name="Default" first_frame="1" frames="2" mode="default"/>
+
+	<joint id="1" name="HealthJoint" parent="0" position="AACgQS6ykkAd4IG/" rotation="AAAAAAAAAIAAAACA"/>
+	<joint id="2" name="MagicJoint" parent="0" position="AACgQeBgDD8AAIC/" rotation="AAAAAAAAAIAAAACA"/>
+
+	<frame id="1">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAIAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAIAAAACA"/>
+	</frame>
+
+	<frame id="2">
+		<joint_pose joint="1" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAIAAAACA"/>
+		<joint_pose joint="2" position="AAAAAAAAAAAAAACA" rotation="AAAAAAAAAIAAAACA"/>
+	</frame>
+
+</eskel>

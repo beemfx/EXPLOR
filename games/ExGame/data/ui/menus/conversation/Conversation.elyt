@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elyt id="ConversationMenu" script="ExConversationMenu" flags="">
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="Overlay" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="Conversation_Overlay" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="StartupEvent" value="Reset" />
+				<property name="ScaleVec" value="1 1 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="Choices" />
+				<property name="WidgetType" value="GRID" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ExSelector_ConvChoice" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 -80 0 , 1" />
+				<property name="ScaleVec" value="2 2 2" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="Adjacency" ed_expanded="true" >
+					<property name="Up" value="" />
+					<property name="Down" value="" />
+					<property name="Left" value="" />
+					<property name="Right" value="" />
+				</struct>
+				<struct name="GridInfo" ed_expanded="true" >
+					<property name="ObjectClassName" value="" />
+					<property name="Cols" value="1" />
+					<property name="Rows" value="4" />
+					<property name="ScrollbarId" value="ChoiceScrollbar" />
+					<property name="WrapType" value="WRAP" />
+					<property name="bAutoMask" value="true" />
+				</struct>
+			</struct>
+		</properties>
+	</object>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="NameplateBg" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_Border_Sword" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 14 -33.5 -1 , 1" />
+				<property name="StartupEvent" value="" />
+				<property name="ScaleVec" value="0.5 0.5 0.5" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="LEFT|CENTER" />
+				<array name="BoneOverrides" ed_expanded="true" reserve_size="3" >
+					<struct name="-" ed_expanded="false" >
+						<property name="BoneId" value="ur" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , 130 0 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="BoneId" value="lr" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , 130 18 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="BoneId" value="ll" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , 0 18 0 , 1" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</object>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="NameplateTxt" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 46 -29.5 -1 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="LEFT|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="" />
+					<property name="LocText_enus" value="A Name Goes Here" />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="80" />
+					<property name="Height" value="8" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="LEFT" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="ConvText2Choices" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="ExTextRevealWidget" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 -57 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="" />
+					<property name="LocText_enus" value="What the speaker is saying goes here. It will reveal over time. It can also take up multiple lines, so a character can say a lot at once, but not too much though, or it will overfill." />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="260" />
+					<property name="Height" value="34" />
+					<property name="NumLines" value="4" />
+					<property name="Color" value="ARGB32:255 255 255 255" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="LEFT" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="ConvText3Choices" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="ExTextRevealWidget" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 -51.3333 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="" />
+					<property name="LocText_enus" value="What the speaker is saying goes here. It will reveal over time. It can also take up multiple lines, so a character can say a lot at once, but not too much though, or it will overfill." />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="260" />
+					<property name="Height" value="22.6667" />
+					<property name="NumLines" value="3" />
+					<property name="Color" value="ARGB32:255 255 255 255" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="LEFT" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="ConvText4Choices" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="ExTextRevealWidget" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 -44.25 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="" />
+					<property name="LocText_enus" value="What the speaker is saying goes here. It will reveal over time. It can also take up multiple lines, so a character can say a lot at once, but not too much though, or it will overfill." />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="260" />
+					<property name="Height" value="8.5" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 255 255 255" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="LEFT" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="ChoiceScrollbar" />
+				<property name="WidgetType" value="SCROLLBAR" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_ScrollBar" />
+				<property name="GridIdOfThisScrollbar" value="Choices" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 123.672 -53.419 0 , 1" />
+				<property name="StartupEvent" value="" />
+				<property name="ScaleVec" value="1 1 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="TrackExtend" value="2" />
+				<property name="Anchor" value="CENTER|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+</elyt>

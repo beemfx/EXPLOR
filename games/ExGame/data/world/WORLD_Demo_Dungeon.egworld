@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egworld>
+	<globals>
+		<struct name="Globals" ed_expanded="true" >
+			<property name="GravityVector" value="0 -9.8 0" />
+			<struct name="EditorSettings" ed_expanded="true" >
+				<property name="bDrawGrid" value="true" />
+				<property name="GridOffset" value="-21 1 -57" />
+				<property name="GridSpacing" value="6" />
+				<property name="GridSize" value="25 30" />
+				<property name="GridColor" value="ARGB32:255 128 128 128" />
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bMoveInFrontOfCameraTargetsGrid" value="true" />
+				<property name="bSnapToGridAlsoAlignsToAxis" value="true" />
+				<struct name="SpawnAtCamera" ed_expanded="true" >
+					<property name="Ent" value="ENT_Cosmetic_Crates" />
+					<property name="SpawnMode" value="InFrontOfCameraSnapToGrid" />
+					<property name="NextIndex" value="5" />
+					<property name="LabelStringFmt" value="Crates_{0:INDEX}" />
+					<property name="InitStringFmt" value="" />
+				</struct>
+			</struct>
+		</struct>
+	</globals>
+	<editor_config>
+		<struct name="EditorConfig" ed_expanded="true" >
+			<property name="CameraPose" value="RqTS1:0.133795 0.700911 -0.136471 0.687167 , 23.1683 3.72395 9.55264 , 1" />
+		</struct>
+	</editor_config>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="Sky" />
+			<property name="m_Pose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="DungeonSky" />
+			<property name="m_InitializationString" value="" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectMap">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="Map" />
+			<property name="m_Pose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_MapFile" value="/game/mapsf/map_demo_dungeon" />
+			<property name="m_bSpawnMapEntities" value="true" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="Trans_Entrance" />
+			<property name="m_Pose" value="RqTS1:0 1 0 -1.19209e-07 , 3 3.75 3 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_MapTrans_SewerLadder" />
+			<property name="m_InitializationString" value="SetId(&quot;Entrance&quot;);&#xD;&#xA;SetScript(&quot;SCR_MapTransitions.DemoDungeonToDemoTown&quot;);" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="D1T1 (Sword and Shield Set)" />
+			<property name="m_Pose" value="RqTS1:0 -1 0 -1.19209e-07 , 15 0 15 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_Treasure_01" />
+			<property name="m_InitializationString" value="SetId(&quot;D1T1&quot;);&#xD;&#xA;AddItem(&quot;DemoSword&quot;,4);&#xD;&#xA;AddItem(&quot;DemoShield&quot;,4);" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="DungeonNote" />
+			<property name="m_Pose" value="RqTS1:0 0 0 1 , 15 1 9 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_IO_WallNote" />
+			<property name="m_InitializationString" value="SCR_DemoWallNotes.DungeonNote" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="Crates_0" />
+			<property name="m_Pose" value="RqTS1:0 -0.707107 0 0.707107 , 33 0 9 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_Cosmetic_Crates" />
+			<property name="m_InitializationString" value="" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="BossSpawner" />
+			<property name="m_Pose" value="RqTS1:0 0.707107 0 -0.707107 , 27 1 9 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_IO_BossSpawner" />
+			<property name="m_InitializationString" value="" />
+		</struct>
+	</worldobject>
+	<worldobject class="EGWorldObjectEntity">
+		<struct name="WorldObject" ed_expanded="true" >
+			<property name="m_Id" value="GetKeyScript" />
+			<property name="m_Pose" value="RqTS1:0 -0.707107 0 0.707107 , 33 1 9 , 1" />
+			<property name="m_bIsLockedInTool" value="true" />
+			<property name="m_EntityDefinition" value="ENT_IO_ScriptExec_AnyDir" />
+			<property name="m_InitializationString" value="SCR_DemoQuest.FindKey" />
+		</struct>
+	</worldobject>
+</egworld>

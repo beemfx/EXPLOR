@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExDayNightCycles">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Colors" ed_expanded="true" reserve_size="5" >
+			<struct name="-" ed_expanded="true" >
+				<property name="Id" value="TownDarkest" />
+				<property name="SunColor" value="ARGB32:255 30 30 30" />
+				<property name="SunIntensity" value="0" />
+				<property name="TorchColor" value="ARGB32:255 255 255 255" />
+				<property name="TorchIntensity" value="1" />
+				<property name="AmbientIntensity" value="1" />
+			</struct>
+			<struct name="-" ed_expanded="true" >
+				<property name="Id" value="TownSunrise" />
+				<property name="SunColor" value="ARGB32:255 142 142 142" />
+				<property name="SunIntensity" value="0.3" />
+				<property name="TorchColor" value="ARGB32:255 255 255 255" />
+				<property name="TorchIntensity" value="0.5" />
+				<property name="AmbientIntensity" value="0.7" />
+			</struct>
+			<struct name="-" ed_expanded="true" >
+				<property name="Id" value="TownFullDay" />
+				<property name="SunColor" value="ARGB32:255 255 255 255" />
+				<property name="SunIntensity" value="0.3" />
+				<property name="TorchColor" value="ARGB32:255 255 58 0" />
+				<property name="TorchIntensity" value="0" />
+				<property name="AmbientIntensity" value="0.7" />
+			</struct>
+			<struct name="-" ed_expanded="true" >
+				<property name="Id" value="TownSunset" />
+				<property name="SunColor" value="ARGB32:255 83 83 83" />
+				<property name="SunIntensity" value="0.5" />
+				<property name="TorchColor" value="ARGB32:255 255 58 0" />
+				<property name="TorchIntensity" value="0.4" />
+				<property name="AmbientIntensity" value="0.5" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Id" value="DungeonDarkest" />
+				<property name="SunColor" value="ARGB32:255 30 30 30" />
+				<property name="SunIntensity" value="0" />
+				<property name="TorchColor" value="ARGB32:255 255 255 255" />
+				<property name="TorchIntensity" value="1" />
+				<property name="AmbientIntensity" value="1" />
+			</struct>
+		</array>
+		<array name="m_Cycles" ed_expanded="true" reserve_size="2" >
+			<struct name="-" ed_expanded="false" >
+				<property name="Id" value="Town" />
+				<array name="CycleBlocks" ed_expanded="true" reserve_size="8" >
+					<struct name="-" ed_expanded="false" >
+						<property name="Hour" value="0" />
+						<property name="CycleColorId" value="TownDarkest" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Hour" value="4" />
+						<property name="CycleColorId" value="TownDarkest" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Hour" value="5" />
+						<property name="CycleColorId" value="TownSunrise" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Hour" value="6" />
+						<property name="CycleColorId" value="TownFullDay" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Hour" value="19" />
+						<property name="CycleColorId" value="TownFullDay" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Hour" value="20" />
+						<property name="CycleColorId" value="TownSunset" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Hour" value="21" />
+						<property name="CycleColorId" value="TownDarkest" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Hour" value="24" />
+						<property name="CycleColorId" value="TownDarkest" />
+					</struct>
+				</array>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Id" value="Dungeon" />
+				<array name="CycleBlocks" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="false" >
+						<property name="Hour" value="0" />
+						<property name="CycleColorId" value="DungeonDarkest" />
+					</struct>
+				</array>
+			</struct>
+		</array>
+	</struct>
+</egasset>

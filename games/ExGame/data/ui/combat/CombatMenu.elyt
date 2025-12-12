@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elyt id="CombatMenu" script="ExCombatMenu" flags="">
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="AdditionalMonstersBg" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_Border_Sword" />
+				<property name="BasePose" value="RqTS1:0.00254109 0.0120632 3.06559e-05 0.999924 , -63 62.5 1 , 1" />
+				<property name="StartupEvent" value="" />
+				<property name="ScaleVec" value="0.8 0.8 0.8" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<array name="BoneOverrides" ed_expanded="true" reserve_size="4" >
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="ul" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , -22 -12 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="lr" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , 22 17 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="ll" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , -22 17 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="ur" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , 22 -12 0 , 1" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</object>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="AdditionalMonstersText" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , -63 64.5 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="" />
+					<property name="LocText_enus" value="Additional Monsters: X" />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="63" />
+					<property name="Height" value="5" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="LEFT" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="NextMonsterBg" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_Border_Sword" />
+				<property name="BasePose" value="RqTS1:0.00254109 0.0120632 3.06559e-05 0.999924 , 63 62.5 1 , 1" />
+				<property name="StartupEvent" value="" />
+				<property name="ScaleVec" value="0.8 0.8 0.8" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<array name="BoneOverrides" ed_expanded="true" reserve_size="4" >
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="ul" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , -22 -12 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="lr" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , 22 17 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="ll" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , -22 17 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="ur" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , 22 -12 0 , 1" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</object>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="NextMonsterText" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 63 64.5 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="" />
+					<property name="LocText_enus" value="Next: Some Fighter" />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="63" />
+					<property name="Height" value="5" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="LEFT" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="CombatOrderText" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 41.3404 94.2589 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="LEFT|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="CombatOrderText" />
+					<property name="LocText_enus" value="Combat Order" />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="80" />
+					<property name="Height" value="7" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="CENTER" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="CombatOrder" />
+				<property name="WidgetType" value="GRID" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ExSelector_CombatFighter" />
+				<property name="BasePose" value="RqTS1:0 -0.00174533 0 0.999999 , 41.1231 81.8589 -0.1 , 1" />
+				<property name="ScaleVec" value="0.8 0.8 0.8" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="LEFT|CENTER" />
+				<struct name="Adjacency" ed_expanded="true" >
+					<property name="Up" value="" />
+					<property name="Down" value="" />
+					<property name="Left" value="" />
+					<property name="Right" value="" />
+				</struct>
+				<struct name="GridInfo" ed_expanded="true" >
+					<property name="ObjectClassName" value="" />
+					<property name="Cols" value="1" />
+					<property name="Rows" value="17" />
+					<property name="ScrollbarId" value="" />
+					<property name="WrapType" value="WRAP" />
+					<property name="bAutoMask" value="true" />
+				</struct>
+			</struct>
+		</properties>
+	</object>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="HelpBg" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_Border_Sword" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 -36.5 0 , 1" />
+				<property name="StartupEvent" value="Reset" />
+				<property name="ScaleVec" value="1 1 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<array name="BoneOverrides" ed_expanded="true" reserve_size="4" >
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="ul" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , -58 -17 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="ur" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , 58 -17 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="lr" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , 58 14 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="ll" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , -58 14 0 , 1" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</object>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="HelpText" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="ExHintBarWidget" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 -38 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="" />
+					<property name="LocText_enus" value="Hint Text" />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="150" />
+					<property name="Height" value="5" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="LEFT" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<image>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="MonstBG" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 14.5 0 , 1" />
+				<property name="ScaleVec" value="350 70 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="ImageInfo" ed_expanded="true" >
+					<property name="Texture" value="/egdata/textures/default_white" />
+					<property name="Shader" value="/game/shaders/ex_ui" />
+					<struct name="Properties" ed_expanded="true" >
+						<property name="Diffuse" value="ARGB32:128 255 255 255" />
+						<property name="Ambient" value="ARGB32:255 0 0 0" />
+						<property name="Specular" value="ARGB32:255 0 0 0" />
+						<property name="Emissive" value="ARGB32:255 0 0 0" />
+						<property name="Power" value="1" />
+					</struct>
+				</struct>
+			</struct>
+		</properties>
+	</image>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="OpponentsWidget" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="ExCombatMenuOpponentsWidget" />
+				<property name="EntDefCrc" value="ENT_UI_MonsterSprite" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 -10 0 , 1" />
+				<property name="StartupEvent" value="" />
+				<property name="ScaleVec" value="0.6 0.6 0.6" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+	<clearz>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+			</struct>
+		</properties>
+	</clearz>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="TeamA" />
+				<property name="WidgetType" value="GRID" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="ExCombatPartyWidget" />
+				<property name="EntDefCrc" value="CharacterPortrait" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , -83 -95 0 , 1" />
+				<property name="ScaleVec" value="0.7 0.7 0.7" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="Adjacency" ed_expanded="true" >
+					<property name="Up" value="" />
+					<property name="Down" value="" />
+					<property name="Left" value="" />
+					<property name="Right" value="" />
+				</struct>
+				<struct name="GridInfo" ed_expanded="true" >
+					<property name="ObjectClassName" value="" />
+					<property name="Cols" value="6" />
+					<property name="Rows" value="1" />
+					<property name="ScrollbarId" value="" />
+					<property name="WrapType" value="WRAP" />
+					<property name="bAutoMask" value="false" />
+				</struct>
+			</struct>
+		</properties>
+	</object>
+
+	<clearz>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+			</struct>
+		</properties>
+	</clearz>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="CombatLogBg" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_Border_Sword" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 83 0 , 1" />
+				<property name="StartupEvent" value="" />
+				<property name="ScaleVec" value="0.8 0.8 0.8" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<array name="BoneOverrides" ed_expanded="true" reserve_size="4" >
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="ul" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , -101 -2 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="ur" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , 101 -2 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="lr" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , 101 2 0 , 1" />
+					</struct>
+					<struct name="-" ed_expanded="true" >
+						<property name="BoneId" value="ll" />
+						<property name="Transform" value="RqTS1:0 0 0 1 , -101 2 0 , 1" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</object>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="CombatLogText" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="ExTextRevealWidget" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 85.8007 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="" />
+					<property name="LocText_enus" value="The Combat Log. Something happened, and the result was, etc..." />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="190" />
+					<property name="Height" value="20" />
+					<property name="NumLines" value="4" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="LEFT" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<textnode>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="QuickCombatHint" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="ExHintBarWidget" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 72.8674 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+				<struct name="TextNodeInfo" ed_expanded="true" >
+					<property name="TextContext" value="None" />
+					<property name="LocText" value="" />
+					<property name="LocText_enus" value="Hint Text" />
+					<property name="Font" value="ex_body" />
+					<property name="Width" value="150" />
+					<property name="Height" value="5" />
+					<property name="NumLines" value="1" />
+					<property name="Color" value="ARGB32:255 0 0 0" />
+					<property name="bHasDropShadow" value="false" />
+					<property name="DropShadowColor" value="ARGB32:255 0 0 0" />
+					<property name="Alignment" value="CENTER" />
+				</struct>
+			</struct>
+		</properties>
+	</textnode>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="SpellInfo" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_ItemCardWidget" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="StartupEvent" value="Init" />
+				<property name="ScaleVec" value="1 1 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="CombatChoiceInfoWidget" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_CombatActionWidget" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="StartupEvent" value="Init" />
+				<property name="ScaleVec" value="1 1 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+</elyt>

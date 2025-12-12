@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eskel version="106" format="base64" >
+	<animation id="1" name="BorderSword" first_frame="1" frames="4" mode="default" />
+	<animation id="2" name="DialogBox" first_frame="2" frames="1" mode="default" />
+	<animation id="3" name="FullScreen" first_frame="3" frames="1" mode="default" />
+	<animation id="4" name="Nameplate" first_frame="4" frames="1" mode="default" />
+	<animation id="5" name="QuestLog" first_frame="5" frames="1" mode="default" />
+
+	<joint id="1" name="ul" parent="0" position="CnGdwW7bn0EAAACA" rotation="AAAAAAAAAIAAAACA"/>
+	<joint id="2" name="ur" parent="0" position="EWeeQX5CnUEAAACA" rotation="AAAAAAAAAIAAAACA"/>
+	<joint id="3" name="lr" parent="0" position="PiGfQdFFnsEAAACA" rotation="AAAAAAAAAIAAAACA"/>
+	<joint id="4" name="ll" parent="0" position="cFadwT8hncEAAACA" rotation="AAAAAAAAAIAAAACA"/>
+
+	<frame id="1">
+		<joint_pose joint="1" position="//90wgAA7EEAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AABwQgAA7EEAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AQBwQv//o8EAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AAB1wgEApMEAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="2">
+		<joint_pose joint="1" position="IU5pwgAA7EEAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="7J1oQgAA7EEAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="7Z1oQv//o8EAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="Ik5pwgEApMEAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="3">
+		<joint_pose joint="1" position="AIDUwgAAjUIAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AADUQgAAjUIAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AADUQgAAiMIAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AIDUwgAAiMIAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="4">
+		<joint_pose joint="1" position="AgCeQQIAnEEAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="2" position="AABaQwIAnEEAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="3" position="AABaQwEAoEEAAACA" rotation="AAAAAAAAAAAAAACA"/>
+		<joint_pose joint="4" position="AACeQf//n0EAAACA" rotation="AAAAAAAAAAAAAACA"/>
+	</frame>
+
+	<frame id="5">
+		<joint_pose joint="1" position="AICuwgAAjUIAAACA" rotation="AAAAAAAAAIAAAACA"/>
+		<joint_pose joint="2" position="AACuQgAAjUIAAACA" rotation="AAAAAAAAAIAAAACA"/>
+		<joint_pose joint="3" position="AACuQgAAiMIAAACA" rotation="AAAAAAAAAIAAAACA"/>
+		<joint_pose joint="4" position="AICuwgAAiMIAAACA" rotation="AAAAAAAAAIAAAACA"/>
+	</frame>
+
+</eskel>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ecube 
+	zpos="T_SkyDungeon_d.tga"
+	xpos="T_SkyDungeon_d.tga"
+	zneg="T_SkyDungeon_d.tga"
+	xneg="T_SkyDungeon_d.tga"
+	ypos="T_SkyDungeon_d.tga"
+	yneg="T_SkyDungeon_d.tga"
+	opts="-w 32 -h 32"
+/>

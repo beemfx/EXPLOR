@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS FILE SCRIPT GENERATED: DO NOT EDIT BY HAND OR YOU RISK
+CORRUPTING FURTHER USE OF THIS SCRIPT IN GAME OR TOOL, AND MAY
+CAUSE SYSTEMS INTERPRETING IT TO CRASH. -->
+<egsm id="InnLib" default_entry_point_node="N_11" new_node_id_prefix="N_" new_loc_key_prefix="InnLib_" new_node_id_suffix="52" new_loc_key_suffix="12" view_offset="197 194" >
+	<node id="N_5" type="ENTRY_POINT" parm0="ShowInnMenu" en_ref="" editor_pos="19 -222" >
+		<branch id="NEXT" to_node="N_25" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_8" type="NATIVE_EVENT" parm0="SaveFromInn" en_ref="" editor_pos="911 218" >
+		<branch id="NEXT" to_node="N_12" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_11" type="ENTRY_POINT" parm0="Main" en_ref="" editor_pos="10 -316" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_12" type="NATIVE_EVENT" parm0="QuitFromInn" en_ref="" editor_pos="1181 216" >
+	</node>
+	<node id="N_13" type="ENTRY_POINT" parm0="BuyFood" en_ref="" editor_pos="0 483" >
+		<branch id="NEXT" to_node="N_16" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_14" type="NATIVE_EVENT" parm0="ShowDialogBox" parm1="InnLib_0" en_ref="Pay |SetColor(EX_GOLD)|{0:VARS:NextCostForFood} gold|RestoreColor()| to restock the party&apos;s supply to {0:VARS:NextBuyFoodAmount} food?" editor_pos="568 437" >
+		<branch id="Yes" to_node="N_19" is_terminal="FALSE" en_ref=""  />
+		<branch id="No" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_16" type="NATIVE_EVENT" parm0="IsGreaterEqualThan" parm1="PartyGold" parm2="NextCostForFood" en_ref="" editor_pos="280 466" >
+		<branch id="TRUE" to_node="N_14" is_terminal="FALSE" en_ref=""  />
+		<branch id="FALSE" to_node="N_17" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_17" type="NATIVE_EVENT" parm0="ShowDialogBox" parm1="InnLib_1" en_ref="You need |SetColor(EX_GOLD)|{0:VARS:NextCostForFood} gold|RestoreColor()| to restock the party&apos;s food." editor_pos="565 550" >
+		<branch id="Okay" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_19" type="NATIVE_EVENT" parm0="Subtract" parm1="PartyGold" parm2="PartyGold" parm3="NextCostForFood" en_ref="" editor_pos="840 445" >
+		<branch id="NEXT" to_node="N_46" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_21" type="NATIVE_EVENT" parm0="SetNumber" parm1="NextBuyFoodAmount" parm2="BuyFoodAmount" en_ref="" editor_pos="903 35" >
+		<branch id="NEXT" to_node="N_22" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_22" type="NATIVE_EVENT" parm0="SetNumber" parm1="NextCostForFood" parm2="BuyFoodCost" en_ref="" editor_pos="1178 37" >
+		<branch id="NEXT" to_node="N_23" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_23" type="CALL" parm1="BuyFood" en_ref="" editor_pos="1453 40" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_24" type="ENTRY_POINT" parm0="ShowInnChoices" en_ref="" editor_pos="2 117" >
+		<branch id="NEXT" to_node="N_37" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_25" type="NATIVE_EVENT" parm0="SetBool" parm1="bInInnLoop" parm2="true" en_ref="" editor_pos="319 -230" >
+		<branch id="NEXT" to_node="N_27" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_26" type="NATIVE_EVENT" parm0="SetBool" parm1="bInInnLoop" parm2="false" en_ref="" editor_pos="913 118" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_27" type="CALL" parm1="ShowInnChoices" en_ref="" editor_pos="626 -238" >
+		<branch id="NEXT" to_node="N_28" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_28" type="NATIVE_EVENT" parm0="If" parm1="bInInnLoop" en_ref="" editor_pos="929 -250" >
+		<branch id="TRUE" to_node="N_25" is_terminal="FALSE" en_ref=""  />
+		<branch id="FALSE" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_38" type="NATIVE_EVENT" parm0="NpcClearDialog" parm1="true" en_ref="" editor_pos="614 -60.6667" >
+		<branch id="NEXT" to_node="N_35" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_37" type="NATIVE_EVENT" parm0="NpcDialog" parm1="InnLib_2" en_ref="Welcome to the Rest Easy Inn. How can I help you?" editor_pos="293.667 81.6667" >
+		<branch id="InnLib_3" to_node="N_40" is_terminal="FALSE" en_ref="Leave the Inn"  />
+		<branch id="InnLib_4" to_node="N_39" is_terminal="FALSE" en_ref="Buy Food"  />
+		<branch id="InnLib_5" to_node="N_38" is_terminal="FALSE" en_ref="Edit Roster"  />
+		<branch id="InnLib_6" to_node="N_41" is_terminal="FALSE" en_ref="Sleep (Save and Quit)"  />
+	</node>
+	<node id="N_35" type="NATIVE_EVENT" parm0="ShowGameMenu" parm1="RosterMenu" en_ref="" editor_pos="914 -61" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_47" type="ENTRY_POINT" parm0="ShowInnFirstTimeChoices" en_ref="" editor_pos="5.66667 31.3333" >
+		<branch id="NEXT" to_node="N_44" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_39" type="NATIVE_EVENT" parm0="NpcClearDialog" parm1="true" en_ref="" editor_pos="625.667 33.6667" >
+		<branch id="NEXT" to_node="N_21" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_40" type="NATIVE_EVENT" parm0="NpcClearDialog" parm1="true" en_ref="" editor_pos="624.333 117.667" >
+		<branch id="NEXT" to_node="N_26" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_41" type="NATIVE_EVENT" parm0="NpcClearDialog" parm1="true" en_ref="" editor_pos="626 217.333" >
+		<branch id="NEXT" to_node="N_8" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_43" type="ENTRY_POINT" parm0="ShowInnMenuFirstTime" en_ref="" editor_pos="12.6667 -135" >
+		<branch id="NEXT" to_node="N_50" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_44" type="NATIVE_EVENT" parm0="NpcDialog" parm1="InnLib_7" en_ref="No problem. Anything else I can help you with?" editor_pos="297.333 -59.3333" >
+		<branch id="InnLib_8" to_node="N_40" is_terminal="FALSE" en_ref="Leave the Inn"  />
+		<branch id="InnLib_9" to_node="N_39" is_terminal="FALSE" en_ref="Buy Food"  />
+		<branch id="InnLib_10" to_node="N_38" is_terminal="FALSE" en_ref="Edit Roster"  />
+		<branch id="InnLib_11" to_node="N_41" is_terminal="FALSE" en_ref="Sleep (Save and Quit)"  />
+	</node>
+	<node id="N_45" type="NATIVE_EVENT" parm0="PlaySound" parm1="BuyFood" en_ref="" editor_pos="1438.33 443.333" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_46" type="NATIVE_EVENT" parm0="Max" parm1="PartyFood" parm2="PartyFood" parm3="NextBuyFoodAmount" en_ref="" editor_pos="1146.67 441.667" >
+		<branch id="NEXT" to_node="N_45" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_48" type="CALL" parm1="ShowInnFirstTimeChoices" en_ref="" editor_pos="594.333 -153.667" >
+		<branch id="NEXT" to_node="N_51" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_49" type="CALL" parm1="ShowInnMenu" en_ref="" editor_pos="1200.33 -158.667" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_50" type="NATIVE_EVENT" parm0="SetBool" parm1="bInInnLoop" parm2="true" en_ref="" editor_pos="317.333 -148.667" >
+		<branch id="NEXT" to_node="N_48" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_51" type="NATIVE_EVENT" parm0="If" parm1="bInInnLoop" en_ref="" editor_pos="924.333 -159.667" >
+		<branch id="TRUE" to_node="N_49" is_terminal="FALSE" en_ref=""  />
+		<branch id="FALSE" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+</egsm>

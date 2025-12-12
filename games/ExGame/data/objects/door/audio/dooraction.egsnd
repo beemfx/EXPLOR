@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="EGSndAsset">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Sounds" ed_expanded="true" reserve_size="6" >
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="dooraction" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="12" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="doorsqueak" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="false" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="DoorLockedAction" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="12" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="doorlatch" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="false" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="DoorUnlockAction" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="12" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="1" />
+				<property name="SoundFile" value="doorlatch" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="false" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="DoorOpenSqueak01" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="12" />
+				<property name="AudibleDistance" value="6.5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="doorsqueak" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="false" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="DoorOpenSqueak02" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="12" />
+				<property name="AudibleDistance" value="6.5" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="doorsqueak" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="false" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="SoundId" value="DoorActionSlide" />
+				<property name="Type" value="Effect" />
+				<property name="VolumeOverrideType" value="Unknown" />
+				<property name="Volume" value="1" />
+				<property name="AudibleDistance" value="12" />
+				<property name="AudibleFallofPercent" value="0.5" />
+				<property name="InstanceType" value="Closest" />
+				<property name="MaxInstances" value="2" />
+				<property name="SoundFile" value="doorsqueak" />
+				<property name="bLooping" value="false" />
+				<property name="bStreaming" value="false" />
+				<property name="bCentered" value="false" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

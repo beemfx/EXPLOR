@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edef>
+
+	<properties>
+		<struct name="EntDef" ed_expanded="true" >
+			<property name="m_Id" value="FreeMovePlayerController" />
+			<property name="m_ClassType" value="Game" />
+			<property name="m_EntityClassName" value="ExFreeMovePlayerController" />
+			<property name="m_UiClassName" value="ExFreeMovePlayerController" />
+			<property name="m_DefaultRenderFilter" value="PreFxPass" />
+			<property name="m_bIsSerialized" value="false" />
+			<property name="m_bIsLit" value="false" />
+			<property name="m_bIsAlwaysVisible" value="false" />
+			<struct name="m_BaseBounds" ed_expanded="true" >
+				<property name="Min" value="-0.6 -1.5 -0.6" />
+				<property name="Max" value="0.6 0.5 0.6" />
+			</struct>
+			<struct name="m_EditorConfig" ed_expanded="true" >
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bDrawGrid" value="true" />
+				<property name="GridSpacing" value="0.5" />
+				<property name="AmbientLight" value="ARGB32:255 51 51 51" />
+				<property name="GamePalette0" value="1 1 1 1" />
+				<property name="GamePalette1" value="1 1 1 1" />
+				<property name="GamePalette2" value="1 1 1 1" />
+				<property name="bDrawLights" value="true" />
+				<property name="CameraPos" value="-3.71539 -0.5 -1.22923" />
+				<property name="CameraYaw" value="1.31" />
+				<property name="CameraPitch" value="0" />
+				<property name="HasCameraPose" value="true" />
+			</struct>
+		</struct>
+	</properties>
+
+	<component id="PhysBody0" class="EGPhysBodyComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_BodyClass" value="EGPxControlPhysBody" />
+				<struct name="m_BodyFlags" ed_expanded="true" >
+					<property name="bKinematicEnabled" value="false" />
+					<property name="bCollisionEnabled" value="true" />
+					<property name="bRaycastHitEnabled" value="true" />
+					<property name="bIsTrigger" value="false" />
+					<property name="bNoRotateX" value="true" />
+					<property name="bNoRotateY" value="false" />
+					<property name="bNoRotateZ" value="true" />
+					<property name="bNoMoveX" value="false" />
+					<property name="bNoMoveY" value="false" />
+					<property name="bNoMoveZ" value="false" />
+				</struct>
+				<array name="m_Shapes" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="Type" value="Capsule" />
+						<property name="Pose" value="RqTS1:-0 0 -0 1 , 0 -0.5 0 , 1" />
+						<property name="Mass" value="160" />
+						<property name="StaticFriction" value="0" />
+						<property name="DynamicFriction" value="0" />
+						<property name="Restitution" value="0" />
+						<property name="Radius" value="0.6" />
+						<property name="Height" value="2" />
+						<property name="XDim" value="1" />
+						<property name="YDim" value="1" />
+						<property name="ZDim" value="1" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+</edef>

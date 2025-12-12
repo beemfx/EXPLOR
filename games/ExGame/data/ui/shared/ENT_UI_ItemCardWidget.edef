@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edef>
+
+	<properties>
+		<struct name="EntDef" ed_expanded="true" >
+			<property name="m_Id" value="ENT_UI_ItemCardWidget" />
+			<property name="m_ClassType" value="UI" />
+			<property name="m_EntityClassName" value="" />
+			<property name="m_UiClassName" value="ExItemCardWidget" />
+			<property name="m_DefaultRenderFilter" value="PreFxPass" />
+			<property name="m_bIsSerialized" value="false" />
+			<property name="m_bIsLit" value="false" />
+			<property name="m_bIsAlwaysVisible" value="false" />
+			<struct name="m_BaseBounds" ed_expanded="true" >
+				<property name="Min" value="-35 -30 1" />
+				<property name="Max" value="35 22 -1" />
+			</struct>
+			<struct name="m_EditorConfig" ed_expanded="true" >
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bDrawGrid" value="true" />
+				<property name="GridSpacing" value="10" />
+				<property name="AmbientLight" value="ARGB32:255 51 51 51" />
+				<property name="GamePalette0" value="1 1 1 1" />
+				<property name="GamePalette1" value="1 1 1 1" />
+				<property name="GamePalette2" value="1 1 1 1" />
+				<property name="bDrawLights" value="true" />
+				<property name="bOrthoPreview" value="true" />
+				<struct name="OrthoCamera" ed_expanded="true" >
+					<property name="NearPlane" value="-100" />
+					<property name="FarPlane" value="100" />
+					<property name="Height" value="60" />
+				</struct>
+				<property name="CameraPos" value="0 0 -89" />
+				<property name="CameraYaw" value="0" />
+				<property name="CameraPitch" value="0" />
+				<property name="HasCameraPose" value="true" />
+			</struct>
+		</struct>
+	</properties>
+
+	<component id="Bg" class="EGSkelMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="msh_ui_borderswordsmallslice" />
+				</struct>
+				<array name="m_Materials" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="MeshGroupId" value="Background" />
+						<struct name="Material" ed_expanded="true" >
+							<property name="Texture0" value="t_ui_border_sword02_d" />
+							<property name="Texture1" value="" />
+							<property name="Texture2" value="" />
+							<property name="Texture3" value="" />
+							<property name="VertexShader" value="/game/shaders/ex_ui" />
+							<property name="PixelShader" value="/game/shaders/ex_ui" />
+							<property name="Diffuse" value="ARGB32:255 255 255 255" />
+							<property name="Ambient" value="ARGB32:0 0 0 0" />
+							<property name="Specular" value="ARGB32:0 0 0 0" />
+							<property name="Emissive" value="ARGB32:0 0 0 0" />
+							<property name="Power" value="1" />
+						</struct>
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<component id="ItemName" class="EGTextNodeComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 16 -1 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<property name="m_Width" value="60" />
+				<property name="m_Height" value="5" />
+				<property name="m_NumLines" value="1" />
+				<property name="m_Color" value="ARGB32:255 0 0 0" />
+				<property name="m_LocText" value="" />
+				<property name="m_LocText_enus" value="Item Name" />
+				<property name="m_Alignment" value="CENTER" />
+				<property name="m_bHasDropShadow" value="false" />
+				<property name="m_DropShadowColor" value="ARGB32:255 0 0 0" />
+				<property name="m_Font" value="ex_body" />
+				<property name="m_bDisableZTestAndZWrite" value="false" />
+			</struct>
+		</properties>
+	</component>
+
+	<component id="ItemDesc" class="EGTextNodeComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 -7 -1 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<property name="m_Width" value="60" />
+				<property name="m_Height" value="38" />
+				<property name="m_NumLines" value="9" />
+				<property name="m_Color" value="ARGB32:255 0 0 0" />
+				<property name="m_LocText" value="" />
+				<property name="m_LocText_enus" value="A multi-line description goes here it can. Cover a lot of lines&#xA;1) Line 1&#xA;2) Line 2&#xA;3) Line 3&#xA;4) Line 4&#xA;5) Line 5&#xA;6) Line 6" />
+				<property name="m_Alignment" value="LEFT" />
+				<property name="m_bHasDropShadow" value="false" />
+				<property name="m_DropShadowColor" value="ARGB32:255 0 0 0" />
+				<property name="m_Font" value="ex_body" />
+				<property name="m_bDisableZTestAndZWrite" value="false" />
+			</struct>
+		</properties>
+	</component>
+
+	<timeline id="Init" editor_frame_time="0.5">
+		<keyframe time="0">Bg.SetBonePos( &quot;ur&quot; , 15 , 2 , 0 );&#xD;&#xA;&#xA;Bg.SetBonePos( &quot;ul&quot; , -15 , 2 , 0 );&#xD;&#xA;&#xA;Bg.SetBonePos( &quot;ll&quot; , -15 , -10 , 0 );&#xD;&#xA;&#xA;Bg.SetBonePos( &quot;lr&quot; , 15 , -10 , 0 );&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="Show" editor_frame_time="0.5">
+		<keyframe time="0">StopAllTimelines();&#xD;&#xA;Bg.TweenPaletteAlphaTo( 1.0 , .25 , &quot;CUBIC&quot; );&#xD;&#xA;ItemName.TweenPaletteAlphaTo( 1.0 , .25 , &quot;CUBIC&quot; );&#xD;&#xA;ItemDesc.TweenPaletteAlphaTo( 1.0 , .25 , &quot;CUBIC&quot; );</keyframe>
+	</timeline>
+
+	<timeline id="Hide" editor_frame_time="0.5">
+		<keyframe time="0">StopAllTimelines();&#xD;&#xA;Bg.TweenPaletteAlphaTo( 0.0 , .25 , &quot;CUBIC&quot; );&#xD;&#xA;ItemName.TweenPaletteAlphaTo( 0.0 , .25 , &quot;CUBIC&quot; );&#xD;&#xA;ItemDesc.TweenPaletteAlphaTo( 0.0 , .25 , &quot;CUBIC&quot; );</keyframe>
+	</timeline>
+
+	<timeline id="ShowNow" editor_frame_time="0.5">
+		<keyframe time="0">StopAllTimelines();&#xD;&#xA;Bg.SetPaletteAlpha(1);&#xD;&#xA;ItemName.SetPaletteAlpha(1);&#xD;&#xA;ItemDesc.SetPaletteAlpha(1);</keyframe>
+	</timeline>
+
+	<timeline id="HideNow" editor_frame_time="0.5">
+		<keyframe time="0">StopAllTimelines();&#xD;&#xA;Bg.SetPaletteAlpha(0);&#xD;&#xA;ItemName.SetPaletteAlpha(0);&#xD;&#xA;ItemDesc.SetPaletteAlpha(0);</keyframe>
+	</timeline>
+
+</edef>

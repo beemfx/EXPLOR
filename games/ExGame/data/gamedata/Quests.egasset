@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExQuests">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Quests" ed_expanded="true" reserve_size="1" >
+			<struct name="-" ed_expanded="true" >
+				<property name="Id" value="DemoQuest" />
+				<struct name="QuestName" ed_expanded="false" >
+					<property name="Text" value="DemoQuestNameText" />
+					<property name="Text_enus" value="Demo Quest" />
+				</struct>
+				<property name="StageVar" value="DemoQuestProgress" />
+				<property name="SortPriority" value="0" />
+				<array name="Stages" ed_expanded="true" reserve_size="5" >
+					<struct name="-" ed_expanded="false" >
+						<property name="StageValue" value="0" />
+						<struct name="Description" ed_expanded="true" >
+							<property name="Text" value="DemoQuestStage0_Text" />
+							<property name="Text_enus" value="You need to talk to someone in town to get this quest." />
+						</struct>
+						<property name="Status" value="NotStarted" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="StageValue" value="10" />
+						<struct name="Description" ed_expanded="true" >
+							<property name="Text" value="DemoQuestStage10_Text" />
+							<property name="Text_enus" value="You must find the |SC(EX_ITEM)|Demo Key|RC()| in the dungeon." />
+						</struct>
+						<property name="Status" value="InProgress" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="StageValue" value="20" />
+						<struct name="Description" ed_expanded="true" >
+							<property name="Text" value="DemoQuestStage20_Text" />
+							<property name="Text_enus" value="You found the key, now activate the lever in town to complete the quest." />
+						</struct>
+						<property name="Status" value="InProgress" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="StageValue" value="30" />
+						<struct name="Description" ed_expanded="true" >
+							<property name="Text" value="DemoQuestStage30_Text" />
+							<property name="Text_enus" value="You&apos;ve activated the lever, you should report back that you&apos;ve completed the task." />
+						</struct>
+						<property name="Status" value="InProgress" />
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="StageValue" value="40" />
+						<struct name="Description" ed_expanded="true" >
+							<property name="Text" value="DemoQuestStage40_Text" />
+							<property name="Text_enus" value="The quest is complete. Good Job!" />
+						</struct>
+						<property name="Status" value="Complete" />
+					</struct>
+				</array>
+			</struct>
+		</array>
+	</struct>
+</egasset>

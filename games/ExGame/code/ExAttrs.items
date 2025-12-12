@@ -1,0 +1,52 @@
+
+#if !defined( ATTR_ITEM )
+#define ATTR_ITEM( _var_ , _aname_ , _lname_ , _desc_ )
+#endif
+#if !defined( BASE_ATTR_ITEM )
+#define BASE_ATTR_ITEM ATTR_ITEM
+#endif
+#if !defined( COMP_ATTR_ITEM)
+#define COMP_ATTR_ITEM ATTR_ITEM
+#endif
+
+//
+// Base attributes:
+//
+// Fixed
+BASE_ATTR_ITEM( XP_ , eg_loc("AttrAbrNameXP","XP")   , eg_loc("AttrNameXP","Experience")        , eg_loc("AttrDescXP","A measure of a character's successes. Required to train |SC(EX_ATTR)|LVL|RC()|.")  )
+BASE_ATTR_ITEM( LVL , eg_loc("AttrAbrNameLVL","LVL")  , eg_loc("AttrNameLVL","Level")            , eg_loc("AttrDescLVL","The measure of a character's training. Higher levels increase |SC(EX_ATTR)|HP|RC()|, |SC(EX_ATTR)|MP|RC()|, |SC(EX_ATTR)|DEF|RC()|, and increase |SC(EX_ATTR)|DMG|RC()| caused by attacks and spells.")  )
+BASE_ATTR_ITEM( SPD , eg_loc("AttrAbrNameSPD","SPD") , eg_loc("AttrNameSPD","Speed")            , eg_loc("AttrDescSPD","Determines how often a character has a turn in combat. Characters with higher values attack more often and consequently deal more |SC(EX_ATTR)|DMG|RC()| over time.")  )
+BASE_ATTR_ITEM( STR , eg_loc("AttrAbrNameSTR","STR") , eg_loc("AttrNameSTR","Strength")         , eg_loc("AttrDescSTR","Affects |SC(EX_ATTR)|PDMG|RC()| and the effectiveness of weapons.") )
+BASE_ATTR_ITEM( END , eg_loc("AttrAbrNameEND","END") , eg_loc("AttrNameEND","Endurance")        , eg_loc("AttrDescEND","Determines how much |SC(EX_ATTR)|HP|RC()| is gained per |SC(EX_ATTR)|LVL|RC()|. Affects |SC(EX_ATTR)|PDEF|RC()| and the effectiveness of armor.") )
+BASE_ATTR_ITEM( ACC , eg_loc("AttrAbrNameACC","ACC") , eg_loc("AttrNameACC","Accuracy (UNUSED)"), eg_loc("AttrDescACC","Determines how much |SC(EX_ATTR)|HIT|RC()| a character has.") ) // Not wanted?
+BASE_ATTR_ITEM( MAG , eg_loc("AttrAbrNameMAG","MAG") , eg_loc("AttrNameMAG","Magic")            , eg_loc("AttrDescMAG","Determines how much |SC(EX_ATTR)|MP|RC()| is gained per |SC(EX_ATTR)|LVL|RC()|. Affects |SC(EX_ATTR)|DMG|RC()| caused by spells.") )
+BASE_ATTR_ITEM( AGR , eg_loc("AttrAbrNameAGR","AGR") , eg_loc("AttrNameAGR","Aggression")        , eg_loc("AttrDescAGR","Affects the likelihood that a character will be attacked by an opponent. Increases as the character deals |SC(EX_ATTR)|DMG|RC()| and aggravates opponents during combat.") ) // Prolly computed...
+BASE_ATTR_ITEM( BHP , eg_loc("AttrAbrNameBHP","BHP") , eg_loc("AttrNameBHP","Base Hit Points")  , eg_loc("AttrDescBHP","Designer: HIDDEN ATTRIBUTE, SHOULDN'T BE DISPLAYED") )
+BASE_ATTR_ITEM( BMP , eg_loc("AttrAbrNameBMP","BMP") , eg_loc("AttrNameBMP","Base Mana Points") , eg_loc("AttrDescBMP","Designer: HIDDEN ATTRIBUTE, SHOULDN'T BE DISPLAYED") )
+
+//
+// Computed attributes:
+//
+COMP_ATTR_ITEM( DMG_ , eg_loc("AttrAbrNameDMG","DMG")   , eg_loc("AttrNameDMG","Total Damage")     , eg_loc("AttrDescDMG","Affects how much |SC(EX_ATTR)|HP|RC()| an opponent will lose when attacked. The sum of |SC(EX_ATTR)|PDMG|RC()|, |SC(EX_ATTR)|FDMG|RC()|, |SC(EX_ATTR)|WDMG|RC()|, |SC(EX_ATTR)|EDMG|RC()|, and |SC(EX_ATTR)|ADMG|RC()|.") )
+COMP_ATTR_ITEM( PDMG , eg_loc("AttrAbrNamePDMG","PDMG") , eg_loc("AttrNamePDMG","Physical Damage") , eg_loc("AttrDescPDMG","Amount of |SC(EX_ATTR)|DMG|RC()| caused by |SC(EX_ATTR)|STR|RC()| and non-magical weapons.") )
+COMP_ATTR_ITEM( FDMG , eg_loc("AttrAbrNameFDMG","FDMG") , eg_loc("AttrNameFDMG","Fire Damage")     , eg_loc("AttrDescFDMG","Amount of |SC(EX_ATTR)|DMG|RC()| caused by weapons and items with fire enchantments.") )
+COMP_ATTR_ITEM( WDMG , eg_loc("AttrAbrNameWDMG","WDMG") , eg_loc("AttrNameWDMG","Water Damage")    , eg_loc("AttrDescWDMG","Amount of |SC(EX_ATTR)|DMG|RC()| caused by weapons and items with water enchantments.") )
+COMP_ATTR_ITEM( EDMG , eg_loc("AttrAbrNameEDMG","EDMG") , eg_loc("AttrNameEDMG","Earth Damage")    , eg_loc("AttrDescEDMG","Amount of |SC(EX_ATTR)|DMG|RC()| caused by weapons and items with earth enchantments.") )
+COMP_ATTR_ITEM( ADMG , eg_loc("AttrAbrNameADMG","ADMG") , eg_loc("AttrNameADMG","Air Damage")      , eg_loc("AttrDescADMG","Amount of |SC(EX_ATTR)|DMG|RC()| caused by weapons and items with air enchantments.") )
+
+COMP_ATTR_ITEM( DEF_ , eg_loc("AttrAbrNameDEF","DEF")   , eg_loc("AttrNameDEF","Total Defense")     , eg_loc("AttrDescDEF","Affects how much |SC(EX_ATTR)|DMG|RC()| can be blocked when defending an attack. The sum of |SC(EX_ATTR)|PDEF|RC()|, |SC(EX_ATTR)|FDEF|RC()|, |SC(EX_ATTR)|WDEF|RC()|, |SC(EX_ATTR)|EDEF|RC()|, and |SC(EX_ATTR)|ADEF|RC()|.") )
+COMP_ATTR_ITEM( PDEF , eg_loc("AttrAbrNamePDEF","PDEF") , eg_loc("AttrNamePDEF","Physical Defense") , eg_loc("AttrDescPDEF","Amount of |SC(EX_ATTR)|PDMG|RC()| that can be blocked when defending an attack.") )
+COMP_ATTR_ITEM( FDEF , eg_loc("AttrAbrNameFDEF","FDEF") , eg_loc("AttrNameFDEF","Fire Defense")     , eg_loc("AttrDescFDEF","Amount of |SC(EX_ATTR)|FDMG|RC()| that can be blocked when defending an attack.") )
+COMP_ATTR_ITEM( WDEF , eg_loc("AttrAbrNameWDEF","WDEF") , eg_loc("AttrNameWDEF","Water Defense")    , eg_loc("AttrDescWDEF","Amount of |SC(EX_ATTR)|WDMG|RC()| that can be blocked when defending an attack.") )
+COMP_ATTR_ITEM( EDEF , eg_loc("AttrAbrNameEDEF","EDEF") , eg_loc("AttrNameEDEF","Earth Defense")    , eg_loc("AttrDescEDEF","Amount of |SC(EX_ATTR)|EDMG|RC()| that can be blocked when defending an attack.") )
+COMP_ATTR_ITEM( ADEF , eg_loc("AttrAbrNameADEF","ADEF") , eg_loc("AttrNameADEF","Air Defense")      , eg_loc("AttrDescADEF","Amount of |SC(EX_ATTR)|ADMG|RC()| that can be blocked when defending an attack.") )
+
+COMP_ATTR_ITEM( HP  , eg_loc("AttrAbrNameHP","HP")   , eg_loc("AttrNameHP","Hit Points")         , eg_loc("AttrDescHP","The amount of |SC(EX_ATTR)|DMG|RC()| a character can receive before falling in battle. Healing spells and resting can recover lost points.") )
+COMP_ATTR_ITEM( MP  , eg_loc("AttrAbrNameMP","MP")   , eg_loc("AttrNameMP","Mana Points")        , eg_loc("AttrDescMP","The amount of spell power that can be used in battle. Resting recovers spent points.") )
+COMP_ATTR_ITEM( HIT , eg_loc("AttrAbrNameHIT","HIT") , eg_loc("AttrNameHIT","Chance to Hit (UNUSED)")     , eg_loc("AttrDescHIT","The likelihood that an attack will hit an opponent.") ) //  ?
+COMP_ATTR_ITEM( DG  , eg_loc("AttrAbrNameDG","DG")   , eg_loc("AttrNameDG","Chance to Dodge (UNUSED)")    , eg_loc("AttrDescDG","The likelihood that an attack will miss the character entirely.") ) // ?
+COMP_ATTR_ITEM( ATK , eg_loc("AttrAbrNameATK","ATK") , eg_loc("AttrNameATK","Number of Attacks (UNUSED)") , eg_loc("AttrDescATK","The number of times the character swings their weapon while attacking.") )
+
+#undef ATTR_ITEM
+#undef BASE_ATTR_ITEM
+#undef COMP_ATTR_ITEM

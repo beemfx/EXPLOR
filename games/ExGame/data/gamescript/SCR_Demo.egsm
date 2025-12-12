@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS FILE SCRIPT GENERATED: DO NOT EDIT BY HAND OR YOU RISK
+CORRUPTING FURTHER USE OF THIS SCRIPT IN GAME OR TOOL, AND MAY
+CAUSE SYSTEMS INTERPRETING IT TO CRASH. -->
+<egsm id="SCR_Demo" default_entry_point_node="N_0" new_node_id_prefix="N_" new_loc_key_prefix="DemoText_" new_node_id_suffix="76" new_loc_key_suffix="1" view_offset="342 -499" >
+	<node id="N_0" type="ENTRY_POINT" parm0="Main" en_ref="" editor_pos="10 615" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_50" type="ENTRY_POINT" parm0="DemoGossip" en_ref="" editor_pos="8.33334 719.667" >
+		<branch id="NEXT" to_node="N_51" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_51" type="NATIVE_EVENT" parm0="NpcSetSpeakerNameplate" parm1="DemoText_0" en_ref="Demo Gossiper" editor_pos="292.333 721" >
+		<branch id="NEXT" to_node="N_62" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_62" type="NATIVE_EVENT" parm0="NpcGossip" parm1="DemoGossip" en_ref="" editor_pos="589 721.667" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+</egsm>

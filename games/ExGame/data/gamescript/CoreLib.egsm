@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS FILE SCRIPT GENERATED: DO NOT EDIT BY HAND OR YOU RISK
+CORRUPTING FURTHER USE OF THIS SCRIPT IN GAME OR TOOL, AND MAY
+CAUSE SYSTEMS INTERPRETING IT TO CRASH. -->
+<egsm id="CoreLib" default_entry_point_node="N_0" new_node_id_prefix="N_" new_loc_key_prefix="CoreLibLoc_" new_node_id_suffix="13" new_loc_key_suffix="12" view_offset="60 30" >
+	<node id="N_0" type="ENTRY_POINT" parm0="Main" en_ref="" editor_pos="10 150" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_1" type="ENTRY_POINT" parm0="HandleAutoTransition" en_ref="" editor_pos="13 252.333" >
+		<branch id="NEXT" to_node="N_3" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_3" type="NATIVE_EVENT" parm0="ShowDialogBox" parm1="CoreLibLoc_3" en_ref="Do you want to travel to the next map?" editor_pos="297.667 252" >
+		<branch id="Yes" to_node="N_5" is_terminal="FALSE" en_ref=""  />
+		<branch id="No" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_5" type="NATIVE_EVENT" parm0="DoAutoTransition" en_ref="" editor_pos="608.333 251" >
+	</node>
+	<node id="N_6" type="ENTRY_POINT" parm0="OpenWorldMap" en_ref="" editor_pos="10 382" >
+		<branch id="NEXT" to_node="N_8" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_8" type="NATIVE_EVENT" parm0="ShowGameMenu" parm1="WorldMapMenu" en_ref="" editor_pos="301.667 386" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_9" type="ENTRY_POINT" parm0="HandleNoTownPortalRecall" en_ref="" editor_pos="10.3333 519.333" >
+		<branch id="NEXT" to_node="N_10" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_10" type="NATIVE_EVENT" parm0="ShowDialogBox" parm1="CoreLibLoc_8" en_ref="There is nowhere to teleport to. The party must first teleport from the dungeon in order to return to it." editor_pos="303.333 515" >
+		<branch id="Okay" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_11" type="ENTRY_POINT" parm0="HandleSimulatedRandomCombat" en_ref="" editor_pos="10.6667 638.333" >
+		<branch id="NEXT" to_node="N_12" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_12" type="NATIVE_EVENT" parm0="ShowDialogBox" parm1="CoreLibLoc_10" en_ref="Combat {0:VARS:TotalCombats} was completed. Each party member earned {0:VARS:DebugCombatXp} |SC(EX_ATTR)|XP|RC()|. |SC(EX_GOLD)|{0:VARS:DebugCombatGold}|RC()| gold was found." editor_pos="304.333 637" >
+		<branch id="Okay" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+</egsm>

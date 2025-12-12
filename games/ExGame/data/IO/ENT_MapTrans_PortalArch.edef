@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edef>
+
+	<properties>
+		<struct name="EntDef" ed_expanded="true" >
+			<property name="m_Id" value="ENT_MapTrans_PortalArch" />
+			<property name="m_ClassType" value="Game" />
+			<property name="m_EntityClassName" value="ExMapTransitionEnt" />
+			<property name="m_UiClassName" value="" />
+			<property name="m_DefaultRenderFilter" value="PreFxPass" />
+			<property name="m_bIsSerialized" value="true" />
+			<property name="m_bIsLit" value="true" />
+			<property name="m_bIsAlwaysVisible" value="false" />
+			<struct name="m_BaseBounds" ed_expanded="true" >
+				<property name="Min" value="-1.18098 0 1.70476" />
+				<property name="Max" value="1.18098 2.90652 2.29524" />
+			</struct>
+			<struct name="m_EditorConfig" ed_expanded="true" >
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bDrawGrid" value="true" />
+				<property name="GridSpacing" value="0.5" />
+				<property name="AmbientLight" value="ARGB32:255 255 255 255" />
+				<property name="GamePalette0" value="5 10 1 1" />
+				<property name="GamePalette1" value="1 1 1 1" />
+				<property name="GamePalette2" value="1 1 1 1" />
+				<property name="bDrawLights" value="true" />
+				<property name="bOrthoPreview" value="false" />
+				<struct name="OrthoCamera" ed_expanded="true" >
+					<property name="NearPlane" value="-100" />
+					<property name="FarPlane" value="100" />
+					<property name="Height" value="200" />
+				</struct>
+				<property name="CameraPos" value="-4.4761 1.75555 -1.00557" />
+				<property name="CameraYaw" value="0.930599" />
+				<property name="CameraPitch" value="0.0726" />
+				<property name="HasCameraPose" value="true" />
+			</struct>
+		</struct>
+	</properties>
+
+	<component id="Frame" class="EGMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 2 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="/game/objects/portal/msh_portal_frame" />
+				</struct>
+				<array name="m_Materials" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="false" >
+						<property name="MeshGroupId" value="Frame" />
+						<struct name="Material" ed_expanded="true" >
+							<property name="Texture0" value="/game/objects/portal/t_portal_default_d" />
+							<property name="Texture1" value="/game/objects/portal/t_portal_default_n" />
+							<property name="Texture2" value="/game/objects/portal/t_portal_default_s" />
+							<property name="Texture3" value="" />
+							<property name="VertexShader" value="/game/shaders/ex_mesh_basic" />
+							<property name="PixelShader" value="/game/shaders/ex_mesh_basic" />
+							<property name="Diffuse" value="ARGB32:255 255 255 255" />
+							<property name="Ambient" value="ARGB32:255 255 255 255" />
+							<property name="Specular" value="ARGB32:0 0 0 0" />
+							<property name="Emissive" value="ARGB32:0 0 0 0" />
+							<property name="Power" value="1" />
+						</struct>
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<component id="Portal" class="EGMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 2 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="PreFxTransparent" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="/game/objects/portal/msh_portal_portal" />
+				</struct>
+				<array name="m_Materials" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="MeshGroupId" value="Portal" />
+						<struct name="Material" ed_expanded="true" >
+							<property name="Texture0" value="/game/objects/portal/t_portal_townportal_portal_d" />
+							<property name="Texture1" value="" />
+							<property name="Texture2" value="" />
+							<property name="Texture3" value="" />
+							<property name="VertexShader" value="/game/shaders/ex_mesh_basic_portal" />
+							<property name="PixelShader" value="/game/shaders/ex_mesh_basic_portal" />
+							<property name="Diffuse" value="ARGB32:255 255 255 255" />
+							<property name="Ambient" value="ARGB32:255 255 255 255" />
+							<property name="Specular" value="ARGB32:0 0 0 0" />
+							<property name="Emissive" value="ARGB32:0 255 255 255" />
+							<property name="Power" value="1" />
+						</struct>
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<component id="MapIcon0" class="ExMapIconComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_MapIcon" value="/game/icons/map/t_icon_portal_d" />
+				<property name="m_bClampIconToMinimapEdge" value="true" />
+			</struct>
+		</properties>
+	</component>
+
+	<component id="AmbientSoundController0" class="ExAmbientSoundControllerComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 1.5 2 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_SoundEffect" value="portalbuzz" />
+				<property name="m_bPlayingByDefault" value="true" />
+				<property name="m_bSetVolumeByLoadingOpacity" value="true" />
+				<property name="m_bDisableForMenus" value="true" />
+			</struct>
+		</properties>
+	</component>
+
+</edef>

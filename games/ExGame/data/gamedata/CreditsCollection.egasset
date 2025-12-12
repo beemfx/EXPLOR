@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExCreditsCollection">
+	<struct name="DataAsset" ed_expanded="true" >
+		<property name="m_DesiredCreditsDurationSeconds" value="60" />
+		<array name="m_CreditsDataInfo" ed_expanded="true" reserve_size="3" >
+			<struct name="-" ed_expanded="false" >
+				<property name="CreditsDataPath" value="credits_a_intro" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="CreditsDataPath" value="credits_c_notices" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="CreditsDataPath" value="credits_d_outro" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

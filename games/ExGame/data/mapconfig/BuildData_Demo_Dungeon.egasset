@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="EGGcxBuildData">
+	<struct name="DataAsset" ed_expanded="true" >
+		<property name="m_WallLength" value="6" />
+		<property name="m_RegionHeightDims" value="-0.5 15" />
+		<property name="m_bAllTilesHaveCeilings" value="true" />
+		<property name="m_bAnyTileWithMarkerIsSafe" value="true" />
+		<property name="m_bTilesWithMonstersAreSafe" value="true" />
+		<array name="m_TileInfos" ed_expanded="true" reserve_size="4" >
+			<struct name="-" ed_expanded="false" >
+				<property name="TerrainType" value="DEFAULT" />
+				<property name="TopOffset" value="0" />
+				<property name="BottomOffset" value="-0.5" />
+				<property name="NavGraphOffset" value="1" />
+				<property name="GroundMaterial" value="FLOOR01" />
+				<property name="CeilingMaterial" value="CEIL01" />
+				<property name="CeilingThickness" value="0.5" />
+				<property name="CeilingHeight" value="4" />
+				<property name="bCanWalkOn" value="true" />
+				<property name="bHasGround" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="TerrainType" value="INSIDE_OPEN" />
+				<property name="TopOffset" value="0" />
+				<property name="BottomOffset" value="-0.5" />
+				<property name="NavGraphOffset" value="1" />
+				<property name="GroundMaterial" value="FLOOR01" />
+				<property name="CeilingMaterial" value="CEIL01" />
+				<property name="CeilingThickness" value="0.5" />
+				<property name="CeilingHeight" value="4" />
+				<property name="bCanWalkOn" value="true" />
+				<property name="bHasGround" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="TerrainType" value="OOZE_OPEN" />
+				<property name="TopOffset" value="-0.5" />
+				<property name="BottomOffset" value="-20" />
+				<property name="NavGraphOffset" value="1" />
+				<property name="GroundMaterial" value="OOZE" />
+				<property name="CeilingMaterial" value="CEIL01" />
+				<property name="CeilingThickness" value="0.5" />
+				<property name="CeilingHeight" value="4" />
+				<property name="bCanWalkOn" value="false" />
+				<property name="bHasGround" value="true" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="TerrainType" value="VOID" />
+				<property name="TopOffset" value="0" />
+				<property name="BottomOffset" value="0" />
+				<property name="NavGraphOffset" value="1" />
+				<property name="GroundMaterial" value="DEFAULT" />
+				<property name="CeilingMaterial" value="CEIL01" />
+				<property name="CeilingThickness" value="-0.25" />
+				<property name="CeilingHeight" value="4" />
+				<property name="bCanWalkOn" value="false" />
+				<property name="bHasGround" value="false" />
+			</struct>
+		</array>
+		<array name="m_WallInfos" ed_expanded="true" reserve_size="1" >
+			<struct name="-" ed_expanded="false" >
+				<property name="PaletteIndex" value="0" />
+				<property name="WallMaterial" value="WALL01" />
+				<property name="PillarMaterial" value="WALL01" />
+				<property name="Height" value="4" />
+				<property name="WallThickness" value="1" />
+				<property name="PillarThickness" value="0" />
+				<property name="MapWallColor" value="ARGB32:255 0 0 0" />
+				<struct name="StandardDoorData" ed_expanded="false" >
+					<property name="Height" value="3" />
+					<property name="Width" value="2" />
+					<property name="TorchDistanceFromGround" value="3.25" />
+					<property name="EntityDefinition" value="ENT_Door_Sewers" />
+				</struct>
+				<struct name="SecretDoorData" ed_expanded="false" >
+					<property name="Height" value="4" />
+					<property name="Width" value="6" />
+					<property name="TorchDistanceFromGround" value="3.25" />
+					<property name="EntityDefinition" value="ENT_Door_SewersHidden" />
+				</struct>
+				<property name="TorchRange" value="4.4" />
+				<property name="TorchColor" value="ARGB32:255 255 255 255" />
+				<property name="TorchDistanceFromWall" value="0.1" />
+				<property name="TorchDistanceFromGround" value="2" />
+				<property name="TorchEntityDefinition" value="ENT_Torch_OrangeFlame" />
+				<property name="bDoorsHaveTorches" value="false" />
+			</struct>
+		</array>
+		<array name="m_MaterialInfos" ed_expanded="true" reserve_size="5" >
+			<struct name="-" ed_expanded="false" >
+				<property name="MaterialId" value="DEFAULT" />
+				<property name="Texture0Path" value="/egdata/textures/default_white" />
+				<property name="Texture1Path" value="/egdata/textures/default_normal" />
+				<property name="Texture2Path" value="/egdata/textures/default_black" />
+				<property name="Texture3Path" value="" />
+				<property name="ShaderPath" value="/game/shaders/ex_map_basic" />
+				<property name="TextureUVScale" value="0.333333 0.333333" />
+				<property name="AutomapGroundColor1" value="ARGB32:255 0 0 0" />
+				<property name="AutomapGroundColor2" value="ARGB32:255 255 255 255" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="MaterialId" value="WALL01" />
+				<property name="Texture0Path" value="/game/textures/t_rock_d" />
+				<property name="Texture1Path" value="/egdata/textures/default_normal" />
+				<property name="Texture2Path" value="/egdata/textures/default_white" />
+				<property name="Texture3Path" value="" />
+				<property name="ShaderPath" value="/game/shaders/ex_map_basic" />
+				<property name="TextureUVScale" value="0.2 0.2" />
+				<property name="AutomapGroundColor1" value="ARGB32:255 0 0 0" />
+				<property name="AutomapGroundColor2" value="ARGB32:255 255 255 255" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="MaterialId" value="FLOOR01" />
+				<property name="Texture0Path" value="/game/textures/t_rock_d" />
+				<property name="Texture1Path" value="/egdata/textures/default_normal" />
+				<property name="Texture2Path" value="/egdata/textures/default_white" />
+				<property name="Texture3Path" value="" />
+				<property name="ShaderPath" value="/game/shaders/ex_map_basic" />
+				<property name="TextureUVScale" value="0.333333 0.333333" />
+				<property name="AutomapGroundColor1" value="ARGB32:255 255 255 255" />
+				<property name="AutomapGroundColor2" value="ARGB32:255 0 0 0" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="MaterialId" value="CEIL01" />
+				<property name="Texture0Path" value="/game/textures/t_rock_d" />
+				<property name="Texture1Path" value="/egdata/textures/default_normal" />
+				<property name="Texture2Path" value="/egdata/textures/default_white" />
+				<property name="Texture3Path" value="" />
+				<property name="ShaderPath" value="/game/shaders/ex_map_basic" />
+				<property name="TextureUVScale" value="0.166667 0.166667" />
+				<property name="AutomapGroundColor1" value="ARGB32:255 77 77 77" />
+				<property name="AutomapGroundColor2" value="ARGB32:255 55 55 55" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="MaterialId" value="OOZE" />
+				<property name="Texture0Path" value="/game/textures/t_ooze_d" />
+				<property name="Texture1Path" value="/egdata/textures/default_normal" />
+				<property name="Texture2Path" value="/egdata/textures/default_white" />
+				<property name="Texture3Path" value="/egdata/textures/default_white" />
+				<property name="ShaderPath" value="/game/shaders/ex_map_water" />
+				<property name="TextureUVScale" value="0.04 0.04" />
+				<property name="AutomapGroundColor1" value="ARGB32:255 128 128 128" />
+				<property name="AutomapGroundColor2" value="ARGB32:255 105 105 105" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

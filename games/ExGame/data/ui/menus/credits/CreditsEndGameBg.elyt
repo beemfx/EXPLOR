@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elyt id="CreditsEndGameBgMenu" script="ExCreditsEndGameBgMenu" flags="NOINPUT">
+
+	<camera>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="PlanetCam" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 0 -100 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<struct name="CameraInfo" ed_expanded="true" >
+					<property name="Type" value="PERSPECTIVE" />
+					<property name="Near" value="0.1" />
+					<property name="Far" value="1000" />
+					<property name="FovDeg" value="180" />
+					<property name="OrthoRadius" value="100" />
+				</struct>
+			</struct>
+		</properties>
+	</camera>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="Skybox" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_MainMenuBackground" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="StartupEvent" value="" />
+				<property name="ScaleVec" value="500 500 500" />
+				<property name="IsAlwaysLoaded" value="false" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+	<clearz>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+			</struct>
+		</properties>
+	</clearz>
+
+	<camera>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="ScrollCam" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="IsGuide" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<struct name="CameraInfo" ed_expanded="true" >
+					<property name="Type" value="ORTHOGRAPHIC" />
+					<property name="Near" value="-100" />
+					<property name="Far" value="100" />
+					<property name="FovDeg" value="90" />
+					<property name="OrthoRadius" value="100" />
+				</struct>
+			</struct>
+		</properties>
+	</camera>
+
+	<object>
+		<properties>
+			<struct name="WidgetInfo" ed_expanded="true" >
+				<property name="Id" value="FadeWidget" />
+				<property name="WidgetType" value="NONE" />
+				<property name="bIsLocked" value="true" />
+				<property name="ClassName" value="" />
+				<property name="EntDefCrc" value="ENT_UI_FadeWidget" />
+				<property name="BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="StartupEvent" value="FadeToEndGameCredits" />
+				<property name="ScaleVec" value="1 1 1" />
+				<property name="IsAlwaysLoaded" value="true" />
+				<property name="IsLit" value="false" />
+				<property name="IsGuide" value="false" />
+				<property name="bDrawAsMask" value="false" />
+				<property name="bDrawOnMaskOnly" value="false" />
+				<property name="bUsePointFiltering" value="false" />
+				<property name="bUseTextureEdgeClamp" value="true" />
+				<property name="Anchor" value="CENTER|CENTER" />
+			</struct>
+		</properties>
+	</object>
+
+</elyt>

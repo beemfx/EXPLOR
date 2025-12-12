@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edef>
+
+	<properties>
+		<struct name="EntDef" ed_expanded="true" >
+			<property name="m_Id" value="InventoryMenuSlot" />
+			<property name="m_ClassType" value="UI" />
+			<property name="m_EntityClassName" value="" />
+			<property name="m_UiClassName" value="" />
+			<property name="m_DefaultRenderFilter" value="PreFxPass" />
+			<property name="m_bIsSerialized" value="true" />
+			<property name="m_bIsLit" value="false" />
+			<property name="m_bIsAlwaysVisible" value="false" />
+			<struct name="m_BaseBounds" ed_expanded="true" >
+				<property name="Min" value="-7 -7 -1" />
+				<property name="Max" value="7 7 1" />
+			</struct>
+			<struct name="m_EditorConfig" ed_expanded="true" >
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bDrawGrid" value="true" />
+				<property name="GridSpacing" value="10" />
+				<property name="AmbientLight" value="ARGB32:255 51 51 51" />
+				<property name="GamePalette0" value="1 1 1 1" />
+				<property name="GamePalette1" value="1 1 1 1" />
+				<property name="GamePalette2" value="1 1 1 1" />
+				<property name="bDrawLights" value="true" />
+				<property name="bOrthoPreview" value="false" />
+				<struct name="OrthoCamera" ed_expanded="true" >
+					<property name="NearPlane" value="-100" />
+					<property name="FarPlane" value="100" />
+					<property name="Height" value="200" />
+				</struct>
+				<property name="CameraPos" value="0 0 -22" />
+				<property name="CameraYaw" value="0" />
+				<property name="CameraPitch" value="0" />
+				<property name="HasCameraPose" value="true" />
+			</struct>
+		</struct>
+	</properties>
+
+	<component id="Bg" class="EGSkelMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="0.3 0.3 0.3" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="/game/ui/shared/msh_ui_borderswordsmallslice" />
+				</struct>
+				<array name="m_Materials" ed_expanded="false" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="MeshGroupId" value="Background" />
+						<struct name="Material" ed_expanded="true" >
+							<property name="Texture0" value="/game/ui/shared/t_ui_border_sword02_d" />
+							<property name="Texture1" value="" />
+							<property name="Texture2" value="" />
+							<property name="Texture3" value="" />
+							<property name="VertexShader" value="/game/shaders/ex_ui" />
+							<property name="PixelShader" value="/game/shaders/ex_ui" />
+							<property name="Diffuse" value="ARGB32:255 255 255 255" />
+							<property name="Ambient" value="ARGB32:0 0 0 0" />
+							<property name="Specular" value="ARGB32:0 0 0 0" />
+							<property name="Emissive" value="ARGB32:0 0 0 0" />
+							<property name="Power" value="1" />
+						</struct>
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<component id="Icon" class="EGMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="12 12 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="/egdata/ui/TextureWithPalette1x1" />
+				</struct>
+			</struct>
+		</properties>
+	</component>
+
+	<component id="NotAllowed" class="EGMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="12 12 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="/egdata/ui/TextureWithPalette1x1" />
+				</struct>
+				<array name="m_Materials" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="MeshGroupId" value="Texture" />
+						<struct name="Material" ed_expanded="true" >
+							<property name="Texture0" value="/game/textures/NotAllowed" />
+							<property name="Texture1" value="" />
+							<property name="Texture2" value="" />
+							<property name="Texture3" value="" />
+							<property name="VertexShader" value="/egdata/shaders/texture_with_palette" />
+							<property name="PixelShader" value="/egdata/shaders/texture_with_palette" />
+							<property name="Diffuse" value="ARGB32:255 255 255 255" />
+							<property name="Ambient" value="ARGB32:0 0 0 0" />
+							<property name="Specular" value="ARGB32:0 0 0 0" />
+							<property name="Emissive" value="ARGB32:0 0 0 0" />
+							<property name="Power" value="1" />
+						</struct>
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<component id="Text" class="EGTextNodeComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 10 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<property name="m_Width" value="20" />
+				<property name="m_Height" value="5" />
+				<property name="m_NumLines" value="1" />
+				<property name="m_Color" value="ARGB32:255 0 0 0" />
+				<property name="m_LocText" value="" />
+				<property name="m_LocText_enus" value="" />
+				<property name="m_Alignment" value="CENTER" />
+				<property name="m_bHasDropShadow" value="false" />
+				<property name="m_DropShadowColor" value="ARGB32:255 0 0 0" />
+				<property name="m_Font" value="ex_body" />
+				<property name="m_bDisableZTestAndZWrite" value="false" />
+			</struct>
+		</properties>
+	</component>
+
+	<component id="Border" class="EGSkelMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="0.8 0.8 0.8" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="../../selectors/ExSelector_Border" />
+				</struct>
+			</struct>
+		</properties>
+	</component>
+
+	<component id="SoundPlayer0" class="EGSoundPlayerComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<array name="m_Sounds" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="click" />
+						<property name="Filename" value="uisound:ButtonHighlight" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<timeline id="Reset" editor_frame_time="0.5">
+		<keyframe time="0">Border.SetBonePos(&quot;ur&quot;,3,3,0);&#xA;&#xD;&#xA;Border.SetBonePos(&quot;lr&quot;,3,-3,0);&#xD;&#xA;Border.SetBonePos(&quot;ul&quot;,-3,3,0);&#xD;&#xA;Border.SetBonePos(&quot;ll&quot;,-3,-3,0);&#xA;&#xD;&#xA;Bg.SetBonePos(&quot;ur&quot;,4.5,4.5,0);&#xD;&#xA;Bg.SetBonePos(&quot;lr&quot;,4.5,-4.5,0);&#xD;&#xA;Bg.SetBonePos(&quot;ul&quot;,-4.5,4.5,0);&#xA;&#xD;&#xA;Bg.SetBonePos(&quot;ll&quot;,-4.5,-4.5,0);&#xA;&#xD;&#xA;Border.SetVisible(false);&#xA;&#xD;&#xA;Border.SetPalette(1,1,0,1);&#xA;&#xD;&#xA;Text.SetVisible(false);&#xA;&#xD;&#xA;&#x9;</keyframe>
+	</timeline>
+
+	<timeline id="Select" editor_frame_time="0.5">
+		<keyframe time="0">Border.SetVisible(true);&#xA;&#xD;&#xA;Border.SetPalette(.9882,.9982,.3294,1);&#xA;&#xD;&#xA;SoundPlayer0.PlaySound(&quot;click&quot;);&#xA;&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="SelectDragOn" editor_frame_time="0.5">
+		<keyframe time="0">Border.SetVisible(true);&#xD;&#xA;Border.SetPalette(.9882,.9982,.3294,1);&#xA;&#xD;&#xA;SoundPlayer0.PlaySound(&quot;click&quot;);&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="Deselect" editor_frame_time="0.5">
+		<keyframe time="0">Border.SetVisible(false);&#xA;&#x9;&#x9;</keyframe>
+	</timeline>
+
+	<timeline id="HasItem" editor_frame_time="0.5">
+		<keyframe time="0">Icon.SetPalette(1,1,1,1);&#xA;&#xD;&#xA;Icon.SetVisible(true);&#xA;&#x9;&#x9;</keyframe>
+	</timeline>
+
+	<timeline id="Occupied" editor_frame_time="0.5">
+		<keyframe time="0">Icon.SetPalette(0.2,0.2,0.2,1);&#xD;&#xA;Icon.SetVisible(true);&#xA;&#x9;&#x9;</keyframe>
+	</timeline>
+
+	<timeline id="Empty" editor_frame_time="0.5">
+		<keyframe time="0">Icon.SetPalette(1,1,1,1);&#xD;&#xA;Icon.SetVisible(false);&#xA;&#x9;&#x9;</keyframe>
+	</timeline>
+
+	<timeline id="SetAllowed" editor_frame_time="0.5">
+		<keyframe time="0">NotAllowed.SetVisible(false);&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="SetNotAllowed" editor_frame_time="0.5">
+		<keyframe time="0">NotAllowed.SetVisible(true);&#xA;&#xD;&#xA;&#x9;&#x9;</keyframe>
+	</timeline>
+
+	<timeline id="InitDragAndDrop" editor_frame_time="0.5">
+		<keyframe time="0">Border.SetVisible(false);&#xD;&#xA;Icon.SetVisible(true);&#xD;&#xA;NotAllowed.SetVisible(false);&#xA;&#xD;&#xA;Bg.SetVisible(false);&#xA;&#xD;&#xA;&#x9;</keyframe>
+	</timeline>
+
+	<timeline id="BeginDrag" editor_frame_time="0.5">
+		<keyframe time="0">Icon.SetVisible(true);&#xD;&#xA;NotAllowed.SetVisible(false);&#xD;&#xA;&#x9;</keyframe>
+	</timeline>
+
+	<timeline id="SetNoDrag" editor_frame_time="0.5">
+		<keyframe time="0">Icon.SetVisible(false);&#xD;&#xA;NotAllowed.SetVisible(true);&#xA;&#xD;&#xA;</keyframe>
+	</timeline>
+
+</edef>

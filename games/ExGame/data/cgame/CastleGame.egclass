@@ -1,0 +1,4 @@
+// (c) 2021 Beem Media. All Rights Reserved.
+
+void SetTitleText( loc_text TitleText );
+loc_text DisplayTextAndChoices( loc_text DisplayText );

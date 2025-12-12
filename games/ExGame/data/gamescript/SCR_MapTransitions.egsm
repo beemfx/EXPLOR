@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS FILE SCRIPT GENERATED: DO NOT EDIT BY HAND OR YOU RISK
+CORRUPTING FURTHER USE OF THIS SCRIPT IN GAME OR TOOL, AND MAY
+CAUSE SYSTEMS INTERPRETING IT TO CRASH. -->
+<egsm id="SCR_MapTransitions" default_entry_point_node="N_0" new_node_id_prefix="N_" new_loc_key_prefix="SCR_MapTransitions_" new_node_id_suffix="103" new_loc_key_suffix="5" view_offset="456 -5" >
+	<node id="N_0" type="ENTRY_POINT" parm0="Main" en_ref="" editor_pos="10 150" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_1" type="ENTRY_POINT" parm0="DemoTownToDemoDungeon" en_ref="" editor_pos="-281.667 266.333" >
+		<branch id="NEXT" to_node="N_2" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_2" type="NATIVE_EVENT" parm0="ShowDialogBox" parm1="SCR_MapTransitions_0" en_ref="This script will transfer you to another map. Take the exit?" editor_pos="3.33301 265.667" >
+		<branch id="Yes" to_node="N_3" is_terminal="FALSE" en_ref=""  />
+		<branch id="No" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_3" type="NATIVE_EVENT" parm0="TransitionToMap" parm1="MAP_Demo_Dungeon" parm2="Entrance" en_ref="" editor_pos="311.667 267.333" >
+	</node>
+	<node id="N_4" type="ENTRY_POINT" parm0="DemoDungeonToDemoTown" en_ref="" editor_pos="-290.667 401.667" >
+		<branch id="NEXT" to_node="N_5" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_5" type="NATIVE_EVENT" parm0="ShowDialogBox" parm1="SCR_MapTransitions_1" en_ref="Do you want to travel back to the Demo Town?" editor_pos="16 405.333" >
+		<branch id="Yes" to_node="N_6" is_terminal="FALSE" en_ref=""  />
+		<branch id="No" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_6" type="NATIVE_EVENT" parm0="TransitionToMap" parm1="MAP_Demo_Town" parm2="DemoDungeonEntrance" en_ref="" editor_pos="311.67 404.667" >
+	</node>
+	<node id="N_100" type="ENTRY_POINT" parm0="TownPortalToDungeon" en_ref="" editor_pos="-291.333 539.333" >
+		<branch id="NEXT" to_node="N_101" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_101" type="NATIVE_EVENT" parm0="ShowDialogBox" parm1="SCR_MapTransitions_2" en_ref="Travel through portal back to dungeon?" editor_pos="20.6667 537.667" >
+		<branch id="SCR_MapTransitions_3" to_node="N_102" is_terminal="FALSE" en_ref="Yes"  />
+		<branch id="SCR_MapTransitions_4" to_node="" is_terminal="FALSE" en_ref="No"  />
+	</node>
+	<node id="N_102" type="NATIVE_EVENT" parm0="DoTownPortal" en_ref="" editor_pos="316.333 536.667" >
+	</node>
+</egsm>

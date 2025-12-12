@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExMapInfos">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_MapInfos" ed_expanded="true" reserve_size="2" >
+			<struct name="-" ed_expanded="false" >
+				<property name="Id" value="MAP_Demo_Town" />
+				<property name="MapMetaData" value="/game/mapsf/map_demo_town_meta" />
+				<property name="World" value="/game/world/world_demo_town" />
+				<property name="NameCrc" value="MAP_Demo_Town_Name" />
+				<property name="NameCrc_enus" value="Demo Town" />
+				<property name="ScriptId" value="SCR_Town" />
+				<property name="MusicTrack" value="/Music/InTown" />
+				<property name="MapType" value="Town" />
+				<property name="bCanUseTownPortal" value="true" />
+				<property name="DayNightCycleId" value="Town" />
+				<property name="DefaultLockLevel" value="1" />
+				<struct name="FogData" ed_expanded="false" >
+					<property name="ViewDistance" value="128" />
+					<property name="ViewDistanceUnitSize" value="6" />
+					<property name="FogStartOffset" value="16" />
+					<property name="FogEndOffset" value="0" />
+					<property name="DepthOfFieldRange" value="54 768 120" />
+					<property name="DepthOfFieldBlurFactor" value="0.0009" />
+				</struct>
+				<struct name="EncounterData" ed_expanded="false" >
+					<struct name="RandomEncouter" ed_expanded="false" >
+						<array name="EncounterTypes" ed_expanded="true" reserve_size="1" >
+							<struct name="-" ed_expanded="false" >
+								<property name="EncounterId" value="Town1Roaming" />
+								<property name="Weight" value="10" />
+							</struct>
+						</array>
+					</struct>
+					<property name="Fixed" value="Town1Roaming" />
+					<property name="Boss" value="Town1Roaming" />
+					<property name="SafeTurnsAfterCombat" value="0" />
+					<property name="RandomEncounterVisitedVertexAdjustment" value="0.1" />
+					<property name="RestingEncounterPercent" value="0" />
+					<property name="ForceThrillSeekerLevelThreshold" value="1" />
+					<property name="ForceThrillSeekerSquaresRevealedThreshold" value="402" />
+					<property name="ForReferenceTotalSquares" value="537" />
+				</struct>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Id" value="MAP_Demo_Dungeon" />
+				<property name="MapMetaData" value="/game/mapsf/map_demo_dungeon_meta" />
+				<property name="World" value="/game/world/world_demo_dungeon" />
+				<property name="NameCrc" value="MAP_Demo_Dungeon_Name" />
+				<property name="NameCrc_enus" value="Demo Dungeon" />
+				<property name="ScriptId" value="SCR_Dungeon_01" />
+				<property name="MusicTrack" value="/Music/Dungeon01" />
+				<property name="MapType" value="Dungeon" />
+				<property name="bCanUseTownPortal" value="true" />
+				<property name="DayNightCycleId" value="Dungeon" />
+				<property name="DefaultLockLevel" value="2" />
+				<struct name="FogData" ed_expanded="false" >
+					<property name="ViewDistance" value="11" />
+					<property name="ViewDistanceUnitSize" value="6" />
+					<property name="FogStartOffset" value="8" />
+					<property name="FogEndOffset" value="4" />
+					<property name="DepthOfFieldRange" value="54 768 120" />
+					<property name="DepthOfFieldBlurFactor" value="0.0009" />
+				</struct>
+				<struct name="EncounterData" ed_expanded="false" >
+					<struct name="RandomEncouter" ed_expanded="false" >
+						<array name="EncounterTypes" ed_expanded="true" reserve_size="3" >
+							<struct name="-" ed_expanded="false" >
+								<property name="EncounterId" value="Sewers1Random_1" />
+								<property name="Weight" value="10" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="EncounterId" value="Sewers1Random_2" />
+								<property name="Weight" value="10" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="EncounterId" value="Sewers1Random_3" />
+								<property name="Weight" value="3" />
+							</struct>
+						</array>
+					</struct>
+					<property name="Fixed" value="Sewers1Random_1" />
+					<property name="Boss" value="Sewers1Boss" />
+					<property name="SafeTurnsAfterCombat" value="6" />
+					<array name="RandomEncounterThresholdPercents" ed_expanded="true" reserve_size="4" >
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="1" />
+							<property name="Value" value="12" />
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="2" />
+							<property name="Value" value="2" />
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="3" />
+							<property name="Value" value="1" />
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Level" value="4" />
+							<property name="Value" value="0" />
+						</struct>
+					</array>
+					<property name="RandomEncounterVisitedVertexAdjustment" value="0.1" />
+					<property name="RestingEncounterPercent" value="6" />
+					<property name="ForceThrillSeekerLevelThreshold" value="2" />
+					<property name="ForceThrillSeekerSquaresRevealedThreshold" value="119" />
+					<property name="ForReferenceTotalSquares" value="172" />
+				</struct>
+			</struct>
+		</array>
+	</struct>
+</egasset>

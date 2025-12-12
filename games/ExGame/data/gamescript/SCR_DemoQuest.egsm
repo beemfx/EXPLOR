@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS FILE SCRIPT GENERATED: DO NOT EDIT BY HAND OR YOU RISK
+CORRUPTING FURTHER USE OF THIS SCRIPT IN GAME OR TOOL, AND MAY
+CAUSE SYSTEMS INTERPRETING IT TO CRASH. -->
+<egsm id="SCR_DemoQuest" default_entry_point_node="N_0" new_node_id_prefix="N_" new_loc_key_prefix="DemoQuestText_" new_node_id_suffix="27" new_loc_key_suffix="9" view_offset="221 -89" >
+	<node id="N_0" type="ENTRY_POINT" parm0="Main" en_ref="" editor_pos="10 150" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_1" type="ENTRY_POINT" parm0="TalkToQuestGiver" en_ref="" editor_pos="9.66667 248.667" >
+		<branch id="NEXT" to_node="N_2" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_2" type="NATIVE_EVENT" parm0="NpcSetSpeakerNameplate" parm1="DemoQuestText_0" en_ref="Demo Quest Giver" editor_pos="297 249" >
+		<branch id="NEXT" to_node="N_3" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_3" type="NATIVE_EVENT" parm0="IsLessEqualThan" parm1="DemoQuestProgress" parm2="0" en_ref="" editor_pos="592.333 60" >
+		<branch id="TRUE" to_node="N_4" is_terminal="FALSE" en_ref=""  />
+		<branch id="FALSE" to_node="N_6" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_4" type="NATIVE_EVENT" parm0="NpcDialog" parm1="DemoQuestText_1" en_ref="Welcome to the Demo. To complete the quest, find the |SC(EX_ITEM)|Demo Key|RC()| to open the room in town. Then flip the lever and return to me." editor_pos="874.667 96" >
+		<branch id="Okay" to_node="N_5" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_5" type="NATIVE_EVENT" parm0="Max" parm1="DemoQuestProgress" parm2="10" parm3="DemoQuestProgress" en_ref="" editor_pos="1156 90" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_6" type="NATIVE_EVENT" parm0="IsLessEqualThan" parm1="DemoQuestProgress" parm2="10" en_ref="" editor_pos="609 206.333" >
+		<branch id="TRUE" to_node="N_7" is_terminal="FALSE" en_ref=""  />
+		<branch id="FALSE" to_node="N_13" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_7" type="NATIVE_EVENT" parm0="NpcDialog" parm1="DemoQuestText_2" en_ref="Remember to find the |SC(EX_ITEM)|Demo Key|RC()| and switch the lever." editor_pos="893.333 219" >
+		<branch id="Okay" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_8" type="ENTRY_POINT" parm0="FindKey" en_ref="" editor_pos="-10.3333 603.667" >
+		<branch id="NEXT" to_node="N_9" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_9" type="NATIVE_EVENT" parm0="IsLessThan" parm1="DemoQuestProgress" parm2="20" en_ref="" editor_pos="289 606" >
+		<branch id="TRUE" to_node="N_10" is_terminal="FALSE" en_ref=""  />
+		<branch id="FALSE" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_10" type="NATIVE_EVENT" parm0="ShowDialogBox" parm1="DemoQuestText_3" en_ref="You have found a |SC(EX_ITEM)|Demo Key|RC()| in some old boxes." editor_pos="579.333 607.667" >
+		<branch id="Okay" to_node="N_11" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_11" type="NATIVE_EVENT" parm0="Max" parm1="DemoQuestProgress" parm2="20" parm3="DemoQuestProgress" en_ref="" editor_pos="861.333 610.667" >
+		<branch id="NEXT" to_node="N_12" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_12" type="NATIVE_EVENT" parm0="SetBool" parm1="bHasQuestKey" parm2="true" en_ref="" editor_pos="1144.67 605" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_13" type="NATIVE_EVENT" parm0="IsLessEqualThan" parm1="DemoQuestProgress" parm2="20" en_ref="" editor_pos="607 332" >
+		<branch id="TRUE" to_node="N_14" is_terminal="FALSE" en_ref=""  />
+		<branch id="FALSE" to_node="N_21" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_14" type="NATIVE_EVENT" parm0="NpcDialog" parm1="DemoQuestText_5" en_ref="You have the |SC(EX_ITEM)|Demo Key|RC()|, but you still need to switch the lever." editor_pos="898.667 322.333" >
+		<branch id="Okay" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_15" type="ENTRY_POINT" parm0="LeverInteraction" en_ref="" editor_pos="-13.6667 741.667" >
+		<branch id="NEXT" to_node="N_16" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_16" type="NATIVE_EVENT" parm0="IsLessThan" parm1="DemoQuestProgress" parm2="30" en_ref="" editor_pos="290.333 745.333" >
+		<branch id="TRUE" to_node="N_18" is_terminal="FALSE" en_ref=""  />
+		<branch id="FALSE" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_18" type="NATIVE_EVENT" parm0="ShowDialogBox" parm1="DemoQuestText_6" en_ref="There is a lever before you, do you wish to switch it?" editor_pos="588.667 748.667" >
+		<branch id="Yes" to_node="N_19" is_terminal="FALSE" en_ref=""  />
+		<branch id="No" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_19" type="NATIVE_EVENT" parm0="Max" parm1="DemoQuestProgress" parm2="30" parm3="DemoQuestProgress" en_ref="" editor_pos="869.667 750.333" >
+		<branch id="NEXT" to_node="N_20" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_20" type="NATIVE_EVENT" parm0="SetNumber" parm1="DemoQuestLeverState" parm2="1" en_ref="" editor_pos="1148.33 751.667" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_21" type="NATIVE_EVENT" parm0="IsLessEqualThan" parm1="DemoQuestProgress" parm2="30" en_ref="" editor_pos="611.333 446" >
+		<branch id="TRUE" to_node="N_22" is_terminal="FALSE" en_ref=""  />
+		<branch id="FALSE" to_node="N_23" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_22" type="NATIVE_EVENT" parm0="NpcDialog" parm1="DemoQuestText_7" en_ref="Thank you for switching the lever. You&apos;ve completed the demo!" editor_pos="892 439.333" >
+		<branch id="Okay" to_node="N_24" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_23" type="NATIVE_EVENT" parm0="NpcDialog" parm1="DemoQuestText_8" en_ref="The demo is complete. Thanks for playing!" editor_pos="892.667 526" >
+		<branch id="Okay" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_24" type="NATIVE_EVENT" parm0="Max" parm1="DemoQuestProgress" parm2="40" parm3="DemoQuestProgress" en_ref="" editor_pos="1171 440.333" >
+		<branch id="NEXT" to_node="N_25" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_25" type="NATIVE_EVENT" parm0="SetEndingMovieUnlocked" parm1="true" en_ref="" editor_pos="1455 439" >
+		<branch id="NEXT" to_node="N_26" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_26" type="NATIVE_EVENT" parm0="TransitionToEndGame" en_ref="" editor_pos="1744.33 444" >
+	</node>
+</egsm>

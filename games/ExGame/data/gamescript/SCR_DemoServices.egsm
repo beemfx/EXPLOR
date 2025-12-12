@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS FILE SCRIPT GENERATED: DO NOT EDIT BY HAND OR YOU RISK
+CORRUPTING FURTHER USE OF THIS SCRIPT IN GAME OR TOOL, AND MAY
+CAUSE SYSTEMS INTERPRETING IT TO CRASH. -->
+<egsm id="SCR_DemoServices" default_entry_point_node="N_0" new_node_id_prefix="N_" new_loc_key_prefix="DemoServicesText_" new_node_id_suffix="56" new_loc_key_suffix="13" view_offset="-730 311" >
+	<node id="N_0" type="ENTRY_POINT" parm0="Main" en_ref="" editor_pos="18 149" >
+		<branch id="NEXT" to_node="N_39" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_39" type="NATIVE_EVENT" parm0="NpcSetSpeakerNameplate" parm1="DemoServicesText_0" en_ref="Demo Services" editor_pos="300.333 156.33" >
+		<branch id="NEXT" to_node="N_46" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_40" type="NATIVE_EVENT" parm0="NpcDialog" parm1="DemoServicesText_1" en_ref="Would you like services?" editor_pos="931.333 -37.67" >
+		<branch id="Yes" to_node="N_45" is_terminal="FALSE" en_ref=""  />
+		<branch id="No" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_41" type="NATIVE_EVENT" parm0="SetCrc" parm1="NextShopInventory" parm2="DefaultInventory" en_ref="" editor_pos="1859.33 -227" >
+		<branch id="NEXT" to_node="N_42" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_42" type="CALL" parm0="ShopLib" parm1="ShowShopMenu" en_ref="" editor_pos="2148.67 -230.67" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_45" type="NATIVE_EVENT" parm0="NpcClearDialog" parm1="true" en_ref="" editor_pos="1255 -43.33" >
+		<branch id="NEXT" to_node="N_51" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_46" type="NATIVE_EVENT" parm0="If" parm1="bHasDemoPersonIntroduced" en_ref="" editor_pos="410.667 -23.6667" >
+		<branch id="TRUE" to_node="N_40" is_terminal="FALSE" en_ref=""  />
+		<branch id="FALSE" to_node="N_47" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_47" type="NATIVE_EVENT" parm0="SetBool" parm1="bHasDemoPersonIntroduced" parm2="true" en_ref="" editor_pos="665 246.667" >
+		<branch id="NEXT" to_node="N_48" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_48" type="NATIVE_EVENT" parm0="NpcDialog" parm1="DemoServicesText_2" en_ref="I am the Demo Services person. Normally my services would be from different NPCs, but you&apos;re in luck in this demo I do them all." editor_pos="950 247" >
+		<branch id="DemoServicesText_3" to_node="N_40" is_terminal="FALSE" en_ref="Okay"  />
+	</node>
+	<node id="N_51" type="NATIVE_EVENT" parm0="ShowDialogBox" parm1="DemoServicesText_7" en_ref="What service would you like?" editor_pos="1553 -89.6667" >
+		<branch id="DemoServicesText_8" to_node="N_41" is_terminal="FALSE" en_ref="Blacksmith"  />
+		<branch id="DemoServicesText_9" to_node="N_54" is_terminal="FALSE" en_ref="Training"  />
+		<branch id="DemoServicesText_10" to_node="N_53" is_terminal="FALSE" en_ref="Healing"  />
+		<branch id="DemoServicesText_11" to_node="N_55" is_terminal="FALSE" en_ref="Visit Inn"  />
+		<branch id="DemoServicesText_12" to_node="" is_terminal="FALSE" en_ref="None"  />
+	</node>
+	<node id="N_54" type="CALL" parm0="TrainingLib" parm1="ShowMenu" en_ref="" editor_pos="1865.67 -122.333" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_53" type="CALL" parm0="ShopLib" parm1="ShowHealMenu" en_ref="" editor_pos="1865 -17.6667" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_55" type="CALL" parm0="InnLib" parm1="ShowInnMenu" en_ref="" editor_pos="1865.33 82.6667" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+</egsm>

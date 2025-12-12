@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS FILE SCRIPT GENERATED: DO NOT EDIT BY HAND OR YOU RISK
+CORRUPTING FURTHER USE OF THIS SCRIPT IN GAME OR TOOL, AND MAY
+CAUSE SYSTEMS INTERPRETING IT TO CRASH. -->
+<egsm id="SCR_EndGame" default_entry_point_node="N_0" new_node_id_prefix="N_" new_loc_key_prefix="SCR_EndGame_" new_node_id_suffix="24" new_loc_key_suffix="7" view_offset="-15 -67" >
+	<node id="N_0" type="ENTRY_POINT" parm0="Main" en_ref="" editor_pos="10 150" >
+		<branch id="NEXT" to_node="N_8" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_2" type="NATIVE_EVENT" parm0="SetEndingMovieUnlocked" parm1="true" en_ref="" editor_pos="989.667 587.333" >
+		<branch id="NEXT" to_node="N_6" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_6" type="NATIVE_EVENT" parm0="TransitionToEndGame" en_ref="" editor_pos="1261.33 589.667" >
+	</node>
+	<node id="N_8" type="NATIVE_EVENT" parm0="IsLessThan" parm1="MainQuestProgress" parm2="100" en_ref="" editor_pos="277 153.333" >
+		<branch id="TRUE" to_node="N_12" is_terminal="FALSE" en_ref=""  />
+		<branch id="FALSE" to_node="N_10" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_9" type="NATIVE_EVENT" parm0="SetNumber" parm1="MainQuestProgress" parm2="100" en_ref="" editor_pos="106.667 582.333" >
+		<branch id="NEXT" to_node="N_21" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_10" type="NATIVE_EVENT" parm0="ShowDialogBox" parm1="SCR_EndGame_0" en_ref="E.X.P.L.O.R.|SUP|TM|SUP|: A New World has been completed already, but thanks for visiting the end of the game again." editor_pos="593 236.667" >
+		<branch id="SCR_EndGame_1" to_node="N_23" is_terminal="FALSE" en_ref="Watch the Ending and Return to Town."  />
+		<branch id="SCR_EndGame_2" to_node="" is_terminal="FALSE" en_ref="Leave."  />
+	</node>
+	<node id="N_12" type="NATIVE_EVENT" parm0="NpcSetSpeakerNameplate" parm1="SCR_EndGame_3" en_ref="Core Matter" editor_pos="593.333 10" >
+		<branch id="NEXT" to_node="N_13" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_13" type="NATIVE_EVENT" parm0="NpcDialog" parm1="SCR_EndGame_4" en_ref="The Core Matter containment chamber has a pleasant glow. Clearly, it was brought here from another world and is the source of the fantastic beasts that ravaged Altera." editor_pos="594.667 115.333" >
+		<branch id="SCR_EndGame_5" to_node="N_23" is_terminal="FALSE" en_ref="Take the Core Matter and repair the ship."  />
+		<branch id="SCR_EndGame_6" to_node="" is_terminal="FALSE" en_ref="Leave."  />
+	</node>
+	<node id="N_14" type="NATIVE_EVENT" parm0="UnlockAchievement" parm1="ACH_VICTORY" en_ref="" editor_pos="689.333 582" >
+		<branch id="NEXT" to_node="N_2" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_15" type="NATIVE_EVENT" parm0="SetBool" parm1="bMainQuestAskedStableHand" parm2="true" en_ref="" editor_pos="35 410.333" >
+		<branch id="NEXT" to_node="N_16" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_16" type="NATIVE_EVENT" parm0="SetBool" parm1="bMainQuestAskedInnKeeper" parm2="true" en_ref="" editor_pos="336.667 408.333" >
+		<branch id="NEXT" to_node="N_17" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_17" type="NATIVE_EVENT" parm0="SetBool" parm1="bMainQuestAskedHealer" parm2="true" en_ref="" editor_pos="630.667 409.333" >
+		<branch id="NEXT" to_node="N_18" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_18" type="NATIVE_EVENT" parm0="SetBool" parm1="bMainQuestAskedVendor" parm2="true" en_ref="" editor_pos="935 411.667" >
+		<branch id="NEXT" to_node="N_19" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_19" type="NATIVE_EVENT" parm0="SetBool" parm1="bMainQuestAskedTrainer" parm2="true" en_ref="" editor_pos="1221.67 410.667" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_20" type="ENTRY_POINT" parm0="ClearAsked" en_ref="" editor_pos="-239 407.333" >
+		<branch id="NEXT" to_node="N_15" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_21" type="CALL" parm1="ClearAsked" en_ref="" editor_pos="403.333 586.667" >
+		<branch id="NEXT" to_node="N_14" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_22" type="ENTRY_POINT" parm0="PlayEnding" en_ref="" editor_pos="-245.667 563.333" >
+		<branch id="NEXT" to_node="N_9" is_terminal="FALSE" en_ref=""  />
+	</node>
+	<node id="N_23" type="CALL" parm1="PlayEnding" en_ref="" editor_pos="921 187.667" >
+		<branch id="NEXT" to_node="" is_terminal="FALSE" en_ref=""  />
+	</node>
+</egsm>

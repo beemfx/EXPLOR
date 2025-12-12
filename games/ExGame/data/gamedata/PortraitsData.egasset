@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExPortraits">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Portraits" ed_expanded="true" reserve_size="2" >
+			<struct name="-" ed_expanded="false" >
+				<property name="Id" value="Male01" />
+				<property name="Filename" value="/game/portraits/t_portrait_demoa_d" />
+				<property name="Race" value="Human" />
+				<property name="Gender" value="Male" />
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="Id" value="Female01" />
+				<property name="Filename" value="/game/portraits/t_portrait_demob_d" />
+				<property name="Race" value="Human" />
+				<property name="Gender" value="Female" />
+			</struct>
+		</array>
+	</struct>
+</egasset>

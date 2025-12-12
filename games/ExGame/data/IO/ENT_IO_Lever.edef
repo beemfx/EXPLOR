@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edef>
+
+	<properties>
+		<struct name="EntDef" ed_expanded="true" >
+			<property name="m_Id" value="ENT_IO_Lever" />
+			<property name="m_ClassType" value="Game" />
+			<property name="m_EntityClassName" value="ExGenericIoEnt" />
+			<property name="m_UiClassName" value="" />
+			<property name="m_DefaultRenderFilter" value="PreFxPass" />
+			<property name="m_bIsSerialized" value="true" />
+			<property name="m_bIsLit" value="true" />
+			<property name="m_bIsAlwaysVisible" value="false" />
+			<struct name="m_BaseBounds" ed_expanded="true" >
+				<property name="Min" value="-0.13 -0.13 -0.13" />
+				<property name="Max" value="0.13 0.13 0.13" />
+			</struct>
+			<struct name="m_EditorConfig" ed_expanded="true" >
+				<property name="BackgroundColor" value="ARGB32:255 50 50 50" />
+				<property name="bDrawGrid" value="true" />
+				<property name="GridSpacing" value="0.5" />
+				<property name="AmbientLight" value="ARGB32:255 51 51 51" />
+				<property name="GamePalette0" value="8 20 1 1" />
+				<property name="GamePalette1" value="1 1 1 1" />
+				<property name="GamePalette2" value="1 1 5 1" />
+				<property name="bDrawLights" value="true" />
+				<property name="bOrthoPreview" value="false" />
+				<struct name="OrthoCamera" ed_expanded="true" >
+					<property name="NearPlane" value="-100" />
+					<property name="FarPlane" value="100" />
+					<property name="Height" value="200" />
+				</struct>
+				<property name="CameraPos" value="2.82318 1.08851 -2.56614" />
+				<property name="CameraYaw" value="4.81684" />
+				<property name="CameraPitch" value="0.129" />
+				<property name="HasCameraPose" value="true" />
+			</struct>
+		</struct>
+	</properties>
+
+	<component id="Lever" class="EGSkelMeshComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="0.5 0.5 0.5" />
+				<property name="m_BasePose" value="RqTS1:0 -1 0 -1.19209e-07 , 0 0 -2.25 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_bIsHidden" value="false" />
+				<property name="m_RenderFilter" value="" />
+				<property name="m_bIsReflective" value="false" />
+				<property name="m_bIsTransparent" value="false" />
+				<struct name="m_Mesh" ed_expanded="true" >
+					<property name="Filename" value="/game/objects/lever/msh_lever" />
+				</struct>
+				<array name="m_Skeletons" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="Default" />
+						<property name="Filename" value="/game/objects/lever/msh_lever" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<component id="SoundPlayer0" class="EGSoundPlayerComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<array name="m_Sounds" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="Action" />
+						<property name="Filename" value="dooropensqueak01" />
+					</struct>
+				</array>
+			</struct>
+		</properties>
+	</component>
+
+	<component id="VarController0" class="ExVarControllerComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<struct name="m_ControlData" ed_expanded="true" >
+					<property name="ControlVarId" value="" />
+					<array name="States" ed_expanded="true" reserve_size="3" >
+						<struct name="-" ed_expanded="false" >
+							<property name="Value" value="0" />
+							<property name="SpawnedWithValueEvent" value="Default" />
+							<property name="ChangedToValueEvent" value="SwitchDefault" />
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Value" value="1" />
+							<property name="SpawnedWithValueEvent" value="Up" />
+							<property name="ChangedToValueEvent" value="SwitchUp" />
+						</struct>
+						<struct name="-" ed_expanded="false" >
+							<property name="Value" value="2" />
+							<property name="SpawnedWithValueEvent" value="Down" />
+							<property name="ChangedToValueEvent" value="SwitchDown" />
+						</struct>
+					</array>
+				</struct>
+			</struct>
+		</properties>
+	</component>
+
+	<component id="MapIcon0" class="ExMapIconComponent">
+		<properties>
+			<struct name="ComponentDef" ed_expanded="true" >
+				<property name="m_ParentJointId" value="" />
+				<property name="m_ScaleVector" value="1 1 1" />
+				<property name="m_BasePose" value="RqTS1:0 0 0 1 , 0 0 0 , 1" />
+				<property name="m_bIsLockedInTool" value="false" />
+				<property name="m_MapIcon" value="/game/icons/map/t_icon_lever_d" />
+				<property name="m_bClampIconToMinimapEdge" value="false" />
+			</struct>
+		</properties>
+	</component>
+
+	<timeline id="Down" editor_frame_time="0.5">
+		<keyframe time="0">Lever.PlayAnimation(&quot;Default&quot;,&quot;Down&quot;,0,0);</keyframe>
+	</timeline>
+
+	<timeline id="Up" editor_frame_time="0.5">
+		<keyframe time="0">Lever.PlayAnimation(&quot;Default&quot;,&quot;Up&quot;,0,0);</keyframe>
+	</timeline>
+
+	<timeline id="SwitchDown" editor_frame_time="0.5">
+		<keyframe time="0">Lever.PlayAnimation(&quot;Default&quot;,&quot;Down&quot;,0,.75);&#xD;&#xA;SoundPlayer0.PlaySound( &quot;Action&quot; );</keyframe>
+	</timeline>
+
+	<timeline id="SwitchUp" editor_frame_time="0.5">
+		<keyframe time="0">Lever.PlayAnimation(&quot;Default&quot;,&quot;Up&quot;,0,.75);&#xD;&#xA;SoundPlayer0.PlaySound( &quot;Action&quot; );&#xD;&#xA;</keyframe>
+	</timeline>
+
+	<timeline id="Default" editor_frame_time="0.5">
+		<keyframe time="0">Lever.PlayAnimation(&quot;Default&quot;,&quot;Middle&quot;,0,0);</keyframe>
+	</timeline>
+
+	<timeline id="SwitchDefault" editor_frame_time="0.5">
+		<keyframe time="0">Lever.PlayAnimation(&quot;Default&quot;,&quot;Middle&quot;,0,.75);&#xD;&#xA;SoundPlayer0.PlaySound( &quot;Action&quot; );</keyframe>
+	</timeline>
+
+</edef>

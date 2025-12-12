@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<egasset class="ExArmory">
+	<struct name="DataAsset" ed_expanded="true" >
+		<array name="m_Categories" ed_expanded="true" reserve_size="3" >
+			<struct name="-" ed_expanded="false" >
+				<property name="CategoryName" value="Starting Weapons" />
+				<array name="Items" ed_expanded="true" reserve_size="4" >
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="StartingWeaponWarrior" />
+						<property name="SortIndex" value="5050" />
+						<array name="Tiers" ed_expanded="true" reserve_size="1" >
+							<struct name="-" ed_expanded="true" >
+								<property name="TierLevel" value="1" />
+								<struct name="Name" ed_expanded="true" >
+									<property name="Text" value="StartingWeaponWarrior_Name" />
+									<property name="Text_enus" value="Warrior&apos;s Demo Sword" />
+								</struct>
+								<struct name="Desc" ed_expanded="true" >
+									<property name="Text" value="StartingWeaponWarrior_Desc" />
+									<property name="Text_enus" value="A gift to the Warrior." />
+								</struct>
+								<property name="Rarity" value="Normal" />
+								<property name="Icon" value="/game/icons/t_uii_demosword" />
+							</struct>
+						</array>
+						<struct name="EquipSlots" ed_expanded="true" >
+							<property name="bHelm" value="false" />
+							<property name="bArmor" value="false" />
+							<property name="bWeapon1" value="true" />
+							<property name="bWeapon2" value="false" />
+							<property name="bAmulet" value="false" />
+							<property name="bRing1" value="false" />
+							<property name="bRing2" value="false" />
+						</struct>
+						<property name="EquipMode" value="SINGLE_SLOT" />
+						<property name="AttackType" value="MELEE" />
+						<property name="BaseGoldValue" value="0" />
+						<struct name="AllowedPlayerClasses" ed_expanded="true" >
+							<property name="bWarrior" value="true" />
+							<property name="bThief" value="false" />
+							<property name="bMage" value="false" />
+							<property name="bCleric" value="false" />
+						</struct>
+						<array name="Modifiers" ed_expanded="true" reserve_size="2" >
+							<struct name="-" ed_expanded="true" >
+								<property name="Attribute" value="PDMG" />
+								<property name="Value" value="12" />
+								<property name="Function" value="ScaledByItemLevel" />
+							</struct>
+							<struct name="-" ed_expanded="true" >
+								<property name="Attribute" value="PDMG" />
+								<property name="Value" value="2.5" />
+								<property name="Function" value="ScaledByCharacterSTR" />
+							</struct>
+						</array>
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="StartingWeaponThief" />
+						<property name="SortIndex" value="5040" />
+						<array name="Tiers" ed_expanded="true" reserve_size="1" >
+							<struct name="-" ed_expanded="true" >
+								<property name="TierLevel" value="1" />
+								<struct name="Name" ed_expanded="true" >
+									<property name="Text" value="StartingWeaponThief_Name" />
+									<property name="Text_enus" value="Thief&apos;s Demo Sword" />
+								</struct>
+								<struct name="Desc" ed_expanded="true" >
+									<property name="Text" value="StartingWeaponThief_Desc" />
+									<property name="Text_enus" value="A gift to the Thief." />
+								</struct>
+								<property name="Rarity" value="Normal" />
+								<property name="Icon" value="/game/icons/t_uii_demosword" />
+							</struct>
+						</array>
+						<struct name="EquipSlots" ed_expanded="true" >
+							<property name="bHelm" value="false" />
+							<property name="bArmor" value="false" />
+							<property name="bWeapon1" value="true" />
+							<property name="bWeapon2" value="false" />
+							<property name="bAmulet" value="false" />
+							<property name="bRing1" value="false" />
+							<property name="bRing2" value="false" />
+						</struct>
+						<property name="EquipMode" value="SINGLE_SLOT" />
+						<property name="AttackType" value="MELEE" />
+						<property name="BaseGoldValue" value="0" />
+						<struct name="AllowedPlayerClasses" ed_expanded="true" >
+							<property name="bWarrior" value="false" />
+							<property name="bThief" value="true" />
+							<property name="bMage" value="false" />
+							<property name="bCleric" value="false" />
+						</struct>
+						<array name="Modifiers" ed_expanded="true" reserve_size="2" >
+							<struct name="-" ed_expanded="true" >
+								<property name="Attribute" value="PDMG" />
+								<property name="Value" value="3" />
+								<property name="Function" value="ScaledByItemLevel" />
+							</struct>
+							<struct name="-" ed_expanded="true" >
+								<property name="Attribute" value="PDMG" />
+								<property name="Value" value="0.5" />
+								<property name="Function" value="ScaledByCharacterSTR" />
+							</struct>
+						</array>
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="StartingWeaponCleric" />
+						<property name="SortIndex" value="5030" />
+						<array name="Tiers" ed_expanded="true" reserve_size="1" >
+							<struct name="-" ed_expanded="false" >
+								<property name="TierLevel" value="1" />
+								<struct name="Name" ed_expanded="true" >
+									<property name="Text" value="StartingWeaponCleric_Name" />
+									<property name="Text_enus" value="Cleric&apos;s Demo Sword" />
+								</struct>
+								<struct name="Desc" ed_expanded="true" >
+									<property name="Text" value="StartingWeaponCleric_Desc" />
+									<property name="Text_enus" value="A gift to the Cleric." />
+								</struct>
+								<property name="Rarity" value="Normal" />
+								<property name="Icon" value="/game/icons/t_uii_demosword" />
+							</struct>
+						</array>
+						<struct name="EquipSlots" ed_expanded="true" >
+							<property name="bHelm" value="false" />
+							<property name="bArmor" value="false" />
+							<property name="bWeapon1" value="true" />
+							<property name="bWeapon2" value="false" />
+							<property name="bAmulet" value="false" />
+							<property name="bRing1" value="false" />
+							<property name="bRing2" value="false" />
+						</struct>
+						<property name="EquipMode" value="SINGLE_SLOT" />
+						<property name="AttackType" value="MELEE" />
+						<property name="BaseGoldValue" value="0" />
+						<struct name="AllowedPlayerClasses" ed_expanded="true" >
+							<property name="bWarrior" value="false" />
+							<property name="bThief" value="false" />
+							<property name="bMage" value="false" />
+							<property name="bCleric" value="true" />
+						</struct>
+						<array name="Modifiers" ed_expanded="true" reserve_size="2" >
+							<struct name="-" ed_expanded="true" >
+								<property name="Attribute" value="PDMG" />
+								<property name="Value" value="4" />
+								<property name="Function" value="ScaledByItemLevel" />
+							</struct>
+							<struct name="-" ed_expanded="true" >
+								<property name="Attribute" value="PDMG" />
+								<property name="Value" value="2" />
+								<property name="Function" value="ScaledByCharacterSTR" />
+							</struct>
+						</array>
+					</struct>
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="StartingWeaponMage" />
+						<property name="SortIndex" value="5020" />
+						<array name="Tiers" ed_expanded="true" reserve_size="1" >
+							<struct name="-" ed_expanded="true" >
+								<property name="TierLevel" value="1" />
+								<struct name="Name" ed_expanded="true" >
+									<property name="Text" value="StartingWeaponMage_Name" />
+									<property name="Text_enus" value="Warlock&apos;s Demo Sword" />
+								</struct>
+								<struct name="Desc" ed_expanded="true" >
+									<property name="Text" value="StartingWeaponMage_Desc" />
+									<property name="Text_enus" value="A gift to the Warlock." />
+								</struct>
+								<property name="Rarity" value="Normal" />
+								<property name="Icon" value="/game/icons/t_uii_demosword" />
+							</struct>
+						</array>
+						<struct name="EquipSlots" ed_expanded="true" >
+							<property name="bHelm" value="false" />
+							<property name="bArmor" value="false" />
+							<property name="bWeapon1" value="true" />
+							<property name="bWeapon2" value="false" />
+							<property name="bAmulet" value="false" />
+							<property name="bRing1" value="false" />
+							<property name="bRing2" value="false" />
+						</struct>
+						<property name="EquipMode" value="SINGLE_SLOT" />
+						<property name="AttackType" value="MELEE" />
+						<property name="BaseGoldValue" value="0" />
+						<struct name="AllowedPlayerClasses" ed_expanded="true" >
+							<property name="bWarrior" value="false" />
+							<property name="bThief" value="false" />
+							<property name="bMage" value="true" />
+							<property name="bCleric" value="false" />
+						</struct>
+						<array name="Modifiers" ed_expanded="true" reserve_size="2" >
+							<struct name="-" ed_expanded="true" >
+								<property name="Attribute" value="PDMG" />
+								<property name="Value" value="4" />
+								<property name="Function" value="ScaledByItemLevel" />
+							</struct>
+							<struct name="-" ed_expanded="true" >
+								<property name="Attribute" value="PDMG" />
+								<property name="Value" value="2" />
+								<property name="Function" value="ScaledByCharacterSTR" />
+							</struct>
+						</array>
+					</struct>
+				</array>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="CategoryName" value="Weapons" />
+				<array name="Items" ed_expanded="false" reserve_size="1" >
+					<struct name="-" ed_expanded="true" >
+						<property name="Id" value="DemoSword" />
+						<property name="SortIndex" value="910" />
+						<array name="Tiers" ed_expanded="true" reserve_size="2" >
+							<struct name="-" ed_expanded="false" >
+								<property name="TierLevel" value="1" />
+								<struct name="Name" ed_expanded="true" >
+									<property name="Text" value="DemoSword_Name" />
+									<property name="Text_enus" value="Demo Sword" />
+								</struct>
+								<struct name="Desc" ed_expanded="true" >
+									<property name="Text" value="DemoSword_Desc" />
+									<property name="Text_enus" value="A demo weapon." />
+								</struct>
+								<property name="Rarity" value="Normal" />
+								<property name="Icon" value="/game/icons/t_uii_demosword" />
+							</struct>
+							<struct name="-" ed_expanded="true" >
+								<property name="TierLevel" value="4" />
+								<struct name="Name" ed_expanded="true" >
+									<property name="Text" value="SuperDemoSword_Name" />
+									<property name="Text_enus" value="Super Demo Sword" />
+								</struct>
+								<struct name="Desc" ed_expanded="true" >
+									<property name="Text" value="SuperDemoSword_Desc" />
+									<property name="Text_enus" value="The 2nd tier of the demo sword." />
+								</struct>
+								<property name="Rarity" value="Rare" />
+								<property name="Icon" value="/game/icons/t_uii_demosword" />
+							</struct>
+						</array>
+						<struct name="EquipSlots" ed_expanded="true" >
+							<property name="bHelm" value="false" />
+							<property name="bArmor" value="false" />
+							<property name="bWeapon1" value="true" />
+							<property name="bWeapon2" value="false" />
+							<property name="bAmulet" value="false" />
+							<property name="bRing1" value="false" />
+							<property name="bRing2" value="false" />
+						</struct>
+						<property name="EquipMode" value="SINGLE_SLOT" />
+						<property name="AttackType" value="MELEE" />
+						<property name="BaseGoldValue" value="72" />
+						<struct name="AllowedPlayerClasses" ed_expanded="true" >
+							<property name="bWarrior" value="true" />
+							<property name="bThief" value="true" />
+							<property name="bMage" value="true" />
+							<property name="bCleric" value="true" />
+						</struct>
+						<array name="Modifiers" ed_expanded="true" reserve_size="2" >
+							<struct name="-" ed_expanded="false" >
+								<property name="Attribute" value="PDMG" />
+								<property name="Value" value="3" />
+								<property name="Function" value="ScaledByItemLevel" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="Attribute" value="PDMG" />
+								<property name="Value" value="0.5" />
+								<property name="Function" value="ScaledByCharacterSTR" />
+							</struct>
+						</array>
+					</struct>
+				</array>
+			</struct>
+			<struct name="-" ed_expanded="false" >
+				<property name="CategoryName" value="Shields" />
+				<array name="Items" ed_expanded="true" reserve_size="1" >
+					<struct name="-" ed_expanded="false" >
+						<property name="Id" value="DemoShield" />
+						<property name="SortIndex" value="750" />
+						<array name="Tiers" ed_expanded="true" reserve_size="2" >
+							<struct name="-" ed_expanded="true" >
+								<property name="TierLevel" value="1" />
+								<struct name="Name" ed_expanded="true" >
+									<property name="Text" value="DemoShield_Name" />
+									<property name="Text_enus" value="Demo Shield" />
+								</struct>
+								<struct name="Desc" ed_expanded="true" >
+									<property name="Text" value="DemoShield_Desc" />
+									<property name="Text_enus" value="A demo shield." />
+								</struct>
+								<property name="Rarity" value="Normal" />
+								<property name="Icon" value="/game/icons/t_uii_demoshield" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="TierLevel" value="4" />
+								<struct name="Name" ed_expanded="true" >
+									<property name="Text" value="DemoShieldUpgraded_Name" />
+									<property name="Text_enus" value="Super Demo Shield" />
+								</struct>
+								<struct name="Desc" ed_expanded="true" >
+									<property name="Text" value="DemoShieldUpgraded_Desc" />
+									<property name="Text_enus" value="The second tier of the demo shield." />
+								</struct>
+								<property name="Rarity" value="Rare" />
+								<property name="Icon" value="/game/icons/t_uii_demoshield" />
+							</struct>
+						</array>
+						<struct name="EquipSlots" ed_expanded="true" >
+							<property name="bHelm" value="false" />
+							<property name="bArmor" value="false" />
+							<property name="bWeapon1" value="false" />
+							<property name="bWeapon2" value="true" />
+							<property name="bAmulet" value="false" />
+							<property name="bRing1" value="false" />
+							<property name="bRing2" value="false" />
+						</struct>
+						<property name="EquipMode" value="SINGLE_SLOT" />
+						<property name="AttackType" value="NONE" />
+						<property name="BaseGoldValue" value="362" />
+						<struct name="AllowedPlayerClasses" ed_expanded="true" >
+							<property name="bWarrior" value="true" />
+							<property name="bThief" value="false" />
+							<property name="bMage" value="false" />
+							<property name="bCleric" value="true" />
+						</struct>
+						<array name="Modifiers" ed_expanded="true" reserve_size="2" >
+							<struct name="-" ed_expanded="true" >
+								<property name="Attribute" value="PDEF" />
+								<property name="Value" value="10" />
+								<property name="Function" value="ScaledByItemLevel" />
+							</struct>
+							<struct name="-" ed_expanded="false" >
+								<property name="Attribute" value="PDEF" />
+								<property name="Value" value="1" />
+								<property name="Function" value="ScaledByCharacterEND" />
+							</struct>
+						</array>
+					</struct>
+				</array>
+			</struct>
+		</array>
+	</struct>
+</egasset>
